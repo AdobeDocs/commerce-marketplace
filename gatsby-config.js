@@ -19,5 +19,5 @@ module.exports = {
     subPages: subPages,
   },
   plugins: [`@adobe/gatsby-theme-aio`],
-  pathPrefix: process.env.PATH_PREFIX || '/commerce/marketplace/'
+  pathPrefix: process.env.PATH_PREFIX || "/commerce/marketplace/",
 };
