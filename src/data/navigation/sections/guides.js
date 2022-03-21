@@ -1,6 +1,7 @@
 module.exports = [
     {
       title: "Getting Started",
+      path: "/guides/sellers/",
       pages: [
         {
           title: "Overview",
@@ -18,6 +19,7 @@ module.exports = [
     },
     {
       title: "Compatibility Requirements",
+      path: "/guides/sellers/compatibility/requirements/",
       pages: [
         {
           title: "Overview",
@@ -39,6 +41,7 @@ module.exports = [
     },
     {
       title: "Seller Account",
+      path: "/guides/sellers/seller-overview/",
       pages: [
         {
           title: "Overview",
@@ -54,12 +57,13 @@ module.exports = [
         },
         {
           title: "Register as a Developer",
-          path: "/guide/sellers/developer-register/"
+          path: "/guide/sellers/developer-register/",
         },
       ],
     },
     {
       title: "Marketplace Developer Portal",
+      path: "/guides/sellers/developer-portal/",
       pages: [
         {
           title: "Overview",
@@ -81,6 +85,7 @@ module.exports = [
     },
     {
       title: "Extensions",
+      path: "/guides/sellers/extensions/",
       pages: [
         {
           title: "Overview",
@@ -98,10 +103,11 @@ module.exports = [
     },
     {
       title: "Complete the Extension Information",
+      path: "/guides/sellers/extension-information/",
       pages: [
         {
           title: "Overview",
-          path: "/guides/sellers/extension-information/"
+          path: "/guides/sellers/extension-information/",
         },
         {
           title: "Add Extension Content",
@@ -123,10 +129,11 @@ module.exports = [
     },
     {
       title: "Complete the Extension Information",
+      path: "/guides/sellers/extension-information/",
       pages: [
         {
           title: "Overview",
-          path: "/guides/sellers/extension-information/"
+          path: "/guides/sellers/extension-information/",
         },
         {
           title: "Add Extension Content",
@@ -148,10 +155,11 @@ module.exports = [
     },
     {
       title: "Themes",
+      path: "/guides/sellers/themes/",
       pages: [
         {
           title: "Overview",
-          path: "/guides/sellers/themes/"
+          path: "/guides/sellers/themes/",
         },
       ],
     },
@@ -160,25 +168,27 @@ module.exports = [
       pages: [
         {
           title: "Overview",
-          path: "/guides/sellers/shared-packages/"
+          path: "/guides/sellers/shared-packages/",
         },
       ],
     },
     {
       title: "Review Process",
+      path: "/guides/sellers/submit-for-review/",
       pages: [
         {
           title: "Overview",
-          path: "/guides/sellers/submit-for-review/"
+          path: "/guides/sellers/submit-for-review/",
         },
       ],
     },
     {
       title: "Submit for Technical Review",
+      path: "/guides/sellers/submit-for-technical-review/",
       pages: [
         {
           title: "Overview",
-          path: "/guides/sellers/submit-for-technical-review/"
+          path: "/guides/sellers/submit-for-technical-review/",
         },
         {
           title: "Technical Review Guidelines",
@@ -206,11 +216,11 @@ module.exports = [
         },
         {
           title: "Copy Paste Detector",
-          path: "/guides/sellers/copy-paste-detector/"
+          path: "/guides/sellers/copy-paste-detector/",
         },
         {
           title: "Semantic Version Check",
-          path: "/guides/sellers/semantic-version-check/"
+          path: "/guides/sellers/semantic-version-check/",
         },
         {
           title: "Extension Footprint Analysis",
@@ -220,10 +230,11 @@ module.exports = [
     },
     {
       title: "Submit for Marketing Review",
+      path: "/guides/sellers/submit-for-marketing-review/",
       pages: [
         {
           title: "Overview",
-          path: "/guides/sellers/submit-for-marketing-review/"
+          path: "/guides/sellers/submit-for-marketing-review/",
         },
         {
           title: "Marketing Review Guidelines",
@@ -249,6 +260,7 @@ module.exports = [
     },
     {
       title: "View the Results",
+      path: "/guides/sellers/review-report/",
       pages: [
         {
           title: "Overview",
@@ -256,16 +268,17 @@ module.exports = [
         },
         {
           title: "Resubmit an Extension",
-          path: "/guides/sellers/extension-resubmit/"
+          path: "/guides/sellers/extension-resubmit/",
         }
       ],
     },
     {
       title: "Manage Sales",
+      path: "/guides/sellers/sales/",
       pages: [
         {
           title: "Overview",
-          path: "/guides/sellers/sales/"
+          path: "/guides/sellers/sales/",
         },
         {
           title: "Revenue Share",
@@ -279,18 +292,19 @@ module.exports = [
     },
     {
       title: "Extension Subscriptions",
+      path: "/guides/sellers/extension-subscriptions/",
       pages: [
         {
           title: "Overview",
-          path: "/guides/sellers/extension-subscriptions/"
+          path: "/guides/sellers/extension-subscriptions/",
         },
         {
           title: "Selling Subscription-based Extensions",
-          path: "/guides/sellers/selling-subscriptions/"
+          path: "/guides/sellers/selling-subscriptions/",
         },
         {
           title: "Buying Subscription-based Extensions",
-          path: "/guides/sellers/buying-subscriptions/"
+          path: "/guides/sellers/buying-subscriptions/",
         },
       ],
     },
