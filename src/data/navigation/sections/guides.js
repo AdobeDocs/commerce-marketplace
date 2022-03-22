@@ -57,7 +57,7 @@ module.exports = [
       },
       {
         title: "Register as a Developer",
-        path: "/guide/sellers/developer-register/",
+        path: "/guides/sellers/developer-register/",
       },
     ],
   },
@@ -98,32 +98,6 @@ module.exports = [
       {
         title: "Specify the Version",
         path: "/guides/sellers/extension-version/",
-      },
-    ],
-  },
-  {
-    title: "Complete the Extension Information",
-    path: "/guides/sellers/extension-information/",
-    pages: [
-      {
-        title: "Overview",
-        path: "/guides/sellers/extension-information/",
-      },
-      {
-        title: "Add Extension Content",
-        path: "/guides/sellers/content/",
-      },
-      {
-        title: "Establish Your Brand",
-        path: "/guides/sellers/branding/",
-      },
-      {
-        title: "Define the Business Value",
-        path: "/guides/sellers/business-value/",
-      },
-      {
-        title: "Update Extension Information",
-        path: "/guides/sellers/extension-update-information/",
       },
     ],
   },
@@ -292,20 +266,20 @@ module.exports = [
     ],
   },
   {
-    title: "Extension Subscriptions",
-    path: "/guides/sellers/extension-subscriptions/",
+    title: "Subscriptions",
+    path: "/guides/sellers/subscriptions/extension-subscriptions/",
     pages: [
       {
         title: "Overview",
-        path: "/guides/sellers/extension-subscriptions/",
+        path: "/guides/sellers/subscriptions/extension-subscriptions/",
       },
       {
         title: "Selling Subscription-based Extensions",
-        path: "/guides/sellers/selling-subscriptions/",
+        path: "/guides/sellers/subscriptions/selling-subscriptions/",
       },
       {
         title: "Buying Subscription-based Extensions",
-        path: "/guides/sellers/buying-subscriptions/",
+        path: "/guides/sellers/subscriptions/buying-subscriptions/",
       },
     ],
   },
