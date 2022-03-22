@@ -11,7 +11,7 @@ All extensions submitted to Commerce Marketplace are managed from the Extensions
 
 <TextBlock slots="image, heading, text, links" width="33%" />
 
-![Build your extension](../images/assets/code-development.png)
+![Build your extension](../_images/assets/code-development.png)
 
 ### Build your extension
 
@@ -23,7 +23,7 @@ Provides details on completing code, descriptions, documentation, and preparing 
 
 <TextBlock slots="image, heading, text, links" width="33%" />
 
-![Add extension information](../images/assets/new-extension.png)
+![Add extension information](../_images/assets/new-extension.png)
 
 ### Add information
 
@@ -35,7 +35,7 @@ Provides instructions for creating the initial entry for an extension.
 
 <TextBlock slots="image, heading, text, links" width="33%" />
 
-![Slack logo](../images/assets/new-version.png)
+![Slack logo](../_images/assets/new-version.png)
 
 ### Specify the version
 
@@ -45,7 +45,7 @@ Provides instructions for adding new versions for an extension entry.
 
 
 
-![](../images/your-extensions.png)
+![](../_images/your-extensions.png)
 
 | Column                | Description                                                                         |
 |-----------------------|-------------------------------------------------------------------------------------|

@@ -14,7 +14,6 @@ const { versions, pages, subPages } = require("./src/data/navigation");
 
 module.exports = {
   siteMetadata: {
-    versions: versions,
     pages: pages,
     subPages: subPages,
   },
