@@ -5,6 +5,6 @@ module.exports = [
     },
     {
       title: "Guides",
-      path: "/guides/",
+      path: "/guides/sellers/",
     }
   ];
