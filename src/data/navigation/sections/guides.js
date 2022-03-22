@@ -4,10 +4,6 @@ module.exports = [
     path: "/guides/sellers/",
     pages: [
       {
-        title: "Overview",
-        path: "/guides/sellers/",
-      },
-      {
         title: "Before You Begin",
         path: "/guides/sellers/before-you-begin/",
       },

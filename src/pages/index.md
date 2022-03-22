@@ -1,84 +1,51 @@
 ---
-title: Overview - Adobe Analytics
-description: This is the overview page of Adobe Analytics
-contributors:
-  - https://github.com/icaraps 
+title: Commerce Marketplace
+description: Learn about resources avaialble to Commerce Marketplace developers.
 ---
 
 <Hero slots="heading, text"/> 
 
-# Adobe Analytics API
+# Commerce Marketplace
 
-Adobe Product API offers limitless ways to integrate your most important customer data into key business processes. Adobe Product API offer limitless ways.
+Get the tools and information that you need to build, deliver, and sell high-quality Adobe Commerce and Magento Open Source extensions to customers around the world.
 
 <Resources slots="heading, links"/>
 
 #### Resources
 
-* [Quickstart Guide](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-* [Adobe Analytics Github Repo](https://github.com/AdobeDocs/analytics-2.0-apis)
+- [Developer Portal](https://developer.magento.com/)
+- [Commerce Marketplace](https://marketplace.magento.com/)
 
 ## Overview
 
-This documentation provides instructions for Adobe Analytics 2.0 APIs. For working with Analytics 1.4 APIs, see [Analytics 1.4 API Documentation](https://github.com/AdobeDocs/analytics-1.4-apis).
+This documentation provides instructions for Commerce Marketplace developers working with the [Developer Portal](https://developer.magento.com/) and [Extension Quality Program (EQP) API](https://devdocs.magento.com/marketplace/eqp/v1/api.html).
 
-The Adobe Analytics APIs are a collection of APIs that power Adobe Analytics products like Analysis Workspace. 
-The APIs allow for the creation of data rich user interfaces that you can use to manipulate and integrate data.
-You can also create reports to explore, get insights, or answer important questions about your data.
+The Commerce Marketplace EQP API provides access to the Developer Portal so that you can programmatically update your extension, manage your company profile, and access sales reports and analytics.
 
 ## Discover 
 
-<DiscoverBlock width="100%" slots="heading, link, text"/>
+<DiscoverBlock slots="heading, link, text"/>
 
 ### Get Started
 
-[Quickstart Guide](guides/)
+[Getting Started](/guides/sellers/)
     
-Get started with the Adobe Analytics APIs.
+Learn how to set up your developer account and become a seller on the Commerce Marketplace.
 
-<DiscoverBlock slots="heading, link, text"/> 
-
-### Guides
-
-[Calculated Metrics API](guides/calculated_metrics_api/) 
-     
-Returns information on the user's company that is necessary for making other Adobe Analytics API calls.
 
 <DiscoverBlock slots="link, text"/>
 
-[Segments API](guides/segments_api/) 
+[EQP API](https://devdocs.magento.com/marketplace/eqp/v1/api.html)
 
-Provides configuration guidance and best practices for the /segments endpoint.
-
-<DiscoverBlock slots="link, text"/>
-
-[Reporting Guide API](guides/reporting_api/)
-
-Provides configuration guidance and best practices for the /reports endpoint.
+Provides programmatic access to the Commerce Developer Portal.
 
 <DiscoverBlock slots="link, text"/>
 
-[Migrating from 1.4 to 2.0](guides/migrating/)
+[Support](https://marketplacesupport.magento.com/hc/en-us)
 
-For help migrating from the 1.4 versions of the Analytics API to the newer and more capable /reports API.   
+Search the Commerce Marketplace Help Center knowledge base or submit a support ticket.
 
-<DiscoverBlock width="100%" slots="heading, link, text"/>
-
-### API References
-
-[Try the API](api/) 
-
-Try the Analytics API with Swagger UI. Explore, make calls, with full endpoint descriptions.
 
 ## Contributing 
 
-We encourage you to participate in our open documentation initiative, if you have suggestions, corrections, additions 
-or deletions for this documentation, check out the source from [this github repo](https://github.com/adobe/gatsby-theme-spectrum-example), and submit a pull 
-request with your contribution. For more information, refer to the [contributing page](support/contribute/).
-
-## API Requests & Rate Limits
-
-The timeout for API requests through adobe.io is currently *60 seconds*.
-
-The default rate limit for an Adobe Analytics Company is *120 requests per minute*. (The limit is enforced as *12 requests every 6 seconds*).
-When rate limiting is being enforced you will get `429` HTTP response codes with the following response body: `{"error_code":"429050","message":"Too many requests"}`    
+We encourage you to participate in our open documentation initiative. If you have suggestions, corrections, additions, or deletions for this documentation, check out the source from [this github repo](https://github.com/AdobeDocs/commerce-marketplace) and submit a pull request. For more information, refer to the [contributing guide](https://github.com/AdobeDocs/commerce-marketplace/blob/main/.github/CONTRIBUTING.md).
