@@ -1,10 +1,10 @@
 module.exports = [
   {
-    title: "Getting Started",
+    title: "Getting started",
     path: "/guides/sellers/",
     pages: [
       {
-        title: "Before You Begin",
+        title: "Before you begin",
         path: "/guides/sellers/before-you-begin/",
       },
       {
@@ -14,7 +14,7 @@ module.exports = [
     ],
   },
   {
-    title: "Compatibility Requirements",
+    title: "Compatibility requirements",
     path: "/guides/sellers/compatibility/requirements/",
     pages: [
       {
@@ -22,21 +22,21 @@ module.exports = [
         path: "/guides/sellers/compatibility/requirements/",
       },
       {
-        title: "Release Compatibility",
+        title: "Release compatibility",
         path: "/guides/sellers/compatibility/releases/",
       },
       {
-        title: "Abandoned Extensions",
+        title: "Abandoned extensions",
         path: "/guides/sellers/compatibility/abandoned-extensions/",
       },
       {
-        title: "Obsolete Extensions",
+        title: "Obsolete extensions",
         path: "/guides/sellers/compatibility/obsolete-extensions/",
       },
     ],
   },
   {
-    title: "Seller Account",
+    title: "Seller account",
     path: "/guides/sellers/seller-overview/",
     pages: [
       {
@@ -44,21 +44,21 @@ module.exports = [
         path: "/guides/sellers/seller-overview/",
       },
       {
-        title: "Your Seller Account",
+        title: "Your seller account",
         path: "/guides/sellers/account-setup/",
       },
       {
-        title: "Account Setup Process",
+        title: "Account setup process",
         path: "/guides/sellers/account-setup-process/",
       },
       {
-        title: "Register as a Developer",
+        title: "Register as a developer",
         path: "/guides/sellers/developer-register/",
       },
     ],
   },
   {
-    title: "Marketplace Developer Portal",
+    title: "Developer Portal",
     path: "/guides/sellers/developer-portal/",
     pages: [
       {
@@ -66,15 +66,15 @@ module.exports = [
         path: "/guides/sellers/developer-portal/",
       },
       {
-        title: "Profile Information",
+        title: "Profile information",
         path: "/guides/sellers/profile-information/",
       },
       {
-        title: "Company Profile",
+        title: "Company profile",
         path: "/guides/sellers/profile-company/",
       },
       {
-        title: "Personal Profile",
+        title: "Personal profile",
         path: "/guides/sellers/profile-personal/",
       },
     ],
@@ -88,17 +88,17 @@ module.exports = [
         path: "/guides/sellers/extensions/",
       },
       {
-        title: "Create an Extension",
+        title: "Create an extension",
         path: "/guides/sellers/extension-create/",
       },
       {
-        title: "Specify the Version",
+        title: "Specify the version",
         path: "/guides/sellers/extension-version/",
       },
     ],
   },
   {
-    title: "Complete the Extension Information",
+    title: "Complete the extension information",
     path: "/guides/sellers/extension-information/",
     pages: [
       {
@@ -106,19 +106,19 @@ module.exports = [
         path: "/guides/sellers/extension-information/",
       },
       {
-        title: "Add Extension Content",
+        title: "Add extension content",
         path: "/guides/sellers/content/",
       },
       {
-        title: "Establish Your Brand",
+        title: "Establish your brand",
         path: "/guides/sellers/branding/",
       },
       {
-        title: "Define the Business Value",
+        title: "Define the business value",
         path: "/guides/sellers/business-value/",
       },
       {
-        title: "Update Extension Information",
+        title: "Update extension information",
         path: "/guides/sellers/extension-update-information/",
       },
     ],
@@ -134,7 +134,7 @@ module.exports = [
     ],
   },
   {
-    title: "Shared Packages",
+    title: "Shared packages",
     path: "/guides/sellers/shared-packages/",
     pages: [
       {
@@ -144,7 +144,7 @@ module.exports = [
     ],
   },
   {
-    title: "Review Process",
+    title: "Review process",
     path: "/guides/sellers/submit-for-review/",
     pages: [
       {
@@ -154,7 +154,7 @@ module.exports = [
     ],
   },
   {
-    title: "Submit for Technical Review",
+    title: "Submit for technical review",
     path: "/guides/sellers/submit-for-technical-review/",
     pages: [
       {
@@ -162,45 +162,45 @@ module.exports = [
         path: "/guides/sellers/submit-for-technical-review/",
       },
       {
-        title: "Technical Review Guidelines",
+        title: "Technical review guidelines",
         path: "/guides/sellers/technical-review-guidelines/",
       },
       {
-        title: "Malware Scan",
+        title: "Malware scan",
         path: "/guides/sellers/malware-scan/",
       },
       {
-        title: "Code Sniffer",
+        title: "Code sniffer",
         path: "/guides/sellers/code-sniffer/",
       },
       {
-        title: "Installation and Varnish Tests",
+        title: "Installation and Varnish tests",
         path: "/guides/sellers/installation-and-varnish-tests/",
       },
       {
-        title: "MFTF Commerce-supplied Tests",
+        title: "MFTF Commerce-supplied tests",
         path: "/guides/sellers/mftf-magento/",
       },
       {
-        title: "MFTF Vendor-supplied Tests",
+        title: "MFTF Vendor-supplied tests",
         path: "/guides/sellers/mftf-vendor/",
       },
       {
-        title: "Copy Paste Detector",
+        title: "Copy paste detector",
         path: "/guides/sellers/copy-paste-detector/",
       },
       {
-        title: "Semantic Version Check",
+        title: "Semantic version check",
         path: "/guides/sellers/semantic-version-check/",
       },
       {
-        title: "Extension Footprint Analysis",
+        title: "Extension footprint analysis",
         path: "/guides/sellers/extension-footprint/",
       },
     ],
   },
   {
-    title: "Submit for Marketing Review",
+    title: "Submit for marketing review",
     path: "/guides/sellers/submit-for-marketing-review/",
     pages: [
       {
@@ -208,29 +208,29 @@ module.exports = [
         path: "/guides/sellers/submit-for-marketing-review/",
       },
       {
-        title: "Marketing Review Guidelines",
+        title: "Marketing review guidelines",
         path: "/guides/sellers/marketing-review-guidelines/",
       },
       {
-        title: "Product Descriptions",
+        title: "Product descriptions",
         path: "/guides/sellers/product-descriptions/",
       },
       {
-        title: "Video Tips",
+        title: "Video tips",
         path: "/guides/sellers/video-tips/",
       },
       {
-        title: "Image Tips",
+        title: "Image tips",
         path: "/guides/sellers/image-tips/",
       },
       {
-        title: "Preview Your Submission",
+        title: "Preview your submission",
         path: "/guides/sellers/marketing-submission-preview/",
       },
     ],
   },
   {
-    title: "View the Results",
+    title: "View the results",
     path: "/guides/sellers/review-report/",
     pages: [
       {
@@ -238,13 +238,13 @@ module.exports = [
         path: "/guides/sellers/review-report/",
       },
       {
-        title: "Resubmit an Extension",
+        title: "Resubmit an extension",
         path: "/guides/sellers/extension-resubmit/",
       },
     ],
   },
   {
-    title: "Manage Sales",
+    title: "Manage sales",
     path: "/guides/sellers/sales/",
     pages: [
       {
@@ -252,7 +252,7 @@ module.exports = [
         path: "/guides/sellers/sales/",
       },
       {
-        title: "Revenue Share",
+        title: "Revenue share",
         path: "/guides/sellers/revenue-share/",
       },
       {
@@ -270,11 +270,11 @@ module.exports = [
         path: "/guides/sellers/subscriptions/extension-subscriptions/",
       },
       {
-        title: "Selling Subscription-based Extensions",
+        title: "Selling subscription-based extensions",
         path: "/guides/sellers/subscriptions/selling-subscriptions/",
       },
       {
-        title: "Buying Subscription-based Extensions",
+        title: "Buying subscription-based extensions",
         path: "/guides/sellers/subscriptions/buying-subscriptions/",
       },
     ],
