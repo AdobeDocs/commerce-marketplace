@@ -18,9 +18,7 @@
     "react-dom": "^17.0.0"
   },
   "devDependencies": {
-    "remark-cli": "^10.0.1",
-    "remark-lint-list-item-indent": "^3.1.1",
-    "remark-preset-lint-recommended": "^6.1.2"
+    "markdownlint": "^0.25.1"
   },
   "scripts": {
     "start": "gatsby build && gatsby serve",
@@ -30,7 +28,6 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "lint": "npm run lint:md src/pages",
-    "lint:md": "remark --quiet"
+    "lint": "mdl src/pages"
   }
 }
