@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Shared Packages
+title: Shared packages overview
 ---
+
+# Shared packages overview
 
 Shared packages are extension components containing code that can be used by other extensions. The package is a zipped archive of a valid code that is ready for technical review. Because components are not offered as standalone products in Commerce Marketplace, they are not subject to marketing review.
 

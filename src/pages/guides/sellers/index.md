@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Getting started
 description: Browse Commerce Marketplace developer guides.
 ---
 

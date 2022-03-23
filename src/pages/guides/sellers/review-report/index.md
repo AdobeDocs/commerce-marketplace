@@ -1,8 +1,8 @@
 ---
-group: marketplace-sellers
-title: Review Report
-redirect_from: /marketplace/sellers/test-reports.html
+title: View the results overview
 ---
+
+# View the results overview
 
 When the review is complete, a link to the resulting report is provided for the extension, theme, or package that was submitted for review. Test results will also be communicated via email.
 

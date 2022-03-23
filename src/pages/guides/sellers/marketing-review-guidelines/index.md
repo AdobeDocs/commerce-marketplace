@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Marketing Review Guidelines
+title: Marketing review guidelines
 ---
+
+# Marketing review guidelines
 
 From a marketing perspective, all submissions to Commerce Marketplace must solve a business problem and deliver rich and unique functionality. Marketing descriptions will be checked against our style guidelines to make sure that content is in line with Magento branding guidelines.
 

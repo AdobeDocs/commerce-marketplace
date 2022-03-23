@@ -1,13 +1,12 @@
 ---
-group: marketplace-sellers
-title: MFTF Vendor-supplied Tests
+title: MFTF Vendor-supplied tests
 ---
+
+# MFTF Vendor-supplied tests
 
 <InlineAlert variant="info" slots="text"/>
 
 At this stage, the MFTF Vendor-supplied check is not required to pass technical review. The pass/fail status of this check is ignored. We are still observing the behavior of this set of tests and will start requiring these tests at a later time, with sufficient notice.
-
-## Overview
 
 This check runs the MFTF tests supplied by the vendor as a part of the extension package.
 

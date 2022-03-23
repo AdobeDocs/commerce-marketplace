@@ -1,12 +1,12 @@
 ---
-group: marketplace-sellers
-title: Resubmit an Extension
-redirect_from: /marketplace/sellers/resubmitting-an-extension.html
+title: Resubmit an extension
 ---
+
+# Resubmit an extension
 
 If an extension fails a test at any time during the review process, you can correct the problem and resubmit. For example, after submitting an extension to Technical Review, it might fail the installation test. The Technical Report explains the error and links to related topics in the documentation.
 
-## Resubmit an extension after Technical Review
+## Resubmit an extension after technical review
 
 1. View the [**Test Report**]({{ site.baseurl }}/marketplace/sellers/review-report.html) to determine the why the extension failed review.
 
@@ -16,7 +16,7 @@ If an extension fails a test at any time during the review process, you can corr
 
 1. When you have uploaded the new file, click <span class="btn">Submit</span> to submit, or click <span class="btn">Save Draft</span> if you have other changes to make before re-submitting the extension.
 
-## Resubmit an extension after Marketing Review
+## Resubmit an extension after marketing review
 
 1. View the [**Test Report**]({{ site.baseurl }}/marketplace/sellers/review-report.html) to determine the why the extension failed review.
 

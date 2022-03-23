@@ -1,8 +1,8 @@
 ---
-group: marketplace-sellers
-title: Register as a Developer
-redirect_from: /marketplace/sellers/register-as-a-developer.html
+title: Register as a developer
 ---
+
+# Register as a developer
 
 Follow these steps to create a new developer account, or to register as a developer with your existing Magento account.
 

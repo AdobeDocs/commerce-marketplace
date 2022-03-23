@@ -1,13 +1,12 @@
 ---
-group: marketplace-sellers
-title: Marketplace Developer Portal
-redirect_from: /marketplace/sellers/marketplace-developer-dashboard.html
+title: Developer Portal Overview
 ---
 
-From the Marketplace Developer Portal you can access your product submissions and reports, as well as Marketplace support information and extension guidelines.
+# Developer Portal Overview
+
+From the Developer Portal you can access your product submissions and reports, as well as Marketplace support information and extension guidelines.
 
 ![]({{ site.baseurl }}/marketplace/sellers/images/developer-portal.png){: .zoom}
-_Marketplace Developer Portal_
 
 |Menu item|Description|
 |--- |--- |

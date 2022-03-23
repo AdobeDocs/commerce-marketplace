@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Submit for Technical Review
+title: Submit for technical review overview
 ---
+
+# Submit for technical review overview
 
 All extensions submitted to Commerce Marketplace must pass the automated technical review as part of the extension submission workflow. Technical review helps to improve the quality of products on Commerce Marketplace by checking for indications of plagiarism, malware, and adherence to Magento coding standards. Developers whose extensions do not pass technical review receive a report of the results. After the issues are resolved, you are welcome to resubmit the extension. Extensions must pass technical review to receive a listing on Commerce Marketplace.
 
@@ -14,7 +15,7 @@ The following instructions show how to submit an extension for Technical Review.
 {: .bs-callout .bs-callout-info}
 **Important - Shared Packages**: If your extension uses [Shared Packages]({{ site.baseurl }}/marketplace/sellers/shared-packages.html) (or components), the packages must be ready and associated with your submission. You will not be able to submit your extension to Technical Review until the shared packages are available in your account.
 
-## Prepare for Technical Review
+## Prepare for technical review
 
 Before submitting an extension or theme for marketing review, conduct your own internal review of the content to make sure that it is ready for publication.
 
@@ -23,7 +24,7 @@ Before submitting an extension or theme for marketing review, conduct your own i
 -  All extensions must be secure, without viruses, malware, or vulnerabilities.
 -  Fully test your extension, including installation, dependencies, shared packages, configuration, and usage.
 
-### Terms and Conditions
+### Terms and conditions
 
 All products and services are subject to the same Commerce Marketplace terms and conditions that are communicated to developers upon submission, and to merchants upon the purchase of any product or service. A separate licensing agreement is not required. However, you can include additional terms and conditions as follows:
 
@@ -93,7 +94,7 @@ All products and services are subject to the same Commerce Marketplace terms and
 
 1. When complete, submit the extension or save to continue progress later. To enter the queue, you must click <span class="btn">Submit</span>.
 
-## Step 2: Submit the extension for Technical Review
+## Step 2: Submit the extension for technical review
 
 1. When the required fields are complete, click <span class="btn">Submit</span>.
 

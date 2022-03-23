@@ -1,8 +1,8 @@
 ---
-group: marketplace-sellers
-title: Specify the Version
-redirect_from: /marketplace/sellers/creating-a-new-version.html
+title: Specify the version
 ---
+
+# Specify the version
 
 After you [create the extension entry]({{ site.baseurl }}/marketplace/sellers/extension-create.html), the next step is to specify and submit a new version. Extensions can have multiple versions, including the first version submitted.
 

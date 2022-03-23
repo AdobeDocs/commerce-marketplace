@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Review Process
+title: Review process overview
 ---
+
+# Review process overview
 
 After completing development, testing, and creating a new extension entry, you can submit your extension for [Technical]({{ site.baseurl }}/marketplace/sellers/submit-for-technical-review.html) and [Marketing]({{ site.baseurl }}/marketplace/sellers/submit-for-marketing-review.html) review. The extension enters a queue when submitted. We will review your extension code and submitted information according to the queue, sending feedback and confirmation by email. Track the status and progress of your extension submission through your Marketplace account. Our [Extension Quality Program]({{ site.baseurl }}/marketplace/sellers/extension-quality-program.html) (EQP) verifies that all Marketplace extensions meet Magento quality standards and best practices.
 

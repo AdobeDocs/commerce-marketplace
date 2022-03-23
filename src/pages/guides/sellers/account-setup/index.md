@@ -1,8 +1,8 @@
 ---
-group: marketplace-sellers
-title: Set Up Your Developer Account
-redirect_from: /marketplace/sellers/account-setup-overview.html
+title: Set up your account
 ---
+
+# Set up your account
 
 Create a new Marketplace account, or use your existing Magento account. Then, use the Marketplace Developer Portal to manage your profile information, product submissions, and the monthly payments you receive from sales on Commerce Marketplace.
 

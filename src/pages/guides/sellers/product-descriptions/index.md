@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Product Descriptions
+title: Product descriptions
 ---
+
+# Product descriptions
 
 Every extension submitted requires a long, detailed description of the product as part of the marketing submission process. Some products, such as integration extensions and payment extensions, have additional requirements for their long descriptions.
 

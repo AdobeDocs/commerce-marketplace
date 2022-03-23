@@ -1,9 +1,8 @@
 ---
-group: marketplace-sellers
-title: Installation & Varnish Tests
+title: Installation and Varnish tests
 ---
 
-## Overview
+# Installation and Varnish tests
 
 The Installation and Varnish tests are automated EQP checks to ensure that the submitted extension version is compatible with the Magento versions and the editions that it claims to support.
 
@@ -40,7 +39,7 @@ The Magento test infrastructure follows the recommended setup for the Magento in
 
 The Installation and Varnish tests always use the latest patch version for the Magento release line that the submitted extension claims to support. For each supported release line, the entire test suite is performed on all compatible PHP versions.
 
-### Additional Magento Configuration
+### Additional configuration
 
 The Varnish test requires [Varnish as a caching application]({{ site.baseurl }}/guides/v2.4/config-guide/varnish/config-varnish-magento.html). The test checks for the presence of the **X-EQP-Cache** HTTP header set by Varnish and analyzes its value on page loads. To complete this check, the following additional instruction must be added to the **vcl_deliver** function:
 
@@ -92,7 +91,7 @@ magento setup:performance:generate-fixtures ./varnish-config/profile.xml
 </config>
 ```
 
-### Varnish Test Execution
+### Varnish test execution
 
 The Varnish test issues a series of requests, and then analyzes the value of the `X-EQP-Cache` HTTP header:
 

@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Technical Review Guidelines
+title: Technical review guidelines
 ---
+
+# Technical review guidelines
 
 During technical review, your code is examined to detect the presence of viruses, malware, and any indication of plagiarism. The process also ensures that the package meets Composer packaging and format requirements and Magento coding standards.
 
@@ -12,7 +13,7 @@ The technical review begins as soon as you upload an extension package at [Devel
 1. [Malware Scan]({{ site.baseurl }}/marketplace/sellers/malware-scan.html) &mdash; Ensures that uploaded packages do not contain viruses or malware software.
 1. Extension Package Verification &mdash; Checks that the uploaded file is a zip archive which is a [Composer](https://getcomposer.org/) package with extension.
 
-### Extension Package Verification
+### Extension package verification
 
 Package submissions must contain a Magento module, theme, language pack, or metapackage that meets Composer packaging and format requirements:
 
@@ -54,7 +55,7 @@ _See also:_
 -  [PHP Developer Guide]({{ site.baseurl }}{{ site.gdeurl }}/extension-dev-guide/bk-extension-dev-guide.html)
 -  [How to Package Magento Extensions]({{ site.baseurl }}{{ site.gdeurl }}/extension-dev-guide/package/package_module.html)
 
-## Extension Validation and QA
+## Extension validation and QA
 
 After accepting a package for Technical Review, a series of automated checks and manual checks are scheduled.
 
@@ -76,7 +77,7 @@ _More details:_ [Copy Paste Detector]({{ site.baseurl }}/marketplace/sellers/cop
 
 _See also:_ [OSL 3.0: A Better License for Open Source Software][4]
 
-### Installation and Varnish Tests: Verify that product installs and caching works correctly
+### Installation and Varnish tests: Verify that product installs and caching works correctly
 
 Extensions for Magento are installed with Varnish Cache enabled for each supported version of PHP and switched from development to [production mode]({{ site.baseurl }}{{ site.gdeurl }}/config-guide/cli/config-cli-subcommands-mode.html). If you have shared packages and dependencies required for your extension, the Installation test also tests Magento installation and usage with those packages included.
 
@@ -89,19 +90,19 @@ _See also:_
 -  [Configure and Use Varnish]({{ site.baseurl }}{{ site.gdeurl }}/config-guide/varnish/config-varnish.html)
 -  [Magento System Requirements]({{ site.baseurl }}{{ site.gdeurl }}/install-gde/system-requirements.html)
 
-### MFTF Magento-supplied Tests
+### MFTF Magento-supplied tests
 
 Extensions for Magento are tested with the Magento Functional Testing Framework with a set of tests from the Magento codebase. The tests are executed for each supported version of PHP.
 
 _More_details:_ [MFTF Magento-supplied Tests]({{ site.baseurl }}/marketplace/sellers/mftf-magento.html)
 
-### MFTF Vendor-supplied Tests
+### MFTF Vendor-supplied tests
 
 The MFTF will execute any MFTF tests that are included in the extension submission. The tests are executed for each supported version of PHP. The MFTF tests and associated code from the supported Magento version are available to the vendor-supplied tests.
 
 _More_details:_ [MFTF Vendor-supplied Tests]({{ site.baseurl }}/marketplace/sellers/mftf-vendor.html)
 
-### Quality Assurance: Pass Manual QA
+### Quality Assurance: Pass manual QA
 
 This check verifies that the extension installs without error, is configurable (as applicable), and operates as expected.
 

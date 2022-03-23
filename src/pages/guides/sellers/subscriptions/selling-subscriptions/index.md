@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Selling Subscription-based Extensions
+title: Selling subscription-based extensions
 ---
+
+# Selling subscription-based extensions
 
 Starting December 2021, Adobe Commerce Marketplace provides extension vendors an opportunity to sell their extensions under an auto-renewing subscription model.
 

@@ -1,9 +1,9 @@
 ---
 group: marketplace-sellers
-title: Extensions
+title: Extensions overview
 ---
 
-# Extensions
+# Extensions overview
 
 An extension is a custom module, language pack, or combination of custom modules and language packs, that adds new functionality to the core Magento product.
 

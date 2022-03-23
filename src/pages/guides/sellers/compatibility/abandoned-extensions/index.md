@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Abandoned Extensions
+title: Abandoned extensions
 ---
+
+# Abandoned extensions
 
 Outside of regular extension compatibility checks with the latest patch version, we require the extension to be updated at least once every year.
 

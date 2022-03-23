@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Submit for Marketing Review
+title: Submit for marketing review overview
 ---
+
+# Submit for marketing review overview
 
 When you have completed the code, you can submit your extension for marketing review. You can submit your product for both technical and marketing review at the same time. The review process is the same for both extensions and themes.
 
@@ -115,7 +116,7 @@ You must provide a thumbnail and at least two high-quality images for the image 
     ![]({{ site.baseurl }}/marketplace/sellers/images/marketing-submission-pricing.png){: .zoom}
     _Installation Pricing_
 
-### Extension support (Optional)
+### Extension support (optional)
 
 Customers are advised to contact you directly for support, using the information that you provide. For support issues related to Commerce Marketplace, see the [Marketplace Help Center][1].
 

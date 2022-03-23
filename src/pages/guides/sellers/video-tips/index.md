@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Video Tips
+title: Video tips
 ---
+
+# Video tips
 
 Video is one of the most effective sales tools available. Demo videos use recorded sequences that are captured onscreen to give an overview of what the extension does, and how it is used. In addition, you can use instructional video to reduce support calls. You don't have to spend a lot of money to create great video that sparks interest and drives downloads.
 

@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Before You Begin
+title: Before you begin
 ---
+
+# Before you begin
 
 Before you begin the extension submission process, you need to have the following items ready:
 

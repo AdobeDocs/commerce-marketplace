@@ -1,13 +1,12 @@
 ---
-group: marketplace-sellers
-title: Extension Footprint Analysis
+title: Extension footprint analysis
 ---
+
+# Extension footprint analysis
 
 <InlineAlert variant="info" slots="text"/>
 
 The footprint analyzer is a beta feature, meaning that some of the information may not be completely accurate or present at all. The beta status of the feature is also indicated on the product listing page.
-
-## Overview
 
 Footprint analysis is an automated check that generates a report based on the static analysis of the extension code. After processing, reports are visible on the product listing page and include information on certain specific features, which provide Commerce Marketplace customers insights on extension capabilities from the code perspective.
 

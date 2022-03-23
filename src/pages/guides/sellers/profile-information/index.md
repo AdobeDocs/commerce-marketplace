@@ -1,18 +1,19 @@
 ---
-group: marketplace-sellers
-title: Profile Information
+title: Profile information
 ---
+
+# Profile information
 
 Your profile tracks and provides all information for your Marketplace Developer Portal account, including company information, payment account information, access keys, tax forms, and partner information.
 
-## Contact Info
+## Contact info
 
 Your contact information includes your address, phone number, and PayPal email address. As part of the registration process, you must enter a valid PayPal email, even if your extensions are available for free on Commerce Marketplace. Magento sends your revenue share payment to your PayPal account.
 
 ![Contact information]({{ site.baseurl }}/marketplace/sellers/images/account-information.png){: .zoom}
 _Contact Information_
 
-### Account Information
+### Account information
 
 |Field|Description|
 |--- |--- |
@@ -58,14 +59,14 @@ Your new access key appears in the list, and can now be used to authorize downlo
 ![Access key added to account]({{ site.baseurl }}/marketplace/sellers/images/access-keys.png){: .zoom}
 _Access Key Added to Your Account_
 
-## Marketplace Profile
+## Marketplace profile
 
 Your Marketplace Profile contains information you entered during account setup, lets you enter social media links, and gives you the option to upgrade your partner status.
 
 ![Marketplace profile]({{ site.baseurl }}/marketplace/sellers/images/marketplace-profile.png){: .zoom}
 _Marketplace Profile_
 
-### Account Information
+### Account information
 
 | Field | Description |
 |----------
@@ -77,14 +78,14 @@ _Marketplace Profile_
 | Privacy Policy URL | The URL of your company\'s privacy policy website. |
 | Other Options | Add links to various social media profiles. |
 
-## Tax Forms
+## Tax forms
 
 Marketplace policy requires all providers to submit business information to ensure the efficient processing of transactions and payments. Here you can download the necessary form for your tax status, and click <span class="btn">Email Tax Forms</span> to open an email in your default email client.
 
 ![Tax forms]({{ site.baseurl }}/marketplace/sellers/images/tax-forms.png){: .zoom}
 _Tax Forms_
 
-## Partner Portal
+## Partner portal
 
 Click **Partner Portal** to open the Magento Partner Portal dashboard.
 

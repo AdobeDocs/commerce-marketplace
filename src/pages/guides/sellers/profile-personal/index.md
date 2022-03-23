@@ -1,8 +1,8 @@
 ---
-group: marketplace-sellers
-title: Personal Profile
-redirect_from: /marketplace/sellers/personal-profile.html
+title: Personal profile
 ---
+
+# Personal profile
 
 The information in your personal profile identifies you as a vendor in Commerce Marketplace, and includes your background, image, contact information, and social network addresses. The Personal Profile page initially appears when you set up your Marketplace account as an individual. From your Marketplace account, the Personal Profile is located on the Developer Portal tab under My Information.
 
@@ -87,7 +87,7 @@ _Social Networks_
 
    Look for the confirmation email that is sent to the email address associated with the account. To activate your account and gain access to the Developer Portal, click the link in the email.
 
-## Field Descriptions
+## Field descriptions
 
 |Field|Description|
 |--- |--- |
@@ -97,7 +97,7 @@ _Social Networks_
 |Mage ID|Your Magento ID is an automatically assigned when your account is created and identifies you throughout the Magento system.|
 |Bio|A brief description of your expertise and interests. You might begin with a couple of sentences to give a brief overview, and finish it later with a more detailed description of your background, expertise, and experience. If you use a word processor to compose and spell check your bio, make sure to save it as text before pasting it into your profile. Maximum characters - 1,958, including spaces.|
 
-### Contact Information
+### Contact information
 
 |Field|Description|
 |--- |--- |
@@ -113,7 +113,7 @@ _Social Networks_
 |State|The state or province where you reside.|
 |Phone|Your personal phone number. Choose the  flag for your country code. Then, enter the area code and phone number.|
 
-### Social Networks
+### Social networks
 
 |Field|Description|
 |--- |--- |

@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Obsolete Extensions
+title: Obsolete extensions
 ---
+
+# Obsolete extensions
 
 As the {{ site.data.var.ce }} and {{ site.data.var.ee }} technology moves forward, release lines get marked as End of Life (EOL) and deprecated.
 

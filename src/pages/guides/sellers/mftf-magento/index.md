@@ -1,13 +1,12 @@
 ---
-group: marketplace-sellers
-title: MFTF Commerce-supplied Tests
+title: MFTF Commerce-supplied tests
 ---
+
+# MFTF Commerce-supplied tests
 
 <InlineAlert variant="info" slots="text"/>
 
-At this stage, the MFTF Magento-supplied check is not required to pass technical review. The pass/fail status of this check is ignored. We are still observing the behavior of this set of tests and will start requiring these tests at a later time, with sufficient notice.
-
-## Overview
+At this stage, the MFTF Commerce-supplied check is not required to pass technical review. The pass/fail status of this check is ignored. We are still observing the behavior of this set of tests and will start requiring these tests at a later time, with sufficient notice.
 
 The Magento Functional Testing Framework (MFTF) is a browser-based acceptance testing framework used to validate the functionality of a Magento site. Running Magento-supplied MFTF tests aids Extension Quality Program (EQP) QA efforts in assessing critical functionality of a Magento instance with the extension installed.
 

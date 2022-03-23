@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
 title: Analytics
 ---
+
+# Analytics
 
 You can view data about the performance of your extension in the marketplace.
 

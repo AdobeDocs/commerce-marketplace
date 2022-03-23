@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Themes
+title: Themes overview
 ---
+
+# Themes overview
 
 A theme is a collection of files that determines the visual presentation and interactions that customers experience when they visit the store. A theme typically includes layout files, template files, CSS, and JavaScript. To learn more about Magento theme development, see the [Frontend Developer Guide]({{ site.baseurl }}/guides/v2.3/frontend-dev-guide/bk-frontend-dev-guide.html)
 

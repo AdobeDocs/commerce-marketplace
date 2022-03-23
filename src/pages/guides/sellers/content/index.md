@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Extension content
+title: Add extension content
 ---
+
+# Add extension content
 
 The content that accompanies your extension listing is derived from the profile of the extension or theme, and information in the developer\'s company profile.
 

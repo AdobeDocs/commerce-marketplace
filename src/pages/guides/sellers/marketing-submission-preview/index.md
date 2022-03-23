@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Marketing Submission Preview
+title: Marketing submission preview
 ---
+
+# Marketing submission preview
 
 At any time before you submit your extension for marketing review, you can preview how your extension will appear in Commerce Marketplace.
 

@@ -1,8 +1,8 @@
 ---
-group: marketplace-sellers
-title: Company Profile
-redirect_from: /marketplace/sellers/company-profile.html
+title: Company profile
 ---
+
+# Company profile
 
 Your company profile provides the information about your business and brand that appears in your Commerce Marketplace listing. During the initial interview, the Company Profile page appears after you choose the “Business” type of account. In your account, the Company Profile is located on the Developer Portal tab under My Information.
 
@@ -88,7 +88,7 @@ _Social Networks_
 
 1. Click the email link to activate your account and gain access to the Developer Portal.
 
-## Field Descriptions
+## Field descriptions
 
 |Field|Description|
 |---|---|

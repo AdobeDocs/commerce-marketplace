@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Image Tips
+title: Image tips
 ---
+
+# Image tips
 
 An image makes a powerful and lasting impression without a word. Images uploaded to your account help people learn about your products, and also represent your brand. Use only high-quality images for your personal, company, and extension profiles. The Magento logo appears as a placeholder in your personal, company, and extension profiles until you upload your images of your own.
 

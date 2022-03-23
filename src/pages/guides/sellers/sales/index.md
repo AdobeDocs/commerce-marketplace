@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Manage Sales
+title: Manage sales overview
 ---
+
+# Manage sales overview
 
 Commerce Marketplace is a full-featured digital commerce site with integrated payments, where you can offer your products for free, or for sale. Purchases can be paid by credit card or PayPal.
 
