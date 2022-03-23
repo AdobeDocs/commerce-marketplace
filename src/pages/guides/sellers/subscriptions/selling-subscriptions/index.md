@@ -11,7 +11,8 @@ When submitting a new extension to the marketplace, you must select the pricing 
 
 ![]({{ site.baseurl }}/marketplace/sellers/images/subscriptions-pricing-model.png){: .zoom}
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 At this moment, Adobe Commerce Marketplace supports annual extension subscriptions only.
 
 There are no subscription-specific settings other than Pricing Model.
@@ -31,10 +32,12 @@ If you select the second option (replace), you will be able to select a replacem
 ![]({{ site.baseurl }}/marketplace/sellers/images/subscriptions-confirm-remove.png){: .zoom}
 ![]({{ site.baseurl }}/marketplace/sellers/images/subscriptions-remove-replace.png){: .zoom}
 
-{:.bs-callout-warning}
+<InlineAlert variant="warning" slots="text"/>
+
 After the extension is removed from the Marketplace, customers will still be able to download the latest version of the module, but you will no longer be able to submit new versions. Plan your rollout accordingly.
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 The grace period only applies if the replacement extension is a subscription extension.
 
 ## Pricing management
@@ -52,7 +55,8 @@ You can see subscription sales as regular transactions in the Developer Portal. 
 A customer who purchased an extension under a subscription license can request a refund within 25 days. The customer must open a Marketplace Support ticket for this request.
 Customers can cancel their extension subscription at any time.
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 Customers can only re-subscribe to a cancelled extension subscription once. Repeated cancellations and re-subscriptions to an extension are not supported.
 
 Thank you for using the Adobe Commerce Marketplace. For all questions and suggestions regarding extension subscriptions, please contact [Marketplace Support](https://marketplacesupport.magento.com) or find us in the [Community Slack workspace](https://opensource.magento.com/slack).

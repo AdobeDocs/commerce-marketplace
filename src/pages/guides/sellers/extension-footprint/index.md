@@ -3,7 +3,8 @@ group: marketplace-sellers
 title: Extension Footprint Analysis
 ---
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 The footprint analyzer is a beta feature, meaning that some of the information may not be completely accurate or present at all. The beta status of the feature is also indicated on the product listing page.
 
 ## Overview
