@@ -8,7 +8,7 @@ The Magento name and its related logos are trademarks owned by Magento, Inc. You
 
 ## Magento name
 
-Magento <sup>®</sup> is a registered trademark, and must include the registration symbol the first time the name appears in your personal profile, company profile, product profile, or standalone document. After the first occurrence in a document, the Magento name can be used without the registration symbol. To insert the  registration symbol into HTML, place the cursor immediately after the Magento name, and enter either the numeric code for symbol name.
+Magento ® is a registered trademark, and must include the registration symbol the first time the name appears in your personal profile, company profile, product profile, or standalone document. After the first occurrence in a document, the Magento name can be used without the registration symbol. To insert the  registration symbol into HTML, place the cursor immediately after the Magento name, and enter either the numeric code for symbol name.
 
 -  `&amp;#174;` -  Registration symbol numeric value
 -  `&amp;reg;` -  Registration symbol name

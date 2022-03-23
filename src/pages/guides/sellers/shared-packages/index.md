@@ -14,7 +14,7 @@ The process to submit a shared package to Commerce Marketplace is basically the 
 _Shared Packages_
 
 | Column | Description |
-|----------
+|--------|-------------|
 | Shared Package Name | The name of the shared package. |
 | No. of Versions | The number of versions of the shared package that have been created. |
 | Active Version | The version of the shared package that is currently active. |

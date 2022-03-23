@@ -13,6 +13,6 @@ Commerce Marketplace accepts product images in the PNG and JPG (JPEG) formats. T
 When taking a screenshot, do not fully maximize the window, because the extra horizontal space makes the text smaller. For the best resolution, upload screenshots at the size they are captured. The following example compares the file size of a typical screenshot when saved as each file type. The image in this example is 1538 pixels wide by 1022 pixels high at 72 DPI. Such an image will be crisp when rendered as a thumbnail or main image.
 
 | File Type | File Size |
-|----------
+|-----------|-----------|
 | JPG | 94 KB |
 | PNG | 233 KB |

@@ -14,7 +14,7 @@ The process to submit a theme to Commerce Marketplace is basically the same as [
 _Themes_
 
 | Column | Description |
-|----------
+|--------|-------------|
 | Theme Name | The name of the theme. |
 | Platform | Lists your products by platform. Options: All Platforms / Magento 1.x / Magento 2.x |
 | No. of Versions | The number of versions of the theme that have been created. |
