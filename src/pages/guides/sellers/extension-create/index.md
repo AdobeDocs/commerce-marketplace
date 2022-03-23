@@ -12,7 +12,6 @@ Before you can submit your extension to Commerce Marketplace, the code must be c
 -  [Frontend Developer Guide](https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/bk-frontend-dev-guide.html)
 
 ![](../../sellers/_images/extension-prep.png)
-_Building and Submitting an Extension_
 
 <InlineAlert variant="info" slots="text"/>
 

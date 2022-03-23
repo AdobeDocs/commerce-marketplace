@@ -11,7 +11,6 @@ Your profile tracks and provides all information for your Marketplace Developer 
 Your contact information includes your address, phone number, and PayPal email address. As part of the registration process, you must enter a valid PayPal email, even if your extensions are available for free on Commerce Marketplace. Magento sends your revenue share payment to your PayPal account.
 
 ![Contact information](../_images/account-information.png)
-_Contact Information_
 
 ### Account information
 
@@ -63,7 +62,6 @@ For more technical information, see [Get your authentication keys](https://devdo
 Your Marketplace Profile contains information you entered during account setup, lets you enter social media links, and gives you the option to upgrade your partner status.
 
 ![Marketplace profile](../_images/marketplace-profile.png)
-_Marketplace Profile_
 
 ### Account information
 
@@ -82,11 +80,9 @@ _Marketplace Profile_
 Marketplace policy requires all providers to submit business information to ensure the efficient processing of transactions and payments. Here you can download the necessary form for your tax status, and click **Email Tax Forms** to open an email in your default email client.
 
 ![Tax forms](../_images/tax-forms.png)
-_Tax Forms_
 
 ## Partner portal
 
 Click **Partner Portal** to open the Magento Partner Portal dashboard.
 
 ![Partner portal](../_images/partner-portal.png)
-_Partner Portal_

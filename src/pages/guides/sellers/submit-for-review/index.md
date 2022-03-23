@@ -23,4 +23,3 @@ You can submit your extension for [marketing review](../submit-for-marketing-rev
 You must complete both the technical and marketing review to fully list your extension on the Commerce Marketplace. The following diagram details the submission and review process.
 
 ![](../../sellers/_images/submit-chart1.png)
-_Workflow for creating and submitting extensions_

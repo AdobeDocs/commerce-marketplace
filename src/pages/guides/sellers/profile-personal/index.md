@@ -7,7 +7,6 @@ title: Personal profile
 The information in your personal profile identifies you as a vendor in Commerce Marketplace, and includes your background, image, contact information, and social network addresses. The Personal Profile page initially appears when you set up your Marketplace account as an individual. From your Marketplace account, the Personal Profile is located on the Developer Portal tab under My Information.
 
 ![Personal profile](../_images/developer-portal-personal-profile.png)
-_Personal Profile_
 
 The following instructions walk you through the process of completing your personal profile. All fields are required, unless marked “Optional”.
 
@@ -29,7 +28,6 @@ Prepare an image for your personal profile that is 255 pixels square, and saved 
 1. Enter a brief description of your background as a Magento developer in the **Bio** box. To change the height of the text box, drag the lower-right corner into position.
 
    ![Personal Profile - Name](../_images/account-personal-profile-name.png)
-   _Personal Profile - Name_
 
 ## Step 3: Enter your contact information
 
@@ -48,7 +46,6 @@ Prepare an image for your personal profile that is 255 pixels square, and saved 
    This unique identifier is used to identify your Marketplace vendor account, and must exactly match the Vendor Name in your personal profile.
 
    ![Contact information](../_images/account-company-profile-contact-info.png)
-   _Contact Information_
 
 ## Step 4: Enter your personal address
 
@@ -62,7 +59,6 @@ Complete the following fields that make up your personal address:
 To complete the **Phone Number**, choose the flag for your country code. Then, enter the area code and phone number.
 
 ![Personal address](../_images/account-personal-profile-address.png)
-_Personal Address_
 
 ## Step 5: Link to your social networks (optional)
 
@@ -75,7 +71,6 @@ Enter the link to each professional social network that you want to include in y
 -  LinkedIn
 
 ![Social networks](../_images/account-profile-social-networks.png)
-_Social Networks_
 
 ## Step 6: Activate your account
 

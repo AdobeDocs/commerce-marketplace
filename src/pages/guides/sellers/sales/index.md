@@ -29,7 +29,6 @@ Subscription payments are displayed as individual transactions.
 In the Marketplace Developer portal, in the top navigation, go to **Reports** > **Sales**.
 
 ![](../../sellers/_images/reports-sales.png)
-_Marketplace Sales Performance_
 
 | Field | Description |
 |--- |--- |

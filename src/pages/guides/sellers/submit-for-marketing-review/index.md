@@ -49,21 +49,18 @@ Before submitting an extension or theme for marketing review, conduct your own i
     The **Extension name** and **Short Description** are pulled in from the basic [extension information](../extension-information/). You can edit this information. Maximum characters for Short Description: 239
 
     ![](../../sellers/_images/marketing-description1.png)
-    _Extension Name and Short Description_
 
 1. Enter a **Detailed Description** about your extension, including features and functionality.
 
     Use formatting buttons and options to highlight information, features, and more. Maximum characters: 25,989
 
     ![](../../sellers/_images/marketing-description2.png)
-    _Detailed Description_
 
 1. For the **Extension Category**, select the **Main Category** for your extension and up to three **Subcategories**.
 
     These settings determine how your extension is listed on Marketplace.
 
     ![](../../sellers/_images/marketing-description3.png)
-    _Extension Category_
 
 ### Images and videos
 
@@ -74,21 +71,18 @@ You must provide a thumbnail and at least two high-quality images for the image 
 1. (Required) For **Extension Icon**, click **Upload Icon** to upload an icon file to assign to your extension.
 
     ![](../../sellers/_images/marketing-images1.png)
-    _Extension Icon_
 
 1. (Required) For **Extension Images**, click **Upload Gallery Image**.
 
    Your extension must have at least two gallery images. For more information about using images, see [Image Tips](../image-tips/).
 
     ![](../../sellers/_images/marketing-images2.png)
-    _Extension Images_
 
 1. (Optional) Under **Video Links**, paste the URLs of any YouTube videos to include with your extension.
 
     For more information about using videos, see [Video Tips](../video-tips/).
 
     ![](../../sellers/_images/marketing-images3.png)
-    _Video Links_
 
 ### Compatibility information
 
@@ -99,7 +93,6 @@ You must provide a thumbnail and at least two high-quality images for the image 
 1. For **Browser Selection**, select the checkboxes for browsers compatible with your extension.
 
     ![](../../sellers/_images/marketing-compatibility.png)
-    _Compatibility_
 
 ### Pricing information
 
@@ -108,12 +101,10 @@ You must provide a thumbnail and at least two high-quality images for the image 
 1. For **Magento \[Version\] Price**, enter the price for each edition supported in U. S. currency. If the extension will be available for free, leave the default price of zero.
 
     ![](../../sellers/_images/marketing-pricing1.png)
-    _Pricing_
 
 1. If you offer installation services, select the **Yes, I want to sell installation...** checkbox and enter an **Installation Price**.
 
     ![](../../sellers/_images/marketing-submission-pricing.png)
-    _Installation Pricing_
 
 ### Extension support (optional)
 
@@ -130,7 +121,6 @@ Customers are advised to contact you directly for support, using the information
 1. To add an additional tier, click **Add Support Tier**. You can offer up to three pricing tiers for your support services.
 
     ![](../../sellers/_images/marketing-submission-support.png)
-    _Extension Support_
 
 ### Additional details
 
@@ -164,7 +154,6 @@ While you can add documentation PDF files during this review, the content is te
 1. If you did not upload documentation during the technical submission process, you can upload it here. Click the relevant button and navigate to the file you want to upload. Extension submissions require at least one supporting document.
 
     ![](../../sellers/_images/marketing-submission-documentation.png)
-    _Documentation and Resources_
 
 ## What happens next?
 
