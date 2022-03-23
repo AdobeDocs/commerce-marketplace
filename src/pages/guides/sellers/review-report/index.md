@@ -25,5 +25,5 @@ The report includes the results of the following tests:
 -  Click **View** to view the report results in a popup window.
 -  Click **Download** to download the report as a JSON file.
 
-![]({{ site.baseurl }}/marketplace/sellers/images/test-reports.png){: .zoom}
+![]({{ site.baseurl }}/marketplace/sellers/images/test-reports.png)
 _Test Reports_

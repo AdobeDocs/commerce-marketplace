@@ -21,5 +21,5 @@ You can submit your extension for [marketing review]({{ site.baseurl }}/marketpl
 
 You must complete both the technical and marketing review to fully list your extension on the Commerce Marketplace. The following diagram details the submission and review process.
 
-![]({{ site.baseurl }}/marketplace/sellers/images/submit-chart1.png){: .zoom}
+![]({{ site.baseurl }}/marketplace/sellers/images/submit-chart1.png)
 _Workflow for creating and submitting extensions_

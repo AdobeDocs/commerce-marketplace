@@ -10,7 +10,7 @@ Your profile tracks and provides all information for your Marketplace Developer 
 
 Your contact information includes your address, phone number, and PayPal email address. As part of the registration process, you must enter a valid PayPal email, even if your extensions are available for free on Commerce Marketplace. Magento sends your revenue share payment to your PayPal account.
 
-![Contact information]({{ site.baseurl }}/marketplace/sellers/images/account-information.png){: .zoom}
+![Contact information]({{ site.baseurl }}/marketplace/sellers/images/account-information.png)
 _Contact Information_
 
 ### Account information
@@ -51,19 +51,19 @@ For more technical information, see [Get your authentication keys][2] in the dev
 
 1. In the Basic Access Key Information dialog, enter an **Access Key Name** (max of 32 characters) to identify the access key. Then, click <span class="btn">Continue</span>.
 
-   ![Basic access key information]({{ site.baseurl }}/marketplace/sellers/images/basic-access-key-information.png){: .zoom}
+   ![Basic access key information]({{ site.baseurl }}/marketplace/sellers/images/basic-access-key-information.png)
    _Basic Access Key Information_
 
 Your new access key appears in the list, and can now be used to authorize downloads of Magento updates, extensions, and themes.
 
-![Access key added to account]({{ site.baseurl }}/marketplace/sellers/images/access-keys.png){: .zoom}
+![Access key added to account]({{ site.baseurl }}/marketplace/sellers/images/access-keys.png)
 _Access Key Added to Your Account_
 
 ## Marketplace profile
 
 Your Marketplace Profile contains information you entered during account setup, lets you enter social media links, and gives you the option to upgrade your partner status.
 
-![Marketplace profile]({{ site.baseurl }}/marketplace/sellers/images/marketplace-profile.png){: .zoom}
+![Marketplace profile]({{ site.baseurl }}/marketplace/sellers/images/marketplace-profile.png)
 _Marketplace Profile_
 
 ### Account information
@@ -82,14 +82,14 @@ _Marketplace Profile_
 
 Marketplace policy requires all providers to submit business information to ensure the efficient processing of transactions and payments. Here you can download the necessary form for your tax status, and click <span class="btn">Email Tax Forms</span> to open an email in your default email client.
 
-![Tax forms]({{ site.baseurl }}/marketplace/sellers/images/tax-forms.png){: .zoom}
+![Tax forms]({{ site.baseurl }}/marketplace/sellers/images/tax-forms.png)
 _Tax Forms_
 
 ## Partner portal
 
 Click **Partner Portal** to open the Magento Partner Portal dashboard.
 
-![Partner portal]({{ site.baseurl }}/marketplace/sellers/images/partner-portal.png){: .zoom}
+![Partner portal]({{ site.baseurl }}/marketplace/sellers/images/partner-portal.png)
 _Partner Portal_
 
 [1]: {{ site.user_guide_url }}/system/encryption-key.html

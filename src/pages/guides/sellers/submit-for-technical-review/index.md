@@ -8,7 +8,7 @@ All extensions submitted to Commerce Marketplace must pass the automated technic
 
 When your [extension entry]({{ site.baseurl }}/marketplace/sellers/extension-information.html) is complete, you can submit your extension for technical review. During the process, we review the code according to [technical guidelines]({{ site.baseurl }}/marketplace/sellers/technical-review-guidelines.html), install and use the extension according to your documentation, and verify specifics from your submission form. You can track the status and progress of your extension submission through your Marketplace account.
 
-![]({{ site.baseurl }}/marketplace/sellers/images/tech-review-content.png){: .zoom}
+![]({{ site.baseurl }}/marketplace/sellers/images/tech-review-content.png)
 
 The following instructions show how to submit an extension for Technical Review. The process is essentially the same for [themes]({{ site.baseurl }}/marketplace/sellers/themes.html) and [shared packages]({{ site.baseurl }}/marketplace/sellers/shared-packages.html).
 
@@ -47,7 +47,7 @@ All products and services are subject to the same Commerce Marketplace terms and
 
     The listed options include all minor versions Magento supports at time of submission. The list is based on the release line selected at creation (M1 or M2).
 
-    ![]({{ site.baseurl }}/marketplace/sellers/images/technical-submission-details1.png){: .zoom}
+    ![]({{ site.baseurl }}/marketplace/sellers/images/technical-submission-details1.png)
     _Versions and Compatibility_
 
 1. Select the Licensing options.
@@ -58,7 +58,7 @@ All products and services are subject to the same Commerce Marketplace terms and
 
 -  Enter a Custom License - Enter the name and URL location for your custom license, available from a public website.
 
-    ![]({{ site.baseurl }}/marketplace/sellers/images/technical-submission-details2.png){: .zoom}
+    ![]({{ site.baseurl }}/marketplace/sellers/images/technical-submission-details2.png)
     _Licenses_
 
 1. Add Documentation and Resources for your extension.
@@ -72,7 +72,7 @@ All products and services are subject to the same Commerce Marketplace terms and
 -  Attach Reference Manual - Documentation detailing fields, screens, and workflows for the added features, screens, and fields in the Admin.
 -  Attach Installation Guide - Documentation instructing how to install and configure the extension on your Magento instance.
 
-    ![]({{ site.baseurl }}/marketplace/sellers/images/technical-submission-docs.png){: .zoom}
+    ![]({{ site.baseurl }}/marketplace/sellers/images/technical-submission-docs.png)
     _Documentation and Resources_
 
 1. Follow the same steps to upload a reference manual or installation guide.
@@ -82,14 +82,14 @@ All products and services are subject to the same Commerce Marketplace terms and
     {: .bs-callout .bs-callout-info}
     **Important:** Before a shared package can be linked to an extension, it must be submitted for review and receive the status **Ready to Use**.
 
-    ![]({{ site.baseurl }}/marketplace/sellers/images/technical-submission-shared.png){: .zoom}
+    ![]({{ site.baseurl }}/marketplace/sellers/images/technical-submission-shared.png)
     _Shared Packages_
 
 1. Enter **Release Notes** for your extension.
 
     This preliminary draft can be formatted with simple HTML and can include text, numbers, symbols, and spaces.
 
-    ![]({{ site.baseurl }}/marketplace/sellers/images/technical-submission-rnotes.png){: .zoom}
+    ![]({{ site.baseurl }}/marketplace/sellers/images/technical-submission-rnotes.png)
     _Release Notes_
 
 1. When complete, submit the extension or save to continue progress later. To enter the queue, you must click <span class="btn">Submit</span>.
@@ -102,7 +102,7 @@ All products and services are subject to the same Commerce Marketplace terms and
 
     It might take a few minutes for your package to upload. You will receive email confirmation when the extension is submitted for Technical Review, and will be notified when the review is complete.
 
-    ![]({{ site.baseurl }}/marketplace/sellers/images/confirm-technical-submission.png){: .zoom}
+    ![]({{ site.baseurl }}/marketplace/sellers/images/confirm-technical-submission.png)
     _Confirm Submission_
 
 ## After submission

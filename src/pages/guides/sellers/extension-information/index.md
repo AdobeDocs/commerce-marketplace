@@ -16,14 +16,14 @@ To add an entry, you need to complete these instructions and submit the [version
 
    A page loads listing any existing extensions you have previously added.
 
-   []({{ site.baseurl }}/marketplace/sellers/images/your-extensions.png){: .zoom}
+   []({{ site.baseurl }}/marketplace/sellers/images/your-extensions.png)
     _Your Extensions_
 
 1. Click <span class="btn">Create New Extension</span>.
 
    The displayed chart provides a high-level overview for creating and submitting extensions.
 
-   ![]({{ site.baseurl }}/marketplace/sellers/images/submit-chart1.png){: .zoom}
+   ![]({{ site.baseurl }}/marketplace/sellers/images/submit-chart1.png)
    _Workflow for creating and submitting extensions_
 
 1. Enter the **Basic Extension Information** required to create an extension entry.

@@ -11,7 +11,7 @@ Before you can submit your extension to Commerce Marketplace, the code must be c
 -  [Magento Web APIs]({{ site.baseurl }}{{ site.gdeurl }}/get-started/bk-get-started-api.html)
 -  [Frontend Developer Guide]({{ site.baseurl }}{{ site.gdeurl }}/frontend-dev-guide/bk-frontend-dev-guide.html)
 
-![]({{ site.baseurl }}/marketplace/sellers/images/extension-prep.png){: .zoom}
+![]({{ site.baseurl }}/marketplace/sellers/images/extension-prep.png)
 _Building and Submitting an Extension_
 
 {: .bs-callout .bs-callout-info}

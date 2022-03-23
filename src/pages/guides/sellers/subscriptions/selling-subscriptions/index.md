@@ -10,7 +10,7 @@ Starting December 2021, Adobe Commerce Marketplace provides extension vendors an
 
 When submitting a new extension to the marketplace, you must select the pricing model for the extension. The pricing model can only be selected when the initial version is being set up. After the initial version is created on the Developer Portal, the pricing model cannot be changed for this SKU. Choose Subscription to set the SKU under subscription license, and set the subscription price.
 
-![]({{ site.baseurl }}/marketplace/sellers/images/subscriptions-pricing-model.png){: .zoom}
+![]({{ site.baseurl }}/marketplace/sellers/images/subscriptions-pricing-model.png)
 
 <InlineAlert variant="info" slots="text"/>
 
@@ -25,13 +25,13 @@ We recommend starting by submitting a new SKU. This allows new sales operations 
 You can then either remove the original extension unconditionally, or mark the new extension as a replacement. This triggers a 180-day grace period for merchants who have purchased the original extension.
 To remove an extension from the Marketplace, use the **Remove from Store** button on your original extension.
 
-![]({{ site.baseurl }}/marketplace/sellers/images/subscriptions-remove-from-store.png){: .zoom}
+![]({{ site.baseurl }}/marketplace/sellers/images/subscriptions-remove-from-store.png)
 
 If you decide to use the first option (unconditional removal), your original extension will disappear from the Marketplace and no other action will be taken.
 If you select the second option (replace), you will be able to select a replacement extension from the list of your active SKUs. The 180-day grace period will be applied to the replacement extension for customers who have purchased the original extension.
 
-![]({{ site.baseurl }}/marketplace/sellers/images/subscriptions-confirm-remove.png){: .zoom}
-![]({{ site.baseurl }}/marketplace/sellers/images/subscriptions-remove-replace.png){: .zoom}
+![]({{ site.baseurl }}/marketplace/sellers/images/subscriptions-confirm-remove.png)
+![]({{ site.baseurl }}/marketplace/sellers/images/subscriptions-remove-replace.png)
 
 <InlineAlert variant="warning" slots="text"/>
 

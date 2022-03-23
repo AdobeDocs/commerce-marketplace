@@ -6,7 +6,7 @@ title: Register as a developer
 
 Follow these steps to create a new developer account, or to register as a developer with your existing Magento account.
 
-![]({{ site.baseurl }}/marketplace/sellers/images/developer-portal-landing-page.png){: .zoom}
+![]({{ site.baseurl }}/marketplace/sellers/images/developer-portal-landing-page.png)
 [_Developer Portal_][1]{: target="_blank"}
 
 ## Step 1: Create a developer account
