@@ -10,10 +10,10 @@ From the Developer Portal you can access your product submissions and reports, a
 
 |Menu item|Description|
 |--- |--- |
-|[Extensions]({{ site.baseurl }}/marketplace/sellers/extensions.html)|Takes you to the Your Extensions page.|
-|[Themes]({{ site.baseurl }}/marketplace/sellers/themes.html)|Takes you to the Your Themes page.|
-|[Shared Packages]({{ site.baseurl }}/marketplace/sellers/shared-packages.html)|Takes you to the Your Shared Packages page.|
-|[Reports]({{ site.baseurl }}/marketplace/sellers/sales.html)|[Sales]({{ site.baseurl }}/marketplace/sellers/sales.html) - Takes you to your Sales reports.<br/>[Analytics]({{ site.baseurl }}/marketplace/sellers/analytics.html) - Takes you to your sales Analytics reports.|
+|[Extensions](../extensions/)|Takes you to the Your Extensions page.|
+|[Themes](../themes/)|Takes you to the Your Themes page.|
+|[Shared Packages](../shared-packages/)|Takes you to the Your Shared Packages page.|
+|[Reports](../sales/)|[Sales](../sales/) - Takes you to your Sales reports.<br/>[Analytics](../analytics/) - Takes you to your sales Analytics reports.|
 |[Support](https://marketplacesupport.magento.com/hc/en-us)|Opens the [Marketplace Help Center](https://marketplacesupport.magento.com/hc/en-us).|
 |Guidelines|Opens the extension development guidelines.|
-|[Profile Information]({{ site.baseurl }}/marketplace/sellers/profile-information.html)|Account Information<br/>Marketplace Profile<br/>Sign Out|
+|[Profile Information](../profile-information/)|Account Information<br/>Marketplace Profile<br/>Sign Out|

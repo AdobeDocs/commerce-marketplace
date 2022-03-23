@@ -4,7 +4,7 @@ title: Seller overview
 
 # Seller overview
 
-As an extension seller, your process starts with the extension development and testing. During this phase, be sure to follow the [Best Practices for Extension Developers][1].
+As an extension seller, your process starts with the extension development and testing. During this phase, be sure to follow the [Best Practices for Extension Developers](https://devdocs.magento.com/guides/v2.3/ext-best-practices/bk-ext-best-practices.html).
 
 <TextBlock slots="image, heading, text, links" width="50%" />
 
@@ -53,6 +53,5 @@ Use the sales and analytics reports to view and manage your extension sales info
 * [Learn more](../sales/)
 
 
-Although you are not prevented from listing and selling your products and services on your own site, we believe that Commerce Marketplace presents the greatest opportunity to drive sales for your Magento-related products and services.
 
-[1]: {{ site.baseurl }}/guides/v2.3/ext-best-practices/bk-ext-best-practices.html
+Although you are not prevented from listing and selling your products and services on your own site, we believe that Commerce Marketplace presents the greatest opportunity to drive sales for your Magento-related products and services.

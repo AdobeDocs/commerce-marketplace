@@ -15,9 +15,9 @@ Follow these steps to create a new developer account, or to register as a develo
 
    If you don’t yet have a Magento account, do one of the following:
 
-   -  Go to the [Magento Developer][1] page, and click **Create  Account**. Then, click **Register**.
-   -  In the upper-right corner of [Commerce Marketplace][2], click **Sign In**. Then, click **Register**.
-   -  From [Magento.com][3], click **My Account**. Then under **New Customers**, click **Register**.
+   -  Go to the [Developer Portal](https://developer.magento.com/) page, and click **Create  Account**. Then, click **Register**.
+   -  In the upper-right corner of [Commerce Marketplace](https://marketplace.magento.com/), click **Sign In**. Then, click **Register**.
+   -  From [magento.com](https://magento.com/), click **My Account**. Then under **New Customers**, click **Register**.
 
    If you already have an account, log in as a registered user.
 
@@ -39,17 +39,16 @@ Follow these steps to create a new developer account, or to register as a develo
 
 ## Step 2: Agree to the terms of service
 
-Read the following documents that describe Commerce Marketplace [terms of service][4].
+Read the following documents that describe Commerce Marketplace [terms of service](https://magento.com/legal/terms/marketplace-xcelerate).
 
 -  Xcelerate & Marketplace Master Terms
 -  Xcelerate & Marketplace Development Terms
 
-For your reference, you can also find these documents on [Magento.com][4].
+For your reference, you can also find these documents on [magento.com](https://magento.com/legal/terms/marketplace-xcelerate).
 
 If you agree with the terms of use, select the checkbox and click **I Agree**.
 
-![](../../sellers/_images/terms-of-service.png)<br/>
- _Terms of Service_
+![](../../sellers/_images/terms-of-service.png)
 
 ## Step 3: Select the type of account
 
@@ -57,12 +56,7 @@ Your Commerce Marketplace developer account can be set up as an individual or co
 
 When prompted, select the type of account you want to create, and click **Choose**. Then, follow the appropriate instructions to complete the profile for the account.
 
--  [Business Account]({{ site.baseurl }}/marketplace/sellers/profile-company.html)
--  [Individual Account]({{ site.baseurl }}/marketplace/sellers/profile-personal.html)
+-  [Business Account](../profile-company/)
+-  [Individual Account](../profile-personal/)
 
 ![](../../sellers/_images/account-type-business.png)
-
-[1]: https://developer.magento.com/
-[2]: https://marketplace.magento.com/
-[3]: https://magento.com/
-[4]: https://magento.com/legal/terms/marketplace-xcelerate

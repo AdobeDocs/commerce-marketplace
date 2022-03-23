@@ -123,8 +123,8 @@ _Social Networks_
 
 |Field|Description|
 |--- |--- |
-|GitHub|(Optional) The user name associated with your company’s GitHub account. For example: http://github.com/username|
-|Stack Exchange|(Optional) The URL of your company’s Stack Exchange profile. For example: http://username.stackexchange.com|
-|Twitter|(Optional) The user name associated with your company’s Twitter account. For example: @username|
-|Facebook|(Optional) The URL of your company’s Facebook profile. For example: http://facebook.com/pages/username|
-|LinkedIn|(Optional) The URL of your company’s LinkedIn profile. For example: http://linkedin.com/company/username|
+|GitHub|(Optional) The user name associated with your company’s GitHub account. For example: `http://github.com/username`|
+|Stack Exchange|(Optional) The URL of your company’s Stack Exchange profile. For example: `http://username.stackexchange.com`|
+|Twitter|(Optional) The user name associated with your company’s Twitter account. For example: `@username`|
+|Facebook|(Optional) The URL of your company’s Facebook profile. For example: `http://facebook.com/pages/username`|
+|LinkedIn|(Optional) The URL of your company’s LinkedIn profile. For example: `http://linkedin.com/company/username`|

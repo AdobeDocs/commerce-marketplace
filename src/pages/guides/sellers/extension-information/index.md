@@ -6,11 +6,11 @@ title: Complete the extension information overview
 
 When your extension code is complete, the next step is to add an entry for your extension to Commerce Marketplace. This creates an entry on your Extensions page in the Commerce Marketplace Developer portal, but does not submit the extension.
 
-To add an entry, you need to complete these instructions and submit the [version]({{ site.baseurl }}/marketplace/sellers/extension-version.html).
+To add an entry, you need to complete these instructions and submit the [version](../extension-version/).
 
 ## Create a new extension entry
 
-1. Log into the Marketplace [Developer portal]({{ site.baseurl }}/marketplace/sellers/developer-portal.html).
+1. Log into the Marketplace [Developer Portal](../developer-portal/).
 
 1. Click **Extensions**.
 
@@ -28,7 +28,7 @@ To add an entry, you need to complete these instructions and submit the [version
 
 1. Enter the **Basic Extension Information** required to create an extension entry.
 
-   We recommend entering all content in English. For additional content details, see detailed field descriptions and [Extension content]({{ site.baseurl }}/marketplace/sellers/content.html).
+   We recommend entering all content in English. For additional content details, see detailed field descriptions and [Extension content](../content/).
 
 1. Enter an **Extension Name**.
 
@@ -52,7 +52,7 @@ To add an entry, you need to complete these instructions and submit the [version
 
    The Extension Details screen displays information about your extension, including any existing versions.
 
-1. To continue the extension submission process, click **[Submit a New Version]({{ site.baseurl }}/marketplace/sellers/submit-for-review.html)**.
+1. To continue the extension submission process, click **[Submit a New Version](../submit-for-review/)**.
 
 ## Field descriptions
 

@@ -42,23 +42,21 @@ Commerce Marketplace uses a pair of public and private 32-character tokens to au
 
 <InlineAlert variant="info" slots="text"/>
 
-The access key pair that is generated for Marketplace is not the same as the [Encryption Key][1] that is associated with the Magento 2.x setup.
+The access key pair that is generated for Marketplace is not the same as the [Encryption Key](https://docs.magento.com/user-guide/system/encryption-key.html) that is associated with the Magento 2.x setup.
 
-For more technical information, see [Get your authentication keys][2].
+For more technical information, see [Get your authentication keys](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html).
 
 ### Create a new access key
 
 1. Click **Create New Access Key**. Then, do the following:
 
-1. In the Basic Access Key Information dialog, enter an **Access Key Name** (max of 32 characters) to identify the access key. Then, click **Continue**.
+    1. In the Basic Access Key Information dialog, enter an **Access Key Name** (max of 32 characters) to identify the access key. Then, click **Continue**.
 
-   ![Basic access key information](../_images/basic-access-key-information.png)
-   _Basic Access Key Information_
+    ![Basic access key information](../_images/basic-access-key-information.png)
 
-Your new access key appears in the list, and can now be used to authorize downloads of Magento updates, extensions, and themes.
+    Your new access key appears in the list, and can now be used to authorize downloads of Magento updates, extensions, and themes.
 
-![Access key added to account](../_images/access-keys.png)
-_Access Key Added to Your Account_
+    ![Access key added to account](../_images/access-keys.png)
 
 ## Marketplace profile
 
@@ -75,7 +73,7 @@ _Marketplace Profile_
 | Vendor Name | Entered when you created your Marketplace Developer account. |
 | User Email | Entered when you created your Marketplace Developer account. |
 | Logo | A profile photo (for personal accounts) or a company logo (for company accounts). |
-| Partner Status | Your current partner status is displayed. Clicking **Upgrade Partner Status** takes you to the [Become a Partner][3] page. |
+| Partner Status | Your current partner status is displayed. Clicking **Upgrade Partner Status** takes you to the [Become a Partner](https://magento.com/partners/become) page. |
 | Privacy Policy URL | The URL of your company\'s privacy policy website. |
 | Other Options | Add links to various social media profiles. |
 
@@ -92,7 +90,3 @@ Click **Partner Portal** to open the Magento Partner Portal dashboard.
 
 ![Partner portal](../_images/partner-portal.png)
 _Partner Portal_
-
-[1]: {{ site.user_guide_url }}/system/encryption-key.html
-[2]: {{ site.baseurl }}/guides/v2.3/install-gde/prereq/connect-auth.html
-[3]: https://magento.com/partners/become

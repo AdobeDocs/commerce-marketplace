@@ -4,7 +4,7 @@ title: Establish your brand
 
 # Establish your brand
 
-The Magento name and its related logos are trademarks owned by Magento, Inc. Your extension and listing must not violate the trademarks and copyrights of Adobe, Inc., or those of any other party. To learn more, see [Magento License / Trademark][1].
+The Magento name and its related logos are trademarks owned by Magento, Inc. Your extension and listing must not violate the trademarks and copyrights of Adobe, Inc., or those of any other party. To learn more, see [Magento License / Trademark](https://magento.com/legal/licensing).
 
 ## Magento name
 
@@ -39,5 +39,3 @@ Approved Magento trademarks can be used in your extension listing or website onl
 -  The logo must be the current logo that is provided by Magento.
 -  The Magento logo must not be altered in any way.
 -  The Magento logo must be half the size of your own branding, to avoid the suggestion of any affiliation.
-
-[1]: https://magento.com/legal/licensing

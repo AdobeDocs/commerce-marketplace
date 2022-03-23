@@ -8,7 +8,7 @@ Shared packages are extension components containing code that can be used by oth
 
 The Shared Packages tab shows the status of each shared package you have submitted, and provides access to the profile and version history of each. You can also use the workspace controls to sort and filter the list.
 
-The process to submit a shared package to Commerce Marketplace is basically the same as [submitting an extension]({{ site.baseurl }}/marketplace/sellers/submit-for-review.html). The only difference is that it takes place from the Shared Packages tab.
+The process to submit a shared package to Commerce Marketplace is basically the same as [submitting an extension](../submit-for-review/). The only difference is that it takes place from the Shared Packages tab.
 
 ![](../../sellers/_images/your-shared-packages.png)
 _Shared Packages_

@@ -6,7 +6,7 @@ title: Manage sales overview
 
 Commerce Marketplace is a full-featured digital commerce site with integrated payments, where you can offer your products for free, or for sale. Purchases can be paid by credit card or PayPal.
 
-Developers are not charged a fee to submit or list products or services on Commerce Marketplace. All product sales are subject to a [revenue share]({{ site.baseurl }}/marketplace/sellers/revenue-share.html), with 85% of the revenue for the developer, and 15% for Adobe. This business model allows us to invest in marketing and promotions to grow the businesses of participating developers.
+Developers are not charged a fee to submit or list products or services on Commerce Marketplace. All product sales are subject to a [revenue share](../revenue-share/), with 85% of the revenue for the developer, and 15% for Adobe. This business model allows us to invest in marketing and promotions to grow the businesses of participating developers.
 
 Buyers have twenty-five (25) days after the date of purchase to request a refund. Magento reviews all refund requests and if approved, issues the appropriate refund.
 

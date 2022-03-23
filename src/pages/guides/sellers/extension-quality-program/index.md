@@ -20,7 +20,7 @@ When your extension code is complete, you can create the extension and version i
 During Technical Review, your extension code is scanned and validated via automated testing and manual QA.
 
 During Marketing Review, your extension marketing information (including the documentation and images) is examined for quality and to make sure that it meets our marketing guidelines.
-If the extension doesn\'t pass either review, you can correct the problem and [resubmit]({{ site.baseurl }}/marketplace/sellers/extension-resubmit.html) it.
+If the extension doesn\'t pass either review, you can correct the problem and [resubmit](../extension-resubmit/) it.
 
 ## [Approval](../sales/)
 

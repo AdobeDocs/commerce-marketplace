@@ -8,7 +8,7 @@ If an extension fails a test at any time during the review process, you can corr
 
 ## Resubmit an extension after technical review
 
-1. View the [**Test Report**]({{ site.baseurl }}/marketplace/sellers/review-report.html) to determine the why the extension failed review.
+1. View the [**test report**](../review-report/) to determine the why the extension failed review.
 
 1. When the technical issue(s) are corrected, prepare a zip file with the corrected files.
 
@@ -18,7 +18,7 @@ If an extension fails a test at any time during the review process, you can corr
 
 ## Resubmit an extension after marketing review
 
-1. View the [**Test Report**]({{ site.baseurl }}/marketplace/sellers/review-report.html) to determine the why the extension failed review.
+1. View the [**test report**](../review-report/) to determine the why the extension failed review.
 
 1. Make the necessary corrections to your marketing information in the Marketing Submission fields.
 
