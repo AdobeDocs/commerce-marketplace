@@ -18,7 +18,8 @@
     "react-dom": "^17.0.0"
   },
   "devDependencies": {
-    "markdownlint": "^0.25.1"
+    "markdownlint": "^0.25.1",
+    "markdownlint-cli": "^0.31.1"
   },
   "scripts": {
     "start": "gatsby build && gatsby serve",
@@ -28,6 +29,6 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "lint": "mdl src/pages"
+    "lint": "markdownlint src/pages"
   }
 }
