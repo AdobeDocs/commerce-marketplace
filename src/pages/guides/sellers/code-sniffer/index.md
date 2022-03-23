@@ -34,6 +34,7 @@ You can test an extension to detect violations of the [Magento Coding Standard](
 ```bash
 phpcs --standard=Magento2 --extensions=php,phtml --error-severity=10 --ignore-annotations --report=json --report-file=report.json <path-to-extension>
 ```
+
 If PHPCS finds any errors, the extension in `<path-to-extension>`  is rejected.
 
 ## Reading the error report
