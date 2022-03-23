@@ -46,12 +46,12 @@ You can cancel your subscription at any time.
 
 To cancel a subscription:
 
-1.Go to **My Profile** > **My Subscriptions**.
-1.Choose subscription that you want to cancel.
-1.Click **View and Edit**.
-1.Change the **Current Subscription Status** to **Cancelled**.
+1. Go to **My Profile** > **My Subscriptions**.
+1. Choose subscription that you want to cancel.
+1. Click **View and Edit**.
+1. Change the **Current Subscription Status** to **Cancelled**.
 
-![](../../../sellers/_images/subscriptions-cancel.png)
+    ![](../../../sellers/_images/subscriptions-cancel.png)
 
 To re-subscribe to a previously cancelled subscription, you must create a support ticket with Marketplace Support.
 

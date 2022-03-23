@@ -14,7 +14,7 @@ If an extension fails a test at any time during the review process, you can corr
 
 1. On the Technical Submission page, under _Extension Code Package_, click the trash can icon next to the old file and then upload the new one.
 
-1. When you have uploaded the new file, click <span class="btn">Submit</span> to submit, or click <span class="btn">Save Draft</span> if you have other changes to make before re-submitting the extension.
+1. When you have uploaded the new file, click **Submit** to submit, or click **Save Draft** if you have other changes to make before re-submitting the extension.
 
 ## Resubmit an extension after marketing review
 
@@ -22,4 +22,4 @@ If an extension fails a test at any time during the review process, you can corr
 
 1. Make the necessary corrections to your marketing information in the Marketing Submission fields.
 
-1. When the marketing issue(s) are corrected, click <span class="btn">Submit</span> to submit, or click <span class="btn">Save Draft</span> if you have other changes to make before re-submitting the extension.
+1. When the marketing issue(s) are corrected, click **Submit** to submit, or click **Save Draft** if you have other changes to make before re-submitting the extension.

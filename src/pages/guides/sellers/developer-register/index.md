@@ -11,31 +11,31 @@ Follow these steps to create a new developer account, or to register as a develo
 
 ## Step 1: Create a developer account
 
-1. Access your Magento account.
+1. Access your account.
 
-If you don’t yet have a Magento account, do one of the following:
+   If you don’t yet have a Magento account, do one of the following:
 
--  Go to the [Magento Developer][1] page, and click <span class="btn">Create  Account</span>. Then, click <span class="btn">Register</span>.
--  In the upper-right corner of [Commerce Marketplace][2], click **Sign In**. Then, click <span class="btn">Register</span>.
--  From [Magento.com][3], click **My Account**. Then under **New Customers**, click <span class="btn">Register</span>.
+   -  Go to the [Magento Developer][1] page, and click **Create  Account**. Then, click **Register**.
+   -  In the upper-right corner of [Commerce Marketplace][2], click **Sign In**. Then, click **Register**.
+   -  From [Magento.com][3], click **My Account**. Then under **New Customers**, click **Register**.
 
-If you already have a Magento account, log in as a registered user.
+   If you already have an account, log in as a registered user.
 
-1. Click **Marketplace** and choose **Developer Portal**.
+   1. Click **Marketplace** and choose **Developer Portal**.
 
-1. Under _Personal Information_, enter your **First Name**, **Last Name**, **Email Address**, and **Country**.
+   1. Under _Personal Information_, enter your **First Name**, **Last Name**, **Email Address**, and **Country**.
 
-    <InlineAlert variant="info" slots="text"/>
+      <InlineAlert variant="info" slots="text"/>
     
-    If there is already an account associated with this email address, click the link to access your account.
+      If there is already an account associated with this email address, click the link to access your account.
 
-1. Under _My Company Primarily_, choose the best description of your company’s primary focus. Then, set **My Role** to the option that best describes what you do for the company.
+   1. Under _My Company Primarily_, choose the best description of your company’s primary focus. Then, set **My Role** to the option that best describes what you do for the company.
 
-1. Under _Login Information_, enter a **Password** for your account. Then, enter it again to confirm.
+   1. Under _Login Information_, enter a **Password** for your account. Then, enter it again to confirm.
 
-    Your password can be from eight- to sixteen-characters long, and must include at least one capital letter, one number, and either one special character or one lowercase letter.
+      Your password can be from eight- to sixteen-characters long, and must include at least one capital letter, one number, and either one special character or one lowercase letter.
 
-1. Select the **Terms of Service** checkbox and click  <span class="btn">Submit</span>.
+   1. Select the **Terms of Service** checkbox and click **Submit**.
 
 ## Step 2: Agree to the terms of service
 
@@ -46,7 +46,7 @@ Read the following documents that describe Commerce Marketplace [terms of servic
 
 For your reference, you can also find these documents on [Magento.com][4].
 
-If you agree with the terms of use, select the checkbox and click <span class="btn">I Agree</span>.
+If you agree with the terms of use, select the checkbox and click **I Agree**.
 
 ![](../../sellers/_images/terms-of-service.png)<br/>
  _Terms of Service_
@@ -55,7 +55,7 @@ If you agree with the terms of use, select the checkbox and click <span class="b
 
 Your Commerce Marketplace developer account can be set up as an individual or company. All extensions and themes that are developed by a single company should be managed under the same account.
 
-When prompted, select the type of account you want to create, and click <span class="btn">Choose</span>. Then, follow the appropriate instructions to complete the profile for the account.
+When prompted, select the type of account you want to create, and click **Choose**. Then, follow the appropriate instructions to complete the profile for the account.
 
 -  [Business Account]({{ site.baseurl }}/marketplace/sellers/profile-company.html)
 -  [Individual Account]({{ site.baseurl }}/marketplace/sellers/profile-personal.html)

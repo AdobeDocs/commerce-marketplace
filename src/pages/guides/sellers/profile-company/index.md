@@ -29,7 +29,7 @@ Prepare an image for your company profile that is 255 pixels square. Then, save 
 1. To upload the image that you have prepared to your company profile, do one of the following:
 
    -  Drag the image to the box.
-   -  Click <span class="btn">Update Image</span>. Then, navigate to the image in your file system and upload it to your profile.
+   -  Click **Update Image**. Then, navigate to the image in your file system and upload it to your profile.
 
 ## Step 3: Enter your contact information
 
@@ -77,7 +77,7 @@ _Social Networks_
 
 ## Step 6: Activate your account
 
-1. When the required fields are complete, click <span class="btn">Save</span>.
+1. When the required fields are complete, click **Save**.
 
 1. When prompted, enter your **PayPal Email** address.
 

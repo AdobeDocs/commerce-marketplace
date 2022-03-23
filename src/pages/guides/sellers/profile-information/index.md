@@ -20,7 +20,7 @@ _Contact Information_
 |Personal URL|(Optional) The URL for your personal website.|
 |Personal Bio|(Optional) Information about yourself.|
 |Personal Addresses|At least one address is required; you can enter up to three. If there are multiple addresses, you must designate one as the primary contact address.|
-|Login Credentials|Clicking <span class="btn">Go to My Account</span> takes you to your Magento account information.|
+|Login Credentials|Clicking **Go to My Account** takes you to your Magento account information.|
 |PayPal Email|You must enter a valid PayPal account email, even if  your extensions are available for free on Commerce Marketplace. Magento sends your revenue share payment to your PayPal account.|
 
 ### Company
@@ -33,7 +33,7 @@ _Contact Information_
 |Company URL|The URL for your company website.|
 |Company Bio|Your Company Bio helps prospective buyers get acquainted with your company background and areas of expertise. Max characters 1500 words or less.|
 |Company Addresses|At least one address is required. You can enter up to three. If there are multiple addresses, you must designate one as the primary contact address.|
-|Login Credentials|Clicking <span class="btn">Go to My Account</span> takes you to your Magento account information.|
+|Login Credentials|Clicking **Go to My Account** takes you to your Magento account information.|
 |PayPal Email|You must enter a valid PayPal account email, even if  your extensions are available for free on Commerce Marketplace. Magento sends your revenue share payment to your PayPal account.|
 
 ## Access keys
@@ -44,13 +44,13 @@ Commerce Marketplace uses a pair of public and private 32-character tokens to au
 
 The access key pair that is generated for Marketplace is not the same as the [Encryption Key][1] that is associated with the Magento 2.x setup.
 
-For more technical information, see [Get your authentication keys][2] in the developer documentation.
+For more technical information, see [Get your authentication keys][2].
 
 ### Create a new access key
 
-1. Click <span class="btn">Create New Access Key</span>. Then, do the following:
+1. Click **Create New Access Key**. Then, do the following:
 
-1. In the Basic Access Key Information dialog, enter an **Access Key Name** (max of 32 characters) to identify the access key. Then, click <span class="btn">Continue</span>.
+1. In the Basic Access Key Information dialog, enter an **Access Key Name** (max of 32 characters) to identify the access key. Then, click **Continue**.
 
    ![Basic access key information](../_images/basic-access-key-information.png)
    _Basic Access Key Information_
@@ -70,18 +70,18 @@ _Marketplace Profile_
 ### Account information
 
 | Field | Description |
-|----------
+|-------|-------------|
 | Screen Name | Entered when you created your Marketplace Developer account. |
 | Vendor Name | Entered when you created your Marketplace Developer account. |
 | User Email | Entered when you created your Marketplace Developer account. |
 | Logo | A profile photo (for personal accounts) or a company logo (for company accounts). |
-| Partner Status | Your current partner status is displayed. Clicking <span class="btn">Upgrade Partner Status</span> takes you to the [Become a Partner][3] page. |
+| Partner Status | Your current partner status is displayed. Clicking **Upgrade Partner Status** takes you to the [Become a Partner][3] page. |
 | Privacy Policy URL | The URL of your company\'s privacy policy website. |
 | Other Options | Add links to various social media profiles. |
 
 ## Tax forms
 
-Marketplace policy requires all providers to submit business information to ensure the efficient processing of transactions and payments. Here you can download the necessary form for your tax status, and click <span class="btn">Email Tax Forms</span> to open an email in your default email client.
+Marketplace policy requires all providers to submit business information to ensure the efficient processing of transactions and payments. Here you can download the necessary form for your tax status, and click **Email Tax Forms** to open an email in your default email client.
 
 ![Tax forms](../_images/tax-forms.png)
 _Tax Forms_

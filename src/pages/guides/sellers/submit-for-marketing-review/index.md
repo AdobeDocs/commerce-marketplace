@@ -35,13 +35,12 @@ Before submitting an extension or theme for marketing review, conduct your own i
     As you complete sections, a checkmark displays tracking progress. If you updated or submitted content for the **Technical Submission**, the list displays checkmarks for that submitted content.
 
     ![](../../sellers/_images/marketing-submission-list.png)
-    _Marketing Submission Progress_
 
 1. Complete each section and submit for review when it is complete.
 
--  Click <span class="btn">Save Submit</span> to save progress.
--  Click <span class="btn">Preview</span> to see the output of your marketing information.
--  After adding all content, with full checkmarks across sections, click <span class="btn">Submit</span>.
+    -  Click **Save Submit** to save progress.
+    -  Click **Preview** to see the output of your marketing information.
+    -  After adding all content, with full checkmarks across sections, click **Submit**.
 
 ### Extension description
 
@@ -70,14 +69,14 @@ Before submitting an extension or theme for marketing review, conduct your own i
 
 You must provide a thumbnail and at least two high-quality images for the image gallery that depict the extension. The Product Thumbnail represents the extension in Marketplace listings. In addition, you can upload up to fifteen Product Images. Make sure to include only relevant information, and crop the image to remove the URL and any unnecessary white space. Images can be in either JPG (JPEG) or PNG format, with a maximum file size of 5 MB for each.
 
-1. Under **Marketing Submission**, click <span class="btn">Images and Videos</span>.
+1. Under **Marketing Submission**, click **Images and Videos**.
 
-1. (Required) For **Extension Icon**, click <span class="btn">Upload Icon</span> to upload an icon file to assign to your extension.
+1. (Required) For **Extension Icon**, click **Upload Icon** to upload an icon file to assign to your extension.
 
     ![](../../sellers/_images/marketing-images1.png)
     _Extension Icon_
 
-1. (Required) For **Extension Images**, click <span class="btn">Upload Gallery Image</span>.
+1. (Required) For **Extension Images**, click **Upload Gallery Image**.
 
    Your extension must have at least two gallery images. For more information about using images, see [Image Tips]({{ site.baseurl }}/marketplace/sellers/image-tips.html).
 
@@ -93,7 +92,7 @@ You must provide a thumbnail and at least two high-quality images for the image 
 
 ### Compatibility information
 
-1. Under **Marketing Submission**, click <span class="btn">Compatibility</span>.
+1. Under **Marketing Submission**, click **Compatibility**.
 
     The information displayed here is pulled from what you entered in the [Basic Extension Information]({{ site.baseurl }}/marketplace/sellers/extension-information.html) or [Technical Submission]({{ site.baseurl }}/marketplace/sellers/submit-for-technical-review.html). To modify the Magento version compatibility, see [Submit for Technical Review]({{ site.baseurl }}/marketplace/sellers/submit-for-technical-review.html).
 
@@ -104,7 +103,7 @@ You must provide a thumbnail and at least two high-quality images for the image 
 
 ### Pricing information
 
-1. Under **Marketing Submission**, click <span class="btn">Pricing</span>.
+1. Under **Marketing Submission**, click **Pricing**.
 
 1. For **Magento \[Version\] Price**, enter the price for each edition supported in U. S. currency. If the extension will be available for free, leave the default price of zero.
 
@@ -120,7 +119,7 @@ You must provide a thumbnail and at least two high-quality images for the image 
 
 Customers are advised to contact you directly for support, using the information that you provide. For support issues related to Commerce Marketplace, see the [Marketplace Help Center][1].
 
-1. Under **Marketing Submission**, click <span class="btn">Extension Support</span>.
+1. Under **Marketing Submission**, click **Extension Support**.
 
 1. If you offer support services, select the **Yes, I want to sell support...** checkbox and complete the **Support Tier 1** pricing.
 
@@ -135,25 +134,24 @@ Customers are advised to contact you directly for support, using the information
 
 ### Additional details
 
-1. On the extension status page, on the left side, under **Marketing Submission**, click <span class="btn">Additional Details</span>.
+1. On the extension status page, on the left side, under **Marketing Submission**, click **Additional Details**.
 
 1. Choose the **Stability** setting that applies to this version of the extension:
 
--  Beta Build: Internal testing is complete, and the extension is released to the public to help identify any outstanding issues.
--  Stable Build: Any major issues found during the beta release stage have been resolved, and the extension is ready for market.
+    -  Beta Build: Internal testing is complete, and the extension is released to the public to help identify any outstanding issues.
+    -  Stable Build: Any major issues found during the beta release stage have been resolved, and the extension is ready for market.
 
 1. Under **Other Options**, select checkboxes for each applicable option.
 
--  Released with setup scripts
--  Service contracts included
--  External service contracts included
--  Custom UI implementation
--  Web API supported
--  Test coverage supported
--  Responsive design supported
+    -  Released with setup scripts
+    -  Service contracts included
+    -  External service contracts included
+    -  Custom UI implementation
+    -  Web API supported
+    -  Test coverage supported
+    -  Responsive design supported
 
     ![](../../sellers/_images/marketing-submission-additional-details.png)
-    _Additional Details_
 
 ### Documentation and resources
 
@@ -161,7 +159,7 @@ Customers are advised to contact you directly for support, using the information
 
 While you can add documentation PDF files during this review, the content is tested during the [Technical Review]({{ site.baseurl }}/marketplace/sellers/submit-for-technical-review.html).
 
-1. On the extension status page, on the left side, under **Marketing Submission**, click <span class="btn">Documentation and Resources</span>.
+1. On the extension status page, on the left side, under **Marketing Submission**, click **Documentation and Resources**.
 
 1. If you did not upload documentation during the technical submission process, you can upload it here. Click the relevant button and navigate to the file you want to upload. Extension submissions require at least one supporting document.
 

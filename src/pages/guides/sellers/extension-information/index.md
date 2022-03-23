@@ -19,7 +19,7 @@ To add an entry, you need to complete these instructions and submit the [version
    ![](../../sellers/_images/your-extensions.png)
     _Your Extensions_
 
-1. Click <span class="btn">Create New Extension</span>.
+1. Click **Create New Extension**.
 
    The displayed chart provides a high-level overview for creating and submitting extensions.
 
@@ -48,11 +48,11 @@ To add an entry, you need to complete these instructions and submit the [version
    -  **Does this Service require additional subscription payments to the 3rd party** - Indicate if the service requires additional payments and costs to use the extension. You must to provide this information during submissions for pricing.
    -  **Are subscription payments ALSO required to your company for the integration** - Indicate if additional subscription costs are required for the integration. You must to provide this information during submissions for pricing.
 
-1. When complete, click <span class="btn">Submit and Continue</span>.
+1. When complete, click **Submit and Continue**.
 
    The Extension Details screen displays information about your extension, including any existing versions.
 
-1. To continue the extension submission process, click <span class="btn">[Submit a New Version]({{ site.baseurl }}/marketplace/sellers/submit-for-review.html)</span>.
+1. To continue the extension submission process, click **[Submit a New Version]({{ site.baseurl }}/marketplace/sellers/submit-for-review.html)**.
 
 ## Field descriptions
 

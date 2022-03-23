@@ -55,9 +55,9 @@ All products and services are subject to the same Commerce Marketplace terms and
 
     This option requires the user to agree to a license in addition to the Magento terms and conditions. You have two options:
 
--  Choose a License Type - Select a license type provided from the drop-down menu.
+    -  Choose a License Type - Select a license type provided from the drop-down menu.
 
--  Enter a Custom License - Enter the name and URL location for your custom license, available from a public website.
+    -  Enter a Custom License - Enter the name and URL location for your custom license, available from a public website.
 
     ![](../../sellers/_images/technical-submission-details2.png)
     _Licenses_
@@ -70,9 +70,9 @@ All products and services are subject to the same Commerce Marketplace terms and
 
     You must include **at least one** of the following, in PDF format (less than 5MB):
 
--  Attach User Guide - Documentation describing how to configure and use your extension features in the Admin and extension screens.
--  Attach Reference Manual - Documentation detailing fields, screens, and workflows for the added features, screens, and fields in the Admin.
--  Attach Installation Guide - Documentation instructing how to install and configure the extension on your Magento instance.
+    -  Attach User Guide - Documentation describing how to configure and use your extension features in the Admin and extension screens.
+    -  Attach Reference Manual - Documentation detailing fields, screens, and workflows for the added features, screens, and fields in the Admin.
+    -  Attach Installation Guide - Documentation instructing how to install and configure the extension on your Magento instance.
 
     ![](../../sellers/_images/technical-submission-docs.png)
     _Documentation and Resources_
@@ -95,13 +95,13 @@ All products and services are subject to the same Commerce Marketplace terms and
     ![](../../sellers/_images/technical-submission-rnotes.png)
     _Release Notes_
 
-1. When complete, submit the extension or save to continue progress later. To enter the queue, you must click <span class="btn">Submit</span>.
+1. When complete, submit the extension or save to continue progress later. To enter the queue, you must click **Submit**.
 
 ## Step 2: Submit the extension for technical review
 
-1. When the required fields are complete, click <span class="btn">Submit</span>.
+1. When the required fields are complete, click **Submit**.
 
-1. In the **Confirm Your Technical Submission** box, click <span class="btn">Cancel</span> to go back to the submission details, or click <span class="btn">Confirm</span> to submit the extension.
+1. In the **Confirm Your Technical Submission** box, click **Cancel** to go back to the submission details, or click **Confirm** to submit the extension.
 
     It might take a few minutes for your package to upload. You will receive email confirmation when the extension is submitted for Technical Review, and will be notified when the review is complete.
 

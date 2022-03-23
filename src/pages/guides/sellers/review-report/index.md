@@ -18,12 +18,11 @@ The report includes the results of the following tests:
 
 1. To view the results of the tests, navigate to the extension status page.
 
-1. Under _**_Review Results_, click <span class="btn">Test Reports</span>.
+1. Under _**_Review Results_, click **Test Reports**.
 
 1. In the Report column, do one of the following:
 
--  Click **View** to view the report results in a popup window.
--  Click **Download** to download the report as a JSON file.
+    -  Click **View** to view the report results in a popup window.
+    -  Click **Download** to download the report as a JSON file.
 
-![](../../sellers/_images/test-reports.png)
-_Test Reports_
+    ![](../../sellers/_images/test-reports.png)
