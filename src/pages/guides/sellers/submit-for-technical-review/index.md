@@ -79,7 +79,7 @@ All products and services are subject to the same Commerce Marketplace terms and
 1. If other components are used by an M2 extension, select the relevant **Shared Package**.
 
     <InlineAlert variant="info" slots="text"/>
-    
+
     **Important:** Before a shared package can be linked to an extension, it must be submitted for review and receive the status **Ready to Use**.
 
     ![](../../sellers/_images/technical-submission-shared.png)

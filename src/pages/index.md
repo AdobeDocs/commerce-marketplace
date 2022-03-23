@@ -3,7 +3,7 @@ title: Commerce Marketplace
 description: Learn about resources avaialble to Commerce Marketplace developers.
 ---
 
-<Hero slots="heading, text"/> 
+<Hero slots="heading, text"/>
 
 # Commerce Marketplace
 
@@ -11,10 +11,10 @@ Get the tools and information that you need to build, deliver, and sell high-qua
 
 <Resources slots="heading, links"/>
 
-#### Resources
+## Resources
 
-- [Developer Portal](https://developer.magento.com/)
-- [Commerce Marketplace](https://marketplace.magento.com/)
+-  [Developer Portal](https://developer.magento.com/)
+-  [Commerce Marketplace](https://marketplace.magento.com/)
 
 ## Overview
 
@@ -22,16 +22,15 @@ This documentation provides instructions for Commerce Marketplace developers wor
 
 The Commerce Marketplace EQP API provides access to the Developer Portal so that you can programmatically update your extension, manage your company profile, and access sales reports and analytics.
 
-## Discover 
+## Discover
 
 <DiscoverBlock slots="heading, link, text"/>
 
 ### Get Started
 
 [Getting Started](/guides/sellers/)
-    
-Learn how to set up your developer account and become a seller on the Commerce Marketplace.
 
+Learn how to set up your developer account and become a seller on the Commerce Marketplace.
 
 <DiscoverBlock slots="link, text"/>
 
@@ -45,7 +44,6 @@ Provides programmatic access to the Commerce Developer Portal.
 
 Search the Commerce Marketplace Help Center knowledge base or submit a support ticket.
 
-
-## Contributing 
+## Contributing
 
 We encourage you to participate in our open documentation initiative. If you have suggestions, corrections, additions, or deletions for this documentation, check out the source from [this github repo](https://github.com/AdobeDocs/commerce-marketplace) and submit a pull request. For more information, refer to the [contributing guide](https://github.com/AdobeDocs/commerce-marketplace/blob/main/.github/CONTRIBUTING.md).

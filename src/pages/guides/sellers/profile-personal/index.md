@@ -79,7 +79,7 @@ Enter the link to each professional social network that you want to include in y
 1. When prompted, enter your **PayPal Email** address.
 
    <InlineAlert variant="info" slots="text"/>
-   
+
    **Important:** This payment information is required of all developers, even those who make their extensions available at no charge. Magento sends your revenue share on a monthly basis to PayPal account.
 
    Look for the confirmation email that is sent to the email address associated with the account. To activate your account and gain access to the Developer Portal, click the link in the email.
