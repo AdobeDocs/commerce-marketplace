@@ -6,8 +6,8 @@ title: Register as a developer
 
 Follow these steps to create a new developer account, or to register as a developer with your existing Magento account.
 
-![]({{ site.baseurl }}/marketplace/sellers/images/developer-portal-landing-page.png)
-[_Developer Portal_][1]{: target="_blank"}
+![](../../sellers/_images/developer-portal-landing-page.png)
+[_Developer Portal_][1]
 
 ## Step 1: Create a developer account
 
@@ -25,8 +25,9 @@ If you already have a Magento account, log in as a registered user.
 
 1. Under _Personal Information_, enter your **First Name**, **Last Name**, **Email Address**, and **Country**.
 
-    {: .bs-callout .bs-callout-info}
-    If there is already a Magento account with this email address, click the link to access your account.
+    <InlineAlert variant="info" slots="text"/>
+    
+    If there is already an account associated with this email address, click the link to access your account.
 
 1. Under _My Company Primarily_, choose the best description of your company’s primary focus. Then, set **My Role** to the option that best describes what you do for the company.
 
@@ -47,7 +48,7 @@ For your reference, you can also find these documents on [Magento.com][4].
 
 If you agree with the terms of use, select the checkbox and click <span class="btn">I Agree</span>.
 
-![]({{ site.baseurl }}/marketplace/sellers/images/terms-of-service.png){: width="600px"}<br/>
+![](../../sellers/_images/terms-of-service.png)<br/>
  _Terms of Service_
 
 ## Step 3: Select the type of account
@@ -59,7 +60,7 @@ When prompted, select the type of account you want to create, and click <span cl
 -  [Business Account]({{ site.baseurl }}/marketplace/sellers/profile-company.html)
 -  [Individual Account]({{ site.baseurl }}/marketplace/sellers/profile-personal.html)
 
-![]({{ site.baseurl }}/marketplace/sellers/images/account-type-business.png){: width="500px"}
+![](../../sellers/_images/account-type-business.png)
 
 [1]: https://developer.magento.com/
 [2]: https://marketplace.magento.com/

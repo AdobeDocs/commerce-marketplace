@@ -6,7 +6,7 @@ title: Developer Portal Overview
 
 From the Developer Portal you can access your product submissions and reports, as well as Marketplace support information and extension guidelines.
 
-![]({{ site.baseurl }}/marketplace/sellers/images/developer-portal.png)
+![](../../sellers/_images/developer-portal.png)
 
 |Menu item|Description|
 |--- |--- |

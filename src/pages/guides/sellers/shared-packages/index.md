@@ -10,7 +10,7 @@ The Shared Packages tab shows the status of each shared package you have submitt
 
 The process to submit a shared package to Commerce Marketplace is basically the same as [submitting an extension]({{ site.baseurl }}/marketplace/sellers/submit-for-review.html). The only difference is that it takes place from the Shared Packages tab.
 
-![]({{ site.baseurl }}/marketplace/sellers/images/your-shared-packages.png)
+![](../../sellers/_images/your-shared-packages.png)
 _Shared Packages_
 
 | Column | Description |

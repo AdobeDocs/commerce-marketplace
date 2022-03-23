@@ -16,8 +16,8 @@ If an extension has not been updated for 12 months and automated notification ha
 
 See the following example notification for cancelling an abandoned extension:
 
-![Example delisting notification from the marketplace]({{ site.baseurl }}/marketplace/sellers/images/abandoned-cancelled.png)
+![Example delisting notification from the marketplace](../../_images/abandoned-cancelled.png)
 
 See the following example notification for delisting an abandoned extension:
 
-![Example delisting notification from the marketplace]({{ site.baseurl }}/marketplace/sellers/images/abandoned-delisted.png)
+![Example delisting notification from the marketplace](../../_images/abandoned-delisted.png)

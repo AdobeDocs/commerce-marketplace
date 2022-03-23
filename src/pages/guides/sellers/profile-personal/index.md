@@ -6,7 +6,7 @@ title: Personal profile
 
 The information in your personal profile identifies you as a vendor in Commerce Marketplace, and includes your background, image, contact information, and social network addresses. The Personal Profile page initially appears when you set up your Marketplace account as an individual. From your Marketplace account, the Personal Profile is located on the Developer Portal tab under My Information.
 
-![Personal profile]({{ site.baseurl }}/marketplace/sellers/images/developer-portal-personal-profile.png)
+![Personal profile](../_images/developer-portal-personal-profile.png)
 _Personal Profile_
 
 The following instructions walk you through the process of completing your personal profile. All fields are required, unless marked “Optional”.
@@ -28,7 +28,7 @@ Prepare an image for your personal profile that is 255 pixels square, and saved 
 
 1. Enter a brief description of your background as a Magento developer in the **Bio** box. To change the height of the text box, drag the lower-right corner into position.
 
-   ![Personal Profile - Name]({{ site.baseurl }}/marketplace/sellers/images/account-personal-profile-name.png)
+   ![Personal Profile - Name](../_images/account-personal-profile-name.png)
    _Personal Profile - Name_
 
 ## Step 3: Enter your contact information
@@ -43,11 +43,12 @@ Prepare an image for your personal profile that is 255 pixels square, and saved 
 
    `Name: <vendor-name> / <package-name>`
 
-   {: .bs-callout .bs-callout-info}
+   <InlineAlert variant="info" slots="text"/>
+
    This unique identifier is used to identify your Marketplace vendor account, and must exactly match the Vendor Name in your personal profile.
 
-![Contact information]({{ site.baseurl }}/marketplace/sellers/images/account-company-profile-contact-info.png)
-_Contact Information_
+   ![Contact information](../_images/account-company-profile-contact-info.png)
+   _Contact Information_
 
 ## Step 4: Enter your personal address
 
@@ -60,7 +61,7 @@ Complete the following fields that make up your personal address:
 
 To complete the **Phone Number**, choose the flag for your country code. Then, enter the area code and phone number.
 
-![Personal address]({{ site.baseurl }}/marketplace/sellers/images/account-personal-profile-address.png)
+![Personal address](../_images/account-personal-profile-address.png)
 _Personal Address_
 
 ## Step 5: Link to your social networks (optional)
@@ -73,7 +74,7 @@ Enter the link to each professional social network that you want to include in y
 -  Facebook
 -  LinkedIn
 
-![Social networks]({{ site.baseurl }}/marketplace/sellers/images/account-profile-social-networks.png)
+![Social networks](../_images/account-profile-social-networks.png)
 _Social Networks_
 
 ## Step 6: Activate your account
@@ -82,7 +83,8 @@ _Social Networks_
 
 1. When prompted, enter your **PayPal Email** address.
 
-   {: .bs-callout .bs-callout-info}
+   <InlineAlert variant="info" slots="text"/>
+   
    **Important:** This payment information is required of all developers, even those who make their extensions available at no charge. Magento sends your revenue share on a monthly basis to PayPal account.
 
    Look for the confirmation email that is sent to the email address associated with the account. To activate your account and gain access to the Developer Portal, click the link in the email.

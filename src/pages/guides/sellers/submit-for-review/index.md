@@ -6,7 +6,8 @@ title: Review process overview
 
 After completing development, testing, and creating a new extension entry, you can submit your extension for [Technical]({{ site.baseurl }}/marketplace/sellers/submit-for-technical-review.html) and [Marketing]({{ site.baseurl }}/marketplace/sellers/submit-for-marketing-review.html) review. The extension enters a queue when submitted. We will review your extension code and submitted information according to the queue, sending feedback and confirmation by email. Track the status and progress of your extension submission through your Marketplace account. Our [Extension Quality Program]({{ site.baseurl }}/marketplace/sellers/extension-quality-program.html) (EQP) verifies that all Marketplace extensions meet Magento quality standards and best practices.
 
-{: .bs-callout .bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 Before submitting your extension for review, [complete the information]({{ site.baseurl }}/marketplace/sellers/extension-information.html) about the extension through the [developer portal]({{ site.baseurl }}/marketplace/sellers/developer-portal.html).
 
 The extension submission process requires you to do the following:
@@ -21,5 +22,5 @@ You can submit your extension for [marketing review]({{ site.baseurl }}/marketpl
 
 You must complete both the technical and marketing review to fully list your extension on the Commerce Marketplace. The following diagram details the submission and review process.
 
-![]({{ site.baseurl }}/marketplace/sellers/images/submit-chart1.png)
+![](../../sellers/_images/submit-chart1.png)
 _Workflow for creating and submitting extensions_
