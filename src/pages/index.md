@@ -15,6 +15,7 @@ Get the tools and information that you need to build, deliver, and sell high-qua
 
 -  [Developer Portal](https://developer.magento.com/)
 -  [Commerce Marketplace](https://marketplace.magento.com/)
+-  [test](guides/account-setup-process/)
 
 ## Overview
 

@@ -17,6 +17,16 @@ module.exports = {
     pages: pages,
     subPages: subPages,
   },
-  plugins: [`@adobe/gatsby-theme-aio`],
+  plugins: [
+    `@adobe/gatsby-theme-aio`,
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          'gatsby-remark-check-links'
+        ]
+      }
+    }
+  ],
   pathPrefix: process.env.PATH_PREFIX || "/commerce/marketplace/",
 };
