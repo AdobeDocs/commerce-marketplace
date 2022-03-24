@@ -4,7 +4,7 @@ title: Compatibility requirements overview
 
 # Compatibility requirements overview
 
-The {{ site.data.var.ee}} Marketplace requires extensions to adhere to standards of quality and maintenance. Merchants that install extensions that are not well maintained suffer from an inability to upgrade. This inability exposes merchants to security risks and prevents them from accessing the latest features in other extensions and services.
+The Commerce Marketplace requires extensions to adhere to standards of quality and maintenance. Merchants that install extensions that are not well maintained suffer from an inability to upgrade. This inability exposes merchants to security risks and prevents them from accessing the latest features in other extensions and services.
 
 To mitigate this, Adobe has introduced multiple requirements for extensions that address three specific issues:
 
