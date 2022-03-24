@@ -5,7 +5,7 @@ description: Learn about resources avaialble to Commerce Marketplace developers.
 
 <Hero slots="heading, text"/>
 
-# Commerce Marketplace 
+# Commerce Marketplace
 
 Get the tools and information that you need to build, deliver, and sell high-quality Adobe Commerce and Magento Open Source extensions to customers around the world.
 
