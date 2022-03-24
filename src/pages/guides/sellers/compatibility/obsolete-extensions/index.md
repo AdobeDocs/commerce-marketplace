@@ -4,7 +4,7 @@ title: Obsolete extensions
 
 # Obsolete extensions
 
-As the {{ site.data.var.ce }} and {{ site.data.var.ee }} technology moves forward, release lines get marked as End of Life (EOL) and deprecated.
+As the Magento Open Source and Adobe Commerce technology moves forward, release lines get marked as End of Life (EOL) and deprecated.
 
 We call extensions that are only compatible with deprecated (EOL) release lines "obsolete extensions".
 
