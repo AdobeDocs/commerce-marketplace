@@ -62,8 +62,6 @@ All products and services are subject to the same Commerce Marketplace terms and
 
 1. Add Documentation and Resources for your extension.
 
-    <InlineAlert variant="info" slots="text"/>
-
     Commerce Marketplace tests and reviews documentation during the Technical Review. You can add additional documentation during the [Marketing Review](../submit-for-marketing-review/).
 
     You must include **at least one** of the following, in PDF format (less than 5MB):

@@ -39,8 +39,6 @@ Prepare an image for your company profile that is 255 pixels square. Then, save 
 
    `Name: <vendor-name> / <package-name>`
 
-   <InlineAlert variant="info" slots="text"/>
-
    This unique identifier is used to identify your Marketplace vendor account, and must exactly match the Vendor Name in your company profile.
 
    ![Contact information](../_images/account-company-profile-contact-info.png)

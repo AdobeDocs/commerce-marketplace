@@ -41,8 +41,6 @@ Prepare an image for your personal profile that is 255 pixels square, and saved 
 
    `Name: <vendor-name> / <package-name>`
 
-   <InlineAlert variant="info" slots="text"/>
-
    This unique identifier is used to identify your Marketplace vendor account, and must exactly match the Vendor Name in your personal profile.
 
    ![Contact information](../_images/account-company-profile-contact-info.png)
@@ -77,8 +75,6 @@ Enter the link to each professional social network that you want to include in y
 1. When the required fields are complete, click **Save**.
 
 1. When prompted, enter your **PayPal Email** address.
-
-   <InlineAlert variant="info" slots="text"/>
 
    **Important:** This payment information is required of all developers, even those who make their extensions available at no charge. Magento sends your revenue share on a monthly basis to PayPal account.
 

@@ -24,8 +24,6 @@ Follow these steps to create a new developer account, or to register as a develo
 
    1. Under _Personal Information_, enter your **First Name**, **Last Name**, **Email Address**, and **Country**.
 
-      <InlineAlert variant="info" slots="text"/>
-
       If there is already an account associated with this email address, click the link to access your account.
 
    1. Under _My Company Primarily_, choose the best description of your company’s primary focus. Then, set **My Role** to the option that best describes what you do for the company.
