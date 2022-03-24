@@ -24,7 +24,11 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: Lint markdown files
-        run: npm run lint
+        run: npm run test:md
+
+      - name: Check internal links
+        if: ${{ success() }}
+        run: npm run test:links
       
       - name: Build site
         if: ${{ success() }}
