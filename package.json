@@ -32,8 +32,9 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "lint": "markdownlint src/pages",
-    "check": "remark src/pages --quiet --frail"
+    "test:md": "markdownlint src/pages",
+    "test:links": "remark src/pages --quiet --frail",
+    "test": "markdownlint src/pages && remark src/pages --quiet --frail"
   },
   "remarkConfig": {
     "plugins": [
