@@ -20,7 +20,9 @@
   },
   "devDependencies": {
     "markdownlint": "^0.25.1",
-    "markdownlint-cli": "^0.31.1"
+    "markdownlint-cli": "^0.31.1",
+    "remark-cli": "^10.0.1",
+    "remark-validate-links": "^11.0.2"
   },
   "scripts": {
     "start": "gatsby build && gatsby serve",
@@ -30,6 +32,12 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "lint": "markdownlint src/pages"
+    "lint": "markdownlint src/pages",
+    "check": "remark src/pages --quiet --frail"
+  },
+  "remarkConfig": {
+    "plugins": [
+      "remark-validate-links"
+    ]
   }
 }
