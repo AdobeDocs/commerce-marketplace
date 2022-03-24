@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Marketing Review Guidelines
+title: Marketing review guidelines
 ---
+
+# Marketing review guidelines
 
 From a marketing perspective, all submissions to Commerce Marketplace must solve a business problem and deliver rich and unique functionality. Marketing descriptions will be checked against our style guidelines to make sure that content is in line with Magento branding guidelines.
 
@@ -50,7 +51,7 @@ The extension icon should fulfill the following guidelines:
 
 ## Long description
 
-For guides and examples of long descriptions, see [Product Descriptions]({{ site.baseurl }}/marketplace/sellers/product-descriptions.html).
+For guides and examples of long descriptions, see [product descriptions](../product-descriptions/).
 
 ## User guide, reference manual, or installation guide
 
@@ -59,14 +60,14 @@ Extension documentation should fulfill the following guidelines:
 *  Must cover all features of the extension.
 *  Must not direct users to make purchases on sites other than Marketplace.
 *  If an extension title is added into the documentation, it must not include _Magento_. Use _For Magento_ after the title if needed.
-*  Use of the Magento logo is prohibited. To learn more, see our [branding guidelines]({{ site.baseurl }}/marketplace/sellers/branding.html).
+*  Use of the Magento logo is prohibited. To learn more, see our [branding guidelines](../branding/).
    *  Partners can use their Magento partner badge.
 *  At least one piece of uploaded documentation must be in English.
 *  Do not upload duplicates of the documents.
 
 ## Pricing: Provide clear pricing information
 
-The price of your extension is included as part of the marketing information. To learn more, see [Enter Pricing Information]({{ site.baseurl }}/marketplace/sellers/submit-for-marketing-review.html).
+The price of your extension is included as part of the marketing information. To learn more, see [pricing Information](../submit-for-marketing-review/#pricing-information).
 
 *  Items listed on the Commerce Marketplace can be offered for free or sold as commercial products.
 *  The price of items offered for sale on the Commerce Marketplace can range anywhere from $25.00 to $999,999.00, and must reflect fair market value.
@@ -77,7 +78,7 @@ The price of your extension is included as part of the marketing information. To
 
 ## Content: Complete the product profile
 
-The content that accompanies your extension listing is derived from the [marketing information]({{ site.baseurl }}/marketplace/sellers/submit-for-marketing-review.html) you entered for the extension or theme, and information in your [company profile]({{ site.baseurl }}/marketplace/sellers/profile-company.html). To learn more, see [Extension content]({{ site.baseurl }}/marketplace/sellers/content.html).
+The content that accompanies your extension listing is derived from the [marketing information](../submit-for-marketing-review/) you entered for the extension or theme, and information in your [company profile](../profile-company/). To learn more, see [extension content](../content/).
 
 *  All content that is associated with a Commerce Marketplace listing must be free of offensive or discriminatory language, sexual content, or nudity.
 *  The promotion of additional services or other extensions from your extension profile page is not allowed.
@@ -86,4 +87,4 @@ The content that accompanies your extension listing is derived from the [marketi
 
 ## Branding: Use Magento name and logo correctly
 
-The Magento name and its related logos are trademarks owned by Adobe. Your extension and listing must not violate the trademarks and copyrights of Magento, Adobe, or those of any other party. To learn more, see [Branding]({{ site.baseurl }}/marketplace/sellers/branding.html).
+The Magento name and its related logos are trademarks owned by Adobe. Your extension and listing must not violate the trademarks and copyrights of Magento, Adobe, or those of any other party. To learn more, see [branding](../branding/).

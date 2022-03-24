@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Product Descriptions
+title: Product descriptions
 ---
+
+# Product descriptions
 
 Every extension submitted requires a long, detailed description of the product as part of the marketing submission process. Some products, such as integration extensions and payment extensions, have additional requirements for their long descriptions.
 
@@ -95,5 +96,3 @@ We employ the industry\'s best security practices and tools to maintain bank-lev
 _Example 3:_
 
 ATTENTION: Use this extension at your own risk. Sensitive customer payment data is stored on your server. Merchants are expected to take every precaution that they are fully PCI certified. Please only purchase this extension if you have an environment where storing credit card information is permitted by law.
-
-[1]: https://marketplacesupport.magento.com/hc/en-us

@@ -1,13 +1,12 @@
 ---
-group: marketplace-sellers
-title: Company Profile
-redirect_from: /marketplace/sellers/company-profile.html
+title: Company profile
 ---
+
+# Company profile
 
 Your company profile provides the information about your business and brand that appears in your Commerce Marketplace listing. During the initial interview, the Company Profile page appears after you choose the “Business” type of account. In your account, the Company Profile is located on the Developer Portal tab under My Information.
 
-![Company profile]({{ site.baseurl }}/marketplace/sellers/images/developer-portal-company-profile.png){: .zoom}
-_Company Profile_
+![Company profile](../_images/developer-portal-company-profile.png)
 
 The following instructions walk you through the process of completing your company profile. All fields are required, unless marked “Optional”.
 
@@ -19,8 +18,7 @@ Prepare an image for your company profile that is 255 pixels square. Then, save 
 
 1. Select the checkbox at the top of the form if you want to use your company profile—rather than your personal profile—as the default.
 
-   ![Company background]({{ site.baseurl }}/marketplace/sellers/images/account-company-profile-name.png){: .zoom}
-   _Company Background_
+   ![Company background](../_images/account-company-profile-name.png)
 
 1. Enter your **Legal Company Name**.
 
@@ -29,7 +27,7 @@ Prepare an image for your company profile that is 255 pixels square. Then, save 
 1. To upload the image that you have prepared to your company profile, do one of the following:
 
    -  Drag the image to the box.
-   -  Click <span class="btn">Update Image</span>. Then, navigate to the image in your file system and upload it to your profile.
+   -  Click **Update Image**. Then, navigate to the image in your file system and upload it to your profile.
 
 ## Step 3: Enter your contact information
 
@@ -41,12 +39,9 @@ Prepare an image for your company profile that is 255 pixels square. Then, save 
 
    `Name: <vendor-name> / <package-name>`
 
-   <div class="bs-callout bs-callout-info" markdown="1">
    This unique identifier is used to identify your Marketplace vendor account, and must exactly match the Vendor Name in your company profile.
-   </div>
 
-   ![Contact information]({{ site.baseurl }}/marketplace/sellers/images/account-company-profile-contact-info.png){: .zoom}
-      _Contact Information_
+   ![Contact information](../_images/account-company-profile-contact-info.png)
 
 ## Step 4: Enter your company address
 
@@ -59,8 +54,7 @@ Prepare an image for your company profile that is 255 pixels square. Then, save 
 
 1. To complete the **Phone Number**, choose the flag for your country code. Then, enter the area code and phone number.
 
-   ![Company address]({{ site.baseurl }}/marketplace/sellers/images/account-company-profile-address.png){: .zoom}
-   _Company Address_
+   ![Company address](../_images/account-company-profile-address.png)
 
 ## Step 5: Link to your social networks (optional)
 
@@ -72,23 +66,23 @@ Enter the link to each professional social network that you want to include in y
 -  Facebook
 -  LinkedIn
 
-![Social networks]({{ site.baseurl }}/marketplace/sellers/images/account-profile-social-networks.png){: .zoom}
-_Social Networks_
+![Social networks](../_images/account-profile-social-networks.png)
 
 ## Step 6: Activate your account
 
-1. When the required fields are complete, click <span class="btn">Save</span>.
+1. When the required fields are complete, click **Save**.
 
 1. When prompted, enter your **PayPal Email** address.
 
-   {: .bs-callout .bs-callout-info}
+   <InlineAlert variant="info" slots="text"/>
+
    **Important:** This payment information is required of all developers, even those who make their extensions available at no charge. Magento sends your revenue share on a monthly basis to PayPal account.
 
 1. Watch for a confirmation email sent to the email address associated with the account.
 
 1. Click the email link to activate your account and gain access to the Developer Portal.
 
-## Field Descriptions
+## Field descriptions
 
 |Field|Description|
 |---|---|
@@ -122,8 +116,8 @@ _Social Networks_
 
 |Field|Description|
 |--- |--- |
-|GitHub|(Optional) The user name associated with your company’s GitHub account. For example: http://github.com/username|
-|Stack Exchange|(Optional) The URL of your company’s Stack Exchange profile. For example: http://username.stackexchange.com|
-|Twitter|(Optional) The user name associated with your company’s Twitter account. For example: @username|
-|Facebook|(Optional) The URL of your company’s Facebook profile. For example: http://facebook.com/pages/username|
-|LinkedIn|(Optional) The URL of your company’s LinkedIn profile. For example: http://linkedin.com/company/username|
+|GitHub|(Optional) The user name associated with your company’s GitHub account. For example: `http://github.com/username`|
+|Stack Exchange|(Optional) The URL of your company’s Stack Exchange profile. For example: `http://username.stackexchange.com`|
+|Twitter|(Optional) The user name associated with your company’s Twitter account. For example: `@username`|
+|Facebook|(Optional) The URL of your company’s Facebook profile. For example: `http://facebook.com/pages/username`|
+|LinkedIn|(Optional) The URL of your company’s LinkedIn profile. For example: `http://linkedin.com/company/username`|

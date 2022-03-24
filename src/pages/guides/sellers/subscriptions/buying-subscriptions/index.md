@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Buying Subscription-based Extensions
+title: Buying subscription-based extensions
 ---
+
+# Buying subscription-based extensions
 
 Starting December 2021, Adobe Commerce Marketplace provides extension vendors an opportunity to sell their extensions under an auto-renewing subscription model.
 
@@ -9,11 +10,12 @@ Starting December 2021, Adobe Commerce Marketplace provides extension vendors an
 
 You can identify subscription extensions by pricing. They display price per period.
 
-![]({{ site.baseurl }}/marketplace/sellers/images/subscriptions-buying-pricing.png){: .zoom}
+![](../../../sellers/_images/subscriptions-buying-pricing.png)
 
 During checkout, subscription extensions display the recurring amount that you will be charged.
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 At this moment, Adobe Commerce Marketplace supports annual extension subscriptions only.
 
 ## Handling an extension license or pricing change
@@ -34,7 +36,7 @@ To update a payment method:
 1.Choose the subscription that needs to be updated.
 1.Click **View and Edit** > **Update payment method**.
 
-![]({{ site.baseurl }}/marketplace/sellers/images/subscriptions-payment-methods.png){: .zoom}
+![](../../../sellers/_images/subscriptions-payment-methods.png)
 
 It is the buyer's responsibility to keep payment methods up-to-date. At least one payment method must be added. If a payment method has not been added by the payment date, then the subscription will be cancelled.
 
@@ -44,12 +46,12 @@ You can cancel your subscription at any time.
 
 To cancel a subscription:
 
-1.Go to **My Profile** > **My Subscriptions**.
-1.Choose subscription that you want to cancel.
-1.Click **View and Edit**.
-1.Change the **Current Subscription Status** to **Cancelled**.
+1. Go to **My Profile** > **My Subscriptions**.
+1. Choose subscription that you want to cancel.
+1. Click **View and Edit**.
+1. Change the **Current Subscription Status** to **Cancelled**.
 
-![]({{ site.baseurl }}/marketplace/sellers/images/subscriptions-cancel.png){: .zoom}
+    ![](../../../sellers/_images/subscriptions-cancel.png)
 
 To re-subscribe to a previously cancelled subscription, you must create a support ticket with Marketplace Support.
 

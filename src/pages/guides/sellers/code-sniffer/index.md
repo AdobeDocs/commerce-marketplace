@@ -1,11 +1,10 @@
 ---
-group: marketplace-sellers
-title: Code Sniffer
+title: Code sniffer
 ---
 
-## Overview
+# Code sniffer
 
-Code Sniffer is a static test that uses static code analysis to detect violations of the [Magento Coding Standard](https://github.com/magento/magento-coding-standard/) to prevent common coding errors.
+Code sniffer is a static test that uses static code analysis to detect violations of the [Magento Coding Standard](https://github.com/magento/magento-coding-standard/) to prevent common coding errors.
 
 Limited information is displayed in the Quality Report section of the product listing page on the Commerce Marketplace, including the number of errors, warnings, and the coding standards version that was used.
 
@@ -18,23 +17,24 @@ Magento projects typically use source code from several vendors. By adopting the
 
 ## When testing is done
 
-Code Sniffer is mandatory for extensions of any type. When you submit an extension, Magento uses Code Sniffer to analyze the entire code base regardless of the scope of changes. Only extensions that have passed Code Sniffer testing can be listed in the [Commerce Marketplace](https://marketplace.magento.com/).
+Code sniffer is mandatory for extensions of any type. When you submit an extension, Magento uses code sniffer to analyze the entire code base regardless of the scope of changes. Only extensions that have passed code sniffer testing can be listed in the [Commerce Marketplace](https://marketplace.magento.com/).
 
 ## What is being checked
 
-Code Sniffer validates that the implementation of the submitted extension adheres to the [Magento Coding Standard](https://github.com/magento/magento-coding-standard/).
+Code sniffer validates that the implementation of the submitted extension adheres to the [Magento Coding Standard](https://github.com/magento/magento-coding-standard/).
 
 ## Tools and environments used
 
-The Magento EQP Code Sniffer is based on the [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and uses [Magento Coding Standard](https://github.com/magento/magento-coding-standard/) as a ruleset.
+The Magento EQP code sniffer is based on the [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and uses [Magento Coding Standard](https://github.com/magento/magento-coding-standard/) as a ruleset.
 
-You can complete Code Sniffer testing in a development environment by using Composer to install PHPCS and the Magento Coding Standard as a global dependency for a particular project.
+You can complete code sniffer testing in a development environment by using Composer to install PHPCS and the Magento Coding Standard as a global dependency for a particular project.
 
 You can test an extension to detect violations of the [Magento Coding Standard](https://github.com/magento/magento-coding-standard/) using the following [PHPCS CLI command](https://github.com/squizlabs/PHP_CodeSniffer/blob/master/bin/phpcs):
 
 ```bash
 phpcs --standard=Magento2 --extensions=php,phtml --error-severity=10 --ignore-annotations --report=json --report-file=report.json <path-to-extension>
 ```
+
 If PHPCS finds any errors, the extension in `<path-to-extension>`  is rejected.
 
 ## Reading the error report
@@ -43,7 +43,7 @@ All detected errors include a description of the problem with references to the 
 
 The Magento Coding Standard evolves continuously and the rules change. You can find the most current version with an up-to-date list of implemented rules in the [Magento Coding Standard GitHub repository](https://github.com/magento/magento-coding-standard/blob/develop/Magento2/ruleset.xml).
 
-According to the Magento Coding Standard, Code Sniffer classifies detected violations in the following type categories:
+According to the Magento Coding Standard, code sniffer classifies detected violations in the following type categories:
 
 | Type | Severity | Description |
 |------|----------|-------------|

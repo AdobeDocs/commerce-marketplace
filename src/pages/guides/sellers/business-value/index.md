@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Business Value
+title: Define the business value
 ---
+
+# Define the business value
 
 Extensions with a clearly stated business value are easy for us to promote, and easy for customers to find.
 

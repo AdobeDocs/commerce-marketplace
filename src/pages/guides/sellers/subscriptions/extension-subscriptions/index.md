@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Extension Subscriptions
+title: Extension subscriptions overview
 ---
+
+# Extension subscriptions overview
 
 Starting December 2021, Adobe Commerce Marketplace provides extension vendors an opportunity to sell their extensions under an auto-renewing subscription model.
 
@@ -13,7 +14,7 @@ Extensions sold under subscription license will include basic support into the s
 
 To learn more about buying or selling subscription-licensed extensions, visit:
 
--  [Buying Subscription-based Extensions]({{ site.baseurl }}/marketplace/sellers/subscriptions/buying-subscriptions.html)
--  [Selling Subscription-based Extensions]({{ site.baseurl }}/marketplace/sellers/subscriptions/selling-subscriptions.html)
+-  [Buying Subscription-based Extensions](../../subscriptions/buying-subscriptions/)
+-  [Selling Subscription-based Extensions](../../subscriptions/selling-subscriptions/)
 
 Thank you for using the Adobe Commerce Marketplace. For all questions and suggestions regarding extension subscriptions, please contact [Marketplace Support](https://marketplacesupport.magento.com) or find us in the [Community Slack workspace](https://opensource.magento.com/slack).

@@ -1,13 +1,12 @@
 ---
-group: marketplace-sellers
-title: Personal Profile
-redirect_from: /marketplace/sellers/personal-profile.html
+title: Personal profile
 ---
+
+# Personal profile
 
 The information in your personal profile identifies you as a vendor in Commerce Marketplace, and includes your background, image, contact information, and social network addresses. The Personal Profile page initially appears when you set up your Marketplace account as an individual. From your Marketplace account, the Personal Profile is located on the Developer Portal tab under My Information.
 
-![Personal profile]({{ site.baseurl }}/marketplace/sellers/images/developer-portal-personal-profile.png){: .zoom}
-_Personal Profile_
+![Personal profile](../_images/developer-portal-personal-profile.png)
 
 The following instructions walk you through the process of completing your personal profile. All fields are required, unless marked “Optional”.
 
@@ -22,14 +21,13 @@ Prepare an image for your personal profile that is 255 pixels square, and saved 
 1. To upload the image that you have prepared to your personal profile, do one of the following:
 
    -  Drag the image to the box.
-   -  Click <span class="btn">Update Image</span>. Then, navigate to the image in your file system, and upload it to your profile.
+   -  Click **Update Image**. Then, navigate to the image in your file system, and upload it to your profile.
 
 1. Take note that a unique **Magento ID** is assigned to your account.
 
 1. Enter a brief description of your background as a Magento developer in the **Bio** box. To change the height of the text box, drag the lower-right corner into position.
 
-   ![Personal Profile - Name]({{ site.baseurl }}/marketplace/sellers/images/account-personal-profile-name.png){: .zoom}
-   _Personal Profile - Name_
+   ![Personal Profile - Name](../_images/account-personal-profile-name.png)
 
 ## Step 3: Enter your contact information
 
@@ -43,11 +41,9 @@ Prepare an image for your personal profile that is 255 pixels square, and saved 
 
    `Name: <vendor-name> / <package-name>`
 
-   {: .bs-callout .bs-callout-info}
    This unique identifier is used to identify your Marketplace vendor account, and must exactly match the Vendor Name in your personal profile.
 
-![Contact information]({{ site.baseurl }}/marketplace/sellers/images/account-company-profile-contact-info.png){: .zoom}
-_Contact Information_
+   ![Contact information](../_images/account-company-profile-contact-info.png)
 
 ## Step 4: Enter your personal address
 
@@ -60,8 +56,7 @@ Complete the following fields that make up your personal address:
 
 To complete the **Phone Number**, choose the flag for your country code. Then, enter the area code and phone number.
 
-![Personal address]({{ site.baseurl }}/marketplace/sellers/images/account-personal-profile-address.png){: .zoom}
-_Personal Address_
+![Personal address](../_images/account-personal-profile-address.png)
 
 ## Step 5: Link to your social networks (optional)
 
@@ -73,21 +68,19 @@ Enter the link to each professional social network that you want to include in y
 -  Facebook
 -  LinkedIn
 
-![Social networks]({{ site.baseurl }}/marketplace/sellers/images/account-profile-social-networks.png){: .zoom}
-_Social Networks_
+![Social networks](../_images/account-profile-social-networks.png)
 
 ## Step 6: Activate your account
 
-1. When the required fields are complete, click <span class="btn">Save</span>.
+1. When the required fields are complete, click **Save**.
 
 1. When prompted, enter your **PayPal Email** address.
 
-   {: .bs-callout .bs-callout-info}
    **Important:** This payment information is required of all developers, even those who make their extensions available at no charge. Magento sends your revenue share on a monthly basis to PayPal account.
 
    Look for the confirmation email that is sent to the email address associated with the account. To activate your account and gain access to the Developer Portal, click the link in the email.
 
-## Field Descriptions
+## Field descriptions
 
 |Field|Description|
 |--- |--- |
@@ -97,7 +90,7 @@ _Social Networks_
 |Mage ID|Your Magento ID is an automatically assigned when your account is created and identifies you throughout the Magento system.|
 |Bio|A brief description of your expertise and interests. You might begin with a couple of sentences to give a brief overview, and finish it later with a more detailed description of your background, expertise, and experience. If you use a word processor to compose and spell check your bio, make sure to save it as text before pasting it into your profile. Maximum characters - 1,958, including spaces.|
 
-### Contact Information
+### Contact information
 
 |Field|Description|
 |--- |--- |
@@ -113,7 +106,7 @@ _Social Networks_
 |State|The state or province where you reside.|
 |Phone|Your personal phone number. Choose the  flag for your country code. Then, enter the area code and phone number.|
 
-### Social Networks
+### Social networks
 
 |Field|Description|
 |--- |--- |

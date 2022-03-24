@@ -1,9 +1,10 @@
 ---
-group: marketplace-sellers
-title: Obsolete Extensions
+title: Obsolete extensions
 ---
 
-As the {{ site.data.var.ce }} and {{ site.data.var.ee }} technology moves forward, release lines get marked as End of Life (EOL) and deprecated.
+# Obsolete extensions
+
+As the Magento Open Source and Adobe Commerce technology moves forward, release lines get marked as End of Life (EOL) and deprecated.
 
 We call extensions that are only compatible with deprecated (EOL) release lines "obsolete extensions".
 
@@ -17,8 +18,8 @@ If a compatible version is submitted through the Developer Portal and passes EQP
 
 See the following example notification for cancelling an obsolete extension:
 
-![Example delisting notification from the marketplace]({{ site.baseurl }}/marketplace/sellers/images/obsolete-cancelled.png)
+![Example delisting notification from the marketplace](../../_images/obsolete-cancelled.png)
 
 See the following example notification for delisting an obsolete extension:
 
-![Example delisting notification from the marketplace]({{ site.baseurl }}/marketplace/sellers/images/obsolete-delisted.png)
+![Example delisting notification from the marketplace](../../_images/obsolete-delisted.png)

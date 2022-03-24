@@ -1,7 +1,8 @@
 ---
-group: marketplace-sellers
-title: Technical Review Guidelines
+title: Technical review guidelines
 ---
+
+# Technical review guidelines
 
 During technical review, your code is examined to detect the presence of viruses, malware, and any indication of plagiarism. The process also ensures that the package meets Composer packaging and format requirements and Magento coding standards.
 
@@ -9,10 +10,10 @@ During technical review, your code is examined to detect the presence of viruses
 
 The technical review begins as soon as you upload an extension package at [Developer Portal](https://developer.magento.com/) and consists of two mandatory steps to generate the submission id and trigger further extension testing:
 
-1. [Malware Scan]({{ site.baseurl }}/marketplace/sellers/malware-scan.html) &mdash; Ensures that uploaded packages do not contain viruses or malware software.
+1. [Malware Scan](../malware-scan/) &mdash; Ensures that uploaded packages do not contain viruses or malware software.
 1. Extension Package Verification &mdash; Checks that the uploaded file is a zip archive which is a [Composer](https://getcomposer.org/) package with extension.
 
-### Extension Package Verification
+### Extension package verification
 
 Package submissions must contain a Magento module, theme, language pack, or metapackage that meets Composer packaging and format requirements:
 
@@ -38,7 +39,7 @@ Package submissions must contain a Magento module, theme, language pack, or meta
    -  `magento/magento2-ee-base`
    -  `magento/product-enterprise-edition`
 
-1. The package does not use `*` as a version restriction for Magento packages (packages with `magento` vendor). You must specify version restriction according to the [recommendations]({{ site.baseurl }}{{ site.gdeurl }}/extension-dev-guide/versioning/dependencies.html#determine-module-dependency) in the _Magento PHP Developer Guide_.
+1. The package does not use `*` as a version restriction for Magento packages (packages with `magento` vendor). You must specify version restriction according to the [recommendations](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/versioning/dependencies.html#determine-module-dependency) in the _Magento PHP Developer Guide_.
 
 1. [Require inline aliases](https://getcomposer.org/doc/articles/aliases.md#require-inline-alias) are not used in the `composer.json` file.
 
@@ -51,10 +52,10 @@ Additional requirements for package declarations are applied based on the packag
 
 _See also:_
 
--  [PHP Developer Guide]({{ site.baseurl }}{{ site.gdeurl }}/extension-dev-guide/bk-extension-dev-guide.html)
--  [How to Package Magento Extensions]({{ site.baseurl }}{{ site.gdeurl }}/extension-dev-guide/package/package_module.html)
+-  [PHP Developer Guide](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/bk-extension-dev-guide.html)
+-  [How to Package Magento Extensions](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/package/package_module.html)
 
-## Extension Validation and QA
+## Extension validation and QA
 
 After accepting a package for Technical Review, a series of automated checks and manual checks are scheduled.
 
@@ -62,50 +63,50 @@ After accepting a package for Technical Review, a series of automated checks and
 
 The Marketplace coding standard review uses a custom set of coding sniffs. If the submitted code fails the review, Magento generates a technical report that describes each issue found and its location in the codebase.
 
-_More details:_ [Code Sniffer]({{ site.baseurl }}/marketplace/sellers/code-sniffer.html)
+_More details:_ [Code Sniffer](../code-sniffer/)
 
-_See also:_ [Coding Standards]({{ site.baseurl }}{{ site.gdeurl }}/coding-standards/bk-coding-standards.html)
+_See also:_ [Coding Standards](https://devdocs.magento.com/guides/v2.4/coding-standards/bk-coding-standards.html)
 
 ### Copy Paste Detector: Check for plagiarism
 
 All code and marketing content that is submitted to Commerce Marketplace is checked for plagiarism to ensure that it has not been copied from existing Marketplace extensions or from the Magento codebase.
 
-If the extension contains source code from the Open Source Edition, the extension must be licensed under [Open Source License v. 3.0][3] and properly credit Adobe, Inc.
+If the extension contains source code from the Open Source Edition, the extension must be licensed under [Open Source License v. 3.0](https://opensource.org/licenses/OSL-3.0) and properly credit Adobe, Inc.
 
-_More details:_ [Copy Paste Detector]({{ site.baseurl }}/marketplace/sellers/copy-paste-detector.html)
+_More details:_ [Copy Paste Detector](../copy-paste-detector/)
 
-_See also:_ [OSL 3.0: A Better License for Open Source Software][4]
+_See also:_ [OSL 3.0: A Better License for Open Source Software](http://rosenlaw.com/OSL3.0-explained.htm)
 
-### Installation and Varnish Tests: Verify that product installs and caching works correctly
+### Installation and Varnish tests: Verify that product installs and caching works correctly
 
-Extensions for Magento are installed with Varnish Cache enabled for each supported version of PHP and switched from development to [production mode]({{ site.baseurl }}{{ site.gdeurl }}/config-guide/cli/config-cli-subcommands-mode.html). If you have shared packages and dependencies required for your extension, the Installation test also tests Magento installation and usage with those packages included.
+Extensions for Magento are installed with Varnish Cache enabled for each supported version of PHP and switched from development to [production mode](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html). If you have shared packages and dependencies required for your extension, the Installation test also tests Magento installation and usage with those packages included.
 
 In addition, cacheable pages are accessed to ensure that they are served directly from Varnish Cache. You will be notified if your extension fails the test.
 
-_More details:_ [Installation and Varnish Tests]({{ site.baseurl }}/marketplace/sellers/installation-and-varnish-tests.html)
+_More details:_ [Installation and Varnish Tests](../installation-and-varnish-tests/)
 
 _See also:_
 
--  [Configure and Use Varnish]({{ site.baseurl }}{{ site.gdeurl }}/config-guide/varnish/config-varnish.html)
--  [Magento System Requirements]({{ site.baseurl }}{{ site.gdeurl }}/install-gde/system-requirements.html)
+-  [Configure and use Varnish](https://devdocs.magento.com/guides/v2.4/config-guide/varnish/config-varnish.html)
+-  [System requirements](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html)
 
-### MFTF Magento-supplied Tests
+### MFTF Commerce-supplied tests
 
-Extensions for Magento are tested with the Magento Functional Testing Framework with a set of tests from the Magento codebase. The tests are executed for each supported version of PHP.
+Extensions are tested with the Magento Functional Testing Framework with a set of tests from the Commerce codebase. The tests are executed for each supported version of PHP.
 
-_More_details:_ [MFTF Magento-supplied Tests]({{ site.baseurl }}/marketplace/sellers/mftf-magento.html)
+_More_details:_ [MFTF Commerce-supplied Tests](../mftf-magento/)
 
-### MFTF Vendor-supplied Tests
+### MFTF Vendor-supplied tests
 
 The MFTF will execute any MFTF tests that are included in the extension submission. The tests are executed for each supported version of PHP. The MFTF tests and associated code from the supported Magento version are available to the vendor-supplied tests.
 
-_More_details:_ [MFTF Vendor-supplied Tests]({{ site.baseurl }}/marketplace/sellers/mftf-vendor.html)
+_More_details:_ [MFTF Vendor-supplied Tests](../mftf-vendor/)
 
-### Quality Assurance: Pass Manual QA
+### Quality Assurance: Pass manual QA
 
 This check verifies that the extension installs without error, is configurable (as applicable), and operates as expected.
 
-Manual QA can be skipped if the [Semantic Version Check]({{ site.baseurl }}/marketplace/sellers/semantic-version-check.html) confirms that only patch-level changes were introduced in a new version of an already listed extension.
+Manual QA can be skipped if the [Semantic Version Check](../semantic-version-check/) confirms that only patch-level changes were introduced in a new version of an already listed extension.
 
 #### Documentation and resources
 
@@ -127,7 +128,7 @@ _See also:_ [Polishing your Marketplace submission: 7 tips from the Marketplace 
 To pass Manual QA, the extension must meet the following requirements:
 
 1. Installs with Composer.
-1. Compiles without errors using the following command: [`deploy:mode:set production`]({{ site.baseurl }}/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html#change-to-production-mode)
+1. Compiles without errors using the following command: [`deploy:mode:set production`](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html#change-to-production-mode)
 1. Extension has all supporting documentation that complies with the [documentation requirements](#documentation-and-resources)
 1. Works with each version of Magento that the extension claims to support in the extension product profile.
 
@@ -153,8 +154,8 @@ To pass Manual QA, the extension must meet the following requirements:
 
 _See also:_
 
--  [Install an Extension via Composer]({{ site.baseurl }}/cloud/howtos/install-components.html#install-an-extension)
--  [General CLI installation]({{ site.baseurl }}/extensions/install/)
+-  [Install an Extension via Composer](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension)
+-  [General CLI installation](https://devdocs.magento.com/extensions/install/)
 
 #### Additional checks for Page Builder extensions
 
@@ -169,6 +170,3 @@ Extensions that claim to support Magento Page Builder are subject to the followi
 1. At least one major issue found in Magento functionality which was affected by an installed extension.
 1. Blocking issue found that affects entire extension functionality.
 1. For big extensions, where functionality is not concentrated in one particular area we can switch to the unaffected area and continue to test it in order to provide more errors to the developer. At the same time, we can stop testing once we have found 2 blockers in separate areas of an extension.
-
-[3]: https://opensource.org/licenses/OSL-3.0
-[4]: http://rosenlaw.com/OSL3.0-explained.htm

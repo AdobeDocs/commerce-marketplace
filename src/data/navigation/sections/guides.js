@@ -44,7 +44,7 @@ module.exports = [
         path: "/guides/sellers/seller-overview/",
       },
       {
-        title: "Your seller account",
+        title: "Set up your account",
         path: "/guides/sellers/account-setup/",
       },
       {
