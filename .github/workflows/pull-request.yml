@@ -27,5 +27,5 @@ jobs:
         run: npm run lint
       
       - name: Build site
-        if: success() && steps.LintMarkdownFiles.outcome == 'success'
+        if: ${{ success() }}
         run: npm run build
