@@ -1,6 +1,6 @@
 ---
 title: Commerce Marketplace
-description: Learn about resources avaialble to Commerce Marketplace developers.
+description: Learn about technical resources available for Commerce Marketplace developers.
 ---
 
 <Hero slots="heading, text"/>
