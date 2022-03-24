@@ -67,7 +67,7 @@ Extension documentation should fulfill the following guidelines:
 
 ## Pricing: Provide clear pricing information
 
-The price of your extension is included as part of the marketing information. To learn more, see [pricing information](../submit-for-marketing-review/index.md#pricing-information).
+The price of your extension is included as part of the marketing information. To learn more, see [pricing information](../test/submit-for-marketing-review/index.md#pricing-information).
 
 *  Items listed on the Commerce Marketplace can be offered for free or sold as commercial products.
 *  The price of items offered for sale on the Commerce Marketplace can range anywhere from $25.00 to $999,999.00, and must reflect fair market value.
