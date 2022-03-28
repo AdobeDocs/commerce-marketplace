@@ -6,7 +6,7 @@ title: Register as a developer
 
 Follow these steps to create a new developer account, or to register as a developer with your existing Magento account.
 
-![](../../sellers/_images/developer-portal-landing-page.png)
+![](../sellers/_images/developer-portal-landing-page.png)
 
 ## Step 1: Create a developer account
 
@@ -14,9 +14,9 @@ Follow these steps to create a new developer account, or to register as a develo
 
    If you don’t yet have a Magento account, do one of the following:
 
-   -  Go to the [Developer Portal](https://developer.magento.com/) page, and click **Create  Account**. Then, click **Register**.
-   -  In the upper-right corner of [Commerce Marketplace](https://marketplace.magento.com/), click **Sign In**. Then, click **Register**.
-   -  From [magento.com](https://magento.com/), click **My Account**. Then under **New Customers**, click **Register**.
+   -  Go to the [Developer Portal](https://developer.magento.com.md) page, and click **Create  Account**. Then, click **Register**.
+   -  In the upper-right corner of [Commerce Marketplace](https://marketplace.magento.com.md), click **Sign In**. Then, click **Register**.
+   -  From [magento.com](https://magento.com.md), click **My Account**. Then under **New Customers**, click **Register**.
 
    If you already have an account, log in as a registered user.
 
@@ -45,7 +45,7 @@ For your reference, you can also find these documents on [magento.com](https://m
 
 If you agree with the terms of use, select the checkbox and click **I Agree**.
 
-![](../../sellers/_images/terms-of-service.png)
+![](../sellers/_images/terms-of-service.png)
 
 ## Step 3: Select the type of account
 
@@ -53,7 +53,7 @@ Your Commerce Marketplace developer account can be set up as an individual or co
 
 When prompted, select the type of account you want to create, and click **Choose**. Then, follow the appropriate instructions to complete the profile for the account.
 
--  [Business Account](../profile-company/)
--  [Individual Account](../profile-personal/)
+-  [Business Account](profile-company.md)
+-  [Individual Account](profile-personal.md)
 
-![](../../sellers/_images/account-type-business.png)
+![](../sellers/_images/account-type-business.png)

@@ -8,10 +8,10 @@ During technical review, your code is examined to detect the presence of viruses
 
 ## Submission
 
-The technical review begins as soon as you upload an extension package at [Developer Portal](https://developer.magento.com/) and consists of two mandatory steps to generate the submission id and trigger further extension testing:
+The technical review begins as soon as you upload an extension package at [Developer Portal](https://developer.magento.com.md) and consists of two mandatory steps to generate the submission id and trigger further extension testing:
 
-1. [Malware Scan](../malware-scan/) &mdash; Ensures that uploaded packages do not contain viruses or malware software.
-1. Extension Package Verification &mdash; Checks that the uploaded file is a zip archive which is a [Composer](https://getcomposer.org/) package with extension.
+1. [Malware Scan](malware-scan.md) &mdash; Ensures that uploaded packages do not contain viruses or malware software.
+1. Extension Package Verification &mdash; Checks that the uploaded file is a zip archive which is a [Composer](https://getcomposer.org.md) package with extension.
 
 ### Extension package verification
 
@@ -63,7 +63,7 @@ After accepting a package for Technical Review, a series of automated checks and
 
 The Marketplace coding standard review uses a custom set of coding sniffs. If the submitted code fails the review, Magento generates a technical report that describes each issue found and its location in the codebase.
 
-_More details:_ [Code Sniffer](../code-sniffer/)
+_More details:_ [Code Sniffer](code-sniffer.md)
 
 _See also:_ [Coding Standards](https://devdocs.magento.com/guides/v2.4/coding-standards/bk-coding-standards.html)
 
@@ -73,7 +73,7 @@ All code and marketing content that is submitted to Commerce Marketplace is chec
 
 If the extension contains source code from the Open Source Edition, the extension must be licensed under [Open Source License v. 3.0](https://opensource.org/licenses/OSL-3.0) and properly credit Adobe, Inc.
 
-_More details:_ [Copy Paste Detector](../copy-paste-detector/)
+_More details:_ [Copy Paste Detector](copy-paste-detector.md)
 
 _See also:_ [OSL 3.0: A Better License for Open Source Software](http://rosenlaw.com/OSL3.0-explained.htm)
 
@@ -83,7 +83,7 @@ Extensions for Magento are installed with Varnish Cache enabled for each support
 
 In addition, cacheable pages are accessed to ensure that they are served directly from Varnish Cache. You will be notified if your extension fails the test.
 
-_More details:_ [Installation and Varnish Tests](../installation-and-varnish-tests/)
+_More details:_ [Installation and Varnish Tests](installation-and-varnish-tests.md)
 
 _See also:_
 
@@ -94,19 +94,19 @@ _See also:_
 
 Extensions are tested with the Magento Functional Testing Framework with a set of tests from the Commerce codebase. The tests are executed for each supported version of PHP.
 
-_More_details:_ [MFTF Commerce-supplied Tests](../mftf-magento/)
+_More_details:_ [MFTF Commerce-supplied Tests](mftf-magento.md)
 
 ### MFTF Vendor-supplied tests
 
 The MFTF will execute any MFTF tests that are included in the extension submission. The tests are executed for each supported version of PHP. The MFTF tests and associated code from the supported Magento version are available to the vendor-supplied tests.
 
-_More_details:_ [MFTF Vendor-supplied Tests](../mftf-vendor/)
+_More_details:_ [MFTF Vendor-supplied Tests](mftf-vendor.md)
 
 ### Quality Assurance: Pass manual QA
 
 This check verifies that the extension installs without error, is configurable (as applicable), and operates as expected.
 
-Manual QA can be skipped if the [Semantic Version Check](../semantic-version-check/) confirms that only patch-level changes were introduced in a new version of an already listed extension.
+Manual QA can be skipped if the [Semantic Version Check](semantic-version-check.md) confirms that only patch-level changes were introduced in a new version of an already listed extension.
 
 #### Documentation and resources
 
@@ -155,7 +155,7 @@ To pass Manual QA, the extension must meet the following requirements:
 _See also:_
 
 -  [Install an Extension via Composer](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension)
--  [General CLI installation](https://devdocs.magento.com/extensions/install/)
+-  [General CLI installation](https://devdocs.magento.com/extensions/install.md)
 
 #### Additional checks for Page Builder extensions
 

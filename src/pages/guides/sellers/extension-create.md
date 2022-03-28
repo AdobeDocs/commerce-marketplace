@@ -11,7 +11,7 @@ Before you can submit your extension to Commerce Marketplace, the code must be c
 -  [Magento Web APIs](https://devdocs.magento.com/guides/v2.4/get-started/bk-get-started-api.html)
 -  [Frontend Developer Guide](https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/bk-frontend-dev-guide.html)
 
-![](../../sellers/_images/extension-prep.png)
+![](_images/extension-prep.png)
 
 <InlineAlert variant="info" slots="text"/>
 
@@ -19,7 +19,7 @@ Commerce Marketplace does not support encrypted extensions at this time.
 
 ## Build your extension
 
-1. Before submitting your extension for Marketplace review, see the [Technical Review Guidelines](../technical-review-guidelines/) and the [Marketing Review Guidelines](../marketing-review-guidelines/).
+1. Before submitting your extension for Marketplace review, see the [Technical Review Guidelines](technical-review-guidelines.md) and the [Marketing Review Guidelines](marketing-review-guidelines.md).
 
 1. Use the [CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) tool to verify that your code meets Marketplace guidelines.
 

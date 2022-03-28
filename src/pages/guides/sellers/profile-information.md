@@ -10,7 +10,7 @@ Your profile tracks and provides all information for your Marketplace Developer 
 
 Your contact information includes your address, phone number, and PayPal email address. As part of the registration process, you must enter a valid PayPal email, even if your extensions are available for free on Commerce Marketplace. Magento sends your revenue share payment to your PayPal account.
 
-![Contact information](../_images/account-information.png)
+![Contact information](_images/account-information.png)
 
 ### Account information
 
@@ -51,17 +51,17 @@ For more technical information, see [Get your authentication keys](https://devdo
 
     1. In the Basic Access Key Information dialog, enter an **Access Key Name** (max of 32 characters) to identify the access key. Then, click **Continue**.
 
-    ![Basic access key information](../_images/basic-access-key-information.png)
+    ![Basic access key information](_images/basic-access-key-information.png)
 
     Your new access key appears in the list, and can now be used to authorize downloads of Magento updates, extensions, and themes.
 
-    ![Access key added to account](../_images/access-keys.png)
+    ![Access key added to account](_images/access-keys.png)
 
 ## Marketplace profile
 
 Your Marketplace Profile contains information you entered during account setup, lets you enter social media links, and gives you the option to upgrade your partner status.
 
-![Marketplace profile](../_images/marketplace-profile.png)
+![Marketplace profile](_images/marketplace-profile.png)
 
 ### Account information
 
@@ -79,10 +79,10 @@ Your Marketplace Profile contains information you entered during account setup, 
 
 Marketplace policy requires all providers to submit business information to ensure the efficient processing of transactions and payments. Here you can download the necessary form for your tax status, and click **Email Tax Forms** to open an email in your default email client.
 
-![Tax forms](../_images/tax-forms.png)
+![Tax forms](_images/tax-forms.png)
 
 ## Partner portal
 
 Click **Partner Portal** to open the Magento Partner Portal dashboard.
 
-![Partner portal](../_images/partner-portal.png)
+![Partner portal](_images/partner-portal.png)

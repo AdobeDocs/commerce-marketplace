@@ -18,8 +18,8 @@ If a compatible version is submitted through the Developer Portal and passes EQP
 
 See the following example notification for cancelling an obsolete extension:
 
-![Example delisting notification from the marketplace](../../_images/obsolete-cancelled.png)
+![Example delisting notification from the marketplace](../_images/obsolete-cancelled.png)
 
 See the following example notification for delisting an obsolete extension:
 
-![Example delisting notification from the marketplace](../../_images/obsolete-delisted.png)
+![Example delisting notification from the marketplace](../_images/obsolete-delisted.png)

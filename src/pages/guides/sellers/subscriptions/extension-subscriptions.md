@@ -14,7 +14,7 @@ Extensions sold under subscription license will include basic support into the s
 
 To learn more about buying or selling subscription-licensed extensions, visit:
 
--  [Buying Subscription-based Extensions](../../subscriptions/buying-subscriptions/)
--  [Selling Subscription-based Extensions](../../subscriptions/selling-subscriptions/)
+-  [Buying Subscription-based Extensions](../subscriptions/buying-subscriptions.md)
+-  [Selling Subscription-based Extensions](../subscriptions/selling-subscriptions.md)
 
 Thank you for using the Adobe Commerce Marketplace. For all questions and suggestions regarding extension subscriptions, please contact [Marketplace Support](https://marketplacesupport.magento.com) or find us in the [Community Slack workspace](https://opensource.magento.com/slack).

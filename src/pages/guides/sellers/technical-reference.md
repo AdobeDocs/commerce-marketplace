@@ -23,7 +23,7 @@ title: Technical Reference
 -  [Magento Web APIs](https://devdocs.magento.com/guides/v2.4/get-started/bk-get-started-api.html)
 -  [REST](https://devdocs.magento.com/guides/v2.4/get-started/rest_front.html)
 -  [SOAP](https://devdocs.magento.com/guides/v2.4/get-started/soap/soap-web-api-calls.html)
--  [Marketplace EQP API]({{ site.baseurl }}/marketplace/eqp/v1/api.html)
+-  [Marketplace EQP API](https://devdocs.magento.com/marketplace/eqp/v1/api.html)
 
 ## System
 

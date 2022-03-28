@@ -8,4 +8,4 @@ At any time before you submit your extension for marketing review, you can previ
 
 To preview your marketing information, navigate to the extension status page. Under **Marketing Submission**, click any page and then click **Preview**.
 
-![](../../sellers/_images/marketing-submission-preview.png)
+![](_images/marketing-submission-preview.png)

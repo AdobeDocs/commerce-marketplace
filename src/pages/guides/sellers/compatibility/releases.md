@@ -21,4 +21,4 @@ An exception to this rule is the initial compatibility check in October 2021 whe
 
 See the following example notification:
 
-![Example delisting notification from the marketplace](../../_images/release-delisted.png)
+![Example delisting notification from the marketplace](../_images/release-delisted.png)

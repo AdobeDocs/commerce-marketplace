@@ -51,7 +51,7 @@ The extension icon should fulfill the following guidelines:
 
 ## Long description
 
-For guides and examples of long descriptions, see [product descriptions](../product-descriptions/).
+For guides and examples of long descriptions, see [product descriptions](product-descriptions.md).
 
 ## User guide, reference manual, or installation guide
 
@@ -60,14 +60,14 @@ Extension documentation should fulfill the following guidelines:
 *  Must cover all features of the extension.
 *  Must not direct users to make purchases on sites other than Marketplace.
 *  If an extension title is added into the documentation, it must not include _Magento_. Use _For Magento_ after the title if needed.
-*  Use of the Magento logo is prohibited. To learn more, see our [branding guidelines](../branding/).
+*  Use of the Magento logo is prohibited. To learn more, see our [branding guidelines](branding.md).
    *  Partners can use their Magento partner badge.
 *  At least one piece of uploaded documentation must be in English.
 *  Do not upload duplicates of the documents.
 
 ## Pricing: Provide clear pricing information
 
-The price of your extension is included as part of the marketing information. To learn more, see [pricing information](../submit-for-marketing-review/index.md#pricing-information).
+The price of your extension is included as part of the marketing information. To learn more, see [pricing information](submit-for-marketing-review.md#pricing-information).
 
 *  Items listed on the Commerce Marketplace can be offered for free or sold as commercial products.
 *  The price of items offered for sale on the Commerce Marketplace can range anywhere from $25.00 to $999,999.00, and must reflect fair market value.
@@ -78,7 +78,7 @@ The price of your extension is included as part of the marketing information. To
 
 ## Content: Complete the product profile
 
-The content that accompanies your extension listing is derived from the [marketing information](../submit-for-marketing-review/) you entered for the extension or theme, and information in your [company profile](../profile-company/). To learn more, see [extension content](../content/).
+The content that accompanies your extension listing is derived from the [marketing information](submit-for-marketing-review.md) you entered for the extension or theme, and information in your [company profile](profile-company.md). To learn more, see [extension content](content.md).
 
 *  All content that is associated with a Commerce Marketplace listing must be free of offensive or discriminatory language, sexual content, or nudity.
 *  The promotion of additional services or other extensions from your extension profile page is not allowed.
@@ -87,4 +87,4 @@ The content that accompanies your extension listing is derived from the [marketi
 
 ## Branding: Use Magento name and logo correctly
 
-The Magento name and its related logos are trademarks owned by Adobe. Your extension and listing must not violate the trademarks and copyrights of Magento, Adobe, or those of any other party. To learn more, see [branding](../branding/).
+The Magento name and its related logos are trademarks owned by Adobe. Your extension and listing must not violate the trademarks and copyrights of Magento, Adobe, or those of any other party. To learn more, see [branding](branding.md).

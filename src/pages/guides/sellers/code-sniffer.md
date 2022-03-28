@@ -4,7 +4,7 @@ title: Code sniffer
 
 # Code sniffer
 
-Code sniffer is a static test that uses static code analysis to detect violations of the [Magento Coding Standard](https://github.com/magento/magento-coding-standard/) to prevent common coding errors.
+Code sniffer is a static test that uses static code analysis to detect violations of the [Magento Coding Standard](https://github.com/magento/magento-coding-standard.md) to prevent common coding errors.
 
 Limited information is displayed in the Quality Report section of the product listing page on the Commerce Marketplace, including the number of errors, warnings, and the coding standards version that was used.
 
@@ -17,19 +17,19 @@ Magento projects typically use source code from several vendors. By adopting the
 
 ## When testing is done
 
-Code sniffer is mandatory for extensions of any type. When you submit an extension, Magento uses code sniffer to analyze the entire code base regardless of the scope of changes. Only extensions that have passed code sniffer testing can be listed in the [Commerce Marketplace](https://marketplace.magento.com/).
+Code sniffer is mandatory for extensions of any type. When you submit an extension, Magento uses code sniffer to analyze the entire code base regardless of the scope of changes. Only extensions that have passed code sniffer testing can be listed in the [Commerce Marketplace](https://marketplace.magento.com.md).
 
 ## What is being checked
 
-Code sniffer validates that the implementation of the submitted extension adheres to the [Magento Coding Standard](https://github.com/magento/magento-coding-standard/).
+Code sniffer validates that the implementation of the submitted extension adheres to the [Magento Coding Standard](https://github.com/magento/magento-coding-standard.md).
 
 ## Tools and environments used
 
-The Magento EQP code sniffer is based on the [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and uses [Magento Coding Standard](https://github.com/magento/magento-coding-standard/) as a ruleset.
+The Magento EQP code sniffer is based on the [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and uses [Magento Coding Standard](https://github.com/magento/magento-coding-standard.md) as a ruleset.
 
 You can complete code sniffer testing in a development environment by using Composer to install PHPCS and the Magento Coding Standard as a global dependency for a particular project.
 
-You can test an extension to detect violations of the [Magento Coding Standard](https://github.com/magento/magento-coding-standard/) using the following [PHPCS CLI command](https://github.com/squizlabs/PHP_CodeSniffer/blob/master/bin/phpcs):
+You can test an extension to detect violations of the [Magento Coding Standard](https://github.com/magento/magento-coding-standard.md) using the following [PHPCS CLI command](https://github.com/squizlabs/PHP_CodeSniffer/blob/master/bin/phpcs):
 
 ```bash
 phpcs --standard=Magento2 --extensions=php,phtml --error-severity=10 --ignore-annotations --report=json --report-file=report.json <path-to-extension>
@@ -58,8 +58,8 @@ Only violations of type "Error" (severity >= 10) prevent a submitted extension f
 
 ## Troubleshooting
 
-As a best practice, we recommend that developers include [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer) and the [Magento Coding Standard](https://github.com/magento/magento-coding-standard/) in their development workflow and CI/CD infrastructure to verify that code complies with the coding standards before submitting to the Commerce Marketplace.
+As a best practice, we recommend that developers include [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer) and the [Magento Coding Standard](https://github.com/magento/magento-coding-standard.md) in their development workflow and CI/CD infrastructure to verify that code complies with the coding standards before submitting to the Commerce Marketplace.
 
-The [Magento Coding Standard](https://github.com/magento/magento-coding-standard/) is an open source project. You can report issues or submit pull requests with enhancements directly on GitHub.
+The [Magento Coding Standard](https://github.com/magento/magento-coding-standard.md) is an open source project. You can report issues or submit pull requests with enhancements directly on GitHub.
 
 We welcome feedback and discussion on the [Magento Community Engineering Slack](https://magentocommeng.slack.com/archives/C7SL5CGDN) #marketplace channel.

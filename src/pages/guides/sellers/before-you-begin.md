@@ -8,18 +8,18 @@ Before you begin the extension submission process, you need to have the followin
 
 ## Technical items
 
--  The [extension code package](../technical-review-guidelines/)
--  A [user guide, reference manual, or installation guide](../content/) (at least one is required)
--  [Release notes](../submit-for-technical-review/)
--  [License information](../submit-for-technical-review/) (license type or custom license name and link)
--  [Magento version compatibility](../extension-version/)
--  [Extension version number](../extension-version/)
+-  The [extension code package](technical-review-guidelines.md)
+-  A [user guide, reference manual, or installation guide](content.md) (at least one is required)
+-  [Release notes](submit-for-technical-review.md)
+-  [License information](submit-for-technical-review.md) (license type or custom license name and link)
+-  [Magento version compatibility](extension-version.md)
+-  [Extension version number](extension-version.md)
 
 ## Marketing items
 
--  A [product icon](../submit-for-marketing-review/)
--  A [short description](../content/) of your extension
--  A [detailed description](../content/) of your extension
--  [Video links](../submit-for-marketing-review/)
--  [Magento version compatibility](../submit-for-marketing-review/) information
--  [Pricing information](../submit-for-marketing-review/) for your extension
+-  A [product icon](submit-for-marketing-review.md)
+-  A [short description](content.md) of your extension
+-  A [detailed description](content.md) of your extension
+-  [Video links](submit-for-marketing-review.md)
+-  [Magento version compatibility](submit-for-marketing-review.md) information
+-  [Pricing information](submit-for-marketing-review.md) for your extension

@@ -8,9 +8,9 @@ When you have completed the code, you can submit your extension for marketing re
 
 Your extension is placed in a queue as soon as it is submitted. You will receive confirmation by email, and can track the status of your submission from your Marketplace account.
 
-![](../../sellers/_images/market-content.png)
+![](_images/market-content.png)
 
-During marketing review, your submission is examined to ensure that it meets Marketplace requirements for presentation, content, and branding. Before granting approval, we read, review, and determine the quality of the marketing content for your extension according to our [marketing guidelines](../marketing-review-guidelines/).
+During marketing review, your submission is examined to ensure that it meets Marketplace requirements for presentation, content, and branding. Before granting approval, we read, review, and determine the quality of the marketing content for your extension according to our [marketing guidelines](marketing-review-guidelines.md).
 
 ## Prepare for marketing review
 
@@ -34,7 +34,7 @@ Before submitting an extension or theme for marketing review, conduct your own i
 
     As you complete sections, a checkmark displays tracking progress. If you updated or submitted content for the **Technical Submission**, the list displays checkmarks for that submitted content.
 
-    ![](../../sellers/_images/marketing-submission-list.png)
+    ![](_images/marketing-submission-list.png)
 
 1. Complete each section and submit for review when it is complete.
 
@@ -46,21 +46,21 @@ Before submitting an extension or theme for marketing review, conduct your own i
 
 1. Under **Marketing Submission**, click **Extension Description**.
 
-    The **Extension name** and **Short Description** are pulled in from the basic [extension information](../extension-information/). You can edit this information. Maximum characters for Short Description: 239
+    The **Extension name** and **Short Description** are pulled in from the basic [extension information](extension-information.md). You can edit this information. Maximum characters for Short Description: 239
 
-    ![](../../sellers/_images/marketing-description1.png)
+    ![](_images/marketing-description1.png)
 
 1. Enter a **Detailed Description** about your extension, including features and functionality.
 
     Use formatting buttons and options to highlight information, features, and more. Maximum characters: 25,989
 
-    ![](../../sellers/_images/marketing-description2.png)
+    ![](_images/marketing-description2.png)
 
 1. For the **Extension Category**, select the **Main Category** for your extension and up to three **Subcategories**.
 
     These settings determine how your extension is listed on Marketplace.
 
-    ![](../../sellers/_images/marketing-description3.png)
+    ![](_images/marketing-description3.png)
 
 ### Images and videos
 
@@ -70,29 +70,29 @@ You must provide a thumbnail and at least two high-quality images for the image 
 
 1. (Required) For **Extension Icon**, click **Upload Icon** to upload an icon file to assign to your extension.
 
-    ![](../../sellers/_images/marketing-images1.png)
+    ![](_images/marketing-images1.png)
 
 1. (Required) For **Extension Images**, click **Upload Gallery Image**.
 
-   Your extension must have at least two gallery images. For more information about using images, see [Image Tips](../image-tips/).
+   Your extension must have at least two gallery images. For more information about using images, see [Image Tips](image-tips.md).
 
-    ![](../../sellers/_images/marketing-images2.png)
+    ![](_images/marketing-images2.png)
 
 1. (Optional) Under **Video Links**, paste the URLs of any YouTube videos to include with your extension.
 
-    For more information about using videos, see [Video Tips](../video-tips/).
+    For more information about using videos, see [Video Tips](video-tips.md).
 
-    ![](../../sellers/_images/marketing-images3.png)
+    ![](_images/marketing-images3.png)
 
 ### Compatibility information
 
 1. Under **Marketing Submission**, click **Compatibility**.
 
-    The information displayed here is pulled from what you entered in the basic [extension information](../extension-information/) or technical submission. To modify the version compatibility, see [Submit for Technical Review](../submit-for-technical-review/).
+    The information displayed here is pulled from what you entered in the basic [extension information](extension-information.md) or technical submission. To modify the version compatibility, see [Submit for Technical Review](submit-for-technical-review.md).
 
 1. For **Browser Selection**, select the checkboxes for browsers compatible with your extension.
 
-    ![](../../sellers/_images/marketing-compatibility.png)
+    ![](_images/marketing-compatibility.png)
 
 ### Pricing information
 
@@ -100,11 +100,11 @@ You must provide a thumbnail and at least two high-quality images for the image 
 
 1. For **Magento \[Version\] Price**, enter the price for each edition supported in U. S. currency. If the extension will be available for free, leave the default price of zero.
 
-    ![](../../sellers/_images/marketing-pricing1.png)
+    ![](_images/marketing-pricing1.png)
 
 1. If you offer installation services, select the **Yes, I want to sell installation...** checkbox and enter an **Installation Price**.
 
-    ![](../../sellers/_images/marketing-submission-pricing.png)
+    ![](_images/marketing-submission-pricing.png)
 
 ### Extension support (optional)
 
@@ -120,7 +120,7 @@ Customers are advised to contact you directly for support, using the information
 
 1. To add an additional tier, click **Add Support Tier**. You can offer up to three pricing tiers for your support services.
 
-    ![](../../sellers/_images/marketing-submission-support.png)
+    ![](_images/marketing-submission-support.png)
 
 ### Additional details
 
@@ -141,24 +141,24 @@ Customers are advised to contact you directly for support, using the information
     -  Test coverage supported
     -  Responsive design supported
 
-    ![](../../sellers/_images/marketing-submission-additional-details.png)
+    ![](_images/marketing-submission-additional-details.png)
 
 ### Documentation and resources
 
 <InlineAlert variant="info" slots="text"/>
 
-While you can add documentation PDF files during this review, the content is tested during the [technical review](../submit-for-technical-review/).
+While you can add documentation PDF files during this review, the content is tested during the [technical review](submit-for-technical-review.md).
 
 1. On the extension status page, on the left side, under **Marketing Submission**, click **Documentation and Resources**.
 
 1. If you did not upload documentation during the technical submission process, you can upload it here. Click the relevant button and navigate to the file you want to upload. Extension submissions require at least one supporting document.
 
-    ![](../../sellers/_images/marketing-submission-documentation.png)
+    ![](_images/marketing-submission-documentation.png)
 
 ## What happens next?
 
-If you have not submitted the [technical review](../submit-for-technical-review/), complete those steps to submission.
+If you have not submitted the [technical review](submit-for-technical-review.md), complete those steps to submission.
 
-Watch your email for feedback and updates for the Marketing Review.
+Watch your email for feedback and updates for the marketing review.
 
 If issues, errors, or changes are required, you will receive an email failure notification. The submission will be in a failed state. When those issues are resolved, re-submit the extension for review.
