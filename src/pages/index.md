@@ -18,7 +18,7 @@ Get the tools and information that you need to build, deliver, and sell high-qua
 
 ## Overview
 
-This documentation provides instructions for Commerce Marketplace developers working with the [Developer Portal](https://developer.magento.com/) and [Extension Quality Program (EQP) API](https://devdocs.magento.com/marketplace/eqp/v1/api.html).
+This documentation provides instructions for Commerce Marketplace developers working with the [Developer Portal](https://developer.magento.com/) and [Extension Quality Program (EQP) API](guides/eqp/v1/).
 
 The Commerce Marketplace EQP API provides access to the Developer Portal so that you can programmatically update your extension, manage your company profile, and access sales reports and analytics.
 
@@ -34,7 +34,7 @@ Learn how to set up your developer account and become a seller on the Commerce M
 
 <DiscoverBlock slots="link, text"/>
 
-[EQP API](https://devdocs.magento.com/marketplace/eqp/v1/api.html)
+[EQP API](guides/eqp/v1/)
 
 Provides programmatic access to the Commerce Developer Portal.
 

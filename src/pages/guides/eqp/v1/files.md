@@ -163,12 +163,14 @@ Recognized Content-Types
 |zip|application/x-zip-compressed|package|
 |zip|application/octet-stream|package|
 
-**Request:**
-
 If the request body given above was saved into a temporary file at `/tmp/files-payload`,
 you may use it in your POST request to upload the files:
 
-```bash
+<CodeBlock slots="heading, code" repeat="2" languages="CURL, JSON" />
+
+#### Request
+
+```curl
 curl -X POST \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      -H "Content-Type: multipart/form-data; boundary=UNIQUE_BOUNDARY_TOKEN" \
@@ -176,9 +178,7 @@ curl -X POST \
      https://developer-stg-api.magento.com/rest/v1/files/uploads
 ```
 
-**Response:**
-
-The above request gives an output similar to:
+#### Response
 
 ```json
 [

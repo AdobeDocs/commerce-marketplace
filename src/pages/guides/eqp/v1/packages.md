@@ -691,9 +691,11 @@ single submissions must be sent as an array containing one item.
 If you save the request body to a file, for example, `/tmp/one-click-submission-1.0.0.json`,
 the following example shows the package submission process:
 
-**Request:**
+<CodeBlock slots="heading, code" repeat="2" languages="CURL, JSON" />
 
-```bash
+#### Request
+
+```curl
 curl -X POST \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      -H 'Content-Type: application/json' \
@@ -701,7 +703,7 @@ curl -X POST \
      https://developer-stg-api.magento.com/rest/v1/products/packages
 ```
 
-**Response:**
+#### Response
 
 ```json
 [
@@ -839,15 +841,17 @@ GET /rest/v1/products/packages/items
 
 This sample call lists all packages belonging to a user:
 
-**Request:**
+<CodeBlock slots="heading, code" repeat="2" languages="CURL, JSON" />
 
-```bash
+#### Request
+
+```curl
 curl -X GET \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      https://developer-stg-api.magento.com/rest/v1/products/packages
 ```
 
-**Response:**
+#### Response
 
 ```json
 [
@@ -1046,6 +1050,6 @@ curl -X GET \
      https://developer-stg-api.magento.com/rest/v1/products/packages?type=theme&sort=+platform,-created_at
 ```
 
-**Response:**
+#### Response
 
 A list of theme packages can be returned in the same way as described in [Get package details](#get-package-details).

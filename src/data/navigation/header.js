@@ -9,6 +9,6 @@ module.exports = [
     },
     {
       title: "API Reference",
-      path: "https://devdocs.magento.com/marketplace/eqp/v1/api.html"
+      path: "/guides/eqp/v1/"
     },
   ];

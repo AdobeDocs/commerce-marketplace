@@ -61,11 +61,13 @@ Field details:
 |`grant_type`|string|yes| The API only supports the `session` grant type; other values will give an error.|
 |`expires_in`|int|no| Specifies the number of seconds that the session token will be valid. If the requested time exceeds the system's maximum allowed, the system's maximum limit will be used instead. |
 
-**Request:**
+The following example shows a request to the sandbox, using the application ID and secret from above. A successful HTTP 200 OK response will be sent for a valid application ID and secret.
 
-The following example shows a request to the sandbox, using the application ID and secret from above:
+<CodeBlock slots="heading, code" repeat="2" languages="CURL, JSON" />
 
-```bash
+#### Request
+
+```curl
 curl -X POST \
      -u 'AQ17NZ49WC:8820c99614d65f923df7660276f20e029d73e2ca' \
      -H 'Content-Type: application/json' \
@@ -73,9 +75,7 @@ curl -X POST \
      https://developer-stg-api.magento.com/rest/v1/app/session/token
 ```
 
-**Response:**
-
-A successful HTTP 200 OK response will be sent for a valid application ID and secret:
+#### Response
 
 ```json
 {
