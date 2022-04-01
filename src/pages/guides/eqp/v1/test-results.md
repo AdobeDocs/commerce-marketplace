@@ -21,7 +21,7 @@ Use this request to get a summary report of the review process:
 
 <CodeBlock slots="heading, code" repeat="2" languages="CURL, JSON" />
 
-#### Request
+## Request
 
 ```curl
 curl -X GET \
@@ -29,7 +29,7 @@ curl -X GET \
      https://developer-stg-api.magento.com/rest/v1/products/packages/f4eacd72be/status
 ```
 
-#### Response
+## Response
 
 ```json
 [
@@ -66,7 +66,7 @@ Additional details for each review can be found using the status API with the to
 
 <CodeBlock slots="heading, code" repeat="2" languages="CURL, JSON" />
 
-#### Request
+## Request
 
 ```curl
 curl -X GET \
@@ -74,7 +74,7 @@ curl -X GET \
      https://developer-stg-api.magento.com/rest/v1/f4eacd72be/status/marketing/6
 ```
 
-#### Response
+## Response
 
 ```json
 {

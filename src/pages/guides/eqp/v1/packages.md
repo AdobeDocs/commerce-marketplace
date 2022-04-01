@@ -844,7 +844,7 @@ This sample call lists all packages belonging to a user:
 
 <CodeBlock slots="heading, code" repeat="2" languages="CURL, JSON" />
 
-#### Request
+### Request
 
 ```curl
 curl -X GET \
@@ -852,7 +852,7 @@ curl -X GET \
      https://developer-stg-api.magento.com/rest/v1/products/packages
 ```
 
-#### Response
+### Response
 
 ```json
 [
