@@ -99,7 +99,7 @@ Field details:
 -  Once the session token expires, a new token must be obtained as described above.
 -  Session tokens are specific to each environment.  Session tokens generated for the **sandbox** cannot be used for **production**, and vice-versa.
 
-## How to use a session token {#token-use}
+## How to use a session token
 
 After obtaining a valid session token, you must use it as an **authorization bearer token** in all subsequent API calls.
 Using the example values from above, run the following command to access your user profile with a session token:

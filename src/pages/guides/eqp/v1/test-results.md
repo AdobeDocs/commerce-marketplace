@@ -193,11 +193,11 @@ curl -X GET \
 }
 ```
 
-### Copy/Paste Detector (PHPCPD) {#cpd}
+### Copy-Paste Detector
 
 <InlineAlert variant="info" slots="text"/>
 
-CPD reports cannot be directly requested. Only the summary data is available through the API.
+Copy-Paste Detector (PHPCPD) reports cannot be directly requested. Only the summary data is available through the API.
 
 ### Varnish
 

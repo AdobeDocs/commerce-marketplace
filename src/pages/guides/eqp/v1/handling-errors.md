@@ -20,7 +20,7 @@ All HTTP 4xx errors contain a JSON payload with the following structure:
 
 ## Batch processing
 
-Unless there was a complete failure in processing a [batch request](rest-api.md#batch), a **batch response** always returns an overall HTTP 200 response code.  However, each item in the batch array contains a `code` and `message` pair indicating its specific pass/fail result.
+Unless there was a complete failure in processing a [batch request](rest-api.md#batch-processing), a **batch response** always returns an overall HTTP 200 response code.  However, each item in the batch array contains a `code` and `message` pair indicating its specific pass/fail result.
 
 -  a `code` of 200 indicates successful processing of the item
 -  a non-200 `code` indicates an error occurred while attempting to process the item

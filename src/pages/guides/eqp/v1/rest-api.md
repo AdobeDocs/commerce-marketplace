@@ -60,7 +60,7 @@ All endpoints start with **/rest/v1**, which supports versioning. The initial re
 
 All timestamps are in UTC ([universal time coordinated](https://en.wikipedia.org/wiki/Coordinated_Universal_Time)).
 
-## Batch processing {#batch}
+## Batch processing
 
 Some endpoints can handle a **batch request**, such as the following:
 

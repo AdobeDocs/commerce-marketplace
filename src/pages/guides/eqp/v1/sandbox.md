@@ -22,7 +22,7 @@ You can run CI/CD (continuous integration/continuous delivery) simulations on th
 The following list highlights some of the key differences between the sandbox and production environments:
 
 -  No human reviews take place on the **sandbox**.
-   -  Most, but not all, automated tools are run on your submissions. The [Copy/Paste Detector](test-results.md#cpd) tool is not run.
+   -  Most, but not all, automated tools are run on your submissions. The [Copy/Paste Detector](test-results.md#copy-paste-detector) tool is not run.
    -  No technical QA reviews happen for your submissions.
    -  Only automated marketing reviews are run on your submissions.
 -  There is no associated Commerce Marketplace store for the **sandbox**. As a result, the various [reports](reports.md) endpoints will typically return an empty set of data.
