@@ -16,7 +16,7 @@ If you use the [sandbox](sandbox.md) environment, you must also create a new pro
 ## Profile
 
 You must use your `mage_id` for these endpoints.
-One way you can get your `mage_id` is when you obtain a [session token](auth.md#session-token).
+One way you can get your `mage_id` is when you obtain a [session token](auth.md#how-to-use-a-session-token).
 
 ```http
 GET /rest/v1/users/:mage_id

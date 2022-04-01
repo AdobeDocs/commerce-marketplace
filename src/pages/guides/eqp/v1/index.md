@@ -23,7 +23,7 @@ There are two separate **Marketplace Developer Portal** environments where the M
 
 Use your same login information for the production **Marketplace Developer Portal** to also log into the **Sandbox Marketplace Developer Portal**. Learn more about the [sandbox](sandbox.md) environment.
 
-## API eligibility {#eligible}
+## API eligibility
 
 All developers are eligible to use the **production** Marketplace EQP API.
 However, only specific partners are eligible to use the **sandbox**:

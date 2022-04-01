@@ -33,7 +33,7 @@ The following list highlights some of the key differences between the sandbox an
 
 -  Regardless of the current state of your **user profile** on the **production** Marketplace Developer Portal, when you sign into the **sandbox** environment, you must rebuild your profile.
 -  Marketplace EQP API [access keys](access-keys.md) in the **sandbox** are separate and distinct from **production**. You cannot use access keys from one environment in the other environment.
--  [Session tokens](auth.md#session-token) that are generated in the **sandbox** are separate and distinct from **production**. You cannot use session tokens from one environment in the other environment.
+-  [Session tokens](auth.md#how-to-use-a-session-token) that are generated in the **sandbox** are separate and distinct from **production**. You cannot use session tokens from one environment in the other environment.
 -  If you are on the same browser, when you logout of the [sandbox][2] you are simultaneously logged out of [production][1], and vice-versa.
 
 [1]: https://developer.magento.com

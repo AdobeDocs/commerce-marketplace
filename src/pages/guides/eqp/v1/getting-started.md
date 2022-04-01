@@ -9,7 +9,7 @@ Follow these steps to get started using the **Marketplace EQP API**.
 
 ## 1. Create your user profile
 
-Create your user profile on the [Marketplace Developer Portal][1] and/or [Sandbox Marketplace Developer Portal][2]. See the Marketplace Developer Portal documentation on creating your [profile](../sellers/profile-information.md).
+Create your user profile on the [Marketplace Developer Portal][1] and/or [Sandbox Marketplace Developer Portal][2]. See the Marketplace Developer Portal documentation on creating your [profile](../../sellers/profile-information.md).
 
 <InlineAlert variant="info" slots="text"/>
 
@@ -21,7 +21,7 @@ You do **not** need to immediately complete your profile.  However, before your 
 
 ## 3. Get a session token
 
-Use your API access key to [obtain a session token](auth.md#session-token).
+Use your API access key to [obtain a session token](auth.md#how-to-use-a-session-token).
 
 ## 4. Call one or more of the API endpoints
 
