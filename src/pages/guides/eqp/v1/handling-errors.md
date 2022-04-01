@@ -1,5 +1,6 @@
 ---
 title: Handling errors
+description: Tips for handling general and batch processing failures.
 ---
 
 # Handling errors

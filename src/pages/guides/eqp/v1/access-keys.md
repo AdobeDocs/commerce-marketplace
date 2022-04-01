@@ -1,5 +1,6 @@
 ---
 title: API access keys
+description: Describes how to create and manage Marketplace EQP access keys.
 ---
 
 # API access keys

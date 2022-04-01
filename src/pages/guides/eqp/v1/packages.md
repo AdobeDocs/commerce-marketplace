@@ -1,5 +1,6 @@
 ---
 title: Packages
+description: Describes the Marketplace EQP review process and how to submit packages for review.
 ---
 
 # Packages
@@ -1050,6 +1051,6 @@ curl -X GET \
      https://developer-stg-api.magento.com/rest/v1/products/packages?type=theme&sort=+platform,-created_at
 ```
 
-#### Response
+**Response:**
 
 A list of theme packages can be returned in the same way as described in [Get package details](#get-package-details).

@@ -1,5 +1,6 @@
 ---
 title: Getting help
+description: A list of resources to help understand Commerce Marketplace and its EQP APIs. 
 ---
 
 # Getting help

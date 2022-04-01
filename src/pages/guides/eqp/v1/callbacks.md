@@ -1,5 +1,6 @@
 ---
 title: API callbacks
+description: Register a URL to receive notifications when the status of a EQP process has changed.
 ---
 
 # API callbacks
@@ -24,9 +25,11 @@ Callbacks are registered using the [User Profile](users.md) API.
 |`username`|string|Basic authorization username|
 |`password`|string|Basic authorization password - never returned in the GET response|
 
-**Request:**
+<CodeBlock slots="heading, code" repeat="2" languages="CURL, JSON" />
 
-```bash
+### Request
+
+```curl
 curl -X PUT \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      -H 'Content-Type: application/json' \
@@ -34,7 +37,7 @@ curl -X PUT \
      https://developer-stg-api.magento.com/rest/v1/users/MAG123456789
 ```
 
-**Response:**
+### Response
 
 ```json
 {

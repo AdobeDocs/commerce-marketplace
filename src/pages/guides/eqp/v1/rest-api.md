@@ -1,5 +1,6 @@
 ---
 title: REST API
+description: Reference information about the Commerce Marketplace EQP REST APIs.
 ---
 
 # REST API

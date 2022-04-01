@@ -1,5 +1,6 @@
 ---
 title: Filtering
+description: How to sort, filter, and paginate responses from Marketplace EQP GET requests.
 ---
 
 # Filtering
@@ -15,7 +16,7 @@ The following GET request parameters are passed to request a subset of the resul
 |Field|Type|Default|Description|
 |-----|----|-------|-----------|
 |`offset`|int|0|The record in the list from which to begin. The list starts at 0.|
-|li`mit|int|20|Number of records to return, starting from `offset`. -1 will return all remaining records.|
+|`limit`|int|20|Number of records to return, starting from `offset`. -1 will return all remaining records.|
 
 The result includes a `X-Total-Count` header, which provides the total number of records.
 

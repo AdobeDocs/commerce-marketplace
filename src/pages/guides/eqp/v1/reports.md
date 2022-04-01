@@ -1,5 +1,6 @@
 ---
 title: Reports
+description: Describes how to retrieve user and submission reports as well as aggregated reports across the Commerce Marketplace sites.
 ---
 
 # Reports

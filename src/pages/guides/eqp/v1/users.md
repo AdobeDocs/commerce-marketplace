@@ -1,5 +1,6 @@
 ---
 title: Users
+description: Manage your Commerce Marketplace user profile with EQP APIs.
 ---
 
 # Users
@@ -33,15 +34,17 @@ The following example shows the request/response body for retrieving all profile
 |-------------|-----|-----------------|
 |`send_newsletter`|boolean|Whether to receive emails about policies and announcements|
 
-**Request:**
+<CodeBlock slots="heading, code" repeat="2" languages="CURL, JSON" />
 
-```bash
+#### Request
+
+```curl
 curl -X GET \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      https://developer-stg-api.magento.com/rest/v1/users/MAG123456789
 ```
 
-**Response:**
+#### Response
 
 ```json
 {
@@ -146,15 +149,17 @@ curl -X GET \
 
 The following example shows the request/response body for retrieving a subset of profile data:
 
-**Request:**
+<CodeBlock slots="heading, code" repeat="2" languages="CURL, JSON" />
 
-```bash
+#### Request
+
+```curl
 curl -X GET \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      https://developer-stg-api.magento.com/rest/v1/users/MAG123456789?style=summary
 ```
 
-**Response:**
+#### Response
 
 ```json
 {
@@ -211,6 +216,8 @@ curl -X PUT \
      https://developer-stg-api.magento.com/rest/v1/users/MAG123456789
 ```
 
+**Response:**
+
 A 200 OK HTTP response code indicates a successful update.
 
 ## Magento 2 package access keys
@@ -241,15 +248,17 @@ The following table lists available query parameters, all of which are optional:
 
 The following example shows the request/response body for retrieving keys without any query parameters:
 
-**Request:**
+<CodeBlock slots="heading, code" repeat="2" languages="CURL, JSON" />
 
-```bash
+#### Request
+
+```curl
 curl -X GET \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      https://developer-stg-api.magento.com/rest/v1/users/MAG123456789/keys
 ```
 
-**Response:**
+#### Response
 
 ```json
 {
@@ -305,9 +314,11 @@ POST /rest/v1/users/:mage_id/keys
 }
 ```
 
-**Request:**
+<CodeBlock slots="heading, code" repeat="2" languages="CURL, JSON" />
 
-```bash
+#### Request
+
+```curl
 curl -X POST \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      -H 'Content-Type: application/json' \
@@ -315,7 +326,7 @@ curl -X POST \
      https://developer-stg-api.magento.com/rest/v1/users/MAG123456789/keys
 ```
 
-**Response:**
+#### Response
 
 ```json
 {
@@ -353,9 +364,11 @@ You must specify the key-pair in the request using a URL-encoded string.
 PUT /rest/v1/users/:mage_id/keys/:url_encoded_label_of_m2_key
 ```
 
-**Request:**
+<CodeBlock slots="heading, code" repeat="2" languages="CURL, JSON" />
 
-```bash
+#### Request
+
+```curl
 curl -X PUT \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      -H 'Content-Type: application/json' \
@@ -363,7 +376,7 @@ curl -X PUT \
      https://developer-stg-api.magento.com/rest/v1/users/MAG123456789/keys/key_for_bob
 ```
 
-**Response:**
+#### Response
 
 ```json
 {
@@ -395,6 +408,8 @@ curl -X DELETE \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      https://developer-stg-api.magento.com/rest/v1/users/MAG123456789/keys/key_for_charlie
 ```
+
+**Response:**
 
 A 204 No Content HTTP response code indicates a successful update.
 

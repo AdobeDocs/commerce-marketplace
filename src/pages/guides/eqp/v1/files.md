@@ -1,5 +1,6 @@
 ---
 title: Files
+description: Use Marketplace EQP API to upload files for submission, retrieve file upload status, and remove files.
 ---
 
 # Files
@@ -50,15 +51,17 @@ Sorting and filtering parameters are currently not available for this endpoint.
 If the `file_upload_id` parameter is specified, a single file record will be returned.
 If it is omitted, then a batch response will be returned: an array of records for all files uploaded by the current user.
 
-**Request:**
+<CodeBlock slots="heading, code" repeat="2" languages="CURL, JSON" />
 
-```bash
+#### Request
+
+```curl
 curl -X GET \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      https://developer-stg-api.magento.com/rest/v1/files/uploads/5c129cd41ba478.65767699.1
 ```
 
-**Response:**
+#### Response
 
 ```json
 {
