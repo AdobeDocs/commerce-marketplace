@@ -31,531 +31,6 @@ These review steps occur in parallel when you submit a package.
 If both steps are successful, the package can be published to the Commerce Marketplace.
 If there is a failure, you can iteratively fix issues until they are resolved.
 
-## Package fields
-
-The following table describes all package object properties.
-Unknown and readonly properties will be ignored in submissions.
-
-<InlineAlert variant="info" slots="text"/>
-
-Both `POST` and `PUT` requests support a batch model where multiple packages can be created or updated.
-
-|Field/Parameter|Type|HTTP Commands|Review Type|Filter|Description|Valid values|
-|---------------|----|-------------|-----------|------|-----------|------------|
-|`action`|object|POST, PUT|-|no|The actions to be taken towards technical or marketing review during a package POST or PUT submission.|See [Object Details](#object-details)|
-|`action.overall`|string|POST, PUT|-|no|General actions to be taken.|`remove`(...from store), `cancel` (abandon this version)|
-|`action.technical`|string|POST, PUT|-|no|Actions to be taken towards technical review.|`draft` (default), `submit` (...to review), `recall` (...from review)|
-|`action.marketing`|string|POST, PUT|-|no|The actions to be taken towards marketing review.|`draft` (default), `submit` (...to review), `recall` (...from review)|
-|`actions_now_available`|string|GET, POST, PUT|-|no|The list of values currently valid in the `action` field for this package|Comma-separated list.|
-|`artifact`|object|GET, POST, PUT|technical|no|This is the package code artifact (ZIP file for Magento 2) associated with this version.|See [Object Details](#object-details)|
-|`artifact.file_upload_id`|string|GET, POST, PUT|technical|no|The only writable field of this sub-object, used to associate a file with this package version.|Unique file upload ID obtained from the Files API.|
-|`artifact.filename`|string|GET, POST, PUT|technical|no|The filename given when uploading the file.|Any valid filename|
-|`artifact.content_type`|string|GET, POST, PUT|-|no|The mime-type given when uploading the file.|Any valid mime-type|
-|`artifact.url`|string|GET, POST, PUT|-|no|The link to download the file, if applicable|A URL|
-|`artifact.size`|int|GET, POST, PUT|-|no|The size of the file in bytes|Any int|
-|`artifact.file_hash`|string|GET, POST, PUT|-|no|Hash of the file|A hash: currently MD5|
-|`artifact.malware_status`|string|GET, POST, PUT|-|no|Status of the malware check on the file.|`pass`, `fail`, `in-progress`|
-|`browsers`|object|GET, POST, PUT|marketing|no|Shorthand form of `browser_os_compatibility`.|See [Object Details](#object-details)|
-|`browser_os_compatibility`|object|GET, POST, PUT|marketing|no|The browser and its associated OS capabilities this package supports.|See [Object Details](#object-details)|
-|`categories`|array|GET, POST, PUT|marketing|no|1-3 categories, all from the same main category, expressed as a `path` for the package. For example, `//Extension//Marketing//SEO/SEM`. Note that the path separator is `//` which allows for a single slash like `SEO/SEM` in the path name.|Refer to the [Marketplace Store](https://marketplace.magento.com) for the current list of categories.|
-|`created_at`|DateTime|GET|-|yes|The UTC date and time the package was first submitted.|`YYYY-MM-DD HH:MM:SS`|
-|`custom_license_name`|substring|GET, POST, PUT|technical|yes|The name of the license, only required if `license_type` is set to `custom`.|Your license name|
-|`custom_license_url`|substring|GET, POST, PUT|technical|yes|The URL of the license, only required if `license_type` is set to `custom`.|Any URL|
-|`documentation_artifacts`|object|GET, POST, PUT|both|no|The user, installation, and reference PDF manuals. At least one required for extensions, but not for shared packages.|See [Object Details](#object-details)|
-|`documentation_artifacts.user.file_upload_id`|string|GET, POST, PUT|both|no|The user manual PDF|Unique file upload ID obtained from the Files API.|
-|`documentation_artifacts.installation.file_upload_id`|string|GET, POST, PUT|both|no|The installation manual PDF|Unique file upload ID obtained from the Files API.|
-|`documentation_artifacts.reference.file_upload_id`|string|GET, POST, PUT|both|no|The reference manual PDF|Unique file upload ID obtained from the Files API.|
-|`eqp_status`|object|GET, POST, PUT|-|no|Sub-object describing the current status of the package in the EQP review process.|See [Object Details](#object-details)|
-|`eqp_status.overall`|string|GET, POST, PUT|-|yes|The current status of the package in the overall EQP process.|`draft`, `in_progress`, `approved`, `released_to_store`, `developer_removed_from_store`, `admin_removed_from_store`, `canceled_by_developer`,  `canceled_by_admin`|
-|`eqp_status.marketing`|string|GET, POST, PUT|-|yes|The current status of the package in the EQP marketing review process.|`draft`, `awaiting_marketing_review`, `in_marketing_review`, `approved`, `approved_with_modifications_pending`, `recalled`, `rejected`|
-|`eqp_status.technical`|string|GET, POST, PUT|-|yes|The current status of the package in the EQP technical review process.|`draft`, `in_automation`, `awaiting_manual_qa`, `in_manual_qa`, `approved`, `recalled`, `rejected`|
-|`external_services`|object|GET, POST, PUT|marketing|no|The list of services that the extension integrates with.|A sub-object|
-|e`xternal_services.is_saas`|boolean|GET, POST, PUT|marketing|no|Whether this integration is a gateway to a SaaS service.|`true`, `false`|
-|`external_services.items`|string|GET, POST, PUT|marketing|no|Description of the site(s) integrated with.|An array. Only zero or one items are currently supported.|
-|`external_services.items[0].name`|string|GET, POST, PUT|marketing|no|The name of the integrated site.|A name.|
-|`external_services.items[0].url`|string|GET, POST, PUT|marketing|no|The URL of the integrated site.|A valid URL.|
-|`external_services.items[0].owner`|string|GET, POST, PUT|marketing|no|Who owns the service.|`self`, `3rd_party`, `unknown`|
-|`external_services.items[0].pay_to`|string|GET, POST, PUT|marketing|no|Who the |`self`, `3rd_party`, `both`, `none`, `unknown`|
-|`item_id`|substring|GET, POST, PUT|-|yes|A developer-defined unique ID assigned to the package (if available).|If supplied, must be unique for every POST request.|
-|`latest_launch_date`|DateTime|GET|-|yes|The UTC date and time this version of the package was last released to the store.|`YYYY-MM-DD HH:MM:SS`|
-|`launch_on_approval`|boolean|GET, POST, PUT|marketing|no|Whether to publish to the store as soon as all tests are passed. Effectively, sets requested_launch_date to a point in the past.|`true`, `false`|
-|`license_type`|string|GET, POST, PUT|technical|yes|License type supported by the package.|See [Additional notes](#additional-notes) for a list of valid license types.|
-|`limit`|integer|GET|-|no|Along with `offset`, used for paging the collection of packages.|Positive integer, or -1 for unlimited. Default is 20.|
-|`long_description`|substring|GET, POST, PUT|marketing|yes|The long description for the package.|Any string.|
-|`max_version_launched`|object|GET, POST, PUT|marketing|no|Sub-object that describes the highest version of this package that has been released to the store.|Contains fields `submission_id`, `version`, `eqp_status`, with the same meanings as the similarly named fields in this table.|
-|`media_artifacts`|object|GET, POST, PUT|marketing|no|The sub-object that holds the package icon, gallery images, and optional video URLs.|Sub-object with 0-3 fields.|
-|`media_artifacts.icon_image`|object|GET, POST, PUT|marketing|no|The sub-object that holds the package icon.|Same structure as the `artifacts` field in this object.|
-|`media_artifacts.gallery_images`|array|GET, POST, PUT|marketing|no|Array of sub-objects describing the gallery images. Not required for shared packages.|Each array element has the same structure as the `artifacts` field in this object.|
-|`media_artifacts.video_urls`|array|GET, POST, PUT|marketing|no|A list of Youtube video URLs listed in order of appearance in the gallery.|Array of Youtube URLs.|
-|`marketing_options`|object|GET, POST, PUT|marketing|no|A set of marketing options this package supports.|See [Additional notes](#additional-notes).|
-|`modified_at`|DateTime|GET|-|yes|The UTC date and time the package was last updated.|`YYYY-MM-DD HH:MM:SS`|
-|`name`|substring|GET, POST, PUT|marketing|yes|The name or title of the package.|Short free text. Duplicate names are not allowed.|
-|`original_launch_date`|DateTime|GET|-|yes|The UTC date and time this version of the package was first released to the store.|`YYYY-MM-DD HH:MM:SS`|
-|`offset`|integer|GET|-|no|In combination with the `limit` parameter, it can be used for paging the collection of packages.|See [Get package details](#get-package-details). Default value is 0.|
-|`platform`|string|GET, POST, PUT|technical|yes|The Magento platform compatibility of this package.|`M2`|
-|`pricing_model`|object|GET, POST|marketing|no|How to interpret the pricing for this package.|See [Object Details](#object-details)|
-|`pricing_model.pricing_type`|string|GET, POST|marketing|no|Which pricing model is used by this package.|`one-time`, `subscription`|
-|`pricing_model.payment_period`|string|GET, POST|marketing|no|For a package using the "one-time" payment model, the number `1` signifies "once."  For a subscription, how often (in terms of months) payments are due.  Currently, only annual subscriptions are supported.|`1` for "one-time" payments, or `12` for annual subscriptions.|
-|`prices`|array|GET, POST, PUT|marketing|no|The list of prices in USD set for this package by edition, and the respective installation prices (if any). Editions must match `version_compatibility`.|Array of sub-objects.|
-|`prices[N].currency_code`|string|GET, POST, PUT|marketing|no|The currency code for this price|Currently only `USD`|
-|`prices[N].edition`|string|GET, POST, PUT|marketing|no|The Magento edition for this price|`CE`, `EE`, `ECE`|
-|`prices[N].price`|number|GET, POST, PUT|marketing|no|The value for the purchase price of this package. For subscriptions, this is the annual price.|A number, with up to two decimal places, eg 123.45|
-|`prices[N].installation_price`|string|GET, POST, PUT|marketing|no|The value for the installation price of this package. This is only paid once, even for subscriptions.|A number, with up to two decimal places, eg 123.45|
-|`prices[N].currency_code`|string|GET, POST, PUT|marketing|no|The currency code for this price|Currently only `USD`|
-|`priority`|string|GET, POST, PUT|-|no|The priority for this submission|`high`, `medium`, `low`|
-|`process_as_patch`|string|GET, POST, PUT|technical|yes|A flag to indicate the submission should follow the [expedited process for patch releases.](https://community.magento.com/t5/Magento-DevBlog/New-Expedited-Marketplace-Submission-Path/ba-p/77303)|`yes`, `no`, `unknown`|
-|`release_notes`|substring|GET, POST, PUT|technical|yes|The release notes for the package submission.|Free text|
-|`requested_launch_date`|DateTime|POST, PUT|marketing|yes|When the package should be released to the store. If not supplied, it will be released to the store after all checks have passed.|`YYYY-MM-DD HH:MM:SS`|
-|`shared_packages`|array|GET, POST, PUT|technical|no|The list of artifact objects. Listing here enables the "access rights" to these shared packages when a buyer purchases this package.|Each shared package is specified by file_upload_id, or sku and version. See [Object Details](#object-details)|
-|`shared_packages[N].artifact.file_upload_id`|string|GET, POST, PUT|both|no|The shared package file|Unique file upload ID obtained from the Files API.|
-|`shared_packages[N].artifact.sku`|string|GET, POST, PUT|both|no|The shared package file|Unique file upload ID obtained from the Files API.|
-|`shared_packages[N].artifact.version`|string|GET, POST, PUT|both|no|The shared package file|Unique file upload ID obtained from the Files API.|
-|`short_description`|string|GET|-|no|Was the short description for the package.|No longer used. Will always be returned as an empty string.|
-|`sku`|substring|GET, POST|-|yes|The SKU generated from metadata in the code artifact. Only specified in a `POST` when creating another version of an existing extension.|A SKU|
-|`stability`|string|GET, POST, PUT|marketing|yes|The version's build stability|`stable`, `beta`|
-|`sort`|string|GET|-|no|A comma-separated list of fields to sort the list, each field prefixed by `-` for descending order, or `+` for ascending order.|See [Get package details](#get-package-details).|
-|`submission_id`|substring|GET, PUT|-|yes|A globally unique ID assigned to a package when it is submitted in a POST request. All further references to this package using GET or PUT requests can be made supplying this identifier.|A generated string|
-|`support_tiers`|array|GET, POST, PUT|marketing|no|List of up to three support tiers per edition. Not used for subscriptions.|See [Object Details](#object-details)|
-|`support_tiers[N].tier`|int|GET, POST, PUT|marketing|no|Which of the three support tiers (numbered 0-2 or 1-3)|`0`, `1`, `2`, `3`|
-|`support_tiers[N].edition`|string|GET, POST, PUT|marketing|no|Which Magento edition this support is for|`CE`, `EE`, `ECE`|
-|`support_tiers[N].monthly_period`|int|GET, POST, PUT|marketing|no|How many months the support lasts.|`1`, `3`, `6`, `9`, `12`|
-|`support_tiers[N].prices`|array|GET, POST, PUT|marketing|no|Array of prices for this support level|An array of one item per currency code.|
-|`support_tiers[N].prices[0].currency_code`|array|GET, POST, PUT|marketing|no|The currency code for this price|Currently only `USD` is supported.|
-|`support_tiers[N].prices[0].price|array`|GET, POST, PUT|marketing|no|The cost of this support level|A number, with up to two decimal places, eg 123.45|
-|`technical_options`|object|GET, POST, PUT|marketing|no|A set of technical options this package supports.|See [Additional notes](#additional-notes).|
-|`type`|string|GET, POST, PUT|technical|yes|Type of package.|`extension`, `theme`, `shared_package` or `all` (default).|
-|`version_compatibility`|array|GET, POST, PUT|technical|no|List of Magento versions that this package supports. Must match the editions in `prices`|Array of objects|
-|`version_compatibility[N].edition`|string|GET, POST, PUT|technical|no|Magento edition for the accompanying versions list|`M2`|
-|`version_compatibility[N].versions`|array|GET, POST, PUT|technical|no|List of Magento versions that this package supports in the given edition.|Array of version strings, eg ["2.3","2.4"]
-|`version`|substring|GET, POST|both|yes|The version of this package.|`major.minor.patch`, eg `2.5.3`.|
-
-### Additional notes
-
-*  For required fields in a POST or PUT operation, see the [Required Parameters](#required-parameters) section.
-*  The `Review Type` column indicates which part of the EQP review pipeline reviews the field values.
-*  The `Filter` column indicates whether a field can be used for filtering and sorting in GET requests.
-*  The `Type` column value "substring" means a string which, when filtered, searches for a substring match rather than an exact match.
-*  The list of valid values for `license_type` are:
-   *  `afl`—Academic Free License 3.0 (AFL)
-   *  `apache`—Apache License 2.0
-   *  `bsd`—BSD 2-Clause License
-   *  `gnu-gpl`—GNU General Public License 3.0 (GPL-3.0)
-   *  `gnu-lgpl`–GNU Lesser General Public License 3.0 (LGPL-3.0)
-   *  `mit`—MIT License (MIT)
-   *  `mozilla`—Mozilla Public License 1.1 (MPL-1.1)
-   *  `osl`—Open Software License 3.0 (OSL-3.0)
-   *  `custom`—Custom License
-
-### Object details
-
-Listing the JSON structure of objects described above:
-
-#### version_compatibility
-
-For a new Magento 2 package:
-
-```json
-"version_compatibility" : [
-  {
-    "edition" : "CE",
-    "versions" : ["2.3", "2.4"]
-  },
-  {
-    "edition" : "EE",
-    "versions" : ["2.4"]
-  },
-  {
-    "edition" : "ECE",
-    "versions" : ["2.4"]
-  }
-]
-```
-
-#### artifact
-
-```json
-"artifact" : {
-  "file_upload_id" : "5c11e656057b42.97931218.5"
-}
-```
-
-#### documentation_artifacts
-
-```json
-"documentation_artifacts" : {
-  "user" : {
-    "file_upload_id" : "5c644d97bb7c41.37505716.6"
-  },
-  "installation" : {
-    "file_upload_id" : "5c644daf21fee4.39102137.2"
-  },
-  "reference" : {
-    "file_upload_id" : "5c644f4dcb1900.18508194.9"
-  }
-}
-```
-
-#### shared_packages
-
-```json
-"shared_packages" : [
-  {
-    "artifact" : {
-      "file_upload_id" : "5c648b986aabc6.62305048.2"
-    }
-  },
-  {
-    "artifact" : {
-      "file_upload_id" : "5c648b986a70c0.11666567.3"
-    }
-  }
-]
-```
-
-#### media_artifacts
-
-```json
-"media_artifacts" : {
-  "icon_image" : {
-    "file_upload_id" : "5c129cd41ba478.65767699.1"
-  },
-  "gallery_images" : [
-    {
-      "file_upload_id" : "5c644fa344e5d7.04253635.8"
-    },
-    {
-      "file_upload_id" : "5c648b98446065.77844389.4"
-    },
-    {
-      "file_upload_id" : "5c648b984d0228.21794482.7"
-    },
-    {
-      "file_upload_id" : "5c648b98698ed0.64632056.3"
-    },
-    {
-      "file_upload_id" : "5c648b986a3d98.83415858.0"
-    }
-  ],
-  "video_urls" : [
-    "https://www.youtube.com/watch?v=l33T2-YC4tk",
-    "https://www.youtube.com/watch?v=682p52tFcmY"
-  ]
-}
-```
-
-The **video_urls** property is optional.
-
-#### pricing model
-
-```json
-"pricing_model" : {
-  "pricing_type" : "subscription",
-  "payment_period" : 12
-}
-```
-
-#### prices
-
-```json
-"prices" : [
-  {
-    "edition" : "CE",
-    "currency_code" : "USD",
-    "price" : 15.50
-  },
-  {
-    "edition" : "EE",
-    "currency_code" : "USD",
-    "price" : 45.00,
-    "installation_price" : 0.00
-  },
-  {
-    "edition" : "ECE",
-    "currency_code" : "USD",
-    "price" : 60.00,
-    "installation_price" : 0.00
-  }
-]
-```
-
-#### support_tiers
-
-Up to three tiers per edition (`CE` (Open Source), `EE` (Commerce), `ECE` (Cloud)) can be supported:
-
-```json
-"support_tiers" : [
-  {
-    "tier" : 1,
-    "edition" : "CE",
-    "monthly_period" : 1,
-    "short_description" : "<Short description goes here.>",
-    "long_description" : "<Long description goes here.>",
-    "prices" : [
-      {
-        "currency_code" : "USD",
-        "price" : 25.00
-      }
-    ]
-  },
-  {
-    "tier" : 2,
-    "edition" : "CE",
-    "monthly_period" : 3,
-    "short_description" : "<Short description goes here.>",
-    "long_description" : "<Long description goes here.>",
-    "prices" : [
-      {
-        "currency_code" : "USD",
-        "price" : 75.00
-      }
-    ]
-  },
-  {
-    "tier" : 3,
-    "edition" : "CE",
-    "monthly_period" : 6,
-    "short_description" : "<Short description goes here.>",
-    "long_description" : "<Long description goes here.>",
-    "prices" : [
-      {
-        "currency_code" : "USD",
-        "price" : 100.00
-      }
-    ]
-  },
-
-  {
-    "tier" : 1,
-    "edition" : "EE",
-    "monthly_period" : 1,
-    "short_description" : "<Short description goes here.>",
-    "long_description" : "<Long description goes here.>",
-    "prices" : [
-      {
-        "currency_code" : "USD",
-        "price" : 50.00
-      }
-    ]
-  },
-  {
-    "tier" : 2,
-    "edition" : "EE",
-    "monthly_period" : 9,
-    "short_description" : "<Short description goes here.>",
-    "long_description" : "<Long description goes here.>",
-    "prices" : [
-      {
-        "currency_code" : "USD",
-        "price" : 60.00
-      }
-    ]
-  },
-  {
-    "tier" : 3,
-    "edition" : "EE",
-    "monthly_period" : 12,
-    "short_description" : "<Short description goes here.>",
-    "long_description" : "<Long description goes here.>",
-    "prices" : [
-      {
-        "currency_code" : "USD",
-        "price" : 70.00
-      }
-    ]
-  },
-
-  {
-    "tier" : 1,
-    "edition" : "ECE",
-    "monthly_period" : 1,
-    "short_description" : "<Short description goes here.>",
-    "long_description" : "<Long description goes here.>",
-    "prices" : [
-      {
-        "currency_code" : "USD",
-        "price" : 45.00
-      }
-    ]
-  },
-  {
-    "tier" : 2,
-    "edition" : "ECE",
-    "monthly_period" : 6,
-    "short_description" : "<Short description goes here.>",
-    "long_description" : "<Long description goes here.>",
-    "prices" : [
-      {
-        "currency_code" : "USD",
-        "price" : 60.00
-      }
-    ]
-  }
-]
-```
-
-#### browser_os_compatibility
-
-Sample structure for a package supporting only Chrome and Firefox:
-
-```json
-"browser_os_compatibility" : {
-  "chrome" : {
-    "mac" : [ "39", "44"],
-    "windows" : ["43", "44"],
-    "linux" : ["43", "44"]
-  },
-  "firefox" : {
-    "mac" : [ "40", "41"],
-    "windows" : ["40", "41"],
-    "linux" : ["40", "41"]
-  }
-}
-```
-
-The list of valid values for the `browser_os_compatibility` are:
-
-*  Browsers:
-   *  `chrome`
-   *  `firefox`
-   *  `safari`
-   *  `opera`
-   *  `edge`
-
-*  OS:
-   *  `linux`
-   *  `mac`
-   *  `windows`
-
-#### browsers
-
-A simplified way to specify browser compatibility: it is assumed that each browser listed is compatible on all platforms.
-If `browser_os_compatibility` is also present, this field is ignored.
-Otherwise, if present, this field overwrites all previously stored compatibility rules for this package version.
-The list of valid browsers is the same as for `browser_os_compatibility`.
-
-```json
-"browsers" : [
-  "chrome",
-  "firefox"
-]
-```
-
-#### marketing_options
-
-Additional marketing options that apply to this package can be provided if applicable.
-While this information is not currently used, it may become searchable for buyers in the future,
-so is potentially worth filling out if relevant:
-
-```json
-"options" : {
-  "released_with_setup_scripts"         : true,
-  "included_service_contracts"          : false,
-  "included_external_service_contracts" : true,
-  "support_responsive_design"           : true,
-  "custom_implementation_ui"            : true,
-  "support_web_api"                     : true,
-  "support_test_coverage"               : false
-}
-```
-
-#### technical_options
-
-Additional technical options that apply to this package can be provided if applicable.
-These options are relevant to the technical review:
-
-```json
-"options" : {
-  "page_builder_new_content_type"          : true,
-  "page_builder_extends_content_type"      : false,
-  "page_builder_used_for_content_creation" : true
-}
-```
-
-#### action
-
-During the EQP process, it can take the following fields to control the parallel technical and marketing review flows:
-
-```json
-"action" : {
-  "technical" : "submit",
-  "marketing" : "submit"
-}
-```
-
-|Technical/Marketing Field Value|Type|Description|
-|-------------------------------|----|-----------|
-|`draft`|string|Save the supplied parameter values but take no further action.|
-|`submit`|string|Submit to the EQP process.|
-|`recall`|string|Recall the earlier submission from the EQP process.|
-
-Once a package has been published to the store, this takes the following field:
-
-```json
-{
-    "action" : {
-      "overall" : "remove"
-    }
-}
-```
-
-|Value|Type|Description|
-|-----|----|-----------|
-|`remove`|string|Removes the package from the store.|
-
-<InlineAlert variant="info" slots="text"/>
-There is no way to directly re-publish a product to the store.
-Send the "submit" action for the marketing content to re-publish the product.
-
-#### eqp_status
-
-```json
-"eqp_status" :  {
-  "overall" : "in_progress",
-  "technical" : "draft",
-  "marketing" : "approved"
-}
-```
-
-*  This is a read-only field.
-*  The **overall** value indicates where the package is in the EQP pipeline.
-*  Additional details are provided in the two main EQP areas:
-   *  **technical** - Provides the current technical status.
-   *  **marketing** - Provides the current marketing status.
-
-##### Overall Status
-
-|Value|Type|Description|
-|-----|----|-----------|
-|`draft`|string|The submission is in the draft state, not yet submitted to the EQP process.|
-|in_progress|string|The submission is in the EQP pipeline. Refer to the `technical` and `marketing` status for more details.|
-|`approved`|string|The submission has been approved and pending release to the store.|
-|`released_to_store`|string|The submission has been approved and is currently live on store.|
-|`developer_removed_from_store`|string|The developer has removed the package from the store.|
-|`admin_removed_from_store`|string|The EQP admin has removed the package from the store.|
-
-##### Technical Status
-
-|Value|Type|Description|
-|-----|----|-----------|
-|`draft`|string|The package has not been submitted for technical review.|
-|`in_automation`|string|The package has been submitted for technical review and is currently undergoing automated testing.|
-|`awaiting_manual_qa`|string|The package has passed all automated tests and is currently in the manual test queue.|
-|`in_manual_qa`|string|The package is currently undergoing manual testing.|
-|`approved`|string|The package has passed all tests.|
-|`rejected`|string|The package has failed automation or manual tests.|
-|`recalled`|string|The developer has recalled the package.|
-
-##### Marketing Status
-
-|Value|Type|Description|
-|-----|----|-----------|
-|`draft`|string|The package has not been submitted for marketing review.|
-|`awaiting_marketing_review`|string|The package has been submitted to the marketing review queue.|
-|`in_marketing_review`|string|The package is currently undergoing marketing review.|
-|`approved`|string|The package has passed the marketing review process.|
-|`rejected`|string|The package has failed the marketing review process.|
-|`recalled`|string|The developer has recalled the package.|
-
 ## Package submissions
 
 ```http
@@ -584,6 +59,7 @@ required parameters are available on the Developer Portal to initiate the EQP pr
 and that parameters which depend upon each other match up correctly.
 
 <InlineAlert variant="info" slots="text"/>
+
 All `action` fields are optional. If not specified, `draft` is the default value.
 
 The following example shows a POST request with all required parameters set for both technical and marketing submissions:
@@ -1054,3 +530,1157 @@ curl -X GET \
 **Response:**
 
 A list of theme packages can be returned in the same way as described in [Get package details](#get-package-details).
+
+## Package fields
+
+The following sections describe all package object properties.
+Unknown and readonly properties will be ignored in submissions.
+
+<InlineAlert variant="info" slots="text"/>
+
+Both `POST` and `PUT` requests support a batch model where multiple packages can be created or updated.
+
+### action
+
+The actions to be taken towards technical or marketing review during a package POST or PUT submission.
+
+<InlineAlert variant="info" slots="text"/>
+
+There is no way to directly re-publish a product to the store.
+Send the "submit" action for the marketing content to re-publish the product.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|object|POST, PUT|-|no|
+
+**JSON structures:**
+
+During the EQP process, it can take the following fields to control the parallel technical and marketing review flows:
+
+```json
+"action" : {
+  "technical" : "submit",
+  "marketing" : "submit"
+}
+```
+
+|Technical/Marketing Field Value|Type|Description|
+|-------------------------------|----|-----------|
+|`draft`|string|Save the supplied parameter values but take no further action.|
+|`submit`|string|Submit to the EQP process.|
+|`recall`|string|Recall the earlier submission from the EQP process.|
+
+Once a package has been published to the store, this takes the following field:
+
+```json
+{
+    "action" : {
+      "overall" : "remove"
+    }
+}
+```
+
+|Value|Type|Description|
+|-----|----|-----------|
+|`remove`|string|Removes the package from the store.|
+
+#### action.marketing
+
+The actions to be taken towards a marketing review. Possible values:
+
+*  `draft` (default)
+*  `submit` (...to review)
+*  `recall` (...from review)
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|POST, PUT|-|no|
+
+#### action.overall
+
+General actions to be taken. Possible values:
+
+*  `remove`(...from the store)
+*  `cancel` (abandon this version)
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|POST, PUT|-|no|
+
+#### action.technical
+
+Actions to be taken towards technical review. Possible values:
+
+*  `draft` (default)
+*  `submit` (...to review)
+*  `recall` (...from review)
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|POST, PUT|-|no|
+
+### actions_now_available
+
+A comma-separated list of values currently valid in the `action` field for this package
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|-|no|
+
+### artifact
+
+This is the package code artifact (ZIP file for Commerce) associated with this version.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|object|GET, POST, PUT|technical|no|
+
+**JSON structure:**
+
+```json
+"artifact" : {
+  "file_upload_id" : "5c11e656057b42.97931218.5"
+}
+```
+
+#### artifact.content_type
+
+The mime-type given when uploading the file. The value can be any valid mime-type.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|-|no|
+
+#### artifact.filename
+
+The filename given when uploading the file. The value can be any valid filename.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|technical|no|
+
+#### artifact.file_hash
+
+The MD5 hash of the file.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|-|no|
+
+#### artifact.file_upload_id
+
+The only writable field of this sub-object, used to associate a file with this package version. The value is a unique file upload ID obtained from the Files API.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|technical|no|
+
+#### artifact.malware_status
+
+The status of the malware check on the file. Possible values:
+
+*  `pass`
+*  `fail`
+*  `in-progress`
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|-|no|
+
+#### artifact.size
+
+An integer indicating the size of the file, in bytes.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|int|GET, POST, PUT|-|no|
+
+#### artifact.url
+
+The link to download the file, if applicable. The value can be any valid URL.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|-|no|
+
+### browser_os_compatibility
+
+The browser and its associated OS capabilities this package supports. The list of valid values for the `browser_os_compatibility` are:
+
+Browsers:
+
+*  `chrome`
+*  `firefox`
+*  `safari`
+*  `opera`
+*  `edge`
+
+OS:
+
+*  `linux`
+*  `mac`
+*  `windows`
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|object|GET, POST, PUT|marketing|no|
+
+**JSON structure:**
+
+Sample structure for a package supporting only Chrome and Firefox:
+
+```json
+"browser_os_compatibility" : {
+  "chrome" : {
+    "mac" : [ "39", "44"],
+    "windows" : ["43", "44"],
+    "linux" : ["43", "44"]
+  },
+  "firefox" : {
+    "mac" : [ "40", "41"],
+    "windows" : ["40", "41"],
+    "linux" : ["40", "41"]
+  }
+}
+```
+
+### browsers
+
+A simplified way to specify browser compatibility. It is assumed that each browser listed is compatible on all platforms.
+
+If [`browser_os_compatibility`](#browser_os_compatibility) is also present, this field is ignored. Otherwise, if present, this field overwrites all previously stored compatibility rules for this package version.
+
+The list of valid browsers is the same as for `browser_os_compatibility`.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|object|GET, POST, PUT|marketing|no|
+
+**JSON structure:**
+
+```json
+"browsers" : [
+  "chrome",
+  "firefox"
+]
+```
+
+### categories
+
+A list of one to three categories, all from the same main category, expressed as a `path` for the package. For example, `//Extension//Marketing//SEO/SEM`. Note that the path separator is `//`, which allows for a single slash like `SEO/SEM` in the path name. Refer to the [Marketplace Store](https://marketplace.magento.com) for the current list of categories.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|array|GET, POST, PUT|marketing|no|
+
+### created_at
+
+The UTC date and time the package was first submitted. The format is `YYYY-MM-DD HH:MM:SS`.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|DateTime|GET|-|yes|
+
+### custom_license_name
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|substring|GET, POST, PUT|technical|yes|
+
+The name of custom license. This value is required only if `license_type` is set to `custom`.
+
+### custom_license_url
+
+The valid URL that points to the license. This value is required only if `license_type` is set to `custom`.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|substring|GET, POST, PUT|technical|yes|
+
+### documentation_artifacts
+
+The user, installation, and reference PDF manuals. At least one of these is required for extensions, but not for shared packages.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|object|GET, POST, PUT|both|no|
+
+**JSON structure:**
+
+```json
+"documentation_artifacts" : {
+  "user" : {
+    "file_upload_id" : "5c644d97bb7c41.37505716.6"
+  },
+  "installation" : {
+    "file_upload_id" : "5c644daf21fee4.39102137.2"
+  },
+  "reference" : {
+    "file_upload_id" : "5c644f4dcb1900.18508194.9"
+  }
+}
+```
+
+#### documentation_artifacts.installation.file_upload_id
+
+The unique file upload ID of the installation manual PDF obtained from the Files API.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|both|no|
+
+#### documentation_artifacts.reference.file_upload_id
+
+The unique file upload ID of the reference manual PDF obtained from the Files API.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|both|no|
+
+#### documentation_artifacts.user.file_upload_id
+
+The unique file upload ID of the user manual PDF obtained from the Files API.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|both|no|
+
+### eqp_status
+
+A sub-object describing the current status of the package in the EQP review process. This is a read-only field.
+
+The **overall** value indicates where the package is in the EQP pipeline.
+
+Additional details are provided in the two main EQP areas:
+
+*  **technical** - Provides the current technical status.
+*  **marketing** - Provides the current marketing status.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|object|GET, POST, PUT|-|no|
+
+**JSON structures:**
+
+```json
+"eqp_status" :  {
+  "overall" : "in_progress",
+  "technical" : "draft",
+  "marketing" : "approved"
+}
+```
+
+#### eqp_status.marketing
+
+The current status of the package in the EQP marketing review process. Possible values:
+
+|Value|Type|Description|
+|-----|----|-----------|
+|`draft`|string|The package has not been submitted for marketing review.|
+|`awaiting_marketing_review`|string|The package has been submitted to the marketing review queue.|
+|`in_marketing_review`|string|The package is currently undergoing marketing review.|
+|`approved`|string|The package has passed the marketing review process.|
+|`approved_with_modifications_pending`|string|The package has passed the marketing review process, but some modifications are required.|
+|`rejected`|string|The package has failed the marketing review process.|
+|`recalled`|string|The developer has recalled the package.|
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|-|yes|
+
+#### eqp_status.overall
+
+The current status of the package in the overall EQP process. Possible values:
+
+|Value|Type|Description|
+|-----|----|-----------|
+|`draft`|string|The submission is in the draft state, not yet submitted to the EQP process.|
+|`in_progress`|string|The submission is in the EQP pipeline. Refer to the `technical` and `marketing` status for more details.|
+|`approved`|string|The submission has been approved and pending release to the store.|
+|`released_to_store`|string|The submission has been approved and is currently live on store.|
+|`developer_removed_from_store`|string|The developer has removed the package from the store.|
+|`admin_removed_from_store`|string|The EQP admin has removed the package from the store.|
+|`canceled_by_developer|string|The developer has canceled the submission.|
+|`canceled_by_admin`|string|The EQP admin has canceled the submission.|
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|-|yes|
+
+#### eqp_status.technical
+
+The current status of the package in the EQP technical review process. Possible values:
+
+|Value|Type|Description|
+|-----|----|-----------|
+|`draft`|string|The package has not been submitted for technical review.|
+|`in_automation`|string|The package has been submitted for technical review and is currently undergoing automated testing.|
+|`awaiting_manual_qa`|string|The package has passed all automated tests and is currently in the manual test queue.|
+|`in_manual_qa`|string|The package is currently undergoing manual testing.|
+|`approved`|string|The package has passed all tests.|
+|`rejected`|string|The package has failed automation or manual tests.|
+|`recalled`|string|The developer has recalled the package.|
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|-|yes|
+
+### external_services
+
+The list of services that the extension integrates with. The value is a sub-object.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|object|GET, POST, PUT|marketing|no|
+
+#### external_services.is_saas
+
+Indicates whether this integration is a gateway to a SaaS service (`true` or `false`).
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|boolean|GET, POST, PUT|marketing|no|
+
+#### external_services.items
+
+An array containing descriptions of the site(s) the extension integrates with. Only zero or one items are currently supported.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|marketing|no|
+
+#### external_services.items[0].name
+
+The name of the integrated site.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|marketing|no|
+
+#### external_services.items[0].owner
+
+Defines the owner of the service. Possible values:
+
+*  `self`
+*  `3rd_party`
+*  `unknown`
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|marketing|no|
+
+#### external_services.items[0].pay_to
+
+Defines who receives any payments. Possible values:
+
+*  `self`
+*  `3rd_party`
+*  `both`
+*  `none`
+*  `unknown`
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|marketing|no|
+
+#### external_services.items[0].url
+
+The URL of the integrated site.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|marketing|no|
+
+### item_id
+
+A developer-defined unique ID assigned to the package (if available). If a value is supplied, it must be unique for every POST request.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|substring|GET, POST, PUT|-|yes|
+
+### latest_launch_date
+
+The UTC date and time this version of the package was last released to the store. The format is `YYYY-MM-DD HH:MM:SS`.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|DateTime|GET|-|yes|
+
+### launch_on_approval
+
+Indicates whether to publish to the store as soon as all tests are passed (`true` or `false`). Effectively, sets `requested_launch_date` to a point in the past.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|boolean|GET, POST, PUT|marketing|no|
+
+### license_type
+
+The license type supported by the package. See [Additional notes](#additional-notes) for a list of valid license types.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|technical|yes|
+
+### limit
+
+Along with `offset`, used for paging the collection of packages. The value can be a positive integer or -1, indicating for unlimited. The default is 20.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|integer|GET|-|no|
+
+### long_description
+
+The long description for the package. The value can be any string.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|substring|GET, POST, PUT|marketing|yes|
+
+### marketing_options
+
+Additional marketing options that apply to this package can be provided if applicable.
+While this information is not currently used, it may become searchable for buyers in the future, so is potentially worth filling out if relevant. See [Additional notes](#additional-notes) for more information.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|object|GET, POST, PUT|marketing|no|
+
+**JSON structure:**
+
+```json
+"options" : {
+  "released_with_setup_scripts"         : true,
+  "included_service_contracts"          : false,
+  "included_external_service_contracts" : true,
+  "support_responsive_design"           : true,
+  "custom_implementation_ui"            : true,
+  "support_web_api"                     : true,
+  "support_test_coverage"               : false
+}
+```
+
+### max_version_launched
+
+A sub-object that describes the highest version of this package that has been released to the store. It contains fields `submission_id`, `version`, `eqp_status`, with the same meanings as the similarly named fields.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|object|GET, POST, PUT|marketing|no|
+
+### media_artifacts
+
+A sub-object with zero to three fields that holds the package icon, gallery images, and optional video URLs.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|object|GET, POST, PUT|marketing|no|
+
+**JSON structure:**
+
+```json
+"media_artifacts" : {
+  "icon_image" : {
+    "file_upload_id" : "5c129cd41ba478.65767699.1"
+  },
+  "gallery_images" : [
+    {
+      "file_upload_id" : "5c644fa344e5d7.04253635.8"
+    },
+    {
+      "file_upload_id" : "5c648b98446065.77844389.4"
+    },
+    {
+      "file_upload_id" : "5c648b984d0228.21794482.7"
+    },
+    {
+      "file_upload_id" : "5c648b98698ed0.64632056.3"
+    },
+    {
+      "file_upload_id" : "5c648b986a3d98.83415858.0"
+    }
+  ],
+  "video_urls" : [
+    "https://www.youtube.com/watch?v=l33T2-YC4tk",
+    "https://www.youtube.com/watch?v=682p52tFcmY"
+  ]
+}
+```
+
+The **video_urls** property is optional.
+
+#### media_artifacts.gallery_images
+
+An array of sub-objects describing the gallery images. Not required for shared packages.Each array element has the same structure as the `artifacts` field in this object.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|array|GET, POST, PUT|marketing|no|
+
+#### media_artifacts.icon_image
+
+The sub-object that holds the package icon. It has the same structure as the `artifacts` field in this object.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|object|GET, POST, PUT|marketing|no|
+
+#### media_artifacts.video_urls
+
+An array of Youtube video URLs listed in order of appearance in the gallery.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|array|GET, POST, PUT|marketing|no|
+
+### modified_at
+
+The UTC date and time the package was last updated. The format is `YYYY-MM-DD HH:MM:SS`
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|DateTime|GET|-|yes|
+
+### name
+
+The name or title of the package. Duplicate names are not allowed.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|substring|GET, POST, PUT|marketing|yes|
+
+### offset
+
+In combination with the `limit` parameter, this field can be used for paging the collection of packages. The default value is 0. See [Get package details](#get-package-details) for more information.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|integer|GET|-|no|
+
+### original_launch_date
+
+The UTC date and time this version of the package was first released to the store. The format is `YYYY-MM-DD HH:MM:SS`
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|DateTime|GET|-|yes|
+
+### platform
+
+The Magento platform compatibility of this package. Must be `M2`.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|technical|yes|
+
+### prices
+
+The list of prices in USD set for this package by edition, and the respective installation prices (if any). Editions must match `version_compatibility`.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|array|GET, POST, PUT|marketing|no|
+
+**JSON structure:**
+
+```json
+"prices" : [
+  {
+    "edition" : "CE",
+    "currency_code" : "USD",
+    "price" : 15.50
+  },
+  {
+    "edition" : "EE",
+    "currency_code" : "USD",
+    "price" : 45.00,
+    "installation_price" : 0.00
+  },
+  {
+    "edition" : "ECE",
+    "currency_code" : "USD",
+    "price" : 60.00,
+    "installation_price" : 0.00
+  }
+]
+```
+#### prices[N].currency_code
+
+The currency code for this price. Currently, the only valid value is `USD`.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|marketing|no|
+
+#### prices[N].edition
+
+The edition of Magento Open Source or Adobe Commerce for this price. Possible values:
+
+*  `CE`
+*  `EE`
+*  `ECE`
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|marketing|no|
+
+#### prices[N].installation_price
+
+The value for the installation price of this package. This is only paid once, even for subscriptions. The value must be a number with up to two decimal places, such as 123.45.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|marketing|no|
+
+#### prices[N].price
+
+The value for the purchase price of this package. For subscriptions, this is the annual price. The value must be a number with up to two decimal places, such as 123.45.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|number|GET, POST, PUT|marketing|no|
+
+### pricing_model
+
+Defines how to interpret the pricing for this package.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|object|GET, POST|marketing|no|
+
+**JSON structure:**
+
+```json
+"pricing_model" : {
+  "pricing_type" : "subscription",
+  "payment_period" : 12
+}
+```
+#### pricing_model.payment_period
+
+For a package using the one-time payment model, the number `1` signifies once.  For a subscription, how often (in terms of months) payments are due.  Currently, only annual subscriptions are supported, so the value must either be `1` for "one-time" payments, or `12` for annual subscriptions.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST|marketing|no|
+
+#### pricing_model.pricing_type
+
+Specifies which pricing model is used by this package. Possible values:
+
+*  `one-time`
+*  `subscription`
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST|marketing|no|
+
+### priority
+
+The priority for this submission. Possible values:
+
+*  `high`
+*  `medium`
+*  `low`
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|-|no|
+
+### process_as_patch
+
+A flag to indicate the submission should follow the [expedited process for patch releases.](https://community.magento.com/t5/Magento-DevBlog/New-Expedited-Marketplace-Submission-Path/ba-p/77303). Possible values:
+
+*  `yes`
+*  `no`
+*  `unknown`
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|technical|yes|
+
+### release_notes
+
+The release notes for the package submission.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|substring|GET, POST, PUT|technical|yes|
+
+### requested_launch_date
+
+When the package should be released to the store. If not supplied, it will be released to the store after all checks have passed. The format is `YYYY-MM-DD HH:MM:SS`.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|DateTime|POST, PUT|marketing|yes|
+
+### shared_packages
+
+The list of artifact objects. Listing here enables the "access rights" to these shared packages when a buyer purchases this package. Each shared package is specified by `file_upload_id`, or `sku` and `version`.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|array|GET, POST, PUT|technical|no|
+
+**JSON structure:**
+
+```json
+"shared_packages" : [
+  {
+    "artifact" : {
+      "file_upload_id" : "5c648b986aabc6.62305048.2"
+    }
+  },
+  {
+    "artifact" : {
+      "file_upload_id" : "5c648b986a70c0.11666567.3"
+    }
+  }
+]
+```
+#### shared_packages[N].artifact.file_upload_id
+
+The unique file upload ID of shared package file, obtained from the Files API.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|both|no|
+
+#### shared_packages[N].artifact.sku
+
+The SKU of the shared package file.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|both|no|
+
+#### shared_packages[N].artifact.version
+
+The version of the shared package file.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|both|no|
+
+### short_description
+
+Obsolete. This value was the short description for the package, but now will always be returned as an empty string.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET|-|no|
+
+### sku
+
+The SKU generated from metadata in the code artifact. Only specified in a `POST` when creating another version of an existing extension.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|substring|GET, POST|-|yes|
+
+### sort
+
+A comma-separated list of fields to sort the list, each field prefixed by `-` for descending order, or `+` for ascending order. See [Get package details](#get-package-details) for more information.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET|-|no|
+
+### stability
+
+The version's build stability. Possible values:
+
+*  `stable`
+*  `beta`
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|marketing|yes|
+
+### submission_id
+
+A globally unique ID assigned to a package when it is submitted in a POST request. All further references to this package using GET or PUT requests can be made supplying this identifier.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|substring|GET, PUT|-|yes|
+
+### support_tiers
+
+A list of up to three support tiers per edition. Not used for subscriptions.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|array|GET, POST, PUT|marketing|no|
+
+**JSON structure:**
+
+Up to three tiers per edition (`CE` (Open Source), `EE` (Commerce), `ECE` (Cloud)) can be supported:
+
+```json
+"support_tiers" : [
+  {
+    "tier" : 1,
+    "edition" : "CE",
+    "monthly_period" : 1,
+    "short_description" : "<Short description goes here.>",
+    "long_description" : "<Long description goes here.>",
+    "prices" : [
+      {
+        "currency_code" : "USD",
+        "price" : 25.00
+      }
+    ]
+  },
+  {
+    "tier" : 2,
+    "edition" : "CE",
+    "monthly_period" : 3,
+    "short_description" : "<Short description goes here.>",
+    "long_description" : "<Long description goes here.>",
+    "prices" : [
+      {
+        "currency_code" : "USD",
+        "price" : 75.00
+      }
+    ]
+  },
+  {
+    "tier" : 3,
+    "edition" : "CE",
+    "monthly_period" : 6,
+    "short_description" : "<Short description goes here.>",
+    "long_description" : "<Long description goes here.>",
+    "prices" : [
+      {
+        "currency_code" : "USD",
+        "price" : 100.00
+      }
+    ]
+  },
+
+  {
+    "tier" : 1,
+    "edition" : "EE",
+    "monthly_period" : 1,
+    "short_description" : "<Short description goes here.>",
+    "long_description" : "<Long description goes here.>",
+    "prices" : [
+      {
+        "currency_code" : "USD",
+        "price" : 50.00
+      }
+    ]
+  },
+  {
+    "tier" : 2,
+    "edition" : "EE",
+    "monthly_period" : 9,
+    "short_description" : "<Short description goes here.>",
+    "long_description" : "<Long description goes here.>",
+    "prices" : [
+      {
+        "currency_code" : "USD",
+        "price" : 60.00
+      }
+    ]
+  },
+  {
+    "tier" : 3,
+    "edition" : "EE",
+    "monthly_period" : 12,
+    "short_description" : "<Short description goes here.>",
+    "long_description" : "<Long description goes here.>",
+    "prices" : [
+      {
+        "currency_code" : "USD",
+        "price" : 70.00
+      }
+    ]
+  },
+
+  {
+    "tier" : 1,
+    "edition" : "ECE",
+    "monthly_period" : 1,
+    "short_description" : "<Short description goes here.>",
+    "long_description" : "<Long description goes here.>",
+    "prices" : [
+      {
+        "currency_code" : "USD",
+        "price" : 45.00
+      }
+    ]
+  },
+  {
+    "tier" : 2,
+    "edition" : "ECE",
+    "monthly_period" : 6,
+    "short_description" : "<Short description goes here.>",
+    "long_description" : "<Long description goes here.>",
+    "prices" : [
+      {
+        "currency_code" : "USD",
+        "price" : 60.00
+      }
+    ]
+  }
+]
+```
+
+#### support_tiers[N].edition
+
+Which Magento edition this support is for. Possible values:
+
+*  `CE`
+*  `EE`
+*  `ECE`
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|marketing|no|
+
+#### support_tiers[N].monthly_period
+
+How many months the support lasts. The value can be `1`, `3`, `6`, `9`, or `12`
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|int|GET, POST, PUT|marketing|no|
+
+#### support_tiers[N].prices
+
+Array of prices for this support level. One item per currency code.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|array|GET, POST, PUT|marketing|no|
+
+#### support_tiers[N].prices[0].currency_code
+
+The currency code for this price. Currently, only `USD` is supported.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|array|GET, POST, PUT|marketing|no|
+
+#### support_tiers[N].prices[0].price
+
+The cost of this support level. The value must be a number with up to two decimal places, such as 123.45.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|array|GET, POST, PUT|marketing|no|
+
+#### support_tiers[N].tier
+
+Which of the three support tiers (numbered 0-2 or 1-3).
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|int|GET, POST, PUT|marketing|no|
+
+### technical_options
+
+Additional technical options that apply to this package can be provided if applicable.
+These options are relevant to the technical review.
+
+See [Additional notes](#additional-notes).
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|object|GET, POST, PUT|marketing|no|
+
+**JSON structure:**
+
+```json
+"options" : {
+  "page_builder_new_content_type"          : true,
+  "page_builder_extends_content_type"      : false,
+  "page_builder_used_for_content_creation" : true
+}
+```
+### type
+
+The type of package. Possible values:
+
+*  `extension`
+*  `theme`
+*  `shared_package`
+*  `all` (default).
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|technical|yes|
+
+### version
+
+The version of this package, in the form `major.minor.patch`, such as `2.4.3`.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|substring|GET, POST|both|yes|
+
+### version_compatibility
+
+A list of Magento versions that this package supports. Must match the editions in `prices`.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|array|GET, POST, PUT|technical|no|
+
+**JSON structure:**
+
+For a new Magento 2 package:
+
+```json
+"version_compatibility" : [
+  {
+    "edition" : "CE",
+    "versions" : ["2.3", "2.4"]
+  },
+  {
+    "edition" : "EE",
+    "versions" : ["2.4"]
+  },
+  {
+    "edition" : "ECE",
+    "versions" : ["2.4"]
+  }
+]
+```
+#### version_compatibility[N].edition
+
+Must be `M2`.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|string|GET, POST, PUT|technical|no|
+
+#### version_compatibility[N].versions
+
+A list of Magento Open Source/Adobe Commerce versions that this package supports in the given edition. The value must be an array of version strings, such as ["2.3","2.4"].
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|array|GET, POST, PUT|technical|no|
+
+### Additional notes
+
+*  For required fields in a POST or PUT operation, see the [Required Parameters](#required-parameters) section.
+*  The `Review Type` column indicates which part of the EQP review pipeline reviews the field values.
+*  The `Filter` column indicates whether a field can be used for filtering and sorting in GET requests.
+*  The `Type` column value "substring" means a string which, when filtered, searches for a substring match rather than an exact match.
+*  The list of valid values for `license_type` are:
+   *  `afl`—Academic Free License 3.0 (AFL)
+   *  `apache`—Apache License 2.0
+   *  `bsd`—BSD 2-Clause License
+   *  `gnu-gpl`—GNU General Public License 3.0 (GPL-3.0)
+   *  `gnu-lgpl`–GNU Lesser General Public License 3.0 (LGPL-3.0)
+   *  `mit`—MIT License (MIT)
+   *  `mozilla`—Mozilla Public License 1.1 (MPL-1.1)
+   *  `osl`—Open Software License 3.0 (OSL-3.0)
+   *  `custom`—Custom License
