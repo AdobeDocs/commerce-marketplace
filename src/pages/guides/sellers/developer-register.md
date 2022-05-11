@@ -14,9 +14,9 @@ Follow these steps to create a new developer account, or to register as a develo
 
    If you don’t yet have a Magento account, do one of the following:
 
-   -  Go to the [Developer Portal](https://developer.magento.com.md) page, and click **Create  Account**. Then, click **Register**.
-   -  In the upper-right corner of [Commerce Marketplace](https://marketplace.magento.com.md), click **Sign In**. Then, click **Register**.
-   -  From [magento.com](https://magento.com.md), click **My Account**. Then under **New Customers**, click **Register**.
+   -  Go to the [Developer Portal](https://developer.magento.com) page, and click **Create  Account**. Then, click **Register**.
+   -  In the upper-right corner of [Commerce Marketplace](https://marketplace.magento.com), click **Sign In**. Then, click **Register**.
+   -  From [magento.com](https://magento.com), click **My Account**. Then under **New Customers**, click **Register**.
 
    If you already have an account, log in as a registered user.
 

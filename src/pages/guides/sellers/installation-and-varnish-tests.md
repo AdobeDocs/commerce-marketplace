@@ -12,7 +12,7 @@ Magento is a complex, highly extensible platform. To ensure that third-party ext
 
 ## When testing is done
 
-All extension submissions must pass the mandatory Installation and Varnish tests, regardless of extension type and scope of changes. Only extensions that have passed these tests can be listed in the [Commerce Marketplace](https://marketplace.magento.com.md).
+All extension submissions must pass the mandatory Installation and Varnish tests, regardless of extension type and scope of changes. Only extensions that have passed these tests can be listed in the [Commerce Marketplace](https://marketplace.magento.com).
 
 ## What is being checked
 
@@ -20,7 +20,7 @@ The Installation and Varnish tests complete the following checks:
 
 1. Successful installation of Magento with the submitted extension and ability to switch to production mode–This check includes the following steps:
 
-   -  Verify ability to add the extension to the Magento project with [Composer](https://getcomposer.org.md).
+   -  Verify ability to add the extension to the Magento project with [Composer](https://getcomposer.org).
    -  After adding and enabling the extension, verify successful Magento installation.
    -  Verify that you can [compile code](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-compiler.html).
    -  Verify that you can [deploy static content](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html).
