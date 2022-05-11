@@ -8,7 +8,7 @@ The semantic version check (SVC) is a quality check that validates the change le
 
 ## What testing is for
 
-[Semantic versioning](https://semver.org.md) is a good way to communicate what kind of changes were introduced between software releases. Clients can use this information to estimate the risk level of upgrading a particular software package and to determine how much effort is required to adopt the new version.
+[Semantic versioning](https://semver.org) is a good way to communicate what kind of changes were introduced between software releases. Clients can use this information to estimate the risk level of upgrading a particular software package and to determine how much effort is required to adopt the new version.
 
 Commerce follows semantic versioning and encourages all third-party vendors to apply this versioning strategy for their extensions as well.
 
@@ -33,7 +33,7 @@ A failed semantic version check has no impact on extension approval. If a submis
 
 The semantic version check is implemented using the publicly available, [magento/magento-semver](https://github.com/magento/magento-semver) tool.
 
-Magento SemVer is a static analysis tool that validates the change level of Magento source code based on the [Semantic Versioning Specification](https://semver.org.md) and makes suggestions about the version increment to use, for example _PATCH_, _MINOR_, or _MAJOR_.
+Magento SemVer is a static analysis tool that validates the change level of Magento source code based on the [Semantic Versioning Specification](https://semver.org) and makes suggestions about the version increment to use, for example _PATCH_, _MINOR_, or _MAJOR_.
 
 Magento SemVer can:
 
