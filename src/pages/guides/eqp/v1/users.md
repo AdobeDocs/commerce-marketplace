@@ -49,6 +49,7 @@ curl -X GET \
 ```json
 {
         "mage_id": "MAG123456789",
+        "adobe_user_id": "ABC1234@AdobeID",
         "first_name": "John",
         "last_name": "Smith",
         "email": "jsmith@example.com",
@@ -90,6 +91,7 @@ curl -X GET \
                 "username": "key"
             }
         ],
+   
         "personal_profile": {
             "bio": "Writes extensions that pass review first time. Blindfolded.",
             "last_logged_in": "2020-07-21 8:09:10",
@@ -143,7 +145,14 @@ curl -X GET \
                     "is_primary": true
                 }
             ]
-        }
+        },
+   
+        "organizations": [
+           {
+              "org_id": "000CBA111DCB222@AdobeOrg",
+              "org_name": "My Fulfillment Service"
+           }
+        ]
 }
 ```
 
@@ -164,6 +173,7 @@ curl -X GET \
 ```json
 {
         "mage_id": "MAG123456789",
+        "adobe_user_id": "ABC1234@AdobeID",
         "first_name": "John",
         "last_name": "Smith",
         "email": "jsmith@example.com",
@@ -243,8 +253,9 @@ The following table lists available query parameters, all of which are optional:
 
 | Parameter |  Type  | Required | Description                            |
 |-----------|--------|----------|----------------------------------------|
-| type      | string |   no     | Type of keys requested:<br/>`m1` --- Magento 1 product keys<br/>`m2` --- Magento 2 composer repo keys<br/>`all` --- Both M1 and M2 keys (default)
+| type      | string |   no     | Type of keys requested:<br/>`m1` --- Magento 1 product keys<br/>`m2` --- Magento 2 composer repo keys<br/>`all` --- Both M1 and M2 keys (default)|
 | label     | string |   no     | The url encoded value of the key label; only valid for `m2` type.|
+| uid       | string |   no     | Your `mage_id`, current Adobe `org_id`, or the special token `all`.  Defaults to `all`.|
 
 The following example shows the request/response body for retrieving keys without any query parameters:
 
@@ -255,7 +266,7 @@ The following example shows the request/response body for retrieving keys withou
 ```curl
 curl -X GET \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
-     https://developer-stg-api.magento.com/rest/v1/users/MAG123456789/keys
+     https://developer-stg-api.magento.com/rest/v1/users/MAG123456789/keys?uid=all
 ```
 
 #### Response
@@ -267,13 +278,22 @@ curl -X GET \
                 "label": "main_key",
                 "user_key": "d41d8cd98f00b204e9800998ecf8427e",
                 "password_key": "12cbdcd3332eb8f166f62ee1a9bd33d0",
-                "is_enabled": true
+                "is_enabled": true,
+                "uid": "MAG123456789"
             },
             {
                 "label": "key_for_bob",
                 "user_key": "4b335b25f8eb3449e7e222e8f9e052b0",
                 "password_key": "9ca8abe7376f451bde40513474c13c3c",
-                "is_enabled": false
+                "is_enabled": false,
+                "uid": "MAG123456789"
+            },
+            {
+                "label": "Key for My Organization",
+                "user_key": "784d67a640d0cc0e6381c7a24dc4132c",
+                "password_key": "ae6569fd0e64a72b7f9f8e0396c372f0",
+                "is_enabled": true,
+                "uid": "000CBA111DCB222@AdobeOrg"
             }
         ],
 
@@ -291,6 +311,8 @@ curl -X GET \
 *  Each Composer key-pair has unique `label` and `is_enabled` flags to indicate whether the key is enabled.
 *  A Composer key-pair is identified by `user_key` (username) and
    `password_key` (password) when prompted for Composer credentials.
+*  The `uid` indicates whether the key is to be associated with a specific `mage_id` or a specific Adobe `org_id`.
+   If this field is absent, then the `mage_id` is used.
 
 ### Create keys
 
@@ -308,7 +330,12 @@ POST /rest/v1/users/:mage_id/keys
             "label": "key_for_alice"
         },
         {
-            "label": "key_for_charlie"
+            "label": "key_for_charlie",
+            "uid": "MAG123456789"
+        },
+        {
+            "label": "key_for_my_org",
+            "uid": "000CBA111DCB222@AdobeOrg"
         }
     ]
 }
@@ -322,7 +349,7 @@ POST /rest/v1/users/:mage_id/keys
 curl -X POST \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      -H 'Content-Type: application/json' \
-     -d '{ "m2": [ { "label" : "key_for_alice" }, { "label" : "key_for_charlie" } ] }' \
+     -d '{ "m2": [ {"label":"key_for_alice"}, {"label":"key_for_charlie", "uid":"MAG123456789"}, {"label":"key_for_my_org", "uid":"000CBA111DCB222@AdobeOrg"} ] }' \
      https://developer-stg-api.magento.com/rest/v1/users/MAG123456789/keys
 ```
 
@@ -336,6 +363,7 @@ curl -X POST \
                 "user_key": "5c75f32248bdd335dc8d8d5a3e5cb52e",
                 "password_key": "44db283cbb5fdf2c25cbc9352c2a75eb",
                 "is_enabled": true,
+                "uid": "MAG123456789",
                 "code" : 200,
                 "message" : "Success"
             },
@@ -344,6 +372,16 @@ curl -X POST \
                 "user_key": "19ba9488ff99a9346bdeb39ad4ab1a26",
                 "password_key": "82167d38238911d212cc02a96f3f66f9",
                 "is_enabled": true,
+                "uid": "MAG123456789",
+                "code" : 200,
+                "message" : "Success"
+            },
+            {
+                "label": "key_for_my_org",
+                "user_key": "584d67a640d0cc0e6381c7a24dc4444d",
+                "password_key": "5e6569fd0e64a72b7f9f8e0396c37222",
+                "is_enabled": true,
+                "uid": "000CBA111DCB222@AdobeOrg",
                 "code" : 200,
                 "message" : "Success"
             }
@@ -360,6 +398,9 @@ curl -X POST \
 Use this endpoint to enable or disable a Magento 2 Composer key-pair.
 You must specify the key-pair in the request using a URL-encoded string.
 
+*  The `uid` indicates whether the label refers to a key associated with a specific `mage_id` or to a specific Adobe `org_id`.
+   If this field is absent, then the `mage_id` is used.
+
 ```http
 PUT /rest/v1/users/:mage_id/keys/:url_encoded_label_of_m2_key
 ```
@@ -372,7 +413,7 @@ PUT /rest/v1/users/:mage_id/keys/:url_encoded_label_of_m2_key
 curl -X PUT \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      -H 'Content-Type: application/json' \
-     -d '{ "m2" : [ { "is_enabled" :  true } ] }' \
+     -d '{ "m2" : [ { "is_enabled" : true, "uid" : "MAG123456789" } ] }' \
      https://developer-stg-api.magento.com/rest/v1/users/MAG123456789/keys/key_for_bob
 ```
 
@@ -385,7 +426,8 @@ curl -X PUT \
                 "label": "key_for_bob",
                 "user_key": "4b335b25f8eb3449e7e222e8f9e052b0",
                 "password_key": "9ca8abe7376f451bde40513474c13c3c",
-                "is_enabled": true
+                "is_enabled": true,
+                "uid": "MAG123456789"
             }
      ]
 }
@@ -395,8 +437,11 @@ curl -X PUT \
 
 This endpoint can be used to remove a Magento 2 composer key-pair identified by the given url-encoded label.
 
+*  The `uid` indicates whether the label refers to a key associated with a specific `mage_id` or to a specific Adobe `org_id`.
+   If this field is absent, then the `mage_id` is used.
+
 ```http
-DELETE /rest/v1/users/:mage_id/keys/:url_encoded_label_of_m2_key
+DELETE /rest/v1/users/:mage_id/keys/:url_encoded_label_of_m2_key?uid=:mage_id
 ```
 
 The following curl example illustrates the call to be made:
@@ -406,7 +451,7 @@ The following curl example illustrates the call to be made:
 ```bash
 curl -X DELETE \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
-     https://developer-stg-api.magento.com/rest/v1/users/MAG123456789/keys/key_for_charlie
+     https://developer-stg-api.magento.com/rest/v1/users/MAG123456789/keys/key_for_charlie?uid=MAG123456789
 ```
 
 **Response:**
