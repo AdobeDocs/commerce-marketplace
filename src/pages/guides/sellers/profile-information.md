@@ -8,7 +8,8 @@ Your profile tracks and provides all information for your Marketplace Developer 
 
 ## Contact info
 
-Your contact information includes your address, phone number, and PayPal email address. As part of the registration process, you must enter a valid PayPal email, even if your extensions are available for free on Commerce Marketplace. Magento sends your revenue share payment to your PayPal account.
+Your contact information shows your Mage ID, your Adobe ID, and any Adobe IMS organizations you are currently associated with per your login.
+Your contact information also includes your address, phone number, and PayPal email address. As part of the registration process, you must enter a valid PayPal email, even if your extensions are available for free on Commerce Marketplace. Adobe Commerce sends your revenue share payment to your PayPal account.
 
 ![Contact information](_images/account-information.png)
 
@@ -16,11 +17,11 @@ Your contact information includes your address, phone number, and PayPal email a
 
 |Field|Description|
 |--- |--- |
-|Personal URL|(Optional) The URL for your personal website.|
-|Personal Bio|(Optional) Information about yourself.|
+|Personal URL|(Optional if using your company profile) The URL for your personal website.|
+|Personal Bio|(Optional if using your company profile) Information about yourself.|
 |Personal Addresses|At least one address is required; you can enter up to three. If there are multiple addresses, you must designate one as the primary contact address.|
-|Login Credentials|Clicking **Go to My Account** takes you to your Magento account information.|
-|PayPal Email|You must enter a valid PayPal account email, even if  your extensions are available for free on Commerce Marketplace. Magento sends your revenue share payment to your PayPal account.|
+|Login Credentials|Clicking **Go to My Account** takes you to your Adobe Commerce account information.|
+|PayPal Email|You must enter a valid PayPal account email, even if  your extensions are available for free on Commerce Marketplace. Adobe Commerce sends your revenue share payment to your PayPal account.|
 
 ### Company
 
@@ -30,14 +31,17 @@ Your contact information includes your address, phone number, and PayPal email a
 |Primary Contact|The name of the main point of contact at your company.|
 |Support Email|The email address for your company's support contact.|
 |Company URL|The URL for your company website.|
-|Company Bio|Your Company Bio helps prospective buyers get acquainted with your company background and areas of expertise. Max characters 1500 words or less.|
+|Company Bio|Your company bio helps prospective buyers get acquainted with your company background and areas of expertise. Max characters 1500 words or less.|
 |Company Addresses|At least one address is required. You can enter up to three. If there are multiple addresses, you must designate one as the primary contact address.|
-|Login Credentials|Clicking **Go to My Account** takes you to your Magento account information.|
-|PayPal Email|You must enter a valid PayPal account email, even if  your extensions are available for free on Commerce Marketplace. Magento sends your revenue share payment to your PayPal account.|
+|Login Credentials|Clicking **Go to My Account** takes you to your Adobe Commerce account information.|
+|PayPal Email|You must enter a valid PayPal account email, even if your extensions are available for free on Commerce Marketplace. Adobe Commerce sends your revenue share payment to your PayPal account.|
 
 ## Access keys
 
 Commerce Marketplace uses a pair of public and private 32-character tokens to authenticate access to the repository of third-party extensions and themes. You can create multiple sets of access keys for others who install extensions for your store. Marketplace access keys can be generated, disabled or enabled, and deleted from your account.
+
+If you have at least one Adobe organization associated with your account, you can access keys associated with your Mage ID ("Myself") and/or have access keeys associated with each of your Adobe organizations.
+Access keys associated with an Adobe organization are shared between all members of this organization.
 
 <InlineAlert variant="info" slots="text"/>
 
@@ -49,11 +53,15 @@ For more technical information, see [Get your authentication keys](https://devdo
 
 1. Click **Create New Access Key**. Then, do the following:
 
-    1. In the Basic Access Key Information dialog, enter an **Access Key Name** (max of 32 characters) to identify the access key. Then, click **Continue**.
+    1. In the Basic Access Key Information dialog, if you have at least one Adobe organization associated with your account, choose which group to create this access key for.
+       1. The "Myself" selection will associate this access key to your Mage ID.
+       2. If you have no selections present, then this access key will be associated with your Mage ID.
+    2. Enter an **Access Key Name** (max of 32 characters) to identify the access key.
+    3. Click **Continue**.
 
     ![Basic access key information](_images/basic-access-key-information.png)
 
-    Your new access key appears in the list, and can now be used to authorize downloads of Magento updates, extensions, and themes.
+    Your new access key appears in the list, and can now be used to authorize downloads of Adobe Commerce updates, extensions, and themes.
 
     ![Access key added to account](_images/access-keys.png)
 
@@ -83,6 +91,6 @@ Marketplace policy requires all providers to submit business information to ensu
 
 ## Partner portal
 
-Click **Partner Portal** to open the Magento Partner Portal dashboard.
+Click **Partner Portal** to open the Adobe Commerce Partner Portal dashboard.
 
 ![Partner portal](_images/partner-portal.png)
