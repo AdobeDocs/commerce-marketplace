@@ -8,7 +8,7 @@ The Installation and Varnish tests are automated EQP checks to ensure that the s
 
 ## What testing is for
 
-Magento is a complex, highly extensible platform. To ensure that third-party extensions are production-ready, the Installation and Varnish tests verify successful installation with the extension included, ability to switch to [production mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html), and that the extension does not affect the caching mechanism for the most critical scenarios. The caching check ensures that the storefront provides a high performance customer experience.
+Magento is a complex, highly extensible platform. To ensure that third-party extensions are production-ready, the Installation and Varnish tests verify successful installation with the extension included, ability to switch to [production mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html), and that the extension does not affect the caching mechanism for the most critical scenarios. The caching check ensures that the storefront provides a high performance customer experience.
 
 ## When testing is done
 
@@ -22,10 +22,10 @@ The Installation and Varnish tests complete the following checks:
 
    -  Verify ability to add the extension to the Magento project with [Composer](https://getcomposer.org).
    -  After adding and enabling the extension, verify successful Magento installation.
-   -  Verify that you can [compile code](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-compiler.html).
-   -  Verify that you can [deploy static content](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html).
-   -  Verify that you can [enable production mode](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html).
-   -  Check that you can [reindex all data](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html) with the installed extension.
+   -  Verify that you can [compile code](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/code-compiler.html).
+   -  Verify that you can [deploy static content](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment.html).
+   -  Verify that you can [enable production mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html).
+   -  Check that you can [reindex all data](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html) with the installed extension.
 
 1. Check availability of critical pages and correct cache processing–This check includes the following steps:
 
@@ -41,7 +41,7 @@ The Installation and Varnish tests always use the latest patch version for the M
 
 ### Additional configuration
 
-The Varnish test requires [Varnish as a caching application](https://devdocs.magento.com/guides/v2.4/config-guide/varnish/config-varnish-magento.html). The test checks for the presence of the **X-EQP-Cache** HTTP header set by Varnish and analyzes its value on page loads. To complete this check, the following additional instruction must be added to the **vcl_deliver** function:
+The Varnish test requires [Varnish as a caching application](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish-magento.html). The test checks for the presence of the **X-EQP-Cache** HTTP header set by Varnish and analyzes its value on page loads. To complete this check, the following additional instruction must be added to the **vcl_deliver** function:
 
 ```vcl
 sub vcl_deliver {
@@ -54,7 +54,7 @@ sub vcl_deliver {
 }
 ```
 
-The Varnish test also uses the [setup:performance:generate-fixtures command](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-perf-data.html) to install sample products to run the test against:
+The Varnish test also uses the [setup:performance:generate-fixtures command](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/generate-data.html) to install sample products to run the test against:
 
 ```bash
 magento setup:performance:generate-fixtures ./varnish-config/profile.xml

@@ -4,7 +4,7 @@ title: Seller overview
 
 # Seller overview
 
-As an extension seller, your process starts with the extension development and testing. During this phase, be sure to follow the [Best Practices for Extension Developers](https://devdocs.magento.com/guides/v2.3/ext-best-practices/bk-ext-best-practices.html).
+As an extension seller, your process starts with the extension development and testing. During this phase, be sure to follow the [Best Practices for Extension Developers](https://developer.adobe.com/commerce/php/best-practices/).
 
 <TextBlock slots="image, heading, text, links" width="50%" />
 
