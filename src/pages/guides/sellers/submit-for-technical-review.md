@@ -42,7 +42,7 @@ All products and services are subject to the same Commerce Marketplace terms and
 
 1. Click **Attach Package** to upload the extension code package.
 
-    For complete package guidelines, see [Package a component](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/package/package_module.html).
+    For complete package guidelines, see [Package a component](https://developer.adobe.com/commerce/php/development/package/component/).
 
 1. For **Magento Version Compatibility**, select the supported version number and compatibility for the extension.
 
