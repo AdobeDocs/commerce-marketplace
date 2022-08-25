@@ -81,7 +81,8 @@ Malware scan results are sent out for [File](files.md) resources when the asynch
     "callback_event": "malware_scan_complete",
     "update_info": {
         "file_upload_id": "2309480238.238475.0",
-        "tool_result": "passed"
+        "tool_result": "passed",
+        "modified_at": "2022-08-25 19:20:21"
     }
 }
 ```
@@ -97,7 +98,13 @@ EQP status updates are sent out for [Package](packages.md) resources when the pr
         "submission_id": "s5w9k703ru",
         "item_id": "user_upload_version_1",
         "eqp_flow": "marketing",
-        "current_status": "approved"
+        "current_status": "approved",
+        "eqp_status": {
+            "overall": "in_progress",
+            "technical": "draft",
+            "marketing": "approved"
+        },
+        "modified_at": "2022-08-25 19:20:21"
     }
 }
 ```
