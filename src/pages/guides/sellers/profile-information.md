@@ -51,13 +51,10 @@ For more technical information, see [Get your authentication keys](https://devdo
 
 ### Create a new access key
 
-1. Click **Create New Access Key**. Then, do the following:
-
-    1. In the Basic Access Key Information dialog, if you have at least one Adobe organization associated with your account, choose which group to create this access key for.
-       1. The "Myself" selection will associate this access key to your Mage ID.
-       2. If you have no selections present, then this access key will be associated with your Mage ID.
-    2. Enter an **Access Key Name** (max of 32 characters) to identify the access key.
-    3. Click **Continue**.
+1. Click **Create New Access Key**. The Basic Access Key Information dialog opens.
+2. If more than one group is displayed, choose the group for which you want to create the access key. Selecting **Myself** associates this access key with your Mage ID. If you do not select a group, then this access key is associated with your Mage ID.
+3. Enter an **Access Key Name** (max of 32 characters) to identify the access key.
+4. Click **Continue**.
 
     ![Basic access key information](_images/basic-access-key-information.png)
 
