@@ -39,7 +39,7 @@ Package submissions must contain a Magento module, theme, language pack, or meta
    -  `magento/magento2-ee-base`
    -  `magento/product-enterprise-edition`
 
-1. The package does not use `*` as a version restriction for Magento packages (packages with `magento` vendor). You must specify version restriction according to the [recommendations](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/versioning/dependencies.html#determine-module-dependency) in the _Magento PHP Developer Guide_.
+1. The package does not use `*` as a version restriction for Magento packages (packages with `magento` vendor). You must specify version restriction according to the [recommendations](https://developer.adobe.com/commerce/php/development/versioning/dependencies/#determine-module-dependency) in the _Magento PHP Developer Guide_.
 
 1. [Require inline aliases](https://getcomposer.org/doc/articles/aliases.md#require-inline-alias) are not used in the `composer.json` file.
 
@@ -52,8 +52,8 @@ Additional requirements for package declarations are applied based on the packag
 
 _See also:_
 
--  [PHP Developer Guide](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/bk-extension-dev-guide.html)
--  [How to Package Magento Extensions](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/package/package_module.html)
+-  [PHP Developer Guide](https://developer.adobe.com/commerce/php/development/)
+-  [How to Package Magento Extensions](https://developer.adobe.com/commerce/php/development/package/component/)
 
 ## Extension validation and QA
 
@@ -65,7 +65,7 @@ The Marketplace coding standard review uses a custom set of coding sniffs. If th
 
 _More details:_ [Code Sniffer](code-sniffer.md)
 
-_See also:_ [Coding Standards](https://devdocs.magento.com/guides/v2.4/coding-standards/bk-coding-standards.html)
+_See also:_ [Coding Standards](https://developer.adobe.com/commerce/php/coding-standards/)
 
 ### Copy Paste Detector: Check for plagiarism
 
@@ -79,7 +79,7 @@ _See also:_ [OSL 3.0: A Better License for Open Source Software](http://rosenlaw
 
 ### Installation and Varnish tests: Verify that product installs and caching works correctly
 
-Extensions for Magento are installed with Varnish Cache enabled for each supported version of PHP and switched from development to [production mode](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html). If you have shared packages and dependencies required for your extension, the Installation test also tests Magento installation and usage with those packages included.
+Extensions for Magento are installed with Varnish Cache enabled for each supported version of PHP and switched from development to [production mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html). If you have shared packages and dependencies required for your extension, the Installation test also tests Magento installation and usage with those packages included.
 
 In addition, cacheable pages are accessed to ensure that they are served directly from Varnish Cache. You will be notified if your extension fails the test.
 
@@ -87,7 +87,7 @@ _More details:_ [Installation and Varnish Tests](installation-and-varnish-tests.
 
 _See also:_
 
--  [Configure and use Varnish](https://devdocs.magento.com/guides/v2.4/config-guide/varnish/config-varnish.html)
+-  [Configure and use Varnish](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html)
 -  [System requirements](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html)
 
 ### MFTF Commerce-supplied tests
@@ -128,7 +128,7 @@ _See also:_ [Polishing your Marketplace submission: 7 tips from the Marketplace 
 To pass Manual QA, the extension must meet the following requirements:
 
 1. Installs with Composer.
-1. Compiles without errors using the following command: [`deploy:mode:set production`](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html#change-to-production-mode)
+1. Compiles without errors using the following command: [`deploy:mode:set production`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html#change-to-production-mode)
 1. Extension has all supporting documentation that complies with the [documentation requirements](#documentation-and-resources)
 1. Works with each version of Magento that the extension claims to support in the extension product profile.
 
@@ -155,7 +155,7 @@ To pass Manual QA, the extension must meet the following requirements:
 _See also:_
 
 -  [Install an Extension via Composer](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension)
--  [General CLI installation](https://devdocs.magento.com/extensions/install.md)
+-  [General CLI installation](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/extensions.html)
 
 #### Additional checks for Page Builder extensions
 

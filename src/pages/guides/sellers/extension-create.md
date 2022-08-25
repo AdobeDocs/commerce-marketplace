@@ -6,10 +6,10 @@ title: Create an extension
 
 Before you can submit your extension to Commerce Marketplace, the code must be complete, tested, and packaged. For technical information, see the Magento DevDocs for additional technical information for developing extensions and more:
 
--  [PHP Developer Guide](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/bk-extension-dev-guide.html)
--  [Best Practices for Extension Developers](https://devdocs.magento.com/guides/v2.4/ext-best-practices/bk-ext-best-practices.html)
--  [Magento Web APIs](https://devdocs.magento.com/guides/v2.4/get-started/bk-get-started-api.html)
--  [Frontend Developer Guide](https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/bk-frontend-dev-guide.html)
+-  [PHP Developer Guide](https://developer.adobe.com/commerce/php/development/)
+-  [Best Practices for Extension Developers](https://developer.adobe.com/commerce/php/best-practices/)
+-  [Magento Web APIs](https://developer.adobe.com/commerce/webapi/get-started/)
+-  [Frontend Developer Guide](https://developer.adobe.com/commerce/frontend-core/guide/)
 
 ![](_images/extension-prep.png)
 
@@ -25,7 +25,7 @@ Commerce Marketplace does not support encrypted extensions at this time.
 
    Testing your extension in advance reduces the time it takes to pass Technical Review. For a list of code sniffer rules, see [Magento Extension Quality Program Coding Standard](https://github.com/magento/marketplace-eqp).
 
-1. Prepare, validate, and zip your extension as described in [Packaging a Component](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/package/package_module.html).
+1. Prepare, validate, and zip your extension as described in [Packaging a Component](https://developer.adobe.com/commerce/php/development/package/component/).
 
 1. Prepare the following preliminary documentation:
 
