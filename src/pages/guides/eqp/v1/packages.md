@@ -1234,9 +1234,17 @@ The value for the installation price of this package. This is only paid once, ev
 |----|-------------|-----------|------
 |string|GET, POST, PUT|marketing|no|
 
+#### prices[N].initial_price
+
+For subscriptions, the value for the first year's price of this package. The value must be a number with up to two decimal places, such as 123.45. The value can be different from the annual price that is paid after this first year. For a package using the one-time payment model, this initial price is ignored.
+
+|Type|HTTP Commands|Review Type|Filter
+|----|-------------|-----------|------
+|number|GET, POST, PUT|marketing|no|
+
 #### prices[N].price
 
-The value for the purchase price of this package. For subscriptions, this is the annual price. The value must be a number with up to two decimal places, such as 123.45.
+The value for the purchase price of this package. For subscriptions, this is the annual price paid after the first year. The value must be a number with up to two decimal places, such as 123.45.
 
 |Type|HTTP Commands|Review Type|Filter
 |----|-------------|-----------|------
