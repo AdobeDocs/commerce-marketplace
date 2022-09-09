@@ -36,8 +36,8 @@ To add an entry, you need to complete these instructions and submit the [version
 
 1. Select the pricing model for the extension.
 
-   - **One time** - Buyers will pay one flat fee for your extension.
-   - **Subscription** - Buyers will be charged an auto-renewable price for your extension.
+   -  **One time** - Buyers will pay one flat fee for your extension.
+   -  **Subscription** - Buyers will be charged an auto-renewable price for your extension.
 
 1. Indicate if the extension enables integration with other services not part of Magento. If you select `Yes`, enter information for those services.
 
