@@ -46,7 +46,7 @@ Before submitting an extension or theme for marketing review, conduct your own i
 
 1. Under **Marketing Submission**, click **Extension Description**.
 
-    The **Extension name** and **Short Description** are pulled in from the basic [extension information](extension-information.md). You can edit this information. Maximum characters for Short Description: 239
+    The **Extension Title** is pulled in from the basic [extension information](extension-information.md). You can edit this information.
 
     ![](_images/marketing-description1.png)
 

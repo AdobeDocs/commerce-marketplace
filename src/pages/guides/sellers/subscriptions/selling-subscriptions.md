@@ -4,11 +4,13 @@ title: Selling subscription-based extensions
 
 # Selling subscription-based extensions
 
-Starting December 2021, Adobe Commerce Marketplace provides extension vendors an opportunity to sell their extensions under an auto-renewing subscription model.
+Adobe Commerce Marketplace provides extension vendors an opportunity to sell their extensions under an auto-renewing subscription model.
 
 ## Setting up subscription-based billing
 
 When submitting a new extension to the marketplace, you must select the pricing model for the extension. The pricing model can only be selected when the initial version is being set up. After the initial version is created on the Developer Portal, the pricing model cannot be changed for this SKU. Choose Subscription to set the SKU under subscription license, and set the subscription price.
+
+You can specify an initial price that is different from the remaining, periodic price.
 
 ![](../../sellers/_images/subscriptions-pricing-model.png)
 

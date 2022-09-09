@@ -18,7 +18,6 @@ Before you begin the extension submission process, you need to have the followin
 ## Marketing items
 
 -  A [product icon](submit-for-marketing-review.md)
--  A [short description](content.md) of your extension
 -  A [detailed description](content.md) of your extension
 -  [Video links](submit-for-marketing-review.md)
 -  [Magento version compatibility](submit-for-marketing-review.md) information
