@@ -4,7 +4,7 @@ title: Add extension content
 
 # Add extension content
 
-The content that accompanies your extension listing is derived from the profile of the extension or theme, and information in the developer\'s company profile.
+The content that accompanies your extension listing is derived from the profile of the extension or theme, and information in the developer's company profile.
 
 -  All content that is associated with a Commerce Marketplace listing must be free of offensive or discriminatory language, sexual content, or nudity.
 -  Your content must not misuse the Magento name and its trademarks, or misrepresent the Magento brand. To learn more, see our [branding guidelines](branding.md).
@@ -31,12 +31,6 @@ Maximum character length: 10,000 characters (including text, numbers, symbols, a
 
 For examples of long descriptions, see [Product Descriptions](product-descriptions.md).
 
-### Short description
-
-The Short Description provides a quick summary of the extension in one or two sentences. Do not include the extension name in the Short Description, because it appears  at the top of the page.
-
-Maximum character length: 150 characters
-
 ### Extension title
 
 The extension title appears in the **Version Title** field of the extension profile, and can be changed according to the following guidelines:
@@ -49,7 +43,7 @@ The extension title appears in the **Version Title** field of the extension prof
 
 Any additional fees or subscription pricing — including fees charged by a third-party company for integrated services — must be included in the opening paragraph in boldface text.
 
-The extension price that is listed on Commerce Marketplace must match the price that is listed on the developer website. The minimum price for a paid extension is $25.
+The extension price that is listed on Commerce Marketplace must match the price that is listed on the developer website. The minimum price for a paid, flat fee extension is $25. The minimum price for a subscription is $10.
 
 ### Screenshots
 
@@ -64,11 +58,11 @@ Supported formats: JPG (JPEG) and PNG
 
 ### Video
 
-(Optional) You can include links to up to two YouTube videos in your extension profile.
+(Optional) You can include links to up to three YouTube videos in your extension profile.
 
 ### Documentation
 
-Each extension must include one of the following files: user guide, installation guide, or reference manual. You can upload each document to your extension profile, or add a link in the Long Description that goes to a documentation page on your website.
+Each extension must include one of the following files: user guide, installation guide, or reference manual. You upload each document to your extension profile.
 
 Maximum file size: 5 MB
 

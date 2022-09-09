@@ -20,7 +20,7 @@ Extensions with a clearly stated business value are easy for us to promote, and 
 ## Pricing
 
 -  Items listed on Commerce Marketplace can be offered for free, or sold as commercial products.
--  Items offered for sale on Commerce Marketplace must reflect fair market value, and have a minimum price of $25. If the extension is also available for sale on your site, the prices must be the same.
+-  Items offered for sale on Commerce Marketplace must reflect fair market value. The minimum price for a paid, flat fee extension is $25. The minimum price for a subscription is $10. If the extension is also available for sale on your site, the prices must be the same.
 -  All purchases are paid for in US currency.
 -  Items sold on Commerce Marketplace are subject to a revenue sharing fee that is paid by the developer.
 

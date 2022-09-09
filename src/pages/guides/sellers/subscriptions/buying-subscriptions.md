@@ -4,7 +4,7 @@ title: Buying subscription-based extensions
 
 # Buying subscription-based extensions
 
-Starting December 2021, Adobe Commerce Marketplace provides extension vendors an opportunity to sell their extensions under an auto-renewing subscription model.
+Adobe Commerce Marketplace provides extension vendors an opportunity to sell their extensions under an auto-renewing subscription model.
 
 ## Subscribing to an extension
 
@@ -32,9 +32,9 @@ You can check your subscriptions in the **My Account** section. In the list, you
 
 To update a payment method:
 
-1.Go to **My Profile** > **My Subscriptions**.
-1.Choose the subscription that needs to be updated.
-1.Click **View and Edit** > **Update payment method**.
+1. Go to **My Profile** > **My Subscriptions**.
+1. Choose the subscription that needs to be updated.
+1. Click **View and Edit** > **Update payment method**.
 
 ![](../../sellers/_images/subscriptions-payment-methods.png)
 

@@ -30,13 +30,14 @@ To add an entry, you need to complete these instructions and submit the [version
 
 1. Enter an **Extension Name**.
 
-1. Enter a **Short Description** that provides a quick overview of the extension.
-
-   This is the first content displayed for extensions when browsing or searching extensions.
-
 1. Select the **Magento Platform Version** for the extension.
 
    You can select the specific minor versions during submission.
+
+1. Select the pricing model for the extension.
+
+   -  **One time** - Buyers will pay one flat fee for your extension.
+   -  **Subscription** - Buyers will be charged an auto-renewable price for your extension.
 
 1. Indicate if the extension enables integration with other services not part of Magento. If you select `Yes`, enter information for those services.
 
@@ -57,8 +58,8 @@ To add an entry, you need to complete these instructions and submit the [version
 |Field|Description|
 |--- |--- |
 |Extension Name|The name of the extension.|
-|Short Description|The Short Description provides a quick summary of the extension in one or two sentences.|
 |Magento Platform Version|The version of Magento the extension is compatible with. The options include the current major versions Magento supported|
+|Pricing Model|How you will be selling your extension.|
 |Does this extension enable an integration with a non-Magento service?|Indicate if the extension enables integration with other services not part of Magento. If you select Yes, enter information for those services. Options: Yes / No|
 |Name of Service|The name of the non-Magento service.|
 |URL of Service|The full URL for the non-Magento service's website.|
