@@ -12,7 +12,7 @@
     "url": "https://github.com/icaraps"
   },
   "dependencies": {
-    "@adobe/gatsby-theme-aio": "^4.5.5",
+    "@adobe/gatsby-theme-aio": "^4.6.0",
     "gatsby": "^4.13.0",
     "gatsby-remark-check-links": "^2.1.0",
     "react": "^17.0.0",
