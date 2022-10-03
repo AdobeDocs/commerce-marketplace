@@ -8,7 +8,7 @@ Starting December 2021, Adobe Commerce Marketplace provides extension vendors an
 
 Top-notch extensions justify subscription pricing by providing elevated levels of quality, support, and overall better customer value.
 
-Adobe Commerce Marketplace subscription licenses will not restrict use of the code that has already been downloaded and installed onto the merchants’ instances. However, an active subscription may be required to get upgrades, support, and extra services and features the vendor may define as part of the license. Merchants can opt out of the subscription at any time, at will.
+Adobe Commerce Marketplace subscription licenses will not restrict use of the code that has already been downloaded and installed onto the merchants' instances. However, an active subscription may be required to get upgrades, support, and extra services and features the vendor may define as part of the license. Merchants can opt out of the subscription at any time, at will.
 
 Extensions sold under subscription license will include basic support into the subscription price.
 
