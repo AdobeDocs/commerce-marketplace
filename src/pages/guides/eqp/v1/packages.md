@@ -1206,6 +1206,7 @@ The list of prices in USD set for this package by edition, and the respective in
   }
 ]
 ```
+
 #### prices[N].currency_code
 
 The currency code for this price. Currently, the only valid value is `USD`.
@@ -1266,6 +1267,7 @@ Defines how to interpret the pricing for this package.
   "payment_period" : 12
 }
 ```
+
 #### pricing_model.payment_period
 
 For a package using the one-time payment model, the number `1` signifies once.  For a subscription, how often (in terms of months) payments are due.  Currently, only annual subscriptions are supported, so the value must either be `1` for "one-time" payments, or `12` for annual subscriptions.
@@ -1349,6 +1351,7 @@ The list of artifact objects. Listing here enables the "access rights" to these 
   }
 ]
 ```
+
 #### shared_packages[N].artifact.file_upload_id
 
 The unique file upload ID of shared package file, obtained from the Files API.
@@ -1611,6 +1614,7 @@ See [Additional notes](#additional-notes).
   "page_builder_used_for_content_creation" : true
 }
 ```
+
 ### type
 
 The type of package. Possible values:
@@ -1660,6 +1664,7 @@ For a new Magento 2 package:
   }
 ]
 ```
+
 #### version_compatibility[N].edition
 
 Must be `M2`.

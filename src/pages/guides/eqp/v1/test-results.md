@@ -263,7 +263,7 @@ The last command/output step in the details section is the command that failed t
 ### Marketing and Manual QA
 
 The Marketing and Manual QA reviews share the same report structure. There should only be one entry in the
-`reports` array for these reviews. The tool names are __marketing__ and __manual_qa__ respectively.
+`reports` array for these reviews. The tool names are **marketing** and **manual_qa** respectively.
 
 <CodeBlock slots="heading, code" repeat="2" languages="CURL, JSON" />
 
