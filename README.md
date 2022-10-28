@@ -2,17 +2,16 @@
 
 This site is built with a template containing the [Adobe I/O Theme](https://github.com/adobe/aio-theme).
 
-View the [demo](https://adobedocs.github.io/dev-site-documentation-template/) running on Github Pages.  
+View the [demo](https://adobedocs.github.io/dev-site-documentation-template/) running on Github Pages.
 
 ## Where to ask for help
 
-The slack channel #adobeio-onsite-onboarding is our main point of contact for help. Feel free to join the channel and ask any questions. 
+The slack channel #adobeio-onsite-onboarding is our main point of contact for help. Feel free to join the channel and ask any questions.
 
 ## How to develop
 
 For local development, simply use the following commands:
 
-```bash
 ```bash
 $ npm install
 $ npm run dev
