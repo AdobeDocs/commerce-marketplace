@@ -4,7 +4,7 @@ title: Create an app
 
 # Create an app
 
-Before you can submit your app to Commerce Marketplace, the code must be complete, tested, and packaged. For technical information, see the [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) documentation for additional technical information for developing apps. 
+Before you can submit your app to Commerce Marketplace, the code must be complete, tested, and packaged. For technical information, see the [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) documentation for additional technical information for developing apps.
 
 <!---
 Leaving this text as a reminder to add more info about building Commerce apps as it becomes available.
