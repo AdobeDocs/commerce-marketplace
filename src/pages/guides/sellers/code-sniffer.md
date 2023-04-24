@@ -10,14 +10,14 @@ Limited information is displayed in the Quality Report section of the product li
 
 ## What testing is for
 
-Magento projects typically use source code from several vendors. By adopting the [Magento Coding Standard](https://github.com/magento/magento-coding-standard), we solve two problems:
+Adobe Commerce projects typically use source code from several vendors. By adopting the [Magento Coding Standard](https://github.com/magento/magento-coding-standard), we solve two problems:
 
 1. Identify common coding errors and pitfalls at an early stage before code execution.
 1. Standardize and unify the way code is written, so that it can  be read easily by developers from different organizations.
 
 ## When testing is done
 
-Code sniffer is mandatory for extensions of any type. When you submit an extension, Magento uses code sniffer to analyze the entire code base regardless of the scope of changes. Only extensions that have passed code sniffer testing can be listed in the [Commerce Marketplace](https://marketplace.magento.com).
+Code sniffer is mandatory for extensions of any type. When you submit an extension, Commerce uses code sniffer to analyze the entire code base regardless of the scope of changes. Only extensions that have passed code sniffer testing can be listed in the [Commerce Marketplace](https://marketplace.magento.com).
 
 ## What is being checked
 

@@ -4,7 +4,7 @@ title: View the results overview
 
 # View the results overview
 
-When the review is complete, a link to the resulting report is provided for the extension, theme, or package that was submitted for review. Test results will also be communicated via email.
+When the review is complete, a link to the resulting report is provided for the listing that was submitted for review. Test results will also be communicated via email.
 
 The report includes the results of the following tests:
 
@@ -16,7 +16,7 @@ The report includes the results of the following tests:
 
 ## View the results of the review
 
-1. To view the results of the tests, navigate to the extension status page.
+1. To view the results of the tests, navigate to the product's status page.
 
 1. Under _**_Review Results_, click **Test Reports**.
 

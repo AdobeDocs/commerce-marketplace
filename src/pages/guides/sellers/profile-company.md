@@ -4,11 +4,11 @@ title: Company profile
 
 # Company profile
 
-Your company profile provides the information about your business and brand that appears in your Commerce Marketplace listing. During the initial interview, the Company Profile page appears after you choose the “Business” type of account. In your account, the Company Profile is located on the Developer Portal tab under My Information.
+Your company profile provides the information about your business and brand that appears in your Commerce Marketplace listing. During the initial interview, the Company Profile page appears after you choose the "Business" type of account. In your account, the Company Profile is located on the Developer Portal tab under My Information.
 
 ![Company profile](_images/developer-portal-company-profile.png)
 
-The following instructions walk you through the process of completing your company profile. All fields are required, unless marked “Optional”.
+The following instructions walk you through the process of completing your company profile. All fields are required, unless marked "Optional".
 
 ## Step 1: Before you begin
 
@@ -76,7 +76,7 @@ Enter the link to each professional social network that you want to include in y
 
    <InlineAlert variant="info" slots="text"/>
 
-   **Important:** This payment information is required of all developers, even those who make their extensions available at no charge. Magento sends your revenue share on a monthly basis to PayPal account.
+   **Important:** This payment information is required of all developers, even those who make their listings available at no charge. Adobe Commerce sends your revenue share on a monthly basis to PayPal account.
 
 1. Watch for a confirmation email sent to the email address associated with the account.
 
@@ -87,9 +87,9 @@ Enter the link to each professional social network that you want to include in y
 |Field|Description|
 |---|---|
 |Use as my default profile|Mark the checkbox to use your company profile as the default.|
-|Legal Company Name|The name of your legally registered business. Your company name appears in your Marketplace profile, and as a link in your extensions listings.|
-|Company Bio|A description of your company’s background, products, and services. You might begin with a couple of sentences to give a brief overview, and finish it later with a more detailed description. If you use a word processor to compose and spell check your bio, make sure to save it as plain text before pasting it into your profile. Make sure to convert all URLs to working hyperlinks. Maximum characters: 1500, including spaces.|
-|Update Image|Your company profile image represents your brand in Commerce Marketplace, and appears on your developer profile and product pages. The image must have a professional presentation, and must not be derived from, or include the Magento logo. To learn more, see the Magento Extension Distribution and Service Agreement. <br/>Size: 255 x 255 pixels <br/>Supported file types: JPG / GIF / PNG|
+|Legal Company Name|The name of your legally registered business. Your company name appears in your Marketplace profile, and as a link in your listings.|
+|Company Bio|A description of your company's background, products, and services. You might begin with a couple of sentences to give a brief overview, and finish it later with a more detailed description. If you use a word processor to compose and spell check your bio, make sure to save it as plain text before pasting it into your profile. Make sure to convert all URLs to working hyperlinks. Maximum characters: 1500, including spaces.|
+|Update Image|Your company profile image represents your brand in Commerce Marketplace, and appears on your developer profile and product pages. The image must have a professional presentation, and must not be derived from, or include the Adobe or Magento logo. To learn more, see the Magento Extension Distribution and Service Agreement. <br/>Size: 255 x 255 pixels <br/>Supported file types: JPG / GIF / PNG|
 
 ### Contact information
 
@@ -98,7 +98,9 @@ Enter the link to each professional social network that you want to include in y
 |Company Website|The URL of your company website.|
 |Primary Email|(Optional) The primary contact email that is used by your company. Select the checkbox to use the email that is associated with your Magento account.|
 |Company Support Email|The email address that customers can use to contact your company for technical support.|
-|Vendor Name|A unique identifier that identifies your Marketplace account. The vendor name can be based on your company name, and must be lowercase alphanumeric characters, and can include dashes. <br/><br/>**_Important:_** For all Magento 2.x packages submitted to Marketplace, the Vendor Name must match the name field in the Vendor section of the composer.json file.|
+|Vendor Name|A unique identifier that identifies your Marketplace account. The vendor name can be based on your company name, and must be lowercase alphanumeric characters, and can include dashes. <br/><br/>**_Important:_** For all Magento 2.x packages submitted to Marketplace, the Vendor Name must match the name field in the Vendor section of the `composer.json` file.|
+
+<!--- Apps don't have a composer.json file. How to update this statement? -->
 
 ### Company address
 
@@ -116,8 +118,8 @@ Enter the link to each professional social network that you want to include in y
 
 |Field|Description|
 |--- |--- |
-|GitHub|(Optional) The user name associated with your company’s GitHub account. For example: `http://github.com/username`|
-|Stack Exchange|(Optional) The URL of your company’s Stack Exchange profile. For example: `http://username.stackexchange.com`|
-|Twitter|(Optional) The user name associated with your company’s Twitter account. For example: `@username`|
-|Facebook|(Optional) The URL of your company’s Facebook profile. For example: `http://facebook.com/pages/username`|
-|LinkedIn|(Optional) The URL of your company’s LinkedIn profile. For example: `http://linkedin.com/company/username`|
+|GitHub|(Optional) The user name associated with your company's GitHub account. For example: `http://github.com/username`|
+|Stack Exchange|(Optional) The URL of your company's Stack Exchange profile. For example: `http://username.stackexchange.com`|
+|Twitter|(Optional) The user name associated with your company's Twitter account. For example: `@username`|
+|Facebook|(Optional) The URL of your company's Facebook profile. For example: `http://facebook.com/pages/username`|
+|LinkedIn|(Optional) The URL of your company's LinkedIn profile. For example: `http://linkedin.com/company/username`|

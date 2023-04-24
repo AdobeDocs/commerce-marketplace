@@ -4,45 +4,45 @@ title: Marketing review guidelines
 
 # Marketing review guidelines
 
-From a marketing perspective, all submissions to Commerce Marketplace must solve a business problem and deliver rich and unique functionality. Marketing descriptions will be checked against our style guidelines to make sure that content is in line with Magento branding guidelines.
+From a marketing perspective, all submissions to Commerce Marketplace must solve a business problem and deliver rich and unique functionality. Marketing descriptions will be checked against our style guidelines to make sure that content is in line with our branding guidelines.
 
 ## Presentation: Make the first impression count
 
-We have made an investment in the presentation of Commerce Marketplace. In return, we ask that you put forth an effort to present your solutions in a professional manner. If we see room for improvement, we’ll reach out to you before listing your extension on Commerce Marketplace.
+We have made an investment in the presentation of Commerce Marketplace. In return, we ask that you put forth an effort to present your solutions in a professional manner. If we see room for improvement, we'll reach out to you before adding your product to Commerce Marketplace.
 
 *  Your product must have a professional presentation with clear descriptions, images, and screenshots.
 *  The product name must indicate the purpose of the extension or theme.
 *  The product description must be well-written and provide an overview of the features and benefits.
 *  Use only high-quality screenshots, images, and video to accompany the listing.
 
-## Extension title
+## Product title
 
-The extension title should fulfill the following guidelines:
+The product title should fulfill the following guidelines:
 
-*  Choose a title that is descriptive and concise. The extension title can be up to five words in length and must be in English.
-*  Do not include the version number, developer name, or any reference to Magento in the title.
+*  Choose a title that is descriptive and concise. The title can be up to five words in length and must be in English.
+*  Do not include the version number, developer name, or any reference to Adobe or Magento in the title.
    *  Do not use _Magento_ or _M2_.
 *  Do not include the words _Extension_, _Module_ or _Plugin_.
    *  The words, _Connector_ and _Integration_ can be used if applicable.
 *  Use _&_ instead of _And_, such as in _Order & Save_ (not _Order and Save_).
 *  Capitalize the first letter of each word, such as _Mass Order Export_ (not _Mass order export_).
    *  Do not use all capital letters.
-*  Do not use punctuation unless it’s part of the actual company name, such as _InstantSearch+_ or _Yahoo!_.
+*  Do not use punctuation unless it's part of the actual company name, such as _InstantSearch+_ or _Yahoo!_.
    *  _/_ and _-_ are acceptable in certain circumstances, such as for _Two-Factor_ or _Import / Export_.
 *  Do not add underscores between words in the package name, such as (_Extension_Title_).
 *  Do not use the Developer Name in the title, such as _Print Order PDF_ (not _Fooman Print Order PDF_).
-   *  If the developer is the same name as the service being integrated, you may use the develop name in the title. For instance, if Visa submits an integration, they should include _Visa_ since it’s the name of the service.
-*  You can add the Magento version, such as 2.3, if two separate extensions must be on the store.
+   *  If the developer is the same name as the service being integrated, you may use the develop name in the title. For instance, if Visa submits an integration, they should include _Visa_ since it's the name of the service.
+*  You can add the Commerce version, such as 2.4, if two separate extensions must be on the store.
 
-## Extension icon
+## Product icon
 
-The extension icon should fulfill the following guidelines:
+The product icon should fulfill the following guidelines:
 
-*  The extension icon must reflect the extension with words and/or images. Text is not required, but an extension title can be added to the icon.
-   *  If the extension title is added to the icon, it should exactly match the extension title.
+*  The icon must reflect the extension with words and/or images. Text is not required, but an title can be added to the icon.
+   *  If the title is added to the icon, it should exactly match the title of the product.
    *  No slogans or features.
-*  Do not use _Magento_ or _M2_.
-*  Do not use the Magento Logo.
+*  Do not use _Adobe_, _Magento_, or _M2_.
+*  Do not use the Adobe or Magento Logo.
 *  Do not use the developer logo instead of the extension icon.
 *  Do not specify the extension version.
 *  Limit the use of the word _Pro_.
@@ -55,11 +55,11 @@ For guides and examples of long descriptions, see [product descriptions](product
 
 ## User guide, reference manual, or installation guide
 
-Extension documentation should fulfill the following guidelines:
+Product documentation should fulfill the following guidelines:
 
-*  Must cover all features of the extension.
+*  Must cover all features of the product.
 *  Must not direct users to make purchases on sites other than Marketplace.
-*  If an extension title is added into the documentation, it must not include _Magento_. Use _For Magento_ after the title if needed.
+*  If an product title is added into the documentation, it must not include _Magento_. Use _For Magento_ after the title if needed.
 *  Use of the Magento logo is prohibited. To learn more, see our [branding guidelines](branding.md).
    *  Partners can use their Magento partner badge.
 *  At least one piece of uploaded documentation must be in English.

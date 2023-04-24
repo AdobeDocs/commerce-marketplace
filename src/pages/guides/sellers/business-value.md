@@ -4,16 +4,16 @@ title: Define the business value
 
 # Define the business value
 
-Extensions with a clearly stated business value are easy for us to promote, and easy for customers to find.
+Listings with a clearly stated business value are easy for us to promote, and easy for customers to find.
 
 ## Utility
 
--  All extensions should address a business need by solving an issue or enhancing existing functionality.
--  Any extension that does not serve a useful purpose will be rejected.
+-  All listings should address a business need by solving an issue or enhancing existing functionality.
+-  Any listing that does not serve a useful purpose will be rejected.
 
 ## Relevancy
 
--  Create an extension that addresses a specific business case or solves a common problem faced by Magento merchants.
+-  Create an app or extension that addresses a specific business case or solves a common problem faced by merchants.
 -  Take a survey to see what extensions are already available on Commerce Marketplace.
 -  Differentiate your extension from other solutions. Be innovative, and do not copy ideas from other developers.
 

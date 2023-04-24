@@ -26,11 +26,11 @@ module.exports = [
         path: "/guides/sellers/compatibility/releases/",
       },
       {
-        title: "Abandoned extensions",
+        title: "Abandoned listings",
         path: "/guides/sellers/compatibility/abandoned-extensions/",
       },
       {
-        title: "Obsolete extensions",
+        title: "Obsolete listings",
         path: "/guides/sellers/compatibility/obsolete-extensions/",
       },
     ],
@@ -80,6 +80,24 @@ module.exports = [
     ],
   },
   {
+    title: "Apps",
+    path: "/guides/sellers/apps/",
+    pages: [
+      {
+        title: "Overview",
+        path: "/guides/sellers/apps/",
+      },
+      {
+        title: "Create an app",
+        path: "/guides/sellers/app-create/",
+      },
+      {
+        title: "Specify the version",
+        path: "/guides/sellers/extension-version/",
+      },
+    ],
+  },
+  {
     title: "Extensions",
     path: "/guides/sellers/extensions/",
     pages: [
@@ -94,32 +112,6 @@ module.exports = [
       {
         title: "Specify the version",
         path: "/guides/sellers/extension-version/",
-      },
-    ],
-  },
-  {
-    title: "Complete the extension information",
-    path: "/guides/sellers/extension-information/",
-    pages: [
-      {
-        title: "Overview",
-        path: "/guides/sellers/extension-information/",
-      },
-      {
-        title: "Add extension content",
-        path: "/guides/sellers/content/",
-      },
-      {
-        title: "Establish your brand",
-        path: "/guides/sellers/branding/",
-      },
-      {
-        title: "Define the business value",
-        path: "/guides/sellers/business-value/",
-      },
-      {
-        title: "Update extension information",
-        path: "/guides/sellers/extension-update-information/",
       },
     ],
   },
@@ -140,6 +132,32 @@ module.exports = [
       {
         title: "Overview",
         path: "/guides/sellers/shared-packages/",
+      },
+    ],
+  },
+  {
+    title: "Complete the listing information",
+    path: "/guides/sellers/extension-information/",
+    pages: [
+      {
+        title: "Overview",
+        path: "/guides/sellers/extension-information/",
+      },
+      {
+        title: "Add listing content",
+        path: "/guides/sellers/content/",
+      },
+      {
+        title: "Establish your brand",
+        path: "/guides/sellers/branding/",
+      },
+      {
+        title: "Define the business value",
+        path: "/guides/sellers/business-value/",
+      },
+      {
+        title: "Update extension information",
+        path: "/guides/sellers/extension-update-information/",
       },
     ],
   },

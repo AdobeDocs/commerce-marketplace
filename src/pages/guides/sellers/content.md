@@ -1,28 +1,28 @@
 ---
-title: Add extension content
+title: Add listing content
 ---
 
-# Add extension content
+# Add listing content
 
-The content that accompanies your extension listing is derived from the profile of the extension or theme, and information in the developer's company profile.
+The content that accompanies your submission is derived from the profile of the listing, and information in the developer's company profile.
 
 -  All content that is associated with a Commerce Marketplace listing must be free of offensive or discriminatory language, sexual content, or nudity.
--  Your content must not misuse the Magento name and its trademarks, or misrepresent the Magento brand. To learn more, see our [branding guidelines](branding.md).
--  Do not promote additional services and extensions in your Marketplace listing and Company Bio.
--  The extension listing must accurately describe the product, including the description and overview information, version compatibility, and category selection.
--  Use English as the primary language for the Extension Title, Short Description, Long Description, and Company Bio. You are welcome to include a second language in the Long Description after the English description, separated by a horizontal line. The content, links, and images should be the same in both languages.
+-  Your content must not misuse the Adobe Commerce or Magento name and its trademarks, or misrepresent the brands. To learn more, see our [branding guidelines](branding.md).
+-  Do not promote additional services and offerings in your Marketplace listing and Company Bio.
+-  The listing must accurately describe the product, including the description and overview information, version compatibility, and category selection.
+-  Use English as the primary language for the Title, Short Description, Long Description, and Company Bio. You are welcome to include a second language in the Long Description after the English description, separated by a horizontal line. The content, links, and images should be the same in both languages.
 -  The content can be formatted using the text editor, but do not include CSS directives.
--  The extension listing must be free of spelling and grammatical errors. If you use a word processor to compose and spell check your content, make sure to save it as plain text before pasting it into your profile, and convert all URLs to working hyperlinks.
+-  The listing must be free of spelling and grammatical errors. If you use a word processor to compose and spell check your content, make sure to save it as plain text before pasting it into your profile, and convert all URLs to working hyperlinks.
 
-## Extension profile
+## Product profile
 
-Pay special attention to the following fields in your extension profile, because they provide the content for your listing on Commerce Marketplace.
+Pay special attention to the following fields in your profile, because they provide the content for your listing on Commerce Marketplace.
 
 ### Long description
 
-The Long Description gives prospective buyers a solid understanding of the purpose of the extension, and how it works.  Begin with an opening paragraph that makes it clear what the extension can do for the merchant, and what makes it distinct from other extensions that might offer a similar solution. Give examples of how the extension is used to help prospective buyers make an informed decision.
+The **Long Description** gives prospective buyers a solid understanding of the purpose of the extension, and how it works.  Begin with an opening paragraph that makes it clear what the extension can do for the merchant, and what makes it distinct from other extensions that might offer a similar solution. Give examples of how the extension is used to help prospective buyers make an informed decision.
 
-Maximum character length: 10,000 characters (including text, numbers, symbols, and spaces).
+Maximum character length: 25,989 characters (including text, numbers, symbols, and spaces).
 
 -  You can use simple HTML tags to format the text. Use the default body style  for the opening paragraph, and do not begin with a heading. Use boldface text only for pricing information.
 -  Detailed features for the extension should be listed vertically, with bullet points or hyphens.
@@ -31,23 +31,27 @@ Maximum character length: 10,000 characters (including text, numbers, symbols, a
 
 For examples of long descriptions, see [Product Descriptions](product-descriptions.md).
 
-### Extension title
+### Title
 
-The extension title appears in the **Version Title** field of the extension profile, and can be changed according to the following guidelines:
+The title of your listing appears in the **Title** field of the extension profile, and can be changed according to the following guidelines:
 
 -  Choose a title that is descriptive and concise. The extension title can be up to four words long, and must be in English.
--  Do not include the version number, developer name, or any reference to Magento in the title.
--  Do not include the words _Extension_ or _Module_. However, the word, _Integration_ can be used if applicable.
+-  Do not include the version number, developer name, or any reference to Adobe Commerce or Magento in the title.
+-  Do not include the words _App_, _Extension_, or _Module_. However, the word, _Integration_ can be used if applicable.
 
 ### Pricing
 
-Any additional fees or subscription pricing — including fees charged by a third-party company for integrated services — must be included in the opening paragraph in boldface text.
+Any additional fees or subscription pricing — including fees charged by a third-party company for integrated services — must be included in the opening paragraph in boldface text. Apps do not support subscriptions or third-party services.
 
-The extension price that is listed on Commerce Marketplace must match the price that is listed on the developer website. The minimum price for a paid, flat fee extension is $25. The minimum price for a subscription is $10.
+The price that is listed on Commerce Marketplace must match the price that is listed on the developer website. The minimum price for a paid, flat fee extension is $25. The minimum price for a subscription is $10.
+
+<InlineAlert variant="info" slots="text"/>
+
+Subscription pricing is not supported for apps.
 
 ### Screenshots
 
-Provide at least two clear, high-resolution screenshots of the extension. Up to fifteen images can be uploaded to each extension profile. You can either drag each image to the box, or browse to the files and upload them from the directory.
+Provide at least two clear, high-resolution screenshots of the listing. Up to fifteen images can be uploaded to each extension profile. You can either drag each image to the box, or browse to the files and upload them from the directory.
 
 -  The first uploaded image becomes the main image for the profile, and is featured in extensions listings.
 -  Crop each screenshot to include only relevant information. Do not include URLs or unnecessary white space.

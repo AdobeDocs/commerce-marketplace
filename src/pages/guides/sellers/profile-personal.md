@@ -8,7 +8,7 @@ The information in your personal profile identifies you as a vendor in Commerce 
 
 ![Personal profile](_images/developer-portal-personal-profile.png)
 
-The following instructions walk you through the process of completing your personal profile. All fields are required, unless marked “Optional”.
+The following instructions walk you through the process of completing your personal profile. All fields are required, unless marked "Optional".
 
 ## Step 1: Before you begin
 
@@ -25,7 +25,7 @@ Prepare an image for your personal profile that is 255 pixels square, and saved 
 
 1. Take note that a unique **Magento ID** is assigned to your account.
 
-1. Enter a brief description of your background as a Magento developer in the **Bio** box. To change the height of the text box, drag the lower-right corner into position.
+1. Enter a brief description of your background as a developer in the **Bio** box. To change the height of the text box, drag the lower-right corner into position.
 
    ![Personal Profile - Name](_images/account-personal-profile-name.png)
 
@@ -33,11 +33,13 @@ Prepare an image for your personal profile that is 255 pixels square, and saved 
 
 1. Enter the URL of your **Personal Website**.
 
-1. Enter the **Screen Name** that you want to use when communicating with others on the Magento site.
+1. Enter the **Screen Name** that you want to use when communicating with others.
 
 1. Enter the **Personal Email** address to be associated with your account.
 
 1. In the **Vendor Name** field, enter the `vendor-name` part of the `Name` field from your `composer.json` file.
+
+<!--- Apps don't have a composer.json file. How to update this statement? -->
 
    `Name: <vendor-name> / <package-name>`
 
@@ -76,7 +78,7 @@ Enter the link to each professional social network that you want to include in y
 
 1. When prompted, enter your **PayPal Email** address.
 
-   **Important:** This payment information is required of all developers, even those who make their extensions available at no charge. Magento sends your revenue share on a monthly basis to PayPal account.
+   **Important:** This payment information is required of all developers, even those who make their listings available at no charge. Adobe Commerce sends your revenue share on a monthly basis to PayPal account.
 
    Look for the confirmation email that is sent to the email address associated with the account. To activate your account and gain access to the Developer Portal, click the link in the email.
 
@@ -87,7 +89,7 @@ Enter the link to each professional social network that you want to include in y
 |First Name|Your first name, as it is to appear in your Marketplace listing.|
 |Last Name|Your last name, as it is to appear in your Marketplace listing.|
 |Update Image|The image for your Marketplace personal profile can be dragged to your profile. <br/>Size - 255 x 255 pixels <br/>Supported file types: JPG, GIF, or PNG|
-|Mage ID|Your Magento ID is an automatically assigned when your account is created and identifies you throughout the Magento system.|
+|Mage ID|Your Magento ID is an automatically assigned when your account is created and identifies you throughout the Adobe Commerce system.|
 |Bio|A brief description of your expertise and interests. You might begin with a couple of sentences to give a brief overview, and finish it later with a more detailed description of your background, expertise, and experience. If you use a word processor to compose and spell check your bio, make sure to save it as text before pasting it into your profile. Maximum characters - 1,958, including spaces.|
 
 ### Contact information
@@ -96,7 +98,7 @@ Enter the link to each professional social network that you want to include in y
 |--- |--- |
 |Personal Website|The URL of your personal website.|
 |Personal Email|Your personal email address.|
-|Screen Name|The name that you want to use when communicating with others on Magento.com.|
+|Screen Name|The name that you want to use when communicating with others on `magento.com`.|
 |Personal Address||
 |Country|The country where you reside.|
 |Street Address|The street address that is used by postal and shipping carriers for deliveries.|

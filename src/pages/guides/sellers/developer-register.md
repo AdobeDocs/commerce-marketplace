@@ -12,7 +12,7 @@ Follow these steps to create a new developer account, or to register as a develo
 
 1. Access your account.
 
-   If you don’t yet have a Magento account, do one of the following:
+   If you don't yet have a Magento account, do one of the following:
 
    -  Go to the [Developer Portal](https://developer.magento.com) page, and click **Create  Account**. Then, click **Register**.
    -  In the upper-right corner of [Commerce Marketplace](https://marketplace.magento.com), click **Sign In**. Then, click **Register**.
@@ -26,7 +26,7 @@ Follow these steps to create a new developer account, or to register as a develo
 
       If there is already an account associated with this email address, click the link to access your account.
 
-   1. Under _My Company Primarily_, choose the best description of your company’s primary focus. Then, set **My Role** to the option that best describes what you do for the company.
+   1. Under _My Company Primarily_, choose the best description of your company's primary focus. Then, set **My Role** to the option that best describes what you do for the company.
 
    1. Under _Login Information_, enter a **Password** for your account. Then, enter it again to confirm.
 
@@ -49,7 +49,7 @@ If you agree with the terms of use, select the checkbox and click **I Agree**.
 
 ## Step 3: Select the type of account
 
-Your Commerce Marketplace developer account can be set up as an individual or company. All extensions and themes that are developed by a single company should be managed under the same account.
+Your Commerce Marketplace developer account can be set up as an individual or company. All listings that are developed by a single company should be managed under the same account.
 
 When prompted, select the type of account you want to create, and click **Choose**. Then, follow the appropriate instructions to complete the profile for the account.
 

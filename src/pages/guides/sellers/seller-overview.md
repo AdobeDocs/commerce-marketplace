@@ -18,11 +18,11 @@ Your account provides access to the Commerce Marketplace, as well as the develop
 
 <TextBlock slots="image, heading, text, links" width="50%" />
 
-![Build your extension](_images/assets/new-extension.png)
+![Build your app or extension](_images/assets/new-extension.png)
 
-## Build your extension
+## Build your app or extension
 
-Walk through the steps of the extension building process and learn about the technical and marketing guidelines for selling on the marketplace.
+Walk through the steps of the app or extension building process and learn about the technical and marketing guidelines for selling on the marketplace.
 
 *  [Learn more](extension-create.md)
 
@@ -32,7 +32,7 @@ Walk through the steps of the extension building process and learn about the tec
 
 ## Submit for review
 
-After completing development, testing, and creating a new extension entry, submit your extension for technical and marketing review.
+After completing development, testing, and creating a new extension entry, submit your app or extension for technical and marketing review.
 
 *  [Learn more](submit-for-review.md)
 
@@ -42,7 +42,7 @@ After completing development, testing, and creating a new extension entry, submi
 
 ## Manage your sales
 
-Use the sales and analytics reports to view and manage your extension sales information.
+Use the sales and analytics reports to view and manage your sales information.
 
 *  [Learn more](sales.md)
 
