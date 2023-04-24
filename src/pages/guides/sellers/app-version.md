@@ -4,7 +4,7 @@ title: Specify the version
 
 # Specify the version
 
-After you [create the extension entry](extension-create.md), the next step is to specify and submit a new version. Extensions can have multiple versions, including the first version submitted.
+After you [create the app entry](app-create.md), the next step is to specify and submit a new version. Extensions can have multiple versions, including the first version submitted.
 
 For existing, approved extensions, follow these instructions to add new versions as available and released.
 
@@ -14,7 +14,7 @@ For existing, approved extensions, follow these instructions to add new versions
 
 1. Click **Submit a New Version**.
 
-    ![](../sellers/_images/submit-new-version.png)
+    ![](../sellers/_images/app-submit-new-version.png)
 
 1. For **Marketplace Version Number**, enter a version number for the extension as you want it to appear in the Marketplace listing. For example: 1.0.0
 

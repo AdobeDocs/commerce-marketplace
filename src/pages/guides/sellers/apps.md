@@ -17,7 +17,7 @@ Apps created with App Builder run out of process, meaning they run within the Ap
 
 *  Adobe will waive any commission fees for a limited time on apps published to Commerce Marketplace in 2023.
 
-Each submitted apps must still pass the technical and marking review process.
+Each submitted app must still pass the technical and marking review process.
 
 All apps submitted to Commerce Marketplace are managed from the Apps page in the Marketplace Developer Portal. This page shows the status of each app you have submitted, and provides access to the profile and version history of each. You can also use the workspace controls to sort and filter the list.
 
@@ -56,7 +56,7 @@ Provides instructions for adding new versions for an app entry.
 | Column                | Description                                                                         |
 |-----------------------|-------------------------------------------------------------------------------------|
 | App Name        | The name of the app.                                                          |
-| Platform              | Lists your products by platform. Options: Magento 2.x |
+| Platform              | The value of M2 indicates the app runs on Commerce 2.x. |
 | No. of Versions       | The number of versions of the app that have been created.                     |
 | Active Version        | The version of the app that is currently active.                              |
 | Active Version Status | The current position of the app in the submission workflow.                   |

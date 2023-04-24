@@ -13,7 +13,7 @@ This next generation application store offers merchants a curated selection of s
 
 ## Before you begin
 
-Review the items you must have before you start the process of submitting an extension or app.
+Review the items you must have before you start the process of submitting an extension or app for review.
 
 [Learn more](before-you-begin.md)
 
@@ -41,9 +41,9 @@ Use your account to access the Developer Portal and manage your profile informat
 
 ![Create an extension](_images/assets/new-extension.png)
 
-## Create an app or extension
+## Create an extension
 
-Review steps in the app or extension building process and learn about technical and marketing guidelines for selling extensions on the Commerce Marketplace.
+Review steps in the app or extension building process and learn about technical and marketing guidelines for selling products on the Commerce Marketplace.
 
 [Learn more](extension-create.md)
 

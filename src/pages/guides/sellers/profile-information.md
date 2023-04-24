@@ -45,9 +45,9 @@ Access keys associated with an Adobe organization are shared between all members
 
 <InlineAlert variant="info" slots="text"/>
 
-The access key pair that is generated for Marketplace is not the same as the [Encryption Key](https://docs.magento.com/user-guide/system/encryption-key.html) that is associated with the Magento 2.x setup.
+The access key pair that is generated for Marketplace is not the same as the [Encryption Key](https://experienceleague.adobe.com/docs/commerce-admin/systems/security/encryption-key.html) that is associated with the Magento 2.x setup.
 
-For more technical information, see [Get your authentication keys](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html).
+For more technical information, see [Get your authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
 ### Create a new access key
 

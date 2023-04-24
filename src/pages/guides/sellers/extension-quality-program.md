@@ -11,17 +11,25 @@ The review process includes both an automated check and manual QA review. During
 
 You can log in to your Marketplace account to check the status of your submission. If your submission does not pass our technical or marketing reviews, we will tell you why, and how to fix it. Otherwise, your successful submissions will be listed on Marketplace.
 
-## [Build your code](extension-create.md)
+## Create a listing
 
-When your code is complete, you can create the listing in Commerce Marketplace.
+When your code is ready to be submitted to uploaded to Commerce Marketplace, create the listing in Commerce Marketplace.
 
-## [Submit for review](submit-for-review.md)
+*  [Apps](app-create.md)
+*  [Extensions](extension-create.md)
+*  [Themes](themes.md)
+*  [Shared packages](shared-packages.md)
 
-During Technical Review, your code is scanned and validated via automated testing and manual QA.
+## Submit for review
 
-During Marketing Review, your marketing information (including the documentation and images) is examined for quality and to make sure that it meets our marketing guidelines.
+The [review process](submit-for-review.md) has two phases:
+
+During [Technical Review](submit-for-technical-review.md), your code is scanned and validated via automated testing and manual QA.
+
+During [Marketing Review](submit-for-marketing-review.md), your marketing information (including the documentation and images) is examined for quality and to make sure that it meets our marketing guidelines.
+
 If the code doesn't pass either review, you can correct the problem and [resubmit](extension-resubmit.md) it.
 
-## [Approval](sales.md)
+## Approval
 
-When your code passes Technical Review and Marketing Review, it is approved and released for publication on the Commerce Marketplace.
+When your [code passes](sales.md) Technical Review and Marketing Review, it is approved and released for publication on the Commerce Marketplace.

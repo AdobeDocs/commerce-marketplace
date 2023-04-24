@@ -8,7 +8,7 @@ The following seections describe the account setup process.
 
 ## Step 1: Log in or register for a developer account
 
-If you have an existing Magento account, simply log in and complete the [developer registration](developer-register.md) process. If you are new to Magento, you can sign up for a new account and register as a developer at the same time.
+If you have an existing Magento account, simply log in and complete the [developer registration](developer-register.md) process. If you are new to Adobe Commerce, you can sign up for a new account and register as a developer at the same time.
 
 ## Step 2: Agree to the terms of service
 

@@ -4,7 +4,7 @@ title: Seller overview
 
 # Seller overview
 
-As an extension seller, your process starts with the extension development and testing. During this phase, be sure to follow the [Best Practices for Extension Developers](https://developer.adobe.com/commerce/php/best-practices/).
+As a seller on Commerce Marketplace, your process starts with the development and testing your product. During this phase, be sure to follow the [Best Practices for Extension Developers](https://developer.adobe.com/commerce/php/best-practices/).
 
 <TextBlock slots="image, heading, text, links" width="50%" />
 
@@ -12,7 +12,7 @@ As an extension seller, your process starts with the extension development and t
 
 ## Set up your account
 
-Your account provides access to the Commerce Marketplace, as well as the developer tools needed to submit an extension for sale.
+Your account provides access to the Commerce Marketplace, as well as the developer tools needed to submit a product for sale.
 
 *  [Learn more](account-setup.md)
 
@@ -32,7 +32,7 @@ Walk through the steps of the app or extension building process and learn about 
 
 ## Submit for review
 
-After completing development, testing, and creating a new extension entry, submit your app or extension for technical and marketing review.
+After completing development, testing, and creating a new listing entry, submit your app or extension for technical and marketing review.
 
 *  [Learn more](submit-for-review.md)
 

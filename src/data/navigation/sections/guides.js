@@ -93,7 +93,7 @@ module.exports = [
       },
       {
         title: "Specify the version",
-        path: "/guides/sellers/extension-version/",
+        path: "/guides/sellers/app-version/",
       },
     ],
   },
@@ -136,7 +136,7 @@ module.exports = [
     ],
   },
   {
-    title: "Complete the listing information",
+    title: "Prepare your product for submission",
     path: "/guides/sellers/extension-information/",
     pages: [
       {
@@ -144,7 +144,7 @@ module.exports = [
         path: "/guides/sellers/extension-information/",
       },
       {
-        title: "Add listing content",
+        title: "Add contents to the listing",
         path: "/guides/sellers/content/",
       },
       {

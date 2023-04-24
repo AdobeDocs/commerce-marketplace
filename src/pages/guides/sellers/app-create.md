@@ -4,12 +4,19 @@ title: Create an app
 
 # Create an app
 
-Before you can submit your app to Commerce Marketplace, the code must be complete, tested, and packaged. For technical information, see the [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) for additional technical information for developing apps. The following guides provide additional information about the Adobe Commerce development environment:
+Before you can submit your app to Commerce Marketplace, the code must be complete, tested, and packaged. For technical information, see the [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) documentation for additional technical information for developing apps. 
+
+<!---
+Leaving this text as a reminder to add more info about building Commerce apps as it becomes available.
+
+The following guides provide additional information about the Adobe Commerce development environment:
 
 -  [PHP Developer Guide](https://developer.adobe.com/commerce/php/development/)
 -  [Best Practices for Extension Developers](https://developer.adobe.com/commerce/php/best-practices/)
 -  [Magento Web APIs](https://developer.adobe.com/commerce/webapi/get-started/)
 -  [Frontend Developer Guide](https://developer.adobe.com/commerce/frontend-core/guide/)
+
+-->
 
 ![](_images/apps-prep.svg)
 
