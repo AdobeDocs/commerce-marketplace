@@ -14,7 +14,7 @@ For existing, approved extensions, follow these instructions to add new versions
 
 1. Click **Submit a New Version**.
 
-    ![](../sellers/_images/app-submit-new-version.png)
+    ![](../sellers/_images/submit-new-version.png)
 
 1. For **Marketplace Version Number**, enter a version number for the extension as you want it to appear in the Marketplace listing. For example: 1.0.0
 
