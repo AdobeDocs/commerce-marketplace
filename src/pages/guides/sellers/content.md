@@ -1,8 +1,8 @@
 ---
-title: Add listing content
+title: Add contents to the listing
 ---
 
-# Add listing content
+# Add contents to the listing
 
 The content that accompanies your submission is derived from the profile of the listing, and information in the developer's company profile.
 
