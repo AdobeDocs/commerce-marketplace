@@ -1,5 +1,4 @@
 ---
-group: marketplace-sellers
 title: Apps overview
 ---
 
@@ -7,7 +6,7 @@ title: Apps overview
 
 The [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) for Adobe Commerce enables developers to extend Adobe Commerce without modifying any core application code. This development environment reduces code complexity and lowers the costs of maintaining your solution.
 
-Apps created with App Builder run out of process, meaning they run within the App Builder infrastructure, rather within an instance of Commerce. These apps must be written in Javascript, preferably Node.js. Therefore, the technical requirements and review for an app differs from an extension or other type of Marketplace listing. Some key difference include:
+Apps created with App Builder run out of process, meaning they run within the App Builder infrastructure, instead of within an instance of Commerce. These apps must be written in JavaScript, preferably Node.js. Therefore, the technical requirements and review for an app differs from an extension or other type of Marketplace listing. Some key difference include:
 
 *  The app submitter must be associated with an Adobe enterprise or Adobe Commerce partner organization. Individuals and non-partner organizations cannot develop and submit App Builder apps.
 
@@ -43,7 +42,7 @@ Provides instructions for creating the initial entry for an app.
 
 <TextBlock slots="image, heading, text, links" width="33%" />
 
-![Slack logo](_images/assets/new-version.png)
+![Specify the version](_images/assets/new-version.png)
 
 ## Specify the version
 
