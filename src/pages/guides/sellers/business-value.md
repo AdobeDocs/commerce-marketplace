@@ -4,7 +4,7 @@ title: Define the business value
 
 # Define the business value
 
-Listings with a clearly stated business value are easy for us to promote, and easy for customers to find.
+Marketplace listings with a clearly stated business value are easy for us to promote, and easy for customers to find.
 
 ## Utility
 
@@ -14,8 +14,8 @@ Listings with a clearly stated business value are easy for us to promote, and ea
 ## Relevancy
 
 -  Create an app or extension that addresses a specific business case or solves a common problem faced by merchants.
--  Take a survey to see what extensions are already available on Commerce Marketplace.
--  Differentiate your extension from other solutions. Be innovative, and do not copy ideas from other developers.
+-  Take a survey to see what extensions and apps are already available on Commerce Marketplace.
+-  Differentiate your extension or app from other solutions. Be innovative, and do not copy ideas from other developers.
 
 ## Pricing
 
@@ -23,6 +23,10 @@ Listings with a clearly stated business value are easy for us to promote, and ea
 -  Items offered for sale on Commerce Marketplace must reflect fair market value. The minimum price for a paid, flat fee extension is $25. The minimum price for a subscription is $10. If the extension is also available for sale on your site, the prices must be the same.
 -  All purchases are paid for in US currency.
 -  Items sold on Commerce Marketplace are subject to a revenue sharing fee that is paid by the developer.
+
+<InlineAlert variant="info" slots="text"/>
+
+Adobe will waive commissions on all apps submitted to the marketplace in 2023 for the first two years of listing. Adobe reserves the right to charge a commission on apps submitted after 2023 as well as for apps submitted in 2023 after the initial two year period. The commission model for apps will be communicated at a later date.
 
 ## Appeal
 
