@@ -10,7 +10,7 @@ Developers are not charged a fee to submit or list products or services on Comme
 
 <InlineAlert variant="info" slots="text"/>
 
-Adobe will waive any revenue share fees for a limited time on apps published to Commerce Marketplace in 2023.
+Adobe will waive commissions on all apps submitted to the marketplace in 2023 for the first two years of listing. Adobe reserves the right to charge a commission on apps submitted after 2023 as well as for apps submitted in 2023 after the initial two year period. The commission model for apps will be communicated at a later date.
 
 Buyers have twenty-five (25) days after the date of purchase to request a refund. Adobe Commerce reviews all refund requests and if approved, issues the appropriate refund.
 

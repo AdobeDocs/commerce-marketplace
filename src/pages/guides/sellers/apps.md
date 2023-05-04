@@ -14,7 +14,7 @@ Apps created with App Builder run out of process, meaning they run within the Ap
 
 *  Subscriptions are not currently supported for apps. Only one-time purchases are supported.
 
-*  Adobe will waive any commission fees for a limited time on apps published to Commerce Marketplace in 2023.
+*  Adobe will waive commissions on all apps submitted to the marketplace in 2023 for the first two years of listing. Adobe reserves the right to charge a commission on apps submitted after 2023 as well as for apps submitted in 2023 after the initial two year period. The commission model for apps will be communicated at a later date..
 
 Each submitted app must still pass the technical and marking review process.
 

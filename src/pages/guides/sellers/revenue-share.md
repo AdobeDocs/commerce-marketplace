@@ -10,6 +10,6 @@ All Commerce Marketplace sales are subject to a 85/15 revenue share split, with 
 
 <InlineAlert variant="info" slots="text"/>
 
-Adobe will waive any revenue share fees for a limited time on apps published to Commerce Marketplace in 2023.
+Adobe will waive commissions on all apps submitted to the marketplace in 2023 for the first two years of listing. Adobe reserves the right to charge a commission on apps submitted after 2023 as well as for apps submitted in 2023 after the initial two year period. The commission model for apps will be communicated at a later date.
 
 Adobe pays 85% of the revenue, minus any amount that is required to be withheld by the U. S. government Internal Revenue Service (IRS). Payment terms and processing fees are clearly stated and agreed upon at the time the extension and/or service is submitted to Marketplace. Payout is provided through [PayPal](https://www.paypal.com/us/home)
