@@ -38,13 +38,13 @@ The product title should fulfill the following guidelines:
 
 The product icon should fulfill the following guidelines:
 
-*  The icon must reflect the extension with words and/or images. Text is not required, but an title can be added to the icon.
+*  The icon must reflect the listing with words and/or images. Text is not required, but an title can be added to the icon.
    *  If the title is added to the icon, it should exactly match the title of the product.
    *  No slogans or features.
 *  Do not use _Adobe_, _Magento_, or _M2_.
 *  Do not use the Adobe or Magento Logo.
 *  Do not use the developer logo instead of the extension icon.
-*  Do not specify the extension version.
+*  Do not specify the listing version.
 *  Limit the use of the word _Pro_.
 *  Less is more. Avoid minute detail that is hard to understand.
 *  For first-party companies, we recommend using the same image you use on Twitter, LinkedIn, etc.
@@ -59,9 +59,9 @@ Product documentation should fulfill the following guidelines:
 
 *  Must cover all features of the product.
 *  Must not direct users to make purchases on sites other than Marketplace.
-*  If an product title is added into the documentation, it must not include _Magento_. Use _For Magento_ after the title if needed.
-*  Use of the Magento logo is prohibited. To learn more, see our [branding guidelines](branding.md).
-   *  Partners can use their Magento partner badge.
+*  If a product title is added into the documentation, it must not include _Adobe Commerce_ or _Magento Open Source_. Use _For Adobe Commerce_ or _For Magento Open Source_ after the title if needed.
+*  Use of the Adobe or Magento logo is prohibited. To learn more, see our [branding guidelines](branding.md).
+   *  Partners can use their Adobe partner badge.
 *  At least one piece of uploaded documentation must be in English.
 *  Do not upload duplicates of the documents.
 
@@ -78,7 +78,7 @@ The price of your extension is included as part of the marketing information. To
 
 ## Content: Complete the product profile
 
-The content that accompanies your extension listing is derived from the [marketing information](submit-for-marketing-review.md) you entered for the extension or theme, and information in your [company profile](profile-company.md). To learn more, see [extension content](content.md).
+The content that accompanies your listing is derived from the [marketing information](submit-for-marketing-review.md) you entered for the extension, app or theme, and information in your company profile. To learn more, see [Listing content](content.md).
 
 *  All content that is associated with a Commerce Marketplace listing must be free of offensive or discriminatory language, sexual content, or nudity.
 *  The promotion of additional services or other extensions from your extension profile page is not allowed.

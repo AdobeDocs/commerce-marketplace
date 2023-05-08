@@ -21,4 +21,4 @@ Before you begin the submission process, you need to have the following items re
 -  A [detailed description](content.md) of your extension
 -  [Video links](submit-for-marketing-review.md)
 -  [Commerce version compatibility](submit-for-marketing-review.md) information
--  [Pricing information](submit-for-marketing-review.md) for your extension
+-  [Pricing information](submit-for-marketing-review.md) for your listing

@@ -4,7 +4,7 @@ title: Register as a developer
 
 # Register as a developer
 
-Follow these steps to create a new developer account, or to register as a developer with your existing Magento account.
+Follow these steps to create a new developer account, or to register as a developer with your existing Adobe Commerce Marketplace account.
 
 ![](../sellers/_images/developer-portal.png)
 
@@ -12,11 +12,11 @@ Follow these steps to create a new developer account, or to register as a develo
 
 1. Access your account.
 
-   If you don't yet have a Magento account, do one of the following:
+   If you don't yet have a Adobe Commerce Marketplace account, do one of the following:
 
    -  Go to the [Developer Portal](https://developer.magento.com) page, and click **Create  Account**. Then, click **Register**.
    -  In the upper-right corner of [Commerce Marketplace](https://marketplace.magento.com), click **Sign In**. Then, click **Register**.
-   -  From [magento.com](https://magento.com), click **My Account**. Then under **New Customers**, click **Register**.
+   -  From [business.adobe.com](https://business.adobe.com), click **My Account**. Then under **New Customers**, click **Register**.
 
    If you already have an account, log in as a registered user.
 
@@ -40,8 +40,6 @@ Read the following documents that describe Commerce Marketplace [terms of servic
 
 -  Xcelerate & Marketplace Master Terms
 -  Xcelerate & Marketplace Development Terms
-
-For your reference, you can also find these documents on [magento.com](https://magento.com/legal/terms/marketplace-xcelerate).
 
 If you agree with the terms of use, select the checkbox and click **I Agree**.
 

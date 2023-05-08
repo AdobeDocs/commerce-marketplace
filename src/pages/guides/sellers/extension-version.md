@@ -18,7 +18,7 @@ For existing, approved extensions, follow these instructions to add new versions
 
 1. For **Marketplace Version Number**, enter a version number for the extension as you want it to appear in the Marketplace listing. For example: 1.0.0
 
-1. Select the **Magento Compatibility** for the extension including the Magento edition (Open Source or Commerce) and version.
+1. Select the **Compatibility** and version for the extension, including whether it is support for Adobe Commerce or Magento Open Source.
 
     For **Requested Launch Date**, select an option:
 

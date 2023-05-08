@@ -4,7 +4,7 @@ title: Image tips
 
 # Image tips
 
-An image makes a powerful and lasting impression without a word. Images uploaded to your account help people learn about your products, and also represent your brand. Use only high-quality images for your personal, company, and listing profiles. The Magento logo appears as a placeholder until you upload your images of your own.
+An image makes a powerful and lasting impression without a word. Images uploaded to your account help people learn about your products, and also represent your brand. Use only high-quality images for your personal, company, and listing profiles.
 
 You can upload one thumbnail, and up to fifteen product images (two are required) to the listing profile. Use a combination of screenshots of the Admin and storefront, and other images to illustrate what the listing does, and how it is used. Choose one to be the main image for the listing, and upload it first. If you want to change the order, delete the images and then upload them again in the correct sequence.
 

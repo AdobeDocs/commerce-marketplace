@@ -6,9 +6,13 @@ title: Prepare your product for submission
 
 <InlineAlert variant="success" slots="text" />
 
-Unless otherwise indicated, these steps apply to all types of listings (apps, extensions, themes, and shared libraries). The **Apps** menu displays only if your organization is recognized as an Adobe partner.
+Unless otherwise indicated, these steps apply to all types of listings (apps, extensions, themes, and shared libraries).
 
-When your code is complete, the next step is to add an entry for your product to Commerce Marketplace. This creates an entry in the Commerce Marketplace Developer portal, but does not submit the extension.
+If your organization is not recognized as an Adobe partner, the **Apps** menu displays the following screen.
+
+![](_images/partner-apps.png)
+
+When your code is complete, the next step is to add an entry for your product to Commerce Marketplace. This creates an entry in the Commerce Marketplace Developer portal, but does not submit the listing.
 
 To add a listing, you need to complete these instructions, then submit the [version](extension-version.md).
 
@@ -28,7 +32,7 @@ To add a listing, you need to complete these instructions, then submit the [vers
 
    ![](_images/submit-chart1.png)
 
-1. Complete the basic information necessary for creating an entry. We recommend entering all content in English. For additional content details, see detailed field descriptions and [Extension content](content.md).
+1. Complete the basic information necessary for creating an entry. We recommend entering all content in English. For additional content details, see detailed field descriptions and [Listing content](content.md).
 
    The following table lists the available fields for each listing type.
 

@@ -30,7 +30,7 @@ Adobe will waive commissions on all apps submitted to the marketplace in 2023 fo
 
 ## Appeal
 
--  Create an extension that has broad appeal.
+-  Create an app or extension that has broad appeal.
 -  Your extension might be rejected if it appeals to only a small number of merchants.
 
 ## Promotion

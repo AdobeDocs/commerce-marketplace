@@ -53,7 +53,7 @@ Subscription pricing is not supported for apps.
 
 Provide at least two clear, high-resolution screenshots of the listing. Up to fifteen images can be uploaded to each extension profile. You can either drag each image to the box, or browse to the files and upload them from the directory.
 
--  The first uploaded image becomes the main image for the profile, and is featured in extensions listings.
+-  The first uploaded image becomes the main image for the profile, and is featured in listings.
 -  Crop each screenshot to include only relevant information. Do not include URLs or unnecessary white space.
 
 Maximum file size: 5 MB
@@ -66,7 +66,7 @@ Supported formats: JPG (JPEG) and PNG
 
 ### Documentation
 
-Each extension must include one of the following files: user guide, installation guide, or reference manual. You upload each document to your extension profile.
+Each listing must include one of the following files: user guide, installation guide, or reference manual. You upload each document to your listing profile.
 
 Maximum file size: 5 MB
 

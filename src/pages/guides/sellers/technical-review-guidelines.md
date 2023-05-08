@@ -100,7 +100,7 @@ _More details:_ [Installation and Varnish Tests](installation-and-varnish-tests.
 _See also:_
 
 -  [Configure and use Varnish](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html)
--  [System requirements](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html)
+-  [System requirements](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html)
 
 ### MFTF Commerce-supplied tests
 
@@ -166,8 +166,8 @@ To pass Manual QA, the extension must meet the following requirements:
 
 _See also:_
 
--  [Install an Extension via Composer](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension)
--  [General CLI installation](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/extensions.html)
+-  [Install an Extension via Composer](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html)
+-  [General CLI installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)
 
 #### Additional checks for Page Builder extensions
 

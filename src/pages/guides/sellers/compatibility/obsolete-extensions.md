@@ -16,10 +16,10 @@ If a compatible version is submitted through the Developer Portal and passes EQP
 
 ## Example notifications
 
-See the following example notification for cancelling an obsolete extension:
+See the following example notification for cancelling an obsolete listing:
 
 ![Example delisting notification from the marketplace](../_images/obsolete-cancelled.png)
 
-See the following example notification for delisting an obsolete extension:
+See the following example notification for delisting an obsolete listing:
 
 ![Example delisting notification from the marketplace](../_images/obsolete-delisted.png)
