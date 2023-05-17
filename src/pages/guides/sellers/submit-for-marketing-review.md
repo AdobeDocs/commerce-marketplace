@@ -1,5 +1,6 @@
 ---
 title: Submit for marketing review overview
+description: Learn how to submit your listing for marketing review.
 ---
 
 # Submit for marketing review overview
@@ -24,7 +25,7 @@ Before submitting an item for marketing review, conduct your own internal review
 
 ## Submit for review
 
-1. Log into the Marketplace Developer Portal, and then click **Apps*, **Extensions**, **Themes**, or **Shared Packages**.
+1. Log into the Marketplace Developer Portal, and then click **Apps**, **Extensions**, **Themes**, or **Shared Packages**.
 
 1. Click the item name you want to submit.
 
@@ -50,7 +51,7 @@ Before submitting an item for marketing review, conduct your own internal review
 
     ![](_images/marketing-description1.png)
 
-1. Enter a **Detailed Description** about your listing, including features and functionality.
+1. Enter a **Long Description** about your listing, including features and functionality.
 
     Use formatting buttons and options to highlight information, features, and more. Maximum characters: 25,989
 
@@ -115,8 +116,6 @@ Customers are advised to contact you directly for support, using the information
 1. If you offer support services, select the **Yes, I want to sell support...** checkbox and complete the **Support Tier 1** pricing.
 
 1. Choose the number of months in the contract according to the tier level, and enter the price.
-
-1. For **Description of Service**, enter a description of the support services available for the tier.
 
 1. To add an additional tier, click **Add Support Tier**. You can offer up to three pricing tiers for your support services.
 

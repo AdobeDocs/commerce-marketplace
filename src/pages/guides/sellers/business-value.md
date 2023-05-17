@@ -1,5 +1,6 @@
 ---
 title: Define the business value
+description: Learn how to create marketplace listings that have clear business value.
 ---
 
 # Define the business value
@@ -31,12 +32,12 @@ Adobe will waive commissions on all apps submitted to the marketplace in 2023 fo
 ## Appeal
 
 -  Create an app or extension that has broad appeal.
--  Your extension might be rejected if it appeals to only a small number of merchants.
+-  Your app or extension might be rejected if it appeals to only a small number of merchants.
 
 ## Promotion
 
--  We will do our best to put your extension in front of merchants, but we need your help!
+-  We will do our best to put your app or extension in front of merchants, but we need your help!
 -  Be your own cheerleader.
--  Create case studies that show the traction you have with merchants, and tell success stories of merchants who use your extension.
+-  Create case studies that show the traction you have with merchants, and tell success stories of merchants who use your app or extension.
 -  Establish yourself as a strong partner. Work closely with the Marketplace team to help us highlight your work.
--  If there is an apparent lack of interest in your extension, we will review any issues with you. If after a period of time the level of interest does not improve, the extension might be removed from Commerce Marketplace.
+-  If there is an apparent lack of interest in your app or extension, we will review any issues with you. If after a period of time the level of interest does not improve, the app or extension might be removed from Commerce Marketplace.

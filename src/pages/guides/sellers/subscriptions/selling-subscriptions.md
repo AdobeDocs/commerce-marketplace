@@ -1,5 +1,6 @@
 ---
 title: Selling subscription-based extensions
+description: Learn how to sell your listing as a subscription.
 ---
 
 # Selling subscription-based extensions

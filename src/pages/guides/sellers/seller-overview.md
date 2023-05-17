@@ -1,5 +1,6 @@
 ---
 title: Seller overview
+description: Learn how to set up your seller account for the marketplace.
 ---
 
 # Seller overview

@@ -1,6 +1,7 @@
 ---
 group: marketplace-sellers
 title: Extension Quality Program
+description: Learn about the extension quality program.
 ---
 
 # Extension Quality Program

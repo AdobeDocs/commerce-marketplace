@@ -1,5 +1,6 @@
 ---
 title: Analytics
+description: Learn how to view your listing's analytics.
 ---
 
 # Analytics

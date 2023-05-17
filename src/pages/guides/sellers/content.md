@@ -1,5 +1,6 @@
 ---
 title: Add contents to the listing
+description: Learn how to add content to an existing listing.
 ---
 
 # Add contents to the listing
@@ -51,7 +52,7 @@ Subscription pricing is not supported for apps.
 
 ### Screenshots
 
-Provide at least two clear, high-resolution screenshots of the listing. Up to fifteen images can be uploaded to each extension profile. You can either drag each image to the box, or browse to the files and upload them from the directory.
+Provide at least two clear, high-resolution screenshots of the listing. Up to fifteen images can be uploaded to each listing profile. You can either drag each image to the box, or browse to the files and upload them from the directory.
 
 -  The first uploaded image becomes the main image for the profile, and is featured in listings.
 -  Crop each screenshot to include only relevant information. Do not include URLs or unnecessary white space.
@@ -62,7 +63,7 @@ Supported formats: JPG (JPEG) and PNG
 
 ### Video
 
-(Optional) You can include links to up to three YouTube videos in your extension profile.
+(Optional) You can include links to up to three YouTube videos in your listing profile.
 
 ### Documentation
 

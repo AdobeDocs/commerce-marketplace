@@ -1,5 +1,6 @@
 ---
 title: Resubmit a listing
+description: Learn how to resubmit a listing for approval
 ---
 
 # Resubmit a listing

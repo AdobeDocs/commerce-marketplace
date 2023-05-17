@@ -1,5 +1,6 @@
 ---
 title: Profile information
+description: Learn how to complete your marketplace profile.
 ---
 
 # Profile information

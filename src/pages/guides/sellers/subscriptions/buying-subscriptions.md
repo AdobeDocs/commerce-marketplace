@@ -1,5 +1,6 @@
 ---
 title: Buying subscription-based extensions
+description: Learn how to purchase listings that require a subscription.
 ---
 
 # Buying subscription-based extensions

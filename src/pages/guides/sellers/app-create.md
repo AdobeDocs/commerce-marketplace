@@ -1,5 +1,6 @@
 ---
 title: Create an app
+description: Learn how to create an app for the marketplace.
 ---
 
 # Create an app

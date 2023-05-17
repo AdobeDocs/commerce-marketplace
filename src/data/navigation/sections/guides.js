@@ -69,14 +69,6 @@ module.exports = [
         title: "Profile information",
         path: "/guides/sellers/profile-information/",
       },
-      {
-        title: "Company profile",
-        path: "/guides/sellers/profile-company/",
-      },
-      {
-        title: "Personal profile",
-        path: "/guides/sellers/profile-personal/",
-      },
     ],
   },
   {

@@ -1,5 +1,6 @@
 ---
 title: Review process overview
+description: Learn how to submit your listing for review.
 ---
 
 # Review process overview

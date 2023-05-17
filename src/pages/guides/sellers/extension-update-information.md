@@ -1,5 +1,6 @@
 ---
 title: Update listing information
+description: Learn how to update the information for a listing.
 ---
 
 # Update listing information

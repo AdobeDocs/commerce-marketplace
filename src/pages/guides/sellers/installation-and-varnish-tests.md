@@ -1,5 +1,6 @@
 ---
 title: Installation and Varnish tests
+description: Learn how the installation and Varnish tests work to ensure compatibility.
 ---
 
 # Installation and Varnish tests

@@ -1,5 +1,6 @@
 ---
 title: Prepare your product for submission
+description: Learn what to do before submitting a product.
 ---
 
 # Prepare your product for submission

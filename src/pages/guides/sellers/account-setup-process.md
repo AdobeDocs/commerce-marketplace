@@ -1,5 +1,6 @@
 ---
 title: Account setup process
+description: Learn how to set up an account for the marketplace.
 ---
 
 # Account setup process
@@ -20,4 +21,4 @@ The information in your [personal profile](developer-register.md) identifies you
 
 ## Step 4: Complete your company profile
 
-Your [company profile](profile-company.md) is similar to your personal profile, and provides the information about your company and brand that appears in your Commerce Marketplace listing.
+Your [account information](./profile-information.md) is similar to your personal profile, and provides the information about your company and brand that appears in your Commerce Marketplace listing.

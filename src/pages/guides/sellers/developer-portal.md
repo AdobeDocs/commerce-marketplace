@@ -1,5 +1,6 @@
 ---
 title: Developer Portal Overview
+description: Learn how to use the developer portal.
 ---
 
 # Developer Portal Overview

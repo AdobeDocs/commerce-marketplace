@@ -1,5 +1,6 @@
 ---
 title: Abandoned listings
+description: Learn how to abandon listings.
 ---
 
 # Abandoned listings
@@ -14,10 +15,10 @@ If an extension or app has not been updated for 12 months and automated notifica
 
 ## Example notifications
 
-See the following example notification for cancelling an abandoned extension:
+See the following example notification for cancelling an abandoned listing:
 
 ![Example delisting notification from the marketplace](../_images/abandoned-cancelled.png)
 
-See the following example notification for delisting an abandoned extension:
+See the following example notification for delisting an abandoned listing:
 
 ![Example delisting notification from the marketplace](../_images/abandoned-delisted.png)

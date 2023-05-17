@@ -1,5 +1,6 @@
 ---
 title: Extension subscriptions overview
+description: Learn how to subscription based listing work.
 ---
 
 # Extension subscriptions overview

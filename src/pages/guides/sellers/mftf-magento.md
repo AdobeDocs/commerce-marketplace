@@ -1,5 +1,6 @@
 ---
 title: MFTF Commerce-supplied tests
+description: Learn about the Magento Functional Testing Framework (MFTF) tests supplied by Adobe Commerce and how they can improve your listing.
 ---
 
 # MFTF Commerce-supplied tests

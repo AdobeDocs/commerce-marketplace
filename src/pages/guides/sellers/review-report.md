@@ -1,5 +1,6 @@
 ---
 title: View the results overview
+description: Learn about the information contained in the results of your listing review.
 ---
 
 # View the results overview

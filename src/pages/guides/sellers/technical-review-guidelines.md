@@ -1,5 +1,6 @@
 ---
 title: Technical review guidelines
+description: Learn how to submit your listing for technical review.
 ---
 
 # Technical review guidelines

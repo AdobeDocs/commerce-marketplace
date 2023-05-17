@@ -1,5 +1,6 @@
 ---
 title: Image tips
+description: Learn how to best format images for your listing.
 ---
 
 # Image tips

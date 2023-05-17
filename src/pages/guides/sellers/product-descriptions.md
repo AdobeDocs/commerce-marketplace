@@ -1,5 +1,6 @@
 ---
 title: Product descriptions
+description: Learn how to provide a description for your listing.
 ---
 
 # Product descriptions

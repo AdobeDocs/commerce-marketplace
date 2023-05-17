@@ -1,5 +1,6 @@
 ---
 title: Video tips
+description: Learn how using video can increase sales of your listing.
 ---
 
 # Video tips

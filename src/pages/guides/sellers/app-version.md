@@ -1,5 +1,6 @@
 ---
 title: Specify the version
+details: Learn how to specify and submit a new version of your app.
 ---
 
 # Specify the version

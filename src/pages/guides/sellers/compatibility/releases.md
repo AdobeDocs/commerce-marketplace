@@ -1,5 +1,6 @@
 ---
 title: Release compatibility
+description: Learn how to indicate release compatibility information for your marketplace listing.
 ---
 
 # Release compatibility

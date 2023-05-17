@@ -1,5 +1,6 @@
 ---
 title: Marketing submission preview
+description: Learn how to preview your submission.
 ---
 
 # Marketing submission preview

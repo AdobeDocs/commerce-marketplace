@@ -1,5 +1,6 @@
 ---
 title: Compatibility requirements overview
+description: Learn about the listing requirements for the marketplace.
 ---
 
 # Compatibility requirements overview

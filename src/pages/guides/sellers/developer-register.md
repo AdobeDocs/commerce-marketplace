@@ -1,5 +1,6 @@
 ---
 title: Register as a developer
+description: Learn how to register for access to the developer portal.
 ---
 
 # Register as a developer
@@ -49,9 +50,6 @@ If you agree with the terms of use, select the checkbox and click **I Agree**.
 
 Your Commerce Marketplace developer account can be set up as an individual or company. All listings that are developed by a single company should be managed under the same account.
 
-When prompted, select the type of account you want to create, and click **Choose**. Then, follow the appropriate instructions to complete the profile for the account.
-
--  [Business Account](profile-company.md)
--  [Individual Account](profile-personal.md)
+When prompted, select the type of account you want to create, and click **Choose**. Then, follow the [Profile Information](./profile-information.md) instructions to complete the profile for the account.
 
 ![](../sellers/_images/account-type-business.png)

@@ -1,5 +1,6 @@
 ---
 title: MFTF Vendor-supplied tests
+description: Learn about the Magento Functional Testing Framework (MFTF) tests that you can create and how they can improve your listing.
 ---
 
 # MFTF Vendor-supplied tests
