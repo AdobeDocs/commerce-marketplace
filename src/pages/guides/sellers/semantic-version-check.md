@@ -5,21 +5,21 @@ description: Learn how the semantic version check (SVC) validates your listing's
 
 # Semantic version check
 
-The semantic version check (SVC) is a quality check that validates the change level of an app or extension submission against the change level declared by the developer.
+The semantic version check (SVC) is a quality check that validates the change level of an extension's submission against the change level declared by the developer.
 
 ## What testing is for
 
 [Semantic versioning](https://semver.org) is a good way to communicate what kind of changes were introduced between software releases. Clients can use this information to estimate the risk level of upgrading a particular software package and to determine how much effort is required to adopt the new version.
 
-Commerce follows semantic versioning and encourages all third-party vendors to apply this versioning strategy for their apps and extensions as well.
+Commerce follows semantic versioning and encourages all third-party vendors to apply this versioning strategy for their extensions as well.
 
-Commerce Marketplace uses version information to fast-track the validation process for submissions that introduce patch level changes, as these are expected to be backwards compatible bug fixes without any new functionality.
+Commerce Marketplace uses version information to fast-track the validation process for submissions that introduce patch-level changes, as these are expected to be backwards compatible bug fixes without any new functionality.
 
 ## When testing is done
 
 For the semantic version check to be applied, the submission must meet the following conditions:
 
-1. A new submission must update an already existing version of an app or extension that has been previously published to the Marketplace storefront.
+1. A new submission must update an already existing version of an extension that has been previously published to the Marketplace storefront.
 1. The developer must declare the new submission as a "PATCH" level change.
 
 ## What is being checked
@@ -28,7 +28,7 @@ The semantic version check analyzes the submission to determine the change level
 
 If the submission is a "PATCH" level change, the submission is fast-tracked and is exempt from the Manual QA process. Otherwise, this check fails.
 
-A failed semantic version check has no impact on submission approval. If a submission receives Manual QA approval, then the app or extension will be published.
+A failed semantic version check has no impact on submission approval. If a submission receives Manual QA approval, then the extension will be published.
 
 ## Tools and environments used
 

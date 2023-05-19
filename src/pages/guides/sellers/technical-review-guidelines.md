@@ -12,7 +12,7 @@ During technical review, your code is examined to detect the presence of viruses
 The technical review begins as soon as you upload a package on the [Developer Portal](https://developer.magento.com). It consists of two mandatory steps to generate the submission ID and trigger further testing:
 
 1. [Malware Scan](malware-scan.md) &mdash; Ensures that uploaded packages do not contain viruses or malware software.
-1. Package Verification &mdash; Checks that the uploaded file is a zip archive.  For extensions, the  file must contain a [Composer](https://getcomposer.org) package.
+1. Package Verification &mdash; Checks that the uploaded file is a zip archive.  For extensions, the file must contain a [Composer](https://getcomposer.org) package. Additionally, the review will check for incomplete development indicators in the form of `FIXME` or `TODO` style comments.
 
 ### App package verification
 

@@ -9,7 +9,7 @@ The copy paste detector check validates that implementation of the submitted pro
 
 ## What testing is for
 
-Only original apps and extensions can be listed in the [Commerce Marketplace](https://marketplace.magento.com). We test submitted apps and extensions to detect duplication of code from Commerce or from another listing available in the Commerce Marketplace. If duplication is extensive, the submission is rejected on the grounds that the content is plagiarized.
+Only original extensions can be listed in the [Commerce Marketplace](https://marketplace.magento.com). We test submitted extensions to detect duplication of code from Commerce or from another listing available in the Commerce Marketplace. If duplication is extensive, the submission is rejected on the grounds that the content is plagiarized.
 
 ## When testing is done
 
@@ -19,7 +19,7 @@ All submissions are subject to the Copy Past Detector check regardless of produc
 
 Copy paste detector performs a static analysis of the source code and tries to detect similar code snippets.
 
-If the Detector identifies many similarities between the submitted app or extension and a previously known listing, we may mark the check as failed if there is strong evidence of plagiarism. We can also schedule problematic submissions for human code review if there are concerns regarding code fragments. Expert judgment is required to make final decisions about plagiarism.
+If the Detector identifies many similarities between the submitted extension and a previously known listing, we may mark the check as failed if there is strong evidence of plagiarism. We can also schedule problematic submissions for human code review if there are concerns regarding code fragments. Expert judgment is required to make final decisions about plagiarism.
 
 ## Tools and environments used
 
@@ -27,7 +27,7 @@ Copy paste detector includes, but is not limited to, [PHPCPD](https://github.com
 
 ## Reading an error report
 
-Copy paste detector provides a list of places in your code that were identified as duplicates. If the submission is found to duplicate Commerce code, review the list and remove each instance of duplicated code. Then, upload a new package and resubmit the app or extension. We reject any submission that has duplicate code from another listing.
+Copy paste detector provides a list of places in your code that were identified as duplicates. If the submission is found to duplicate Commerce code, review the list and remove each instance of duplicated code. Then, upload a new package and resubmit the extension. We reject any submission that has duplicate code from another listing.
 
 ## Troubleshooting
 

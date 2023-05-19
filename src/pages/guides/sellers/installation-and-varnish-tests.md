@@ -7,6 +7,10 @@ description: Learn how the installation and Varnish tests work to ensure compati
 
 The Installation and Varnish tests are automated EQP checks to ensure that the submitted app or extension version is compatible with the Adobe Commerce versions and the editions that it claims to support.
 
+<InlineAlert variant="info" slots="text"/>
+
+Varnish tests are available for extensions only. Limited automated installation testing is available for Apps.
+
 ## What testing is for
 
 Commerce is a complex, highly extensible platform. To ensure that third-party apps and extensions are production-ready, the Installation and Varnish tests verify successful installation with the app or extension included, the ability to switch to [production mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html), and that the app or extension does not affect the caching mechanism for the most critical scenarios. The caching check ensures that the storefront provides a high performance customer experience.
