@@ -1,10 +1,11 @@
 ---
 title: Buying subscription-based extensions
+description: Learn how to purchase listings that require a subscription.
 ---
 
 # Buying subscription-based extensions
 
-Adobe Commerce Marketplace provides extension vendors an opportunity to sell their extensions under an auto-renewing subscription model.
+Adobe Commerce Marketplace provides extension vendors an opportunity to sell their extensions under an auto-renewing subscription model. Subscriptions are not available for apps.
 
 ## Subscribing to an extension
 

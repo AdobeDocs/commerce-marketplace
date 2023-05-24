@@ -1,23 +1,24 @@
 ---
 title: Product descriptions
+description: Learn how to provide a description for your listing.
 ---
 
 # Product descriptions
 
-Every extension submitted requires a long, detailed description of the product as part of the marketing submission process. Some products, such as integration extensions and payment extensions, have additional requirements for their long descriptions.
+Every product submitted requires a long, detailed description of the product as part of the marketing submission process. Some products, such as integration extensions and payment extensions, have additional requirements for their long descriptions.
 
 ## Long description (required)
 
-A detailed opening paragraph that describes the extension.
+A detailed opening paragraph that describes the product.
 
--  Make it clear what the extension can do for the customer and how the extension works.
--  You may want to give examples of cases when the extension might be used.
+-  Make it clear what the product can do for the customer and how the extension works.
+-  You may want to give examples of cases when the product might be used.
 -  Leave the merchant with a solid understanding of how their site will appear and function if they purchase your extension.
 -  Do NOT include a heading before the opening paragraph.
 
 ### List of features (required)
 
--  Add a “Features” heading, using H3 or H2 tags.
+-  Add a "Features" heading, using H3 or H2 tags.
 -  List features vertically with bullet points (minimum 5).
 -  Only use the bullet point button in the Admin to create the bullet points.
 
@@ -47,17 +48,17 @@ Use headings for any additional sections. Use only after "Features" section. (H3
 
 -  Using stylized fonts or colors (except for headings)
 -  Including installation instructions in the long description
--  Not hyperlinking URLS
--  Saying “This Magento extension” or “Magento 2 Newsletter Subscription extension” instead of “This extension for Magento” or “Newsletter Subscription extension for Magento 2”
--  Not capitalizing the “M” in “Magento”
+-  Not hyperlinking URLs
+-  Saying "This Magento extension" or "Magento 2 Newsletter Subscription extension" instead of "This extension for Magento" or "Newsletter Subscription extension for Magento 2"
+-  Not capitalizing the "M" in "Magento"
 
-## Integration extensions
+## Integration extensions and apps
 
 These are in addition to all standard requirements (opening paragraph, features, demos, etc.)
 
 -  Add an introductory paragraph (BEFORE the opening paragraph) that gives background information on the company / service being integrated. Make the first mention of the company a BOLD hyperlink that leads to the corresponding company website.
--  Add an “Account and Pricing” heading, using H3 or H2 tags.
--  Under the “Account and Pricing” heading, add the following example in BOLD. Make it clear that a separate account is required. Specify whether or not the account is created during extension installation. Supply a link to the sign-up page. Specify if the SERVICE (not the extension) is free or if there are additional fees for the service/account. Add a link to the pricing page.
+-  Add an "Account and Pricing" heading, using H3 or H2 tags.
+-  Under the "Account and Pricing" heading, add the following example in BOLD. Make it clear that a separate account is required. Specify whether or not the account is created during extension installation. Supply a link to the sign-up page. Specify if the SERVICE (not the extension) is free or if there are additional fees for the service/account. Add a link to the pricing page.
 
 ### Examples
 
@@ -69,9 +70,9 @@ _Account and Pricing Example 2:_
 
 To use this extension, you need to sign up for a \_\_\_\_\_\_\_ service account here. Transaction fees will be charged for every transaction. Transaction fees vary from merchant to merchant, based on what is agreed upon with \_\_\_\_\_\_\_ when negotiating your contract. \_\_\_\_\_\_ does not provide pricing details publicly. For more information and to register, please contact Lorem@Ipsum.com directly.
 
-Alternative: “For more information and to register, please visit the company contact form.”
+Alternative: "For more information and to register, please visit the company contact form."
 
-## Payment extensions
+## Payment extensions and apps
 
 These are in addition to all standard requirements and integration requirements (integration paragraph, opening paragraph, account and pricing information, features, demos, etc.)
 

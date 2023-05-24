@@ -1,5 +1,6 @@
 ---
 title: Specify the version
+description: Learn how to specify the version number for a listing.
 ---
 
 # Specify the version
@@ -18,7 +19,7 @@ For existing, approved extensions, follow these instructions to add new versions
 
 1. For **Marketplace Version Number**, enter a version number for the extension as you want it to appear in the Marketplace listing. For example: 1.0.0
 
-1. Select the **Magento Compatibility** for the extension including the Magento edition (Open Source or Commerce) and version.
+1. Select the **Compatibility** and version for the extension, including whether it is support for Adobe Commerce or Magento Open Source.
 
     For **Requested Launch Date**, select an option:
 
@@ -32,9 +33,3 @@ For existing, approved extensions, follow these instructions to add new versions
 You can continue with technical and marketing submissions, providing the code package, complete information, documentation, and more.
 
 You can save progress and edit the extension information as needed.
-
-|Field|Description|
-|--- |--- |
-|Marketplace Version Number|The version number you assign to the extension. This version displays on Marketplace.|
-|Magento Compatibility|The editions and minor versions of Magento the extension version is compatible. Listed options depend on the supported versions at time of creation.|
-|Requested Launch Date|The earliest the extension can be launched, provided it passes all reviews. Options: <br/>**On Approval** - Publishes when approved. <br/>**Scheduled Launch Date** - Specified date after approval is received. This date is not necessarily the date the product will launch; it is the earliest it can be launched, provided the product passes all reviews.|

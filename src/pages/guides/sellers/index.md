@@ -13,7 +13,7 @@ This next generation application store offers merchants a curated selection of s
 
 ## Before you begin
 
-Review the items you must have before starting the extension submission process.
+Review the items you must have before you start the process of submitting an extension or app for review.
 
 [Learn more](before-you-begin.md)
 
@@ -43,7 +43,7 @@ Use your account to access the Developer Portal and manage your profile informat
 
 ## Create an extension
 
-Review steps in the extension building process and learn about technical and marketing guidelines for selling extensions on the Commerce Marketplace.
+Review steps in the app or extension building process and learn about technical and marketing guidelines for selling products on the Commerce Marketplace.
 
 [Learn more](extension-create.md)
 
@@ -53,7 +53,7 @@ Review steps in the extension building process and learn about technical and mar
 
 ## Submit for review
 
-Our Extension Quality Program (EQP) verifies that all extensions meet Adobe quality standards and best practices.
+Our Extension Quality Program (EQP) verifies that all submissions meet Adobe quality standards and best practices.
 
 [Learn more](extension-quality-program.md)
 
@@ -63,7 +63,7 @@ Our Extension Quality Program (EQP) verifies that all extensions meet Adobe qual
 
 ## Manage your sales
 
-You can use the sales and analytics reports to view and manage your extension sales information.
+You can use the sales and analytics reports to view and manage your sales information.
 
 [Learn more](sales.md)
 
@@ -73,7 +73,7 @@ You can use the sales and analytics reports to view and manage your extension sa
 
 ## For buyers
 
-Learn about the extension installation process from a customer's perspective.
+Learn about the installation process from a customer's perspective.
 
 [Learn more](https://docs.magento.com/m2/ee/user_guide/magento/magento-marketplace.html)
 
@@ -83,6 +83,6 @@ Learn about the extension installation process from a customer's perspective.
 
 ## Technical reference
 
-Browse our collection of resources for extension developers and buyers.
+Browse our collection of resources for developers and buyers.
 
 [Learn more](technical-reference.md)

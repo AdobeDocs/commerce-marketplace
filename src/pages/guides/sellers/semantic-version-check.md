@@ -1,10 +1,11 @@
 ---
 title: Semantic version check
+description: Learn how the semantic version check (SVC) validates your listing's changes against your suggested change level.
 ---
 
 # Semantic version check
 
-The semantic version check (SVC) is a quality check that validates the change level of an extension submission against the change level declared by the extension developer.
+The semantic version check (SVC) is a quality check that validates the change level of an extension's submission against the change level declared by the developer.
 
 ## What testing is for
 
@@ -12,14 +13,14 @@ The semantic version check (SVC) is a quality check that validates the change le
 
 Commerce follows semantic versioning and encourages all third-party vendors to apply this versioning strategy for their extensions as well.
 
-Commerce Marketplace uses version information to fast-track the extension validation process for submissions that introduce patch level changes, as these are expected to be backwards compatible bug fixes without any new functionality.
+Commerce Marketplace uses version information to fast-track the validation process for submissions that introduce patch-level changes, as these are expected to be backwards compatible bug fixes without any new functionality.
 
 ## When testing is done
 
-For the semantic version check to be applied, the extension submission must meet the following conditions:
+For the semantic version check to be applied, the submission must meet the following conditions:
 
 1. A new submission must update an already existing version of an extension that has been previously published to the Marketplace storefront.
-1. The extension developer must declare the new submission as a "PATCH" level change.
+1. The developer must declare the new submission as a "PATCH" level change.
 
 ## What is being checked
 
@@ -27,7 +28,7 @@ The semantic version check analyzes the submission to determine the change level
 
 If the submission is a "PATCH" level change, the submission is fast-tracked and is exempt from the Manual QA process. Otherwise, this check fails.
 
-A failed semantic version check has no impact on extension approval. If a submission receives Manual QA approval, then the extension will be published.
+A failed semantic version check has no impact on submission approval. If a submission receives Manual QA approval, then the extension will be published.
 
 ## Tools and environments used
 
@@ -42,11 +43,11 @@ Magento SemVer can:
 
 ## Reading the error report
 
-The error report lists minor and major changes detected in the extension source code.  To fix an error, refactor the implementation until it no longer introduces non-patch level changes.
+The error report lists minor and major changes detected in the source code.  To fix an error, refactor the implementation until it no longer introduces non-patch level changes.
 
 ## Troubleshooting
 
-The semantic version check uses the following command to check an extension:
+The semantic version check runs the following command:
 
 ```bash
 php magento-semver/bin/svc compare <path-to-latest-published-extension-version> <path-to-submitted-extension-version> 1

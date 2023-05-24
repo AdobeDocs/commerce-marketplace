@@ -1,10 +1,11 @@
 ---
 title: Extension subscriptions overview
+description: Learn how to subscription based listing work.
 ---
 
 # Extension subscriptions overview
 
-Starting December 2021, Adobe Commerce Marketplace provides extension vendors an opportunity to sell their extensions under an auto-renewing subscription model.
+Starting December 2021, Adobe Commerce Marketplace provides extension vendors an opportunity to sell their extensions under an auto-renewing subscription model. This feature is not available for apps.
 
 Top-notch extensions justify subscription pricing by providing elevated levels of quality, support, and overall better customer value.
 
