@@ -9,7 +9,7 @@ The copy paste detector check validates that implementation of the submitted pro
 
 ## What testing is for
 
-Only original extensions can be listed in the [Commerce Marketplace](https://marketplace.magento.com). We test submitted extensions to detect duplication of code from Commerce or from another listing available in the Commerce Marketplace. If duplication is extensive, the submission is rejected on the grounds that the content is plagiarized.
+Only original extensions can be listed in the [Commerce Marketplace](https://commercemarketplace.adobe.com). We test submitted extensions to detect duplication of code from Commerce or from another listing available in the Commerce Marketplace. If duplication is extensive, the submission is rejected on the grounds that the content is plagiarized.
 
 ## When testing is done
 
@@ -37,6 +37,6 @@ Implementing a solution for detecting plagiarism in source code is not a trivial
 
 -  We might incorrectly identify code fragments that follow a common pattern as duplicates.  To prevent a submission from being rejected due to incorrect results, we also perform manual code review. Even with manual reviews, we can still make mistakes.
 
-If you notice a submission that is rejected or approved based on inaccurate information from the copy paste detector, [create a Marketplace Support ticket](https://marketplacesupport.magento.com/hc/en-us) so that we can resolve your case and keep our community healthy. Please specify your Submission ID in a ticket.
+If you notice a submission that is rejected or approved based on inaccurate information from the copy paste detector, [create a Marketplace Support ticket](https://commercemarketplace-support.adobe.com/hc/en-us) so that we can resolve your case and keep our community healthy. Please specify your Submission ID in a ticket.
 
 We always welcome feedback and discussion on the [Magento Community Engineering Slack](https://magentocommeng.slack.com/archives/C7SL5CGDN) #marketplace channel.

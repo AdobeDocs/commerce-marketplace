@@ -63,4 +63,4 @@ Customers can cancel their extension subscription at any time.
 
 Customers can only re-subscribe to a cancelled extension subscription once. Repeated cancellations and re-subscriptions to an extension are not supported.
 
-Thank you for using the Adobe Commerce Marketplace. For all questions and suggestions regarding extension subscriptions, please contact [Marketplace Support](https://marketplacesupport.magento.com) or find us in the [Community Slack workspace](https://opensource.magento.com/slack).
+Thank you for using the Adobe Commerce Marketplace. For all questions and suggestions regarding extension subscriptions, please contact [Marketplace Support](https://commercemarketplace-support.adobe.com) or find us in the [Community Slack workspace](https://developer.adobe.com/open/magento/slack).

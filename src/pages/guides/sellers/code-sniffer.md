@@ -18,7 +18,7 @@ Adobe Commerce projects typically use source code from several vendors. By adopt
 
 ## When testing is done
 
-Code sniffer is mandatory for extensions of any type. When you submit an extension, Commerce uses code sniffer to analyze the entire code base regardless of the scope of changes. Only extensions that have passed code sniffer testing can be listed in the [Commerce Marketplace](https://marketplace.magento.com).
+Code sniffer is mandatory for extensions of any type. When you submit an extension, Commerce uses code sniffer to analyze the entire code base regardless of the scope of changes. Only extensions that have passed code sniffer testing can be listed in the [Commerce Marketplace](https://commercemarketplace.adobe.com).
 
 ## What is being checked
 

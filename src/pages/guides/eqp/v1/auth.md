@@ -25,8 +25,8 @@ Once you are confident your **sandbox** API calls are correct, and you wish to s
 
 |Environment|Base Url|
 |-----------|--------|
-|sandbox    |`https://developer-stg-api.magento.com`|
-|production |`https://developer-api.magento.com`    |
+|sandbox    |`https://commercedeveloper-sandbox-api.adobe.com`|
+|production |`https://commercedeveloper-api.adobe.com`    |
 
 ## Authentication and authorization flow
 
@@ -73,7 +73,7 @@ curl -X POST \
      -u 'AQ17NZ49WC:8820c99614d65f923df7660276f20e029d73e2ca' \
      -H 'Content-Type: application/json' \
      -d '{ "grant_type" : "session" }' \
-     https://developer-stg-api.magento.com/rest/v1/app/session/token
+     https://commercedeveloper-sandbox-api.adobe.com/rest/v1/app/session/token
 ```
 
 #### Response
@@ -107,5 +107,5 @@ Using the example values from above, run the following command to access your us
 ```bash
 curl -X GET \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
-     https://developer-stg-api.magento.com/rest/v1/users/MAG123456789
+     https://commercedeveloper-sandbox-api.adobe.com/rest/v1/users/MAG123456789
 ```

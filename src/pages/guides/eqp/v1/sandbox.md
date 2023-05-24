@@ -36,5 +36,5 @@ The following list highlights some of the key differences between the sandbox an
 -  [Session tokens](auth.md#how-to-use-a-session-token) that are generated in the **sandbox** are separate and distinct from **production**. You cannot use session tokens from one environment in the other environment.
 -  If you are on the same browser, when you logout of the [sandbox][2] you are simultaneously logged out of [production][1], and vice-versa.
 
-[1]: https://developer.magento.com
-[2]: https://developer-stg.magento.com
+[1]: https://commercedeveloper.adobe.com
+[2]: https://commercedeveloper-sandbox.adobe.com

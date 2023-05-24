@@ -34,7 +34,7 @@ curl -X PUT \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      -H 'Content-Type: application/json' \
      -d '{"api_callbacks": [{"name": "My 1st EQP Callback","url": "https://developer.example.com/rest/v1/callback","username": "key","password": "secret"}]}' \
-     https://developer-stg-api.magento.com/rest/v1/users/MAG123456789
+     https://commercedeveloper-sandbox-api.adobe.com/rest/v1/users/MAG123456789
 ```
 
 ### Response
