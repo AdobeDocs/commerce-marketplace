@@ -26,17 +26,15 @@ Use your same login information for the production **Marketplace Developer Porta
 ## API eligibility
 
 All developers are eligible to use the **production** Marketplace EQP API.
-However, only specific partners are eligible to use the **sandbox**:
+However, only the following partners are eligible to use the **sandbox**:
 
-| Adobe partner | Legacy Magento partner |
-| ------------- | ---------------------- |
-| Innovate      | General Technology Partner <br/> Select Extensions Partner <br/> Premier Extensions Partner |
-| Accelerate    | Select Technology Partner     |
-| Premier       | Premier Technology Partner    |
-| Bronze        | Community Insider Partner <br/> Business Solution Partner |
-| Silver        | Professional Solution Partner |
-| Gold          | Enterprise Solution Partner   |
-| Platinum      | Global Elite Solution Partner |
+- Adobe Platinum Technology Partner
+- Adobe Gold Technology Partner
+- Adobe Silver Technology Partner
+- Adobe Platinum Solution Partner
+- Adobe Gold Solution Partner
+- Adobe Silver Solution Partner
+- Adobe Bronze Solution Partner
 
 See more information about [becoming a partner][4].
 

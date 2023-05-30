@@ -9,7 +9,7 @@ Use these resources if you need additional help.
 
 **Slack:**
 
--  workspace: [Magento Community Engineering](https://developer.adobe.com/open/magento/slack)
+-  workspace: [Magento Open Source](https://developer.adobe.com/open/magento/slack)
 -  channel: **# marketplace-eqp-api**
 
 **Email:**
@@ -26,7 +26,7 @@ Use these resources if you need additional help.
 -  [Marketplace Developer Portal](https://commercedeveloper.adobe.com)
 -  [Sandbox Marketplace Developer Portal](https://commercedeveloper-sandbox.adobe.com)
 -  [Commerce Marketplace](https://commercemarketplace.adobe.com)
--  [Magento Account](https://account.magento.com)
+-  [Commerce Marketplace Account](https://account.magento.com)
 
 **Base URLs:**
 
