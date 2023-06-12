@@ -75,7 +75,7 @@ You can use the sales and analytics reports to view and manage your sales inform
 
 Learn about the installation process from a customer's perspective.
 
-[Learn more](https://docs.magento.com/m2/ee/user_guide/magento/magento-marketplace.html)
+[Learn more](https://experienceleague.adobe.com/docs/commerce-admin/start/resources/commerce-marketplace.html)
 
 <TextBlock slots="image, heading, text, links" width="50%" />
 

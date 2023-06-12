@@ -20,8 +20,8 @@ Marketplace EQP API **access keys** are self-serviced.  As long as you are [elig
 ## How do I create an API access key
 
 -  You create your API access key from one, or both, of the **Marketplace Developer Portal** user interfaces:
-   -  production - [https://developer.magento.com][1]
-   -  sandbox - [https://developer-stg.magento.com][2]
+   -  production - [https://commercedeveloper.adobe.com][1]
+   -  sandbox - [https://commercedeveloper-sandbox.adobe.com][2]
 
 ### Create a new API access key
 
@@ -58,5 +58,5 @@ Marketplace EQP API **access keys** are self-serviced.  As long as you are [elig
 Marketplace EQP API **access keys** generated in the [sandbox][2] environment are separate from those generated in [production][1].
 You cannot use access keys from one environment in the other.
 
-[1]: https://developer.magento.com
-[2]: https://developer-stg.magento.com
+[1]: https://commercedeveloper.adobe.com
+[2]: https://commercedeveloper-sandbox.adobe.com

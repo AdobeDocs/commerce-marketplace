@@ -41,7 +41,7 @@ The following example shows the request/response body for retrieving all profile
 ```curl
 curl -X GET \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
-     https://developer-stg-api.magento.com/rest/v1/users/MAG123456789
+     https://commercedeveloper-sandbox-api.adobe.com/rest/v1/users/MAG123456789
 ```
 
 #### Response
@@ -60,7 +60,7 @@ curl -X GET \
             "file_upload_id": "5c119a03b4ddf6.75124444.0",
             "filename": "portrait.png",
             "content_type": "image/png",
-            "url": "https://mp-stg-static.magento.com/user/68/f3/68f360d3516f594fc957c4179ed4a7a872911f07/pub/d9/c2/d9c23dd795a5faaab603b6b5965eca8a6d9430f2/portrait.png",
+            "url": "https://commercedeveloper-sandbox-static.adobe.com/user/68/f3/68f360d3516f594fc957c4179ed4a7a872911f07/pub/d9/c2/d9c23dd795a5faaab603b6b5965eca8a6d9430f2/portrait.png",
             "size": 1234,
             "file_hash": "d5db29cd03a2ed055086cef9c31c252b4587ffff",
             "malware_status": "pass"
@@ -165,7 +165,7 @@ The following example shows the request/response body for retrieving a subset of
 ```curl
 curl -X GET \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
-     https://developer-stg-api.magento.com/rest/v1/users/MAG123456789?style=summary
+     https://commercedeveloper-sandbox-api.adobe.com/rest/v1/users/MAG123456789?style=summary
 ```
 
 #### Response
@@ -184,7 +184,7 @@ curl -X GET \
             "file_upload_id": "5c119a03b4ddf6.75124444.0",
             "filename": "portrait.png",
             "content_type": "image.png",
-            "url": "https://mp-stg-static.magento.com/user/68/f3/68f360d3516f594fc957c4179ed4a7a872911f07/pub/d9/c2/d9c23dd795a5faaab603b6b5965eca8a6d9430f2/portrait.png",
+            "url": "https://commercedeveloper-sandbox-static.adobe.com/user/68/f3/68f360d3516f594fc957c4179ed4a7a872911f07/pub/d9/c2/d9c23dd795a5faaab603b6b5965eca8a6d9430f2/portrait.png",
             "size": 1234,
             "file_hash": "d5db29cd03a2ed055086cef9c31c252b4587ffff",
             "malware_status": "pass"
@@ -213,7 +213,7 @@ The following example shows a request to update the personal profile bio field:
 
 The `action` field specifies which update operation to perform:
 
-*  `submit` --- Once your profile is complete, publishes the profile to the Commerce Marketplace [partners page](https://marketplace.magento.com/partners).
+*  `submit` --- Once your profile is complete, publishes the profile to the Commerce Marketplace [partners page](https://commercemarketplace.adobe.com/partners).
 *  `draft` --- The update is saved on the Marketplace Developer Portal, but not published to the Commerce Marketplace.
 
 **Request:**
@@ -223,7 +223,7 @@ curl -X PUT \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      -H 'Content-Type: application/json' \
      -d '{ "action" : "submit", "personal_profile" : { "bio" : "My extensions have won Nobel Prizes in both literature and physics." } }' \
-     https://developer-stg-api.magento.com/rest/v1/users/MAG123456789
+     https://commercedeveloper-sandbox-api.adobe.com/rest/v1/users/MAG123456789
 ```
 
 **Response:**
@@ -266,7 +266,7 @@ The following example shows the request/response body for retrieving keys withou
 ```curl
 curl -X GET \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
-     https://developer-stg-api.magento.com/rest/v1/users/MAG123456789/keys?uid=all
+     https://commercedeveloper-sandbox-api.adobe.com/rest/v1/users/MAG123456789/keys?uid=all
 ```
 
 #### Response
@@ -350,7 +350,7 @@ curl -X POST \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      -H 'Content-Type: application/json' \
      -d '{ "m2": [ {"label":"key_for_alice"}, {"label":"key_for_charlie", "uid":"MAG123456789"}, {"label":"key_for_my_org", "uid":"000CBA111DCB222@AdobeOrg"} ] }' \
-     https://developer-stg-api.magento.com/rest/v1/users/MAG123456789/keys
+     https://commercedeveloper-sandbox-api.adobe.com/rest/v1/users/MAG123456789/keys
 ```
 
 #### Response
@@ -414,7 +414,7 @@ curl -X PUT \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      -H 'Content-Type: application/json' \
      -d '{ "m2" : [ { "is_enabled" : true, "uid" : "MAG123456789" } ] }' \
-     https://developer-stg-api.magento.com/rest/v1/users/MAG123456789/keys/key_for_bob
+     https://commercedeveloper-sandbox-api.adobe.com/rest/v1/users/MAG123456789/keys/key_for_bob
 ```
 
 #### Response
@@ -451,7 +451,7 @@ The following curl example illustrates the call to be made:
 ```bash
 curl -X DELETE \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
-     https://developer-stg-api.magento.com/rest/v1/users/MAG123456789/keys/key_for_charlie?uid=MAG123456789
+     https://commercedeveloper-sandbox-api.adobe.com/rest/v1/users/MAG123456789/keys/key_for_charlie?uid=MAG123456789
 ```
 
 **Response:**
@@ -470,5 +470,5 @@ GET /rest/v1/users/:mage_id/reports/sales
 GET /rest/v1/users/:mage_id/reports/refunds
 ```
 
-[1]: https://developer.magento.com
-[2]: https://developer-stg.magento.com
+[1]: https://commercedeveloper.adobe.com
+[2]: https://commercedeveloper-sandbox.adobe.com

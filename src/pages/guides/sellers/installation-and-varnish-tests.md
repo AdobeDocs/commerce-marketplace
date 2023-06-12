@@ -17,7 +17,7 @@ Commerce is a complex, highly extensible platform. To ensure that third-party ap
 
 ## When testing is done
 
-All app and extension submissions must pass the mandatory Installation and Varnish tests, regardless of type and scope of changes. Only apps and extensions that have passed these tests can be listed in the [Commerce Marketplace](https://marketplace.magento.com).
+All app and extension submissions must pass the mandatory Installation and Varnish tests, regardless of type and scope of changes. Only apps and extensions that have passed these tests can be listed in the [Commerce Marketplace](https://commercemarketplace.adobe.com).
 
 ## What is being checked
 
@@ -133,6 +133,6 @@ To debug Varnish test errors, we recommend using a locally installed Commerce ve
 
 ## Troubleshooting
 
-If the submission fails Installation and Varnish testing, and you cannot reproduce or troubleshoot the issues locally, [create a Support ticket](https://marketplacesupport.magento.com/hc/en-us) to request assistance. Ensure that the relevant Submission ID is included on the ticket.
+If the submission fails Installation and Varnish testing, and you cannot reproduce or troubleshoot the issues locally, [create a Support ticket](https://commercemarketplace-support.adobe.com/hc/en-us) to request assistance. Ensure that the relevant Submission ID is included on the ticket.
 
 We always welcome feedback and discussion on the [Magento Community Engineering Slack](https://magentocommeng.slack.com/archives/C7SL5CGDN) #marketplace channel.
