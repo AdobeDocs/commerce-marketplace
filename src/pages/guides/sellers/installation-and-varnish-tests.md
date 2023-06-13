@@ -1,27 +1,32 @@
 ---
 title: Installation and Varnish tests
+description: Learn how the installation and Varnish tests work to ensure compatibility.
 ---
 
 # Installation and Varnish tests
 
-The Installation and Varnish tests are automated EQP checks to ensure that the submitted extension version is compatible with the Magento versions and the editions that it claims to support.
+The Installation and Varnish tests are automated EQP checks to ensure that the submitted app or extension version is compatible with the Adobe Commerce versions and the editions that it claims to support.
+
+<InlineAlert variant="info" slots="text"/>
+
+Varnish tests are available for extensions only. Limited automated installation testing is available for Apps.
 
 ## What testing is for
 
-Magento is a complex, highly extensible platform. To ensure that third-party extensions are production-ready, the Installation and Varnish tests verify successful installation with the extension included, ability to switch to [production mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html), and that the extension does not affect the caching mechanism for the most critical scenarios. The caching check ensures that the storefront provides a high performance customer experience.
+Commerce is a complex, highly extensible platform. To ensure that third-party apps and extensions are production-ready, the Installation and Varnish tests verify successful installation with the app or extension included, the ability to switch to [production mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html), and that the app or extension does not affect the caching mechanism for the most critical scenarios. The caching check ensures that the storefront provides a high performance customer experience.
 
 ## When testing is done
 
-All extension submissions must pass the mandatory Installation and Varnish tests, regardless of extension type and scope of changes. Only extensions that have passed these tests can be listed in the [Commerce Marketplace](https://marketplace.magento.com).
+All app and extension submissions must pass the mandatory Installation and Varnish tests, regardless of type and scope of changes. Only apps and extensions that have passed these tests can be listed in the [Commerce Marketplace](https://commercemarketplace.adobe.com).
 
 ## What is being checked
 
 The Installation and Varnish tests complete the following checks:
 
-1. Successful installation of Magento with the submitted extension and ability to switch to production mode–This check includes the following steps:
+1. Successful installation of Commerce with the submitted extension and ability to switch to production mode. This check includes the following steps:
 
-   -  Verify ability to add the extension to the Magento project with [Composer](https://getcomposer.org).
-   -  After adding and enabling the extension, verify successful Magento installation.
+   -  Verify ability to add the extension to the Commerce project with [Composer](https://getcomposer.org) or the ability to add the app with Node.js.
+   -  After adding and enabling the app or extension, verify successful Commerce installation.
    -  Verify that you can [compile code](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/code-compiler.html).
    -  Verify that you can [deploy static content](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment.html).
    -  Verify that you can [enable production mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html).
@@ -35,7 +40,7 @@ The Installation and Varnish tests complete the following checks:
 
 ## Tools and environments used
 
-The Magento test infrastructure follows the recommended setup for the Magento installation. The Installation and Varnish tests always runs on the most up-to-date version of software compatible with the Magento release. You can use [Magento Cloud Docker](https://devdocs.magento.com/cloud/docker/docker-development.html) to create a similar environment.
+The Commerce test infrastructure follows the recommended setup for the Commerce installation. The Installation and Varnish tests always runs on the most up-to-date version of software compatible with the Commerce release. You can use [Magento Cloud Docker](https://developer.adobe.com/commerce/cloud-tools/docker/) to create a similar environment.
 
 The Installation and Varnish tests always use the latest patch version for the Magento release line that the submitted extension claims to support. For each supported release line, the entire test suite is performed on all compatible PHP versions.
 
@@ -117,17 +122,17 @@ The Varnish test issues a series of requests, and then analyzes the value of the
 
 ## Reading the error report
 
-The Installation test returns the logs of the Magento CLI commands. You can reproduce any error in the log by running the failed command in a local environment.
+The Installation test returns the logs of the Commerce CLI commands. You can reproduce any error in the log by running the failed command in a local environment.
 
 The Varnish test provides the following information about failures:
 
 -  A brief description of the failed scenario
 -  Expected and actual cache behavior (HIT or MISS for cached page)
 
-To debug Varnish test errors, we recommend using a locally installed Magento version with the Varnish cache configured to submit requests and check the HTTP headers in the response.
+To debug Varnish test errors, we recommend using a locally installed Commerce version with the Varnish cache configured to submit requests and check the HTTP headers in the response.
 
 ## Troubleshooting
 
-If the extension submission fails Installation and Varnish testing, and you cannot reproduce or troubleshoot the issues locally, [create a Support ticket](https://marketplacesupport.magento.com/hc/en-us) to request assistance. Ensure that the relevant Submission ID is included on the ticket.
+If the submission fails Installation and Varnish testing, and you cannot reproduce or troubleshoot the issues locally, [create a Support ticket](https://commercemarketplace-support.adobe.com/hc/en-us) to request assistance. Ensure that the relevant Submission ID is included on the ticket.
 
 We always welcome feedback and discussion on the [Magento Community Engineering Slack](https://magentocommeng.slack.com/archives/C7SL5CGDN) #marketplace channel.

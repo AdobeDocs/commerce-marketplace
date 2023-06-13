@@ -18,7 +18,7 @@ Before submitting a package, you must first [upload your files](files.md) and as
 
 You can also check package submission status and retrieve [testing information](test-results.md) from the technical and marketing reviews.
 
-A successful submission results in a package being published to the [Commerce Marketplace](https://marketplace.magento.com/).
+A successful submission results in a package being published to the [Commerce Marketplace](https://commercemarketplace.adobe.com/).
 
 ## EQP review process
 
@@ -177,7 +177,7 @@ curl -X POST \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      -H 'Content-Type: application/json' \
      --data-binary  @/tmp/one-click-submission-1.0.0.json \
-     https://developer-stg-api.magento.com/rest/v1/products/packages
+     https://commercedeveloper-sandbox-api.adobe.com/rest/v1/products/packages
 ```
 
 #### Response
@@ -237,7 +237,7 @@ curl -X PUT \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      -H 'Content-Type: application/json' \
      -d '{ "action" : { "marketing" : "submit"} }' \
-     https://developer-stg-api.magento.com/rest/v1/products/packages/f4eacd72be
+     https://commercedeveloper-sandbox-api.adobe.com/rest/v1/products/packages/f4eacd72be
 ```
 
 The HTTP response code will indicate success or failure.
@@ -325,7 +325,7 @@ This sample call lists all packages belonging to a user:
 ```curl
 curl -X GET \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
-     https://developer-stg-api.magento.com/rest/v1/products/packages
+     https://commercedeveloper-sandbox-api.adobe.com/rest/v1/products/packages
 ```
 
 ### Response
@@ -524,7 +524,7 @@ A sample cURL request filtering all `themes` sorted by `platform` in ascending o
 ```bash
 curl -X GET \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
-     https://developer-stg-api.magento.com/rest/v1/products/packages?type=theme&sort=+platform,-created_at
+     https://commercedeveloper-sandbox-api.adobe.com/rest/v1/products/packages?type=theme&sort=+platform,-created_at
 ```
 
 **Response:**
@@ -767,7 +767,7 @@ The list of valid browsers is the same as for `browser_os_compatibility`.
 
 ### categories
 
-A list of one to three categories, all from the same main category, expressed as a `path` for the package. For example, `//Extension//Marketing//SEO/SEM`. Note that the path separator is `//`, which allows for a single slash like `SEO/SEM` in the path name. Refer to the [Marketplace Store](https://marketplace.magento.com) for the current list of categories.
+A list of one to three categories, all from the same main category, expressed as a `path` for the package. For example, `//Extension//Marketing//SEO/SEM`. Note that the path separator is `//`, which allows for a single slash like `SEO/SEM` in the path name. Refer to the [Marketplace Store](https://commercemarketplace.adobe.com) for the current list of categories.
 
 |Type|HTTP Commands|Review Type|Filter
 |----|-------------|-----------|------

@@ -1,12 +1,13 @@
 ---
 title: Image tips
+description: Learn how to best format images for your listing.
 ---
 
 # Image tips
 
-An image makes a powerful and lasting impression without a word. Images uploaded to your account help people learn about your products, and also represent your brand. Use only high-quality images for your personal, company, and extension profiles. The Magento logo appears as a placeholder in your personal, company, and extension profiles until you upload your images of your own.
+An image makes a powerful and lasting impression without a word. Images uploaded to your account help people learn about your products, and also represent your brand. Use only high-quality images for your personal, company, and listing profiles.
 
-You can upload one thumbnail, and up to fifteen product images (two are required) to the extension profile. Use a combination of screenshots of the Admin and storefront, and other images to illustrate what the extension does, and how it is used. Choose one to be the main image for the extension or theme, and upload it first. If you want to change the order, delete the images and then upload them again in the correct sequence.
+You can upload one thumbnail, and up to fifteen product images (two are required) to the listing profile. Use a combination of screenshots of the Admin and storefront, and other images to illustrate what the listing does, and how it is used. Choose one to be the main image for the listing, and upload it first. If you want to change the order, delete the images and then upload them again in the correct sequence.
 
 Commerce Marketplace accepts product images in the PNG and JPG (JPEG) formats. The maximum size of each image is 5 MB. The PNG format produces the sharpest screenshots, and supports transparent layers, although the files are larger.
 

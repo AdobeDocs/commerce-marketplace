@@ -1,10 +1,11 @@
 ---
 title: Analytics
+description: Learn how to view your listing's analytics.
 ---
 
 # Analytics
 
-You can view data about the performance of your extension in the marketplace.
+You can view data about the performance of your listings in the marketplace.
 
 ## View your performance data
 

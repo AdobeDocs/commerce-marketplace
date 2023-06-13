@@ -18,29 +18,27 @@ The **Marketplace Developer Portal** provides you the capability to do the follo
 
 There are two separate **Marketplace Developer Portal** environments where the Marketplace EQP API can be used:
 
--  Production - [https://developer.magento.com][1]
--  Sandbox - [https://developer-stg.magento.com][2]
+-  Production - [https://commercedeveloper.adobe.com][1]
+-  Sandbox - [https://commercedeveloper-sandbox.adobe.com][2]
 
 Use your same login information for the production **Marketplace Developer Portal** to also log into the **Sandbox Marketplace Developer Portal**. Learn more about the [sandbox](sandbox.md) environment.
 
 ## API eligibility
 
 All developers are eligible to use the **production** Marketplace EQP API.
-However, only specific partners are eligible to use the **sandbox**:
+However, only the following partners are eligible to use the **sandbox**:
 
-| Adobe partner | Legacy Magento partner |
-| ------------- | ---------------------- |
-| Innovate      | General Technology Partner <br/> Select Extensions Partner <br/> Premier Extensions Partner |
-| Accelerate    | Select Technology Partner     |
-| Premier       | Premier Technology Partner    |
-| Bronze        | Community Insider Partner <br/> Business Solution Partner |
-| Silver        | Professional Solution Partner |
-| Gold          | Enterprise Solution Partner   |
-| Platinum      | Global Elite Solution Partner |
+- Adobe Platinum Technology Partner
+- Adobe Gold Technology Partner
+- Adobe Silver Technology Partner
+- Adobe Platinum Solution Partner
+- Adobe Gold Solution Partner
+- Adobe Silver Solution Partner
+- Adobe Bronze Solution Partner
 
 See more information about [becoming a partner][4].
 
-[1]: https://developer.magento.com
-[2]: https://developer-stg.magento.com
-[3]: https://marketplace.magento.com
+[1]: https://commercedeveloper.adobe.com
+[2]: https://commercedeveloper-sandbox.adobe.com
+[3]: https://commercemarketplace.adobe.com
 [4]: https://magento.com/partners/become

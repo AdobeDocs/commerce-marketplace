@@ -33,8 +33,8 @@ The API endpoints only accept encrypted communications using HTTPS at the follow
 
 |Environment|Base Url|
 |-----------|--------|
-|sandbox    | `https://developer-stg-api.magento.com` |
-|production | `https://developer-api.magento.com`     |
+|sandbox    | `https://commercedeveloper-sandbox-api.adobe.com` |
+|production | `https://commercedeveloper-api.adobe.com`     |
 
 ### REST HTTP verbs
 

@@ -1,5 +1,6 @@
 ---
 title: Manage sales overview
+description: Learn how to manage sales of your listings.
 ---
 
 # Manage sales overview
@@ -8,13 +9,21 @@ Commerce Marketplace is a full-featured digital commerce site with integrated pa
 
 Developers are not charged a fee to submit or list products or services on Commerce Marketplace. All product sales are subject to a [revenue share](revenue-share.md), with 85% of the revenue for the developer, and 15% for Adobe. This business model allows us to invest in marketing and promotions to grow the businesses of participating developers.
 
-Buyers have twenty-five (25) days after the date of purchase to request a refund. Magento reviews all refund requests and if approved, issues the appropriate refund.
+<InlineAlert variant="info" slots="text"/>
+
+<p>
+Adobe is waiving commission fees on Adobe Commerce Marketplace (formerly known as Magento Marketplace) for sales of applications built using Adobe Developer App Builder (“Apps”) and submitted via Adobe’s Developer Portal in 2023. Adobe will waive commission for two (2) years from the date that an App is listed on Adobe Commerce Marketplace. The App commission waiver terms will be included in the Developer Portal.
+
+Adobe reserves the right to charge commission on sales of Apps submitted after 2023. Adobe will communicate the commission model for Apps submitted outside of 2023 at a later date.
+</p>
+
+Buyers have twenty-five (25) days after the date of purchase to request a refund. Adobe Commerce reviews all refund requests and if approved, issues the appropriate refund.
 
 ## Customer information
 
-Protecting the privacy of customer information is important to Magento, and we work to ensure that our policies meet industry-standard privacy practices. We also recognize your need to communicate with those who purchase your products and services.
+Protecting the privacy of customer information is important to Adobe, and we work to ensure that our policies meet industry-standard privacy practices. We also recognize your need to communicate with those who purchase your products and services.
 
-At the time of transaction, you will receive an email notification that identifies the customer by user name, and lists each extension or theme purchased, along with any additional installation or support services.
+At the time of transaction, you will receive an email notification that identifies the customer by user name, and lists each app, extension, or theme purchased, along with any additional installation or support services.
 
 -  Customers who purchase installation or support services receive your support contact information at the time of purchase.
 -  Customers who do not purchase additional services can communicate directly with you using the general contact information on your profile page.

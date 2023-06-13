@@ -58,7 +58,7 @@ If it is omitted, then a batch response will be returned: an array of records fo
 ```curl
 curl -X GET \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
-     https://developer-stg-api.magento.com/rest/v1/files/uploads/5c129cd41ba478.65767699.1
+     https://commercedeveloper-sandbox-api.adobe.com/rest/v1/files/uploads/5c129cd41ba478.65767699.1
 ```
 
 #### Response
@@ -74,7 +74,7 @@ curl -X GET \
     "submission_ids" : [
     ],
     "is_profile_image" : false,
-    "url" : "https://mp-stg-static.magento.com/user/68/f3/68f360d3516f594fc957c4179ed4a7a872911f07/pub/f5/3f/f53f5db985b8815f1ce6fd4b48a0439a/icon.png"
+    "url" : "https://commercedeveloper-sandbox-static.adobe.com/user/68/f3/68f360d3516f594fc957c4179ed4a7a872911f07/pub/f5/3f/f53f5db985b8815f1ce6fd4b48a0439a/icon.png"
 }
 ```
 
@@ -178,7 +178,7 @@ curl -X POST \
      -H 'Authorization: Bearer baGXoStRuR9VCDFQGZNzgNqbqu5WUwlr.cAxZJ9m22Le7' \
      -H "Content-Type: multipart/form-data; boundary=UNIQUE_BOUNDARY_TOKEN" \
      --data-binary  @/tmp/files-payload \
-     https://developer-stg-api.magento.com/rest/v1/files/uploads
+     https://commercedeveloper-sandbox-api.adobe.com/rest/v1/files/uploads
 ```
 
 #### Response

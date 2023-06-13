@@ -1,5 +1,6 @@
 ---
 title: Technical Reference
+description: Learn about the technology stack for marketplace listings.
 ---
 
 # Technical reference
@@ -27,5 +28,5 @@ title: Technical Reference
 
 ## System
 
--  [Installation](https://devdocs.magento.com/guides/v2.4/install-gde/bk-install-guide.html)
+-  [Installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/overview.html)
 -  [Configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/overview.html)

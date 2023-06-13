@@ -1,21 +1,34 @@
 ---
 title: Technical review guidelines
+description: Learn how to submit your listing for technical review.
 ---
 
 # Technical review guidelines
 
-During technical review, your code is examined to detect the presence of viruses, malware, and any indication of plagiarism. The process also ensures that the package meets Composer packaging and format requirements and Magento coding standards.
+During technical review, your code is examined to detect the presence of viruses, malware, and any indication of plagiarism. The process also ensures that the extension package meets Composer packaging and format requirements and Adobe Commerce [coding standards](https://developer.adobe.com/commerce/php/coding-standards/). App packages must meet React packaging requirements instead of Composer.
 
 ## Submission
 
-The technical review begins as soon as you upload an extension package at [Developer Portal](https://developer.magento.com) and consists of two mandatory steps to generate the submission id and trigger further extension testing:
+The technical review begins as soon as you upload a package on the [Developer Portal](https://commercedeveloper.adobe.com). It consists of two mandatory steps to generate the submission ID and trigger further testing:
 
 1. [Malware Scan](malware-scan.md) &mdash; Ensures that uploaded packages do not contain viruses or malware software.
-1. Extension Package Verification &mdash; Checks that the uploaded file is a zip archive which is a [Composer](https://getcomposer.org) package with extension.
+1. Package Verification &mdash; Checks that the uploaded file is a zip archive.  For extensions, the file must contain a [Composer](https://getcomposer.org) package. Additionally, the review will check for incomplete development indicators in the form of `FIXME` or `TODO` style comments.
+
+### App package verification
+
+App package submissions must be a zip file that contains the following files:
+
+- `install.yaml`
+- `package.json`
+
+The `package.json` file specifies:
+
+-  `name`
+-  `version`
 
 ### Extension package verification
 
-Package submissions must contain a Magento module, theme, language pack, or metapackage that meets Composer packaging and format requirements:
+Non-app package submissions must contain a module, theme, language pack, or metapackage that meets Composer packaging and format requirements:
 
 1. Code submitted as a zip archive.
 1. Submitted package does not exceed 30 MB.
@@ -61,7 +74,7 @@ After accepting a package for Technical Review, a series of automated checks and
 
 ### Code Sniffer: Check code quality/syntax
 
-The Marketplace coding standard review uses a custom set of coding sniffs. If the submitted code fails the review, Magento generates a technical report that describes each issue found and its location in the codebase.
+The Marketplace coding standard review uses a custom set of coding sniffs. If the submitted code fails the review, Marketplace generates a technical report that describes each issue found and its location in the codebase.
 
 _More details:_ [Code Sniffer](code-sniffer.md)
 
@@ -69,7 +82,7 @@ _See also:_ [Coding Standards](https://developer.adobe.com/commerce/php/coding-s
 
 ### Copy Paste Detector: Check for plagiarism
 
-All code and marketing content that is submitted to Commerce Marketplace is checked for plagiarism to ensure that it has not been copied from existing Marketplace extensions or from the Magento codebase.
+All code and marketing content that is submitted to Commerce Marketplace is checked for plagiarism to ensure that it has not been copied from existing Marketplace extensions or from the Commerce codebase.
 
 If the extension contains source code from the Open Source Edition, the extension must be licensed under [Open Source License v. 3.0](https://opensource.org/licenses/OSL-3.0) and properly credit Adobe, Inc.
 
@@ -79,7 +92,7 @@ _See also:_ [OSL 3.0: A Better License for Open Source Software](http://rosenlaw
 
 ### Installation and Varnish tests: Verify that product installs and caching works correctly
 
-Extensions for Magento are installed with Varnish Cache enabled for each supported version of PHP and switched from development to [production mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html). If you have shared packages and dependencies required for your extension, the Installation test also tests Magento installation and usage with those packages included.
+Extensions for Commerce are installed with Varnish Cache enabled for each supported version of PHP and switched from development to [production mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html). If you have shared packages and dependencies required for your extension, the Installation test also tests Commerce installation and usage with those packages included.
 
 In addition, cacheable pages are accessed to ensure that they are served directly from Varnish Cache. You will be notified if your extension fails the test.
 
@@ -88,7 +101,7 @@ _More details:_ [Installation and Varnish Tests](installation-and-varnish-tests.
 _See also:_
 
 -  [Configure and use Varnish](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html)
--  [System requirements](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html)
+-  [System requirements](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html)
 
 ### MFTF Commerce-supplied tests
 
@@ -98,7 +111,7 @@ _More_details:_ [MFTF Commerce-supplied Tests](mftf-magento.md)
 
 ### MFTF Vendor-supplied tests
 
-The MFTF will execute any MFTF tests that are included in the extension submission. The tests are executed for each supported version of PHP. The MFTF tests and associated code from the supported Magento version are available to the vendor-supplied tests.
+The MFTF will execute any MFTF tests that are included in the extension submission. The tests are executed for each supported version of PHP. The MFTF tests and associated code from the supported Commerce version are available to the vendor-supplied tests.
 
 _More_details:_ [MFTF Vendor-supplied Tests](mftf-vendor.md)
 
@@ -110,7 +123,7 @@ Manual QA can be skipped if the [Semantic Version Check](semantic-version-check.
 
 #### Documentation and resources
 
-Magento uses the documentation provided with the extension during manual QA. The submitted documentation must comply with the following requirements:
+Marketplace uses the documentation provided with the extension during manual QA. The submitted documentation must comply with the following requirements:
 
 1. Submit the user guide in one of the following formats:
 
@@ -132,7 +145,7 @@ To pass Manual QA, the extension must meet the following requirements:
 1. Extension has all supporting documentation that complies with the [documentation requirements](#documentation-and-resources)
 1. Works with each version of Magento that the extension claims to support in the extension product profile.
 
-   -  Basic Magento functionality works as expected with the installed extension.
+   -  Basic Commerce functionality works as expected with the installed extension.
    -  Basic test suite includes, but is not limited to the following scenarios:
 
       -  Create order as guest user (Simple product, Configurable product)
@@ -147,15 +160,15 @@ To pass Manual QA, the extension must meet the following requirements:
       -  As store admin: Create new product with images (Simple product, Configurable product)
       -  As store admin: Create new product category
 
-1. Works with each version of PHP that is supported by the Magento version that the extension claims to support in the extension product profile.
+1. Works with each version of PHP that is supported by the Commerce version that the extension claims to support in the extension product profile.
 1. Has all functionality that is described in the extension documentation and vice versa.
 1. Does not crash with unhandled errors.
 1. Does not hang when invalid data is submitted.
 
 _See also:_
 
--  [Install an Extension via Composer](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension)
--  [General CLI installation](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/extensions.html)
+-  [Install an Extension via Composer](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html)
+-  [General CLI installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)
 
 #### Additional checks for Page Builder extensions
 

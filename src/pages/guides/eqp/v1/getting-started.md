@@ -28,5 +28,5 @@ Use your API access key to [obtain a session token](auth.md#how-to-use-a-session
 Use your session token to call the Marketplace EQP API [endpoints](rest-api.md).
 For a specific example on how to use a session token, look at the bottom of the [authentication](auth.md#how-to-use-a-session-token) documentation.
 
-[1]: https://developer.magento.com
-[2]: https://developer-stg.magento.com
+[1]: https://commercedeveloper.adobe.com
+[2]: https://commercedeveloper-sandbox.adobe.com
