@@ -15,17 +15,17 @@ To mitigate this, Adobe has introduced multiple requirements for listings that a
 
 The topics in this section describe these requirements in more detail. They're also covered in the Policies section of the Developer Portal (to see Policies, go to Resources in the top menu).
 
-## App Requirements
+## App requirements
 
 The following requirements apply to Marketplace apps:
 
-### Commerce Requirements:
+### Commerce requirements:
 
 - [Setting up I/O Events for Adobe Commerce](https://developer.adobe.com/commerce/events/get-started/)
 - [Configuring Events for Adobe Commerce](https://developer.adobe.com/commerce/events/get-started/configure-commerce/)
 - [Setting up Admin UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 
-### App Builder Requirements:
+### App Builder requirements:
 
 - [Setting up API Mesh for Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
 - [Deploying App Builder apps](https://developer.adobe.com/app-builder/docs/guides/deployment/)
