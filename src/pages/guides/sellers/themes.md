@@ -1,6 +1,9 @@
 ---
 title: Themes overview
 description: Learn how to submit Adobe Commerce and Magento Open Source themes to the marketplace.
+keywords:
+  - Extensions
+  - Themes
 ---
 
 # Themes overview

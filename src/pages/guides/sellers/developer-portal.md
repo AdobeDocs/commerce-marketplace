@@ -1,6 +1,8 @@
 ---
 title: Developer Portal Overview
 description: Learn how to use the developer portal.
+keywords:
+  - Extensions
 ---
 
 # Developer Portal Overview

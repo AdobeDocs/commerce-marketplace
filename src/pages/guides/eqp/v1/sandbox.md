@@ -1,6 +1,9 @@
 ---
 title: Sandbox
 description: Differentiates between the Marketplace test and production environments.
+keywords:
+  - Extensions
+  - REST
 ---
 
 # Sandbox

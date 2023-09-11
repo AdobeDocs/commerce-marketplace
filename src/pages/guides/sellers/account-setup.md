@@ -1,6 +1,8 @@
 ---
 title: Set up your account
 description: Learn how to set up your Commerce Marketplace developer account.
+keywords:
+  - Extensions
 ---
 
 # Set up your account

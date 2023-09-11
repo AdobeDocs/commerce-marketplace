@@ -1,6 +1,8 @@
 ---
 title: Image tips
 description: Learn how to best format images for your listing.
+keywords:
+  - Extensions
 ---
 
 # Image tips

@@ -1,6 +1,8 @@
 ---
 title: Define the business value
 description: Learn how to create marketplace listings that have clear business value.
+keywords:
+  - Extensions
 ---
 
 # Define the business value

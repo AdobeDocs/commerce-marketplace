@@ -1,6 +1,8 @@
 ---
 title: Specify the version
 description: Learn how to specify the version number for a listing.
+keywords:
+  - Extensions
 ---
 
 # Specify the version

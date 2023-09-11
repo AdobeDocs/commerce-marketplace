@@ -1,6 +1,8 @@
 ---
 title: Code sniffer
 description: Learn how the code sniffer works for marketplace listings.
+keywords:
+  - Extensions
 ---
 
 # Code sniffer

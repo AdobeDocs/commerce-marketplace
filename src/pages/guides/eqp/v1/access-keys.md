@@ -1,6 +1,10 @@
 ---
 title: API access keys
 description: Describes how to create and manage Marketplace EQP access keys.
+keywords:
+  - Extensions
+  - REST
+  - Security
 ---
 
 # API access keys

@@ -1,6 +1,8 @@
 ---
 title: Shared packages overview
 description: Learn how to submit Adobe Commerce and Magento Open Source shared packages to the marketplace.
+keywords:
+  - Extensions
 ---
 
 # Shared packages overview

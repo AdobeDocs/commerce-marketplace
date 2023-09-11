@@ -1,6 +1,9 @@
 ---
 title: Packages
 description: Describes the Marketplace EQP review process and how to submit packages for review.
+keywords:
+  - Extensions
+  - REST
 ---
 
 # Packages

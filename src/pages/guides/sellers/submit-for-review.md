@@ -1,6 +1,8 @@
 ---
 title: Review process overview
 description: Learn how to submit your listing for review.
+keywords:
+  - Extensions
 ---
 
 # Review process overview

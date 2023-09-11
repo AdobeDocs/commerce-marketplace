@@ -1,6 +1,8 @@
 ---
 title: Getting started
 description: Browse Commerce Marketplace developer guides.
+keywords:
+  - Extensions
 ---
 
 # Getting started

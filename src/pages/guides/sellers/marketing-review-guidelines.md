@@ -1,6 +1,9 @@
 ---
 title: Marketing review guidelines
 description: Learn how the marketing review process applies to your listing.
+keywords:
+  - Extensions
+  - Security
 ---
 
 # Marketing review guidelines

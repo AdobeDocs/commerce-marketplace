@@ -1,6 +1,9 @@
 ---
 title: Filtering
 description: How to sort, filter, and paginate responses from Marketplace EQP GET requests.
+keywords:
+  - Extensions
+  - REST
 ---
 
 # Filtering

@@ -1,6 +1,9 @@
 ---
 title: Getting started
 description: An overview of the process for creating an API access key and session token, which are required for using Marketplace EQP APIs.
+keywords:
+  - Extensions
+  - REST
 ---
 
 # Getting started

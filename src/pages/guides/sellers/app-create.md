@@ -1,6 +1,8 @@
 ---
 title: Create an app
 description: Learn how to create an app for the marketplace.
+keywords:
+  - App Builder
 ---
 
 # Create an app

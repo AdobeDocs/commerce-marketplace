@@ -1,6 +1,8 @@
 ---
 title: Resubmit a listing
 description: Learn how to resubmit a listing for approval
+keywords:
+  - Extensions
 ---
 
 # Resubmit a listing

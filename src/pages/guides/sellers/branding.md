@@ -1,6 +1,8 @@
 ---
 title: Establish your brand
 description: Learn about branding requirements for Adobe Commerce and Magento Open Source extensions on the marketplace.
+keywords:
+  - Extensions
 ---
 
 # Establish your brand

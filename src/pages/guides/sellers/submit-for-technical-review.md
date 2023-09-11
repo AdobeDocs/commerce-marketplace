@@ -1,6 +1,8 @@
 ---
 title: Submit for technical review overview
 description: Learn how to submit your listing for technical review.
+keywords:
+  - Extensions
 ---
 
 # Submit for technical review overview

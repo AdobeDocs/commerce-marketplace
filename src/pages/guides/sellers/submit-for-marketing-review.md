@@ -1,6 +1,8 @@
 ---
 title: Submit for marketing review overview
 description: Learn how to submit your listing for marketing review.
+keywords:
+  - Extensions
 ---
 
 # Submit for marketing review overview

@@ -1,6 +1,9 @@
 ---
 title: Product descriptions
 description: Learn how to provide a description for your listing.
+keywords:
+  - App Builder
+  - Extensions
 ---
 
 # Product descriptions

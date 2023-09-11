@@ -1,6 +1,9 @@
 ---
 title: Files
 description: Use Marketplace EQP API to upload files for submission, retrieve file upload status, and remove files.
+keywords:
+  - Extensions
+  - REST
 ---
 
 # Files

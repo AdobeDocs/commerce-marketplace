@@ -1,6 +1,8 @@
 ---
 title: Copy paste detector
 description: Learn how the copy paste detector works for marketplace listings.
+keywords:
+  - Extensions
 ---
 
 # Copy paste detector

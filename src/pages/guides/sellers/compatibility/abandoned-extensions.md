@@ -1,6 +1,8 @@
 ---
 title: Abandoned listings
-description: Learn how to abandon listings.
+description: Learn how the Commerce Marketplace handles outdated listings.
+keywords:
+  - Extensions
 ---
 
 # Abandoned listings

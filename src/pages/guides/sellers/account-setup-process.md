@@ -1,6 +1,8 @@
 ---
 title: Account setup process
-description: Learn how to set up an account for the marketplace.
+description: Learn how to set up an account on the Commerce Marketplace.
+keywords:
+  - Extensions
 ---
 
 # Account setup process

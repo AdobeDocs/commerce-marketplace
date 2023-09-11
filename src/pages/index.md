@@ -1,6 +1,8 @@
 ---
 title: Commerce Marketplace
 description: Learn about technical resources available for Commerce Marketplace developers.
+keywords:
+  - Extensions
 ---
 
 <Hero slots="heading, text"/>
