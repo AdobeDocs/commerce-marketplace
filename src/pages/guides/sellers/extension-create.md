@@ -1,5 +1,6 @@
 ---
 title: Create an extension
+description: Learn how to create an Adobe Commerce and Magento Open Source extension listing in the marketplace.
 ---
 
 # Create an extension

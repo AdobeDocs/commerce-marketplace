@@ -1,5 +1,6 @@
 ---
 title: Extension footprint analysis
+description: Learn about the footprint analysis check for extensions submitting to the Commerce Marketplace.
 ---
 
 # Extension footprint analysis
