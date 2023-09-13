@@ -7,7 +7,7 @@ keywords:
 
 # Account setup process
 
-The following seections describe the account setup process.
+The following sections describe the account setup process.
 
 ## Step 1: Log in or register for a developer account
 
@@ -15,7 +15,7 @@ If you have an existing Magento account, simply log in and complete the [develop
 
 ## Step 2: Agree to the terms of service
 
-Read the Commerce Marketplace [terms of service](https://magento.com/legal/terms/marketplace-xcelerate). Then, select the checkbox to agree with the terms and continue.
+Read the Commerce Marketplace [master](https://commercemarketplace.adobe.com/legal/terms/master-terms) and [developer](https://commercemarketplace.adobe.com/legal/terms/development-terms) terms of service. Then, select the checkbox to agree with the terms and continue.
 
 ## Step 3: Complete your personal profile
 

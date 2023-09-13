@@ -39,10 +39,10 @@ Follow these steps to create a new developer account, or to register as a develo
 
 ## Step 2: Agree to the terms of service
 
-Read the following documents that describe Commerce Marketplace [terms of service](https://magento.com/legal/terms/marketplace-xcelerate).
+Read the following documents that describe Commerce Marketplace terms of service.
 
--  Xcelerate & Marketplace Master Terms
--  Xcelerate & Marketplace Development Terms
+-  [Commerce Marketplace Master Terms](https://commercemarketplace.adobe.com/legal/terms/master-terms)
+-  [Commerce Marketplace Development Terms](https://commercemarketplace.adobe.com/legal/terms/development-terms)
 
 If you agree with the terms of use, select the checkbox and click **I Agree**.
 
