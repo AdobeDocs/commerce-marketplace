@@ -1,6 +1,8 @@
 ---
 title: Marketing submission preview
 description: Learn how to preview your submission.
+keywords:
+  - Extensions
 ---
 
 # Marketing submission preview

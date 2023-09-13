@@ -1,6 +1,10 @@
 ---
 title: Authentication
 description: Learn how to obtain and use session tokens with the Marketplsce EQP REST APIs.
+keywords:
+  - Extensions
+  - REST
+  - Security
 ---
 
 # Authentication

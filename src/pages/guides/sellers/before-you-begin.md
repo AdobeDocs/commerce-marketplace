@@ -1,6 +1,8 @@
 ---
 title: Before you begin
 description: Learn critical information to help you create your marketplace listing.
+keywords:
+  - Extensions
 ---
 
 # Before you begin

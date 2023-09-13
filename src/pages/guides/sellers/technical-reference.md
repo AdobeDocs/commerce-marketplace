@@ -1,6 +1,8 @@
 ---
 title: Technical Reference
 description: Learn about the technology stack for marketplace listings.
+keywords:
+  - Extensions
 ---
 
 # Technical reference

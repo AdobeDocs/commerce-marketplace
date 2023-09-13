@@ -1,6 +1,8 @@
 ---
 title: Obsolete listings
 description: Learn how to deal with obsolete listings.
+keywords:
+  - Extensions
 ---
 
 # Obsolete listings

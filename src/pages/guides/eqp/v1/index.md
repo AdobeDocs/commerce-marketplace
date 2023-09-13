@@ -1,6 +1,9 @@
 ---
 title: Marketplace EQP API
 description: An overview of the Commerce Marketplace EQP APIs and who is eligible to use them.
+keywords:
+  - Extensions
+  - REST
 ---
 
 # Marketplace EQP API

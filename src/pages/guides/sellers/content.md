@@ -1,6 +1,8 @@
 ---
 title: Add contents to the listing
 description: Learn how to add content to an existing listing.
+keywords:
+  - Extensions
 ---
 
 # Add contents to the listing

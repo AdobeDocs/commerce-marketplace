@@ -1,6 +1,9 @@
 ---
 title: Handling errors
 description: Tips for handling general and batch processing failures.
+keywords:
+  - Extensions
+  - REST
 ---
 
 # Handling errors

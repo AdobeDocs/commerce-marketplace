@@ -1,6 +1,8 @@
 ---
 title: Profile information
 description: Learn how to complete your marketplace profile.
+keywords:
+  - Extensions
 ---
 
 # Profile information

@@ -1,6 +1,8 @@
 ---
-group: marketplace-sellers
 title: Extensions overview
+description: Learn about general requirements for submitting Adobe Commerce and Magento Open Source extensions to the marketplace.
+keywords:
+  - Extensions
 ---
 
 # Extensions overview

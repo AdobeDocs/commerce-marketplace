@@ -1,6 +1,8 @@
 ---
 title: Register as a developer
 description: Learn how to register for access to the developer portal.
+keywords:
+  - Extensions
 ---
 
 # Register as a developer

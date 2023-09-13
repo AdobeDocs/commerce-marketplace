@@ -1,6 +1,9 @@
 ---
 title: Installation and Varnish tests
 description: Learn how the installation and Varnish tests work to ensure compatibility.
+keywords:
+  - Cache
+  - Extensions
 ---
 
 # Installation and Varnish tests

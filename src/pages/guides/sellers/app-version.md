@@ -1,6 +1,8 @@
 ---
 title: Specify the version
-details: Learn how to specify and submit a new version of your app.
+description: Learn how to specify and submit a new version of your app.
+keywords:
+  - App Builder
 ---
 
 # Specify the version

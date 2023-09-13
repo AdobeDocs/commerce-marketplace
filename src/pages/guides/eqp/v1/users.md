@@ -1,6 +1,9 @@
 ---
 title: Users
 description: Manage your Commerce Marketplace user profile with EQP APIs.
+keywords:
+  - Extensions
+  - REST
 ---
 
 # Users

@@ -1,6 +1,8 @@
 ---
 title: Manage sales overview
 description: Learn how to manage sales of your listings.
+keywords:
+  - Extensions
 ---
 
 # Manage sales overview
@@ -12,7 +14,7 @@ Developers are not charged a fee to submit or list products or services on Comme
 <InlineAlert variant="info" slots="text"/>
 
 <p>
-Adobe is waiving commission fees on Adobe Commerce Marketplace (formerly known as Magento Marketplace) for sales of applications built using Adobe Developer App Builder (“Apps”) and submitted via Adobe’s Developer Portal in 2023. Adobe will waive commission for two (2) years from the date that an App is listed on Adobe Commerce Marketplace. The App commission waiver terms will be included in the Developer Portal.
+Adobe is waiving commission fees on Adobe Commerce Marketplace (formerly known as Magento Marketplace) for sales of applications built using Adobe Developer App Builder ("Apps") and submitted via Adobe's Developer Portal in 2023. Adobe will waive commission for two (2) years from the date that an App is listed on Adobe Commerce Marketplace. The App commission waiver terms will be included in the Developer Portal.
 
 Adobe reserves the right to charge commission on sales of Apps submitted after 2023. Adobe will communicate the commission model for Apps submitted outside of 2023 at a later date.
 </p>

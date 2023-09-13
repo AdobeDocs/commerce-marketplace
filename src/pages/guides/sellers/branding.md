@@ -1,5 +1,8 @@
 ---
 title: Establish your brand
+description: Learn about branding requirements for Adobe Commerce and Magento Open Source extensions on the marketplace.
+keywords:
+  - Extensions
 ---
 
 # Establish your brand
@@ -8,20 +11,20 @@ The Magento name and its related logos are trademarks owned by Magento, Inc. You
 
 ## Magento name
 
-Magento ® is a registered trademark, and must include the registration symbol the first time the name appears in your personal profile, company profile, product profile, or standalone document. After the first occurrence in a document, the Magento name can be used without the registration symbol. To insert the  registration symbol into HTML, place the cursor immediately after the Magento name, and enter either the numeric code for symbol name.
+Magento &reg; is a registered trademark, and must include the registration symbol the first time the name appears in your personal profile, company profile, product profile, or standalone document. After the first occurrence in a document, the Magento name can be used without the registration symbol. To insert the  registration symbol into HTML, place the cursor immediately after the Magento name, and enter either the numeric code for symbol name.
 
 -  `&amp;#174;` -  Registration symbol numeric value
 -  `&amp;reg;` -  Registration symbol name
 
 Your use of the Magento name cannot suggest an affiliation with Magento. The Magento name can be referenced only as follows:
 
--  Correct -  “I create extensions for Magento.”
--  Incorrect -  “I create Magento extensions.” or “My Magento Extension...”
+-  Correct -  "I create extensions for Magento."
+-  Incorrect -  "I create Magento extensions." or "My Magento Extension..."
 
 When referencing yourself or your company, use the _specializing in Magento_ phrasing.
 
--  Correct  -  “We are a development agency specializing in Magento.”
--  Incorrect -  “We are a Magento development agency.”
+-  Correct  -  "We are a development agency specializing in Magento."
+-  Incorrect -  "We are a Magento development agency."
 
 The Magento name **cannot** be used in any of the following:
 

@@ -1,6 +1,8 @@
 ---
 title: Semantic version check
 description: Learn how the semantic version check (SVC) validates your listing's changes against your suggested change level.
+keywords:
+  - Extensions
 ---
 
 # Semantic version check

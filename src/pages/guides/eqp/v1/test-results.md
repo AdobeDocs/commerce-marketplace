@@ -1,6 +1,9 @@
 ---
 title: Test results
 description: Request status updates on your Commerce Marketplace submissions.
+keywords:
+  - Extensions
+  - REST
 ---
 
 # Test results

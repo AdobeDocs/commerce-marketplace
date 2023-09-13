@@ -2,6 +2,9 @@
 group: marketplace-sellers
 title: Extension Quality Program
 description: Learn about the extension quality program.
+keywords:
+  - App Builder
+  - Extensions
 ---
 
 # Extension Quality Program

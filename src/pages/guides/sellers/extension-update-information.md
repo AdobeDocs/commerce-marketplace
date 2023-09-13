@@ -1,6 +1,8 @@
 ---
 title: Update listing information
 description: Learn how to update the information for a listing.
+keywords:
+  - Extensions
 ---
 
 # Update listing information

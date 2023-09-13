@@ -1,6 +1,8 @@
 ---
 title: Apps overview
 description: Learn how apps work in the marketplace and how they differ from extensions.
+keywords:
+  - App Builder
 ---
 
 # Apps overview

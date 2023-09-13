@@ -1,6 +1,8 @@
 ---
 title: Selling subscription-based extensions
 description: Learn how to sell your listing as a subscription.
+keywords:
+  - Extensions
 ---
 
 # Selling subscription-based extensions

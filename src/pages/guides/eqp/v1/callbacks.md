@@ -1,6 +1,9 @@
 ---
 title: API callbacks
 description: Register a URL to receive notifications when the status of a EQP process has changed.
+keywords:
+  - Extensions
+  - REST
 ---
 
 # API callbacks

@@ -1,6 +1,8 @@
 ---
 title: Compatibility requirements overview
 description: Learn about the listing requirements for the marketplace.
+keywords:
+  - Extensions
 ---
 
 # Compatibility requirements overview
