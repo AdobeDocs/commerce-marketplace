@@ -2,7 +2,9 @@
 title: Commerce Marketplace
 description: Learn about technical resources available for Commerce Marketplace developers.
 keywords:
+  - App Builder
   - Extensions
+  - Themes
 ---
 
 <Hero slots="heading, text"/>

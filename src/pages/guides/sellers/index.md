@@ -2,7 +2,9 @@
 title: Getting started
 description: Browse Commerce Marketplace developer guides.
 keywords:
+  - App Builder
   - Extensions
+  - Themes
 ---
 
 # Getting started
