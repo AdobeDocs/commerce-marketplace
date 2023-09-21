@@ -87,6 +87,10 @@ module.exports = [
         title: "Specify the version",
         path: "/guides/sellers/app-version/",
       },
+      {
+        title: "App Assurance Program",
+        path: "/guides/sellers/assurance/",
+      },
     ],
   },
   {
@@ -104,6 +108,10 @@ module.exports = [
       {
         title: "Specify the version",
         path: "/guides/sellers/extension-version/",
+      },
+      {
+        title: "Extension Assurance Program",
+        path: "/guides/sellers/assurance/",
       },
     ],
   },
