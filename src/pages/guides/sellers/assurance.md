@@ -5,9 +5,14 @@ description: This page describes the assurance program for marketplace apps and 
 
 # Listing Assurance Program
 
-With almost 4,000 listings in the Adobe Commerce Marketplace, it is difficult for customers to find the listing that fits their needs and difficult for Adobe listing developers to get the visibility they desire. To address this, Adobe has created an assurance program that benefits customers and developers alike.
+With almost 4,000 listings in the Adobe Commerce Marketplace, both developers and merchants face similar challenges:
 
-The Listing Assurance Program evaluates the quality of a listing to ensure it meet Adobe's high standards. Customers can now easily access a curated collection of listings that have passed a higher standard and are built with scale and performance in mind. These developers receive preferable placement in the marketplace, a rich technical consultation, and verified badging on the marketplace.
+- How can developers achieve better visibility for their products?
+- How can merchants easily identify high-quality listings that fit their needs?
+
+To address these challenges, Adobe has created an assurance program that benefits merchants and developers alike.
+
+The Listing Assurance Program evaluates the quality of a listing to ensure it meet Adobe's high standards. Merchants can now easily access a curated collection of listings that have passed a higher standard and are built with scale and performance in mind. These developers receive preferable placement in the marketplace, a rich technical consultation, and verified badging on the marketplace.
 
 ## Review process
 
@@ -30,16 +35,16 @@ The security code review consists of the following:
 - Check databases for proper structure
 - Ensure proper uses of classes, methods, etc
 
-### Magento Functional Testing Framework (MFTF) testing
+### Functional Testing Framework testing
 
-MFTF (Magento Functional Testing Framework) tests help assess the critical functionality of a listing within Adobe Commerce.
+The [Functional Testing Framework](https://developer.adobe.com/commerce/testing/functional-testing-framework/) tests help assess the critical functionality of a listing within Adobe Commerce.
 
-Listing developers must provide an MFTF test suite that includes a smoke test of their submission. Developers should also consider providing end-to-end tests that cover the core functionality of their submission.
+Listing developers must provide a test suite that includes a smoke test of their submission. Developers should also consider providing end-to-end tests that cover the core functionality of their submission.
 
 These submitted tests are used extensively in the review process for the assurance program.
 
 ### Performance testing
 
-Performance testing helps to identify bottlenecks and scalability issues by utilizing the submission along with simulated data and real-world customer activities. These tests help developers understand the product's capabilities and identify improvement areas to maintain high-performance standards.
+Performance testing helps to identify bottlenecks and scalability issues by utilizing the submission along with simulated data and real-world activities. These tests help developers understand the product's capabilities and identify improvement areas to maintain high-performance standards.
 
 Listings only pass the performance testing step if they have a low rate of errors and degradation. Listings must also retain a response time of less than 200ms.
