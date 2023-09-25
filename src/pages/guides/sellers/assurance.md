@@ -1,22 +1,22 @@
 ---
-title: Listing assurance program
-description: This page describes the assurance program for marketplace apps and extensions for Adobe Commerce.
+title: App Assurance Program
+description: This page describes the App Assurance Program for marketplace apps and extensions for Adobe Commerce.
 ---
 
-# Listing Assurance Program
+# App Assurance Program
 
 With almost 4,000 listings in the Adobe Commerce Marketplace, both developers and merchants face similar challenges:
 
 - How can developers achieve better visibility for their products?
 - How can merchants easily identify high-quality listings that fit their needs?
 
-To address these challenges, Adobe has created an assurance program that benefits merchants and developers alike.
+To address these challenges, Adobe has created an App Assurance Program that benefits merchants and developers alike.
 
-The Listing Assurance Program evaluates the quality of a listing to ensure it meet Adobe's high standards. Merchants can now easily access a curated collection of listings that have passed a higher standard and are built with scale and performance in mind. These developers receive preferable placement in the marketplace, a rich technical consultation, and verified badging on the marketplace.
+The App Assurance Program evaluates the quality of apps and extensions to ensure they meet Adobe's high standards. Merchants can now easily access a curated collection of listings that have passed a higher standard and are built with scale and performance in mind. These developers receive preferable placement in the marketplace, a rich technical consultation, and verified badging on the marketplace.
 
 ## Review process
 
-After passing our [Extension Quality Program](./extension-quality-program.md), submissions to our assurance program undergo a thorough code review, Magento Functional Testing Framework (MFTF) testing, and performance testing. The following sections provide a description of each step of the verification process.
+After passing our [Extension Quality Program](./extension-quality-program.md), submissions to the App Assurance Program undergo a thorough code review, Magento Functional Testing Framework (MFTF) testing, and performance testing. The following sections provide a description of each step of the verification process.
 
 ### Code review
 
@@ -41,7 +41,7 @@ The [Functional Testing Framework](https://developer.adobe.com/commerce/testing/
 
 Listing developers must provide a test suite that includes a smoke test of their submission. Developers should also consider providing end-to-end tests that cover the core functionality of their submission.
 
-These submitted tests are used extensively in the review process for the assurance program.
+These submitted tests are used extensively in the review process for the App Assurance Program.
 
 ### Performance testing
 
