@@ -5,7 +5,7 @@ description: Learn about the App Assurance Program for Marketplace apps and exte
 
 # App Assurance Program
 
-With almost 4,000 listings in the Adobe Commerce Marketplace, both developers and merchants face similar challenges:
+With over 4,000 listings in the Adobe Commerce Marketplace, both developers and merchants face similar challenges:
 
 - How can developers achieve better visibility for their products?
 - How can merchants easily identify high-quality listings that fit their needs?
@@ -47,4 +47,4 @@ These submitted tests are used extensively in the review process for the App Ass
 
 Performance testing helps to identify bottlenecks and scalability issues by utilizing the submission along with simulated data and real-world activities. These tests help developers understand the product's capabilities and identify improvement areas to maintain high-performance standards.
 
-Listings pass the performance testing step only if they have a low rate of errors and degradation. Listings must also retain a response time of less than 200ms.
+Listings pass the performance testing step only if they have a low rate of errors and degradation.
