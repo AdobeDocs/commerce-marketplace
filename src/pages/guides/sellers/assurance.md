@@ -1,6 +1,6 @@
 ---
 title: App Assurance Program
-description: This page describes the App Assurance Program for marketplace apps and extensions for Adobe Commerce.
+description: Learn about the App Assurance Program for Marketplace apps and extensions for Adobe Commerce.
 ---
 
 # App Assurance Program
@@ -33,7 +33,7 @@ The security code review consists of the following:
 - Check for outdated frameworks with known vulnerabilities
 - Check for possible SQL injection and data sanitization issues
 - Check databases for proper structure
-- Ensure proper uses of classes, methods, etc
+- Ensure proper usage of classes and methods
 
 ### Functional Testing Framework testing
 
@@ -47,4 +47,4 @@ These submitted tests are used extensively in the review process for the App Ass
 
 Performance testing helps to identify bottlenecks and scalability issues by utilizing the submission along with simulated data and real-world activities. These tests help developers understand the product's capabilities and identify improvement areas to maintain high-performance standards.
 
-Listings only pass the performance testing step if they have a low rate of errors and degradation. Listings must also retain a response time of less than 200ms.
+Listings pass the performance testing step only if they have a low rate of errors and degradation. Listings must also retain a response time of less than 200ms.
