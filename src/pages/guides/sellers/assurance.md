@@ -3,7 +3,25 @@ title: App Assurance Program
 description: Learn about the App Assurance Program for Marketplace apps and extensions for Adobe Commerce.
 ---
 
-# App Assurance Program
+# Adobe Commerce App Assurance Program
+
+Get the Best Apps and Extensions for Your Business.
+
+## Curated excellence, scalability, and performance for merchants
+
+Enhanced visibility, quality assurance, and performance enhancement for developers.
+
+The Adobe Commerce App Assurance Program is a new way for merchants and developers to get the most out of the Commerce Marketplace. For merchants, the program provides a curated collection of high-quality apps and extensions that are built with scale and performance in mind. For developers, the program offers enhanced visibility, quality assurance, and performance enhancements for their solutions.
+
+<InlineAlert variant="info" slots="text"/>
+
+Since this is a beta program, we are accepting a limited number of listings while refining the review process. The Adobe Commerce Marketplace has many high-quality listings that have not yet been accepted into the App Assurance Program. Merchants should continue to evaluate all listings on the marketplace for your needs until we open the program to the larger developer community.
+
+- Merchants: Start accessing the curated collection of high-quality apps and extensions.
+
+- Developers: If you are a Gold or Platinum partner and interested in the App Assurance Program, contact us at commercemarketplace@adobe.com to get your solutions noticed by merchants and benefit from the enhanced visibility, as well as quality and performance enhancements.
+
+## Adobe Commerce App Assurance Program
 
 With thousands of listings in the Adobe Commerce Marketplace, both merchants and developers face similar challenges:
 
@@ -14,7 +32,7 @@ To address these challenges, Adobe created the App Assurance Program, which bene
 
 ![assurance badge](_images/assurance-badge.png)
 
-## Benefits for Merchants
+## Benefits for merchants
 
 **Curated Excellence**: Say goodbye to endless searching. Access a carefully selected range of apps and extensions that meet Adobe's strict quality criteria. Feel confident in choosing solutions that align with your business needs and are tailored for mid-market and enterprise use.
 
@@ -22,7 +40,7 @@ To address these challenges, Adobe created the App Assurance Program, which bene
 
 **Elevated Quality**: Be confident that every program extension and app meets and exceeds our rigorous standards that were meticulously crafted with scalability and performance in mind. Apps and extensions are tested with each other and Adobe Commerce to ensure interoperability.
 
-## Benefits for Developers
+## Benefits for developers
 
 **Amplify Your Visibility**: Struggling to make your products shine in the bustling marketplace? Our App Assurance Program ensures your extension/app gets noticed by offering prime placement. Benefit from enhanced exposure through exclusive placement and specialized search filters within the Marketplace for apps and extensions.
 
