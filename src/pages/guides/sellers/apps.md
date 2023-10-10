@@ -57,9 +57,9 @@ Provides instructions for adding new versions for an app entry.
 
 | Column                | Description                                                                         |
 |-----------------------|-------------------------------------------------------------------------------------|
-| App Name        | The name of the app.                                                          |
+| App Name              | The name of the app.                                                          |
 | Platform              | The value of M2 indicates the app runs on Commerce 2.x. |
 | No. of Versions       | The number of versions of the app that have been created.                     |
-| Active Version        | The version of the app that is currently active.                              |
-| Active Version Status | The current position of the app in the submission workflow.                   |
+| Latest Version        | The version of the app that is currently active.                              |
+| Latest Version Status | The current position of the app in the submission workflow.                   |
 | Last Changed          | The date of the last change made to the version.                                    |

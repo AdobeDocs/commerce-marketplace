@@ -46,8 +46,8 @@ Provides instructions for adding new versions for an extension entry.
 | Column                | Description                                                                         |
 |-----------------------|-------------------------------------------------------------------------------------|
 | Extension Name        | The name of the extension.                                                          |
-| Platform              | Lists your products by platform. Options: All Platforms / Magento 1.x / Magento 2.x |
+| Platform              | The value of M2 indicates the app runs on Commerce 2.x. |
 | No. of Versions       | The number of versions of the extension that have been created.                     |
-| Active Version        | The version of the extension that is currently active.                              |
-| Active Version Status | The current position of the extension in the submission workflow.                   |
+| Latest Version        | The version of the extension that is currently active.                              |
+| Latest Version Status | The current position of the extension in the submission workflow.                   |
 | Last Changed          | The date of the last change made to the version.                                    |

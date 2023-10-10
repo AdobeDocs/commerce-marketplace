@@ -26,7 +26,7 @@ For existing, approved apps, follow these instructions to add new versions as av
     For **Requested Launch Date**, select an option:
 
     -  ***On Approval*** - Immediately publishes when the app receives Commerce Marketplace approval.
-    -  ***Requested Launch Date*** - Date and time for launching and publishing the app to Marketplace. This date is not necessarily the date the product will launch; it is the earliest it can be launched, provided the product passes all reviews.
+    -  ***Requested Launch Date*** - Date for launching and publishing the app to Marketplace. This date is not necessarily the date the product will launch; it is the earliest it can be launched, provided the product passes all reviews.
 
     ![](../sellers/_images/submit-new-version-detail.png)
 

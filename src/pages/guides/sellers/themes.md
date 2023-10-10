@@ -16,11 +16,11 @@ The process to submit a theme to Commerce Marketplace is basically the same as [
 
 ![](_images/themes.png)
 
-| Column | Description |
-|--------|-------------|
-| Theme Name | The name of the theme. |
-| Platform | Lists your products by platform. Options: All Platforms / Magento 1.x / Magento 2.x |
-| No. of Versions | The number of versions of the theme that have been created. |
-| Active Version | The version of the theme that is currently active. |
-| Active Version Status | The current position of the theme in the submission workflow. |
-| Last Changed | The date of the last change made to the version. |
+| Column                | Description |
+|-----------------------|-------------|
+| Theme Name            | The name of the theme. |
+| Platform              | The value of M2 indicates the app runs on Commerce 2.x. |
+| No. of Versions       | The number of versions of the theme that have been created. |
+| Latest Version        | The version of the theme that is currently active. |
+| Latest Version Status | The current position of the theme in the submission workflow. |
+| Last Changed          | The date of the last change made to the version. |
