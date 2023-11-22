@@ -111,7 +111,7 @@ You must provide a thumbnail and at least two high-quality images for the image 
 
 ### Support (optional)
 
-Customers are advised to contact you directly for support, using the information that you provide. For support issues related to Commerce Marketplace, see the [Help Center](https://commercemarketplace-support.adobe.com/hc/en-us).
+Customers are advised to contact you directly for support, using the information that you provide. For support issues related to Commerce Marketplace, see the [Help Center](https://marketplacesupport.magento.com/hc/en-us).
 
 1. Under **Marketing Submission**, click **Support**.
 

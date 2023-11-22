@@ -57,7 +57,7 @@ php magento-semver/bin/svc compare <path-to-latest-published-extension-version> 
 
 This command requires an environment with PHP version 7.2.29 or later.
 
-If the semantic version check detects any issues, [create a support ticket](https://commercemarketplace-support.adobe.com/hc/en-us) to request assistance. Specify the relevant Submission ID in the ticket.
+If the semantic version check detects any issues, [create a support ticket](https://marketplacesupport.magento.com/hc/en-us) to request assistance. Specify the relevant Submission ID in the ticket.
 
 As the check is solely based on [Magento SemVer open source project](https://github.com/magento/magento-semver), submitting an issue or pull request on GitHub is highly recommended.
 
