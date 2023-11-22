@@ -20,4 +20,4 @@ To learn more about buying or selling subscription-licensed extensions, visit:
 -  [Buying Subscription-based Extensions](../subscriptions/buying-subscriptions.md)
 -  [Selling Subscription-based Extensions](../subscriptions/selling-subscriptions.md)
 
-Thank you for using the Adobe Commerce Marketplace. For all questions and suggestions regarding extension subscriptions, please contact [Marketplace Support](https://commercemarketplace-support.adobe.com) or find us in the [Community Slack workspace](https://developer.adobe.com/open/magento/slack).
+Thank you for using the Adobe Commerce Marketplace. For all questions and suggestions regarding extension subscriptions, please contact [Marketplace Support](https://marketplacesupport.magento.com/) or find us in the [Community Slack workspace](https://developer.adobe.com/open/magento/slack).

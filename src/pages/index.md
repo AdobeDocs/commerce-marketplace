@@ -44,7 +44,7 @@ Provides programmatic access to the Commerce Developer Portal.
 
 <DiscoverBlock slots="link, text"/>
 
-[Support](https://commercemarketplace-support.adobe.com/hc/en-us)
+[Support](https://marketplacesupport.magento.com/hc/en-us)
 
 Search the Commerce Marketplace Help Center knowledge base or submit a support ticket.
 

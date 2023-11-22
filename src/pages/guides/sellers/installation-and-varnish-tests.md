@@ -49,7 +49,7 @@ The Installation and Varnish tests always use the latest patch version for the M
 
 ### Additional configuration
 
-The Varnish test requires [Varnish as a caching application](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish-magento.html). The test checks for the presence of the **X-EQP-Cache** HTTP header set by Varnish and analyzes its value on page loads. To complete this check, the following additional instruction must be added to the **vcl_deliver** function:
+The Varnish test requires [Varnish as a caching application](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/configure-varnish-commerce.html). The test checks for the presence of the **X-EQP-Cache** HTTP header set by Varnish and analyzes its value on page loads. To complete this check, the following additional instruction must be added to the **vcl_deliver** function:
 
 ```vcl
 sub vcl_deliver {
@@ -136,6 +136,6 @@ To debug Varnish test errors, we recommend using a locally installed Commerce ve
 
 ## Troubleshooting
 
-If the submission fails Installation and Varnish testing, and you cannot reproduce or troubleshoot the issues locally, [create a Support ticket](https://commercemarketplace-support.adobe.com/hc/en-us) to request assistance. Ensure that the relevant Submission ID is included on the ticket.
+If the submission fails Installation and Varnish testing, and you cannot reproduce or troubleshoot the issues locally, [create a Support ticket](https://marketplacesupport.magento.com/hc/en-us) to request assistance. Ensure that the relevant Submission ID is included on the ticket.
 
 We always welcome feedback and discussion on the [Magento Community Engineering Slack](https://magentocommeng.slack.com/archives/C7SL5CGDN) #marketplace channel.
