@@ -24,6 +24,7 @@ const remarkConfig = {
 			{
 				skipUrlPatterns: [
 					"https://marketplacesupport.magento.com",
+					"https://opensource.org/",
 					"https://www.php.net"
 				]
 			}
