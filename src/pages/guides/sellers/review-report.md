@@ -32,7 +32,7 @@ The report includes the results of the following tests:
 
 ## Troubleshooting
 
-This section provides troubleshooting tipcs for common issues.
+This section provides troubleshooting tips for common issues.
 
 ### Package stability
 
