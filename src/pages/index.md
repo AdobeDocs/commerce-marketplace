@@ -26,27 +26,49 @@ This documentation provides instructions for Commerce Marketplace developers wor
 
 The Commerce Marketplace EQP API provides access to the Developer Portal so that you can programmatically update your extension, manage your company profile, and access sales reports and analytics.
 
-## Discover
+## Developers
 
 <DiscoverBlock slots="heading, link, text"/>
 
-### Get Started
+### Get started
 
-[Getting Started](/guides/sellers/)
+[Before you begin](/guides/sellers/before-you-begin/)
 
-Learn how to set up your developer account and become a seller on the Commerce Marketplace.
+Learn critical information to help you create your Marketplace listing.
+
+<DiscoverBlock slots="link, text"/>
+
+[Create your seller account](guides/selelrs/seller-overview/)
+
+Learn how to set up your Marketplace seller account.
 
 <DiscoverBlock slots="link, text"/>
 
 [EQP API](guides/eqp/v1/)
 
-Provides programmatic access to the Commerce Developer Portal.
+Get programmatic access to the Commerce Developer Portal to submit extensions for Marketplace review.
+
+## Buyers
+
+<DiscoverBlock slots="heading, link, text"/>
+
+### Get started
+
+[Merchant guide](https://experienceleague.adobe.com/en/docs/commerce-admin/start/resources/commerce-marketplace)
+
+Learn how to purchase, download, and install Marketplace apps and extensions.
 
 <DiscoverBlock slots="link, text"/>
 
-[Support](https://marketplacesupport.magento.com/hc/en-us)
+[Subscription-based extensions](guides/sellers/subscriptions/buying-subscriptions.md)
 
-Search the Commerce Marketplace Help Center knowledge base or submit a support ticket.
+Learn how to buy and manage subscription-based extensions.
+
+<DiscoverBlock slots="link, text"/>
+
+[Support](https://experienceleague.adobe.com/en/docs/commerce-admin/start/resources/commerce-marketplace#support)
+
+Use these self-service resources to request refunds, download order invoices, or contact Marketplace support.
 
 ## Contributing
 
