@@ -29,3 +29,17 @@ The report includes the results of the following tests:
     -  Click **Download** to download the report as a JSON file.
 
     ![](_images/test-reports.png)
+
+## Troubleshooting
+
+This section provides troubleshooting tipcs for common issues.
+
+### Package stability
+
+The following error message means that you are using an `alpha` value for the package, which is not supported, and cannot be installed on the Commerce platform:
+
+```text
+Stability is not valid. Allowed values are: "stable, beta".
+```
+
+To resolve this issue, change the stability value to `stable` or `beta` in the `package.xml` file under `stability`.
