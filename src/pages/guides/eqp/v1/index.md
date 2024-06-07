@@ -44,4 +44,4 @@ See more information about [becoming a partner][4].
 [1]: https://commercedeveloper.adobe.com
 [2]: https://commercedeveloper-sandbox.adobe.com
 [3]: https://commercemarketplace.adobe.com
-[4]: https://magento.com/partners/become
+[4]: https://business.adobe.com/products/magento/partners.html

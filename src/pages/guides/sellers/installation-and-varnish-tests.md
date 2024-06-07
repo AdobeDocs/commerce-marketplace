@@ -139,3 +139,13 @@ To debug Varnish test errors, we recommend using a locally installed Commerce ve
 If the submission fails Installation and Varnish testing, and you cannot reproduce or troubleshoot the issues locally, [create a Support ticket](https://marketplacesupport.magento.com/hc/en-us) to request assistance. Ensure that the relevant Submission ID is included on the ticket.
 
 We always welcome feedback and discussion on the [Magento Community Engineering Slack](https://magentocommeng.slack.com/archives/C7SL5CGDN) #marketplace channel.
+
+### Update for Varnish Cache automated test
+
+The following exception for the automated Varnish Cache test is NOT VALID:
+
+```test
+If an extension has a customized sitemap creation/generation flow, the sitemap can't be created/generated using standard Magento routes.
+```
+
+In this situation, the extension must be reviewed manually.

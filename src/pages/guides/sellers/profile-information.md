@@ -79,7 +79,7 @@ Your Marketplace Profile contains information you entered during account setup, 
 | Vendor Name | Entered when you created your Marketplace Developer account. |
 | User Email | Entered when you created your Marketplace Developer account. |
 | Logo | A profile photo (for personal accounts) or a company logo (for company accounts). |
-| Partner Status | Your current partner status is displayed. Clicking **Upgrade Partner Status** takes you to the [Become a Partner](https://magento.com/partners/become) page. |
+| Partner Status | Your current partner status is displayed. Clicking **Upgrade Partner Status** takes you to the [Become a Partner](https://business.adobe.com/products/magento/partners.html) page. |
 | Privacy Policy URL | The URL of your company\'s privacy policy website. |
 | Other Options | Add links to various social media profiles. |
 
