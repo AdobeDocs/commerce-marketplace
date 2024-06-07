@@ -30,7 +30,7 @@ Get answers to common questions about selling apps and extensions on the Adobe C
 1. Where/how do solution partners or tech partners submit a support request?
 
    - Solution partners can submit a support request through the [Adobe Solution Partner Program](https://solutionpartners.adobe.com/solution-partners/home.html).
-   - Tech partners can submit a support request on the [Marketplace Help Center](https://marketplacesupport.magento.com/hc/en-us).
+   - Tech partners can contact [Marketplace Support](mailto:commercemarketplacesupport@adobe.com).
 
 1. How do I change my vendor name?
 
