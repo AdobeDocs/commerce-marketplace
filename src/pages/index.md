@@ -38,7 +38,7 @@ Learn critical information to help you create your Marketplace listing.
 
 <DiscoverBlock slots="link, text"/>
 
-[Create your seller account](guides/selelrs/seller-overview/)
+[Create your seller account](guides/sellers/seller-overview/)
 
 Learn how to set up your Marketplace seller account.
 
