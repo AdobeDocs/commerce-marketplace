@@ -11,7 +11,11 @@ The following sections describe the account setup process.
 
 ## Step 1: Log in or register for a developer account
 
-If you have an existing Magento account, simply log in and complete the [developer registration](developer-register.md) process. If you are new to Adobe Commerce, you can sign up for a new account and register as a developer at the same time.
+If you have an existing Commerce account, simply log in and complete the [developer registration](developer-register.md) process. If you are new to Adobe Commerce, you can sign up for a new account and register as a developer at the same time.
+
+<InlineAlert variant="info" slots="text"/>
+
+All general developer accounts begin with default settings that only allow Open Source (CE) submissions. To submit Adobe Commerce extensions (EE), the account owner must be a partner or request an Adobe Commerce developer license. You must use the same email address as the developer portal account.
 
 ## Step 2: Agree to the terms of service
 

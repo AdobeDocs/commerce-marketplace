@@ -7,7 +7,7 @@ keywords:
 
 # Establish your brand
 
-The Magento name and its related logos are trademarks owned by Magento, Inc. Your extension and listing must not violate the trademarks and copyrights of Adobe, Inc., or those of any other party. To learn more, see [Magento License / Trademark](https://magento.com/legal/licensing).
+The Magento name and its related logos are trademarks owned by Magento, Inc. Your extension and listing must not violate the trademarks and copyrights of Adobe, Inc., or those of any other party. To learn more, see [Magento License / Trademark](https://www.adobe.com/legal/permissions.html).
 
 ## Magento name
 

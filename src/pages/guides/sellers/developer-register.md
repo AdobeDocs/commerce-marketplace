@@ -19,7 +19,7 @@ Follow these steps to create a new developer account, or to register as a develo
 
    -  Go to the [Developer Portal](https://commercedeveloper.adobe.com) page, and click **Create  Account**. Then, click **Register**.
    -  In the upper-right corner of [Commerce Marketplace](https://commercemarketplace.adobe.com), click **Sign In**. Then, click **Register**.
-   -  From [business.adobe.com](https://business.adobe.com), click **My Account**. Then under **New Customers**, click **Register**.
+   -  From [business.adobe.com](https://business.adobe.com/), click **My Account**. Then under **New Customers**, click **Register**.
 
    If you already have an account, log in as a registered user.
 

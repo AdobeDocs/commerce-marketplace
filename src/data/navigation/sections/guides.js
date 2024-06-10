@@ -11,6 +11,10 @@ module.exports = [
         title: "Extension Quality Program",
         path: "/guides/sellers/extension-quality-program/",
       },
+      {
+        title: "Frequently asked questions",
+        path: "/guides/sellers/faq/",
+      },
     ],
   },
   {
