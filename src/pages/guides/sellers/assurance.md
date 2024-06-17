@@ -7,10 +7,6 @@ description: Learn about the App Assurance Program for Marketplace apps and exte
 
 The Adobe Commerce App Assurance Program is a new way for merchants and developers to get the most out of the Commerce Marketplace. For merchants, the program provides a curated collection of high-quality apps and extensions that are built with scale and performance in mind. For developers, the program offers enhanced visibility, quality assurance, and performance enhancements for their solutions.
 
-<InlineAlert variant="info" slots="text"/>
-
-Since this is a beta program, we are accepting a limited number of listings while refining the review process. The Adobe Commerce Marketplace has many high-quality listings that have not yet been accepted into the App Assurance Program. Merchants should continue to evaluate all listings on the marketplace for your needs until we open the program to the larger developer community.
-
 - Merchants: Start accessing the curated collection of high-quality apps and extensions.
 
 - Developers: If you are a Gold or Platinum partner and interested in the App Assurance Program, contact us at commercemarketplace@adobe.com to get your solutions noticed by merchants and benefit from the enhanced visibility, as well as quality and performance enhancements.
