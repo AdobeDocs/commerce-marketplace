@@ -136,7 +136,7 @@ To debug Varnish test errors, we recommend using a locally installed Commerce ve
 
 ## Troubleshooting
 
-If the submission fails Installation and Varnish testing, and you cannot reproduce or troubleshoot the issues locally, [create a Support ticket](https://marketplacesupport.magento.com/hc/en-us) to request assistance. Ensure that the relevant Submission ID is included on the ticket.
+If the submission fails Installation and Varnish testing, and you cannot reproduce or troubleshoot the issues locally, [contact Support](mailto:commercemarketplacesupport@adobe.com) to request assistance. Ensure that the relevant Submission ID is included on the ticket.
 
 We always welcome feedback and discussion on the [Magento Community Engineering Slack](https://magentocommeng.slack.com/archives/C7SL5CGDN) #marketplace channel.
 
