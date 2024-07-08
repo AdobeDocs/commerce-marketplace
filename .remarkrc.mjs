@@ -24,7 +24,11 @@ const remarkConfig = {
 			{
 				skipUrlPatterns: [
 					"https://opensource.org/",
-					"https://www.php.net"
+					"https://www.php.net",
+					"https://business.adobe.com/products/magento/partners.html",
+					"https://www.adobe.com/legal/permissions.html",
+					"https://business.adobe.com",
+					"https://www.adobe.com/legal/terms/enterprise-licensing/magento-legacy-terms.html"
 				]
 			}
 		],

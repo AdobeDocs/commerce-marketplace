@@ -29,7 +29,7 @@ The developer payout is 60 days after the end of the month and must exceed $100.
 - You must provide a tax form or confirm the 30/70 split of revenue to cover taxes. If Adobe has not processed the taxes for your account, you will not receive a developer payout regardless of the developer revenue amount.
 - A PayPal account is required to receive the developer payout and is the only method that the Adobe Commerce Marketplace currently uses to transfer payout funds. Adobe cannot accommodate countries that do not have PayPal at this time.
 
-For more information, see the _Marketplace Earnings_ section in the [developer agreement](https://magento.com/legal/terms/marketplace-xcelerate-master).
+For more information, see the _Marketplace Earnings_ section in the [developer agreement](https://www.adobe.com/legal/terms/enterprise-licensing/magento-legacy-terms.html).
 
 ## Customer information
 
