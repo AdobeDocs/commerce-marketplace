@@ -23,7 +23,6 @@ const remarkConfig = {
 			remarkLintNoDeadUrls,
 			{
 				skipUrlPatterns: [
-					"https://marketplacesupport.magento.com",
 					"https://opensource.org/",
 					"https://www.php.net",
 					"https://business.adobe.com/products/magento/partners.html",
