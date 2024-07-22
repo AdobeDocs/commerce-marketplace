@@ -21,6 +21,16 @@ Adobe reserves the right to charge commission on sales of Apps submitted after 2
 
 Buyers have twenty-five (25) days after the date of purchase to request a refund. Adobe Commerce reviews all refund requests and if approved, issues the appropriate refund.
 
+## General developer payout information
+
+The developer payout is 60 days after the end of the month and must exceed $100. For example, January sales (minus the revenue share) would be distributed on or around the first of April. If the amount does not exceed $100, then the outstanding amount is rolled over to the next payout date until the amount exceeds $100. Additional requirements for receiving a payout include:
+
+- The extension must have a minimum price of $25 or more.
+- You must provide a tax form or confirm the 30/70 split of revenue to cover taxes. If Adobe has not processed the taxes for your account, you will not receive a developer payout regardless of the developer revenue amount.
+- A PayPal account is required to receive the developer payout and is the only method that the Adobe Commerce Marketplace currently uses to transfer payout funds. Adobe cannot accommodate countries that do not have PayPal at this time.
+
+For more information, see the _Marketplace Earnings_ section in the [developer agreement](https://www.adobe.com/legal/terms/enterprise-licensing/magento-legacy-terms.html).
+
 ## Customer information
 
 Protecting the privacy of customer information is important to Adobe, and we work to ensure that our policies meet industry-standard privacy practices. We also recognize your need to communicate with those who purchase your products and services.
