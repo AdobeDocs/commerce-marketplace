@@ -23,8 +23,8 @@ The following resources apply to Marketplace apps:
 
 ### Commerce resources:
 
-- [Setting up I/O Events for Adobe Commerce](https://developer.adobe.com/commerce/events/get-started/)
-- [Configuring Events for Adobe Commerce](https://developer.adobe.com/commerce/events/get-started/configure-commerce/)
+- [Setting up I/O Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
+- [Configuring Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
 - [Setting up Admin UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 
 ### App Builder resources:
