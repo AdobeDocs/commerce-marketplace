@@ -87,7 +87,7 @@ _See also:_ [Coding Standards](https://developer.adobe.com/commerce/php/coding-s
 
 All code and marketing content that is submitted to Commerce Marketplace is checked for plagiarism to ensure that it has not been copied from existing Marketplace extensions or from the Commerce codebase.
 
-If the extension contains source code from the Open Source Edition, the extension must be licensed under [Open Source License v. 3.0](https://opensource.org/license/osl-3-0-php/) and properly credit Adobe, Inc.
+If the extension contains source code from the Open Source Edition, the extension must be licensed under [Open Source License v. 3.0](https://opensource.org/license/osl-3-0-php) and properly credit Adobe, Inc.
 
 _More details:_ [Copy Paste Detector](copy-paste-detector.md)
 
