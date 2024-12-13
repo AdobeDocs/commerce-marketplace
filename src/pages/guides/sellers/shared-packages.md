@@ -22,3 +22,5 @@ The process to submit a shared package to Commerce Marketplace is basically the 
 | Latest Version        | The version of the shared package that is currently active. |
 | Latest Version Status | The current position of the shared package in the submission workflow. |
 | Last Changed          | The date of the last change made to the version. |
+
+--- This is basically used for push your support or base extension in composer package.
