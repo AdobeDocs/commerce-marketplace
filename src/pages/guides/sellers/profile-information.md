@@ -26,6 +26,15 @@ Your contact information also includes your address, phone number, and PayPal em
 |Login Credentials|Clicking **Go to My Account** takes you to your Adobe Commerce account information.|
 |PayPal Email|You must enter a valid PayPal account email, even if  your listings are available for free on Commerce Marketplace. Adobe Commerce sends your revenue share payment to your PayPal account.|
 
+### Trader information
+
+|Field|Description|
+|--- |--- |
+| Business Name | The name of your business. |
+| Business Email | The email address for your business's support contact. |
+| Business Address | The address of your business. |
+| DUNS Number| The unique nine-digit number that identifies your business. |
+
 ### Company
 
 |Field|Description|
