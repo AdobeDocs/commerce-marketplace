@@ -28,6 +28,24 @@ Your contact information also includes your address, phone number, and PayPal em
 
 ### Trader information
 
+In accordance with the [European Union Digital Services Act](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32022R2065) trader requirements, developers who wish to distribute their extensions/apps in the European Union (EU) must provide additional information in their publisher profile.
+
+<InlineAlert variant="info" slots="header, text1, text2" />
+
+Developer/Trader
+
+Any developer who wishes to publish their extensions/apps in the EU can be identified as a trader.
+
+Checkout our [Know your trader guide](https://developer.adobe.com/compliance/) to understand why you must provide these details to make your add-ons available in the EU.
+
+<InlineAlert variant="warning" slots="header, text1, text2"/>
+
+Are you an existing developer?
+
+Existing developers can easily update their trader details directly in their profile as described on this page.
+
+You must provide trader details by February 16, 2025, to keep your extension/app visible and available on the Commerce Marketplace for users in the European Union as of February 17, 2025. This trader information will be displayed publicly on your listing detail pages when viewed from EU countries.
+
 |Field|Description|
 |--- |--- |
 | Business Name | The name of your business. |
