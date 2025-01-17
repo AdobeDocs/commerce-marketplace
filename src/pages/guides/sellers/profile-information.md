@@ -26,6 +26,35 @@ Your contact information also includes your address, phone number, and PayPal em
 |Login Credentials|Clicking **Go to My Account** takes you to your Adobe Commerce account information.|
 |PayPal Email|You must enter a valid PayPal account email, even if  your listings are available for free on Commerce Marketplace. Adobe Commerce sends your revenue share payment to your PayPal account.|
 
+### Trader information
+
+In accordance with the [European Union Digital Services Act](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32022R2065) trader requirements, developers who want to distribute their extensions/apps in the European Union (EU) must provide additional information in their publisher profile.
+
+<InlineAlert variant="info" slots="header, text1, text2" />
+
+Developer/Trader
+
+Any developer who wants to publish their extensions/apps in the EU can be identified as a trader.
+
+Checkout our [Know your trader guide](https://developer.adobe.com/compliance/) to understand why you must provide these details to make your add-ons available in the EU.
+
+<InlineAlert variant="warning" slots="header, text1, text2"/>
+
+Are you an existing developer?
+
+Existing developers can update their trader details directly in their profile as described on this page.
+
+You must provide trader details by February 16, 2025, to keep your extensions and apps visible and available on the Commerce Marketplace to users in the European Union as of February 17, 2025. This trader information will be displayed publicly on your listing detail pages when viewed from EU countries.
+
+|Field|Description|
+|--- |--- |
+| Business Name | The name of your business. |
+| Business Email | The email address for your business's support contact. |
+| Business Address | The address of your business. |
+| DUNS Number<sup>1</sup> *(Optional)*| The unique nine-digit number that identifies your business. |
+
+*<sup>1</sup> D-U-N-S is an established business identification system that is widely used by app stores and online marketplaces to verify trader information. It is available to any business, and there is a no-cost option to obtain a D-U-N-S number. You can obtain a D-U-N-S number by visiting [https://www.dnb.com/duns/get-a-duns.html](https://www.dnb.com/duns/get-a-duns.html).*
+
 ### Company
 
 |Field|Description|
