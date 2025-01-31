@@ -25,7 +25,8 @@ const remarkConfig = {
 				skipUrlPatterns: [
 					"https://www.adobe.com/legal/",
 					"https://business.adobe.com",
-					"https://opensource.org"
+					"https://opensource.org",
+					"https://www.gnu.org"
 				]
 			}
 		],
