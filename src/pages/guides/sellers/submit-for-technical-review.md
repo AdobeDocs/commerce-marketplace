@@ -15,7 +15,7 @@ When your [submission form](extension-information.md) is complete, you can submi
 
 ![](_images/tech-review-content.png)
 
-The following instructions show how to submit an extension for technical review. The process is essentially the same for [apps](apps.md), [themes](themes.md) and [shared packages](shared-packages.md).
+The following instructions show how to submit an extension for technical review. The process is essentially the same for [themes](themes.md) and [shared packages](shared-packages.md).
 
 <InlineAlert variant="info" slots="text"/>
 

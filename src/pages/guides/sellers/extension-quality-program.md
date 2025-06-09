@@ -19,7 +19,6 @@ You can log in to your Marketplace account to check the status of your submissio
 
 When your code is ready to be submitted to uploaded to Commerce Marketplace, create the listing in Commerce Marketplace.
 
-*  [Apps](app-create.md)
 *  [Extensions](extension-create.md)
 *  [Themes](themes.md)
 *  [Shared packages](shared-packages.md)
