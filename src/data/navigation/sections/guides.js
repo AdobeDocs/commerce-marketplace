@@ -76,28 +76,6 @@ module.exports = [
     ],
   },
   {
-    title: "Apps",
-    path: "/guides/sellers/apps/",
-    pages: [
-      {
-        title: "Overview",
-        path: "/guides/sellers/apps/",
-      },
-      {
-        title: "Create an app",
-        path: "/guides/sellers/app-create/",
-      },
-      {
-        title: "Specify the version",
-        path: "/guides/sellers/app-version/",
-      },
-      {
-        title: "App Assurance Program",
-        path: "/guides/sellers/assurance/",
-      },
-    ],
-  },
-  {
     title: "Extensions",
     path: "/guides/sellers/extensions/",
     pages: [

@@ -15,7 +15,7 @@ Once you're logged in, these menus appear at the top of portal front page.
 
 |Menu item|Description|
 |--- |--- |
-|[Apps](apps.md)|Takes you to the Your Apps page.|
+|[Apps](https://developer.adobe.com/distribute/home)|Takes you to the Adobe Developer Distribution page.|
 |[Extensions](extensions.md)|Takes you to the Your Extensions page.|
 |[Themes](themes.md)|Takes you to the Your Themes page.|
 |[Shared Packages](shared-packages.md)|Takes you to the Your Shared Packages page.|
