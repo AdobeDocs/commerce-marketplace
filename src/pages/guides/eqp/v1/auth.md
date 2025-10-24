@@ -40,7 +40,7 @@ The following is an example:
 -  **application ID** — `AQ17NZ49WC`
 -  **application secret** — `8820c99614d65f923df7660276f20e029d73e2ca`
 
-### How to obtain a session token {#session-token}
+### How to obtain a session token \{#session-token\}
 
 The following endpoint grants a session token:
 

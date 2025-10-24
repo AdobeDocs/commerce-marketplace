@@ -12,7 +12,7 @@ keywords:
 
 Marketplace EQP API **access keys** generated in the [sandbox][2] environment are separate from those generated in [production][1].
 You cannot use access keys from one environment in the other.
-<br/><br/>
+\<br/\>\<br/\>
 **Session tokens** generated in the **sandbox** are separate from those generated in **production**.
 You cannot use session tokens from one environment in the other.
 

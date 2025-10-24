@@ -487,7 +487,7 @@ curl -X GET \
 ]
 ```
 
-<!-- M1: tar ball ... packages.xml -->
+\<!-- M1: tar ball ... packages.xml --\>
 
 *  The previous example shows one product only, but an array of products can be returned.
 *  The `sku` and version will be determined from the code artifact (M2 zip file) meta-information (M2 `composer.json`), once it passes the malware checks.

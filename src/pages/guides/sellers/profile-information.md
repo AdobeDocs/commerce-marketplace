@@ -46,14 +46,14 @@ Existing developers can update their trader details directly in their profile as
 
 You must provide trader details by February 16, 2025, to keep your extensions and apps visible and available on the Commerce Marketplace to users in the European Union as of February 17, 2025. This trader information will be displayed publicly on your listing detail pages when viewed from EU countries.
 
-|Field|Description|
-|--- |--- |
-| Business Name | The name of your business. |
-| Business Email | The email address for your business's support contact. |
-| Business Address | The address of your business. |
-| DUNS Number<sup>1</sup> *(Optional)*| The unique nine-digit number that identifies your business. |
+| Field                                      |Description|
+|--------------------------------------------|--- |
+| Business Name                              | The name of your business. |
+| Business Email                             | The email address for your business's support contact. |
+| Business Address                           | The address of your business. |
+| DUNS Number\<sup/\>1\</sup/\> *(Optional)* | The unique nine-digit number that identifies your business. |
 
-*<sup>1</sup> D-U-N-S is an established business identification system that is widely used by app stores and online marketplaces to verify trader information. It is available to any business, and there is a no-cost option to obtain a D-U-N-S number. You can obtain a D-U-N-S number by visiting [https://www.dnb.com/duns/get-a-duns.html](https://www.dnb.com/duns/get-a-duns.html).*
+*\<sup/\>1\</sup/\> D-U-N-S is an established business identification system that is widely used by app stores and online marketplaces to verify trader information. It is available to any business, and there is a no-cost option to obtain a D-U-N-S number. You can obtain a D-U-N-S number by visiting [https://www.dnb.com/duns/get-a-duns.html](https://www.dnb.com/duns/get-a-duns.html).*
 
 ### Company
 
