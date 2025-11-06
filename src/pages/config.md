@@ -1,10 +1,8 @@
 - pathPrefix:
     - /commerce/marketplace/
 
-- home:
-    - [Commerce](https://developer.adobe.com/commerce/docs)
-
 - pages:
+    - [Commerce](https://developer.adobe.com/commerce/docs)
     - [Marketplace](/index.md)
     - [Guides](/guides/sellers/index.md)
     - [API Reference](/guides/eqp/v1/index.md)
