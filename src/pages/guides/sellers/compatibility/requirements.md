@@ -21,13 +21,13 @@ The topics in this section describe these requirements in more detail. They're a
 
 The following resources apply to Marketplace apps:
 
-### Commerce resources:
+### Commerce resources
 
 - [Setting up I/O Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
 - [Configuring Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
 - [Setting up Admin UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 
-### App Builder resources:
+### App Builder resources
 
 - [Setting up API Mesh for Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
 - [Deploying App Builder apps](https://developer.adobe.com/app-builder/docs/guides/deployment/)
