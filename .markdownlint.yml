@@ -18,8 +18,7 @@ MD007: false
 MD013: false
 
 # MD024/no-duplicate-heading - Multiple headings with the same content
-MD024:
-  siblings_only: true
+MD024: false
 
 # MD025/single-title/single-h1 - Multiple top-level headings in the same document
 MD025:
@@ -37,6 +36,8 @@ MD033:
     - InlineAlert
     - Edition
     - SuperHero
+    - CodeBlock
+    - TextBlock
 
 # MD034/no-bare-urls - Bare URL used
 MD034: false
