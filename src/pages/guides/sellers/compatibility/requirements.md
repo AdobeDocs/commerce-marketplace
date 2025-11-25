@@ -30,8 +30,8 @@ The following resources apply to Marketplace apps:
 ### App Builder resources
 
 - [Setting up API Mesh for Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
-- [Deploying App Builder apps](https://developer.adobe.com/app-builder/docs/guides/deployment/)
-- [CI/CD for App Builder apps](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
+- [Deploying App Builder apps](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/deployment/deployment)
+- [CI/CD for App Builder apps](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/deployment/cicd-for-app-builder-apps)
 - Getting Started with App Builder/Developer Console
-  - [Getting started with App Builder](https://developer.adobe.com/app-builder/docs/getting_started/)
-  - [Understanding Projects and Workspaces](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
+  - [Getting started with App Builder](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app)
+  - [Understanding Projects and Workspaces](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces)
