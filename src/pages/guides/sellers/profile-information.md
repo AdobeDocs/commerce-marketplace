@@ -53,7 +53,7 @@ You must provide trader details by February 16, 2025, to keep your extensions an
 | Business Address                           | The address of your business. |
 | DUNS Number\<sup/\>1\</sup/\> *(Optional)* | The unique nine-digit number that identifies your business. |
 
-*\<sup/\>1\</sup/\> D-U-N-S is an established business identification system that is widely used by app stores and online marketplaces to verify trader information. It is available to any business, and there is a no-cost option to obtain a D-U-N-S number. You can obtain a D-U-N-S number by visiting [https://www.dnb.com/duns/get-a-duns.html](https://www.dnb.com/duns/get-a-duns.html).*
+*\<sup/\>1\</sup/\> D-U-N-S is an established business identification system that is widely used by app stores and online marketplaces to verify trader information. It is available to any business, and there is a no-cost option to obtain a D-U-N-S number. You can obtain a D-U-N-S number by visiting [https://www.dnb.com/en-us/smb/duns/get-a-duns.html](https://www.dnb.com/en-us/smb/duns/get-a-duns.html).*
 
 ### Company
 
@@ -77,9 +77,9 @@ Access keys associated with an Adobe organization are shared between all members
 
 <InlineAlert variant="info" slots="text"/>
 
-The access key pair that is generated for Marketplace is not the same as the [Encryption Key](https://experienceleague.adobe.com/docs/commerce-admin/systems/security/encryption-key.html) that is associated with the Magento 2.x setup.
+The access key pair that is generated for Marketplace is not the same as the [Encryption Key](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/encryption-key) that is associated with the Magento 2.x setup.
 
-For more technical information, see [Get your authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+For more technical information, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
 
 ### Create a new access key
 
@@ -108,7 +108,7 @@ Your Marketplace Profile contains information you entered during account setup, 
 | Vendor Name | Entered when you created your Marketplace Developer account. |
 | User Email | Entered when you created your Marketplace Developer account. |
 | Logo | A profile photo (for personal accounts) or a company logo (for company accounts). |
-| Partner Status | Your current partner status is displayed. Clicking **Upgrade Partner Status** takes you to the [Become a Partner](https://business.adobe.com/products/magento/partners.html) page. |
+| Partner Status | Your current partner status is displayed. Clicking **Upgrade Partner Status** takes you to the [Become a Partner](https://business.adobe.com/support/adobe-partners.html) page. |
 | Privacy Policy URL | The URL of your company\'s privacy policy website. |
 | Other Options | Add links to various social media profiles. |
 

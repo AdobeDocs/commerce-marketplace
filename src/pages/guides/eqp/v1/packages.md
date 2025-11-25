@@ -253,7 +253,7 @@ the required parameters are listed below by their respective parallel EQP pipeli
 ##### Technical
 
 |Parameter|Comments|
-----------|--------|
+|---------|--------|
 |`type`||
 |`platform`||
 |`version_compatibility`||
@@ -284,8 +284,8 @@ POST request in draft mode can be done with a minimal set of parameters:
 
 |Parameter|Comments|
 |---------|--------|
-|`type`|
-|`platform`|
+|`type`||
+|`platform`||
 |`name`||
 |`version`||
 |`sku`|Only valid when a previous version exists|
@@ -552,8 +552,8 @@ The actions to be taken towards technical or marketing review during a package P
 There is no way to directly re-publish a product to the store.
 Send the "submit" action for the marketing content to re-publish the product.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |object|POST, PUT|-|no|
 
 **JSON structures:**
@@ -595,8 +595,8 @@ The actions to be taken towards a marketing review. Possible values:
 *  `submit` (...to review)
 *  `recall` (...from review)
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|POST, PUT|-|no|
 
 #### action.overall
@@ -606,8 +606,8 @@ General actions to be taken. Possible values:
 *  `remove`(...from the store)
 *  `cancel` (abandon this version)
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|POST, PUT|-|no|
 
 #### action.technical
@@ -618,24 +618,24 @@ Actions to be taken towards technical review. Possible values:
 *  `submit` (...to review)
 *  `recall` (...from review)
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|POST, PUT|-|no|
 
 ### actions_now_available
 
 A comma-separated list of values currently valid in the `action` field for this package
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|-|no|
 
 ### artifact
 
 This is the package code artifact (ZIP file for Commerce) associated with this version.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |object|GET, POST, PUT|technical|no|
 
 **JSON structure:**
@@ -650,32 +650,32 @@ This is the package code artifact (ZIP file for Commerce) associated with this v
 
 The mime-type given when uploading the file. The value can be any valid mime-type.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|-|no|
 
 #### artifact.filename
 
 The filename given when uploading the file. The value can be any valid filename.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|technical|no|
 
 #### artifact.file_hash
 
 The MD5 hash of the file.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|-|no|
 
 #### artifact.file_upload_id
 
 The only writable field of this sub-object, used to associate a file with this package version. The value is a unique file upload ID obtained from the Files API.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|technical|no|
 
 #### artifact.malware_status
@@ -686,24 +686,24 @@ The status of the malware check on the file. Possible values:
 *  `fail`
 *  `in-progress`
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|-|no|
 
 #### artifact.size
 
 An integer indicating the size of the file, in bytes.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |int|GET, POST, PUT|-|no|
 
 #### artifact.url
 
 The link to download the file, if applicable. The value can be any valid URL.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|-|no|
 
 ### browser_os_compatibility
@@ -724,8 +724,8 @@ OS:
 *  `mac`
 *  `windows`
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |object|GET, POST, PUT|marketing|no|
 
 **JSON structure:**
@@ -755,8 +755,8 @@ If [`browser_os_compatibility`](#browser_os_compatibility) is also present, this
 
 The list of valid browsers is the same as for `browser_os_compatibility`.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |object|GET, POST, PUT|marketing|no|
 
 **JSON structure:**
@@ -772,22 +772,22 @@ The list of valid browsers is the same as for `browser_os_compatibility`.
 
 A list of one to three categories, all from the same main category, expressed as a `path` for the package. For example, `//Extension//Marketing//SEO/SEM`. Note that the path separator is `//`, which allows for a single slash like `SEO/SEM` in the path name. Refer to the [Marketplace Store](https://commercemarketplace.adobe.com) for the current list of categories.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |array|GET, POST, PUT|marketing|no|
 
 ### created_at
 
 The UTC date and time the package was first submitted. The format is `YYYY-MM-DD HH:MM:SS`.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |DateTime|GET|-|yes|
 
 ### custom_license_name
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |substring|GET, POST, PUT|technical|yes|
 
 The name of custom license. This value is required only if `license_type` is set to `custom`.
@@ -796,16 +796,16 @@ The name of custom license. This value is required only if `license_type` is set
 
 The valid URL that points to the license. This value is required only if `license_type` is set to `custom`.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |substring|GET, POST, PUT|technical|yes|
 
 ### documentation_artifacts
 
 The user, installation, and reference PDF manuals. At least one of these is required for extensions, but not for shared packages.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |object|GET, POST, PUT|both|no|
 
 **JSON structure:**
@@ -828,24 +828,24 @@ The user, installation, and reference PDF manuals. At least one of these is requ
 
 The unique file upload ID of the installation manual PDF obtained from the Files API.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|both|no|
 
 #### documentation_artifacts.reference.file_upload_id
 
 The unique file upload ID of the reference manual PDF obtained from the Files API.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|both|no|
 
 #### documentation_artifacts.user.file_upload_id
 
 The unique file upload ID of the user manual PDF obtained from the Files API.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|both|no|
 
 ### eqp_status
@@ -859,8 +859,8 @@ Additional details are provided in the two main EQP areas:
 *  **technical** - Provides the current technical status.
 *  **marketing** - Provides the current marketing status.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |object|GET, POST, PUT|-|no|
 
 **JSON structures:**
@@ -887,8 +887,8 @@ The current status of the package in the EQP marketing review process. Possible 
 |`rejected`|string|The package has failed the marketing review process.|
 |`recalled`|string|The developer has recalled the package.|
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|-|yes|
 
 #### eqp_status.overall
@@ -906,8 +906,8 @@ The current status of the package in the overall EQP process. Possible values:
 |`canceled_by_developer|string|The developer has canceled the submission.|
 |`canceled_by_admin`|string|The EQP admin has canceled the submission.|
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|-|yes|
 
 #### eqp_status.technical
@@ -924,40 +924,40 @@ The current status of the package in the EQP technical review process. Possible 
 |`rejected`|string|The package has failed automation or manual tests.|
 |`recalled`|string|The developer has recalled the package.|
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|-|yes|
 
 ### external_services
 
 The list of services that the extension integrates with. The value is a sub-object.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |object|GET, POST, PUT|marketing|no|
 
 #### external_services.is_saas
 
 Indicates whether this integration is a gateway to a SaaS service (`true` or `false`).
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |boolean|GET, POST, PUT|marketing|no|
 
 #### external_services.items
 
 An array containing descriptions of the site(s) the extension integrates with. Only zero or one items are currently supported.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|marketing|no|
 
 #### external_services.items[0].name
 
 The name of the integrated site.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|marketing|no|
 
 #### external_services.items[0].owner
@@ -968,8 +968,8 @@ Defines the owner of the service. Possible values:
 *  `3rd_party`
 *  `unknown`
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|marketing|no|
 
 #### external_services.items[0].pay_to
@@ -982,64 +982,64 @@ Defines who receives any payments. Possible values:
 *  `none`
 *  `unknown`
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|marketing|no|
 
 #### external_services.items[0].url
 
 The URL of the integrated site.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|marketing|no|
 
 ### item_id
 
 A developer-defined unique ID assigned to the package (if available). If a value is supplied, it must be unique for every POST request.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |substring|GET, POST, PUT|-|yes|
 
 ### latest_launch_date
 
 The UTC date and time this version of the package was last released to the store. The format is `YYYY-MM-DD HH:MM:SS`.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |DateTime|GET|-|yes|
 
 ### launch_on_approval
 
 Indicates whether to publish to the store as soon as all tests are passed (`true` or `false`). Effectively, sets `requested_launch_date` to a point in the past.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |boolean|GET, POST, PUT|marketing|no|
 
 ### license_type
 
 The license type supported by the package. See [Additional notes](#additional-notes) for a list of valid license types.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|technical|yes|
 
 ### limit
 
 Along with `offset`, used for paging the collection of packages. The value can be a positive integer or -1, indicating for unlimited. The default is 20.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |integer|GET|-|no|
 
 ### long_description
 
 The long description for the package. The value can be any string.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |substring|GET, POST, PUT|marketing|yes|
 
 ### marketing_options
@@ -1047,8 +1047,8 @@ The long description for the package. The value can be any string.
 Additional marketing options that apply to this package can be provided if applicable.
 While this information is not currently used, it may become searchable for buyers in the future, so is potentially worth filling out if relevant. See [Additional notes](#additional-notes) for more information.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |object|GET, POST, PUT|marketing|no|
 
 **JSON structure:**
@@ -1069,16 +1069,16 @@ While this information is not currently used, it may become searchable for buyer
 
 A sub-object that describes the highest version of this package that has been released to the store. It contains fields `submission_id`, `version`, `eqp_status`, with the same meanings as the similarly named fields.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |object|GET, POST, PUT|marketing|no|
 
 ### media_artifacts
 
 A sub-object with zero to three fields that holds the package icon, gallery images, and optional video URLs.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |object|GET, POST, PUT|marketing|no|
 
 **JSON structure:**
@@ -1118,72 +1118,72 @@ The **video_urls** property is optional.
 
 An array of sub-objects describing the gallery images. Not required for shared packages.Each array element has the same structure as the `artifacts` field in this object.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |array|GET, POST, PUT|marketing|no|
 
 #### media_artifacts.icon_image
 
 The sub-object that holds the package icon. It has the same structure as the `artifacts` field in this object.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |object|GET, POST, PUT|marketing|no|
 
 #### media_artifacts.video_urls
 
 An array of Youtube video URLs listed in order of appearance in the gallery.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |array|GET, POST, PUT|marketing|no|
 
 ### modified_at
 
 The UTC date and time the package was last updated. The format is `YYYY-MM-DD HH:MM:SS`
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |DateTime|GET|-|yes|
 
 ### name
 
 The name or title of the package. Duplicate names are not allowed.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |substring|GET, POST, PUT|marketing|yes|
 
 ### offset
 
 In combination with the `limit` parameter, this field can be used for paging the collection of packages. The default value is 0. See [Get package details](#get-package-details) for more information.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |integer|GET|-|no|
 
 ### original_launch_date
 
 The UTC date and time this version of the package was first released to the store. The format is `YYYY-MM-DD HH:MM:SS`
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |DateTime|GET|-|yes|
 
 ### platform
 
 The Magento platform compatibility of this package. Must be `M2`.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|technical|yes|
 
 ### prices
 
 The list of prices in USD set for this package by edition, and the respective installation prices (if any). Editions must match `version_compatibility`.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |array|GET, POST, PUT|marketing|no|
 
 **JSON structure:**
@@ -1214,8 +1214,8 @@ The list of prices in USD set for this package by edition, and the respective in
 
 The currency code for this price. Currently, the only valid value is `USD`.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|marketing|no|
 
 #### prices[N].edition
@@ -1226,40 +1226,40 @@ The edition of Magento Open Source or Adobe Commerce for this price. Possible va
 *  `EE`
 *  `ECE`
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|marketing|no|
 
 #### prices[N].installation_price
 
 The value for the installation price of this package. This is only paid once, even for subscriptions. The value must be a number with up to two decimal places, such as 123.45.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|marketing|no|
 
 #### prices[N].initial_price
 
 For subscriptions, the value for the first year's price of this package. The value must be a number with up to two decimal places, such as 123.45. The value can be different from the annual price that is paid after this first year. For a package using the one-time payment model, this initial price is ignored.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |number|GET, POST, PUT|marketing|no|
 
 #### prices[N].price
 
 The value for the purchase price of this package. For subscriptions, this is the annual price paid after the first year. The value must be a number with up to two decimal places, such as 123.45.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |number|GET, POST, PUT|marketing|no|
 
 ### pricing_model
 
 Defines how to interpret the pricing for this package.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |object|GET, POST|marketing|no|
 
 **JSON structure:**
@@ -1275,8 +1275,8 @@ Defines how to interpret the pricing for this package.
 
 For a package using the one-time payment model, the number `1` signifies once.  For a subscription, how often (in terms of months) payments are due.  Currently, only annual subscriptions are supported, so the value must either be `1` for "one-time" payments, or `12` for annual subscriptions.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST|marketing|no|
 
 #### pricing_model.pricing_type
@@ -1286,8 +1286,8 @@ Specifies which pricing model is used by this package. Possible values:
 *  `one-time`
 *  `subscription`
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST|marketing|no|
 
 ### priority
@@ -1298,8 +1298,8 @@ The priority for this submission. Possible values:
 *  `medium`
 *  `low`
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|-|no|
 
 ### process_as_patch
@@ -1310,32 +1310,32 @@ A flag to indicate the submission should follow the [expedited process for patch
 *  `no`
 *  `unknown`
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|technical|yes|
 
 ### release_notes
 
 The release notes for the package submission.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |substring|GET, POST, PUT|technical|yes|
 
 ### requested_launch_date
 
 When the package should be released to the store. If not supplied, it will be released to the store after all checks have passed. The format is `YYYY-MM-DD HH:MM:SS`.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |DateTime|POST, PUT|marketing|yes|
 
 ### shared_packages
 
 The list of artifact objects. Listing here enables the "access rights" to these shared packages when a buyer purchases this package. Each shared package is specified by `file_upload_id`, or `sku` and `version`.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |array|GET, POST, PUT|technical|no|
 
 **JSON structure:**
@@ -1359,48 +1359,48 @@ The list of artifact objects. Listing here enables the "access rights" to these 
 
 The unique file upload ID of shared package file, obtained from the Files API.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|both|no|
 
 #### shared_packages[N].artifact.sku
 
 The SKU of the shared package file.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|both|no|
 
 #### shared_packages[N].artifact.version
 
 The version of the shared package file.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|both|no|
 
 ### short_description
 
 Obsolete. This value was the short description for the package, but now will always be returned as an empty string.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET|-|no|
 
 ### sku
 
 The SKU generated from metadata in the code artifact. Only specified in a `POST` when creating another version of an existing extension.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |substring|GET, POST|-|yes|
 
 ### sort
 
 A comma-separated list of fields to sort the list, each field prefixed by `-` for descending order, or `+` for ascending order. See [Get package details](#get-package-details) for more information.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET|-|no|
 
 ### stability
@@ -1410,24 +1410,24 @@ The version's build stability. Possible values:
 *  `stable`
 *  `beta`
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|marketing|yes|
 
 ### submission_id
 
 A globally unique ID assigned to a package when it is submitted in a POST request. All further references to this package using GET or PUT requests can be made supplying this identifier.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |substring|GET, PUT|-|yes|
 
 ### support_tiers
 
 A list of up to three support tiers per edition. Not used for subscriptions.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |array|GET, POST, PUT|marketing|no|
 
 **JSON structure:**
@@ -1553,48 +1553,48 @@ Which Magento edition this support is for. Possible values:
 *  `EE`
 *  `ECE`
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|marketing|no|
 
 #### support_tiers[N].monthly_period
 
 How many months the support lasts. The value can be `1`, `3`, `6`, `9`, or `12`
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |int|GET, POST, PUT|marketing|no|
 
 #### support_tiers[N].prices
 
 Array of prices for this support level. One item per currency code.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |array|GET, POST, PUT|marketing|no|
 
 #### support_tiers[N].prices[0].currency_code
 
 The currency code for this price. Currently, only `USD` is supported.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |array|GET, POST, PUT|marketing|no|
 
 #### support_tiers[N].prices[0].price
 
 The cost of this support level. The value must be a number with up to two decimal places, such as 123.45.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |array|GET, POST, PUT|marketing|no|
 
 #### support_tiers[N].tier
 
 Which of the three support tiers (numbered 0-2 or 1-3).
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |int|GET, POST, PUT|marketing|no|
 
 ### technical_options
@@ -1604,8 +1604,8 @@ These options are relevant to the technical review.
 
 See [Additional notes](#additional-notes).
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |object|GET, POST, PUT|marketing|no|
 
 **JSON structure:**
@@ -1627,24 +1627,24 @@ The type of package. Possible values:
 *  `shared_package`
 *  `all` (default).
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|technical|yes|
 
 ### version
 
 The version of this package, in the form `major.minor.patch`, such as `2.4.3`.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |substring|GET, POST|both|yes|
 
 ### version_compatibility
 
 A list of Magento versions that this package supports. Must match the editions in `prices`.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |array|GET, POST, PUT|technical|no|
 
 **JSON structure:**
@@ -1672,16 +1672,16 @@ For a new Magento 2 package:
 
 Must be `M2`.
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |string|GET, POST, PUT|technical|no|
 
 #### version_compatibility[N].versions
 
 A list of Magento Open Source/Adobe Commerce versions that this package supports in the given edition. The value must be an array of version strings, such as ["2.3","2.4"].
 
-|Type|HTTP Commands|Review Type|Filter
-|----|-------------|-----------|------
+|Type|HTTP Commands|Review Type|Filter|
+|----|-------------|-----------|------|
 |array|GET, POST, PUT|technical|no|
 
 ### Additional notes

@@ -79,7 +79,7 @@ You can use the sales and analytics reports to view and manage your sales inform
 
 Learn about the installation process from a customer's perspective.
 
-[Learn more](https://experienceleague.adobe.com/docs/commerce-admin/start/resources/commerce-marketplace.html)
+[Learn more](https://experienceleague.adobe.com/en/docs/commerce-admin/start/resources/commerce-marketplace)
 
 <TextBlock slots="image, heading, text, links" width="50%" />
 

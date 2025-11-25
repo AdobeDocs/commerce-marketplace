@@ -32,7 +32,7 @@ The Commerce Marketplace EQP API provides access to the Developer Portal so that
 
 ### Get started
 
-[Before you begin](/guides/sellers/before-you-begin/)
+[Before you begin](guides/sellers/before-you-begin.md)
 
 Learn critical information to help you create your Marketplace listing.
 

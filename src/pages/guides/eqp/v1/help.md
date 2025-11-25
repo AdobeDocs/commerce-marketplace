@@ -29,7 +29,7 @@ Use these resources if you need additional help.
 -  [Marketplace Developer Portal](https://commercedeveloper.adobe.com)
 -  [Sandbox Marketplace Developer Portal](https://commercedeveloper-sandbox.adobe.com)
 -  [Commerce Marketplace](https://commercemarketplace.adobe.com)
--  [Commerce Marketplace Account](https://account.magento.com)
+-  [Commerce Marketplace Account](https://account.magento.com/customer/account/login)
 
 **Base URLs:**
 

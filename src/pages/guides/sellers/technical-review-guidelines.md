@@ -91,11 +91,11 @@ If the extension contains source code from the Open Source Edition, the extensio
 
 _More details:_ [Copy Paste Detector](copy-paste-detector.md)
 
-_See also:_ [OSL 3.0: A Better License for Open Source Software](http://rosenlaw.com/OSL3.0-explained.htm)
+_See also:_ [OSL 3.0: A Better License for Open Source Software](https://rosenlaw.com/OSL3.0-explained.htm)
 
 ### Installation and Varnish tests: Verify that product installs and caching works correctly
 
-Extensions for Commerce are installed with Varnish Cache enabled for each supported version of PHP and switched from development to [production mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html). If you have shared packages and dependencies required for your extension, the Installation test also tests Commerce installation and usage with those packages included.
+Extensions for Commerce are installed with Varnish Cache enabled for each supported version of PHP and switched from development to [production mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode). If you have shared packages and dependencies required for your extension, the Installation test also tests Commerce installation and usage with those packages included.
 
 In addition, cacheable pages are accessed to ensure that they are served directly from Varnish Cache. You will be notified if your extension fails the test.
 
@@ -103,8 +103,8 @@ _More details:_ [Installation and Varnish Tests](installation-and-varnish-tests.
 
 _See also:_
 
--  [Configure and use Varnish](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html)
--  [System requirements](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html)
+-  [Configure and use Varnish](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish)
+-  [System requirements](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)
 
 ### MFTF Commerce-supplied tests
 
@@ -144,7 +144,7 @@ _See also:_ [Polishing your Marketplace submission: 7 tips from the Marketplace 
 To pass Manual QA, the extension must meet the following requirements:
 
 1. Installs with Composer.
-1. Compiles without errors using the following command: [`deploy:mode:set production`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html#change-to-production-mode)
+1. Compiles without errors using the following command: [`deploy:mode:set production`](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)
 1. Extension has all supporting documentation that complies with the [documentation requirements](#documentation-and-resources)
 1. Works with each version of Magento that the extension claims to support in the extension product profile.
 
@@ -170,8 +170,8 @@ To pass Manual QA, the extension must meet the following requirements:
 
 _See also:_
 
--  [Install an Extension via Composer](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html)
--  [General CLI installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)
+-  [Install an Extension via Composer](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+-  [General CLI installation](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 #### Additional checks for Page Builder extensions
 

@@ -30,5 +30,5 @@ keywords:
 
 ## System
 
--  [Installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/overview.html)
--  [Configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/overview.html)
+-  [Installation](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview)
+-  [Configuration](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/overview)
