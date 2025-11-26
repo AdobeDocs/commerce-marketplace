@@ -11,7 +11,7 @@ keywords:
 
 <InlineAlert variant="info" slots="text"/>
 
-Marketplace EQP API **access keys** are self-serviced.  As long as you are [eligible](../v1/index.md#api-eligibility) to use the Marketplace EQP API, then you can create, regenerate, and delete your own **access keys**.
+Marketplace EQP API **access keys** are self-serviced.  As long as you are [eligible](index.md#api-eligibility) to use the Marketplace EQP API, then you can create, regenerate, and delete your own **access keys**.
 
 ## What is an API access key
 
@@ -33,7 +33,7 @@ Marketplace EQP API **access keys** are self-serviced.  As long as you are [elig
 
 1. From the left-hand side navigation menu, click on **Manage API Keys**.
 
-1. If you are **not** [eligible](../v1/index.md#api-eligibility) you will see the following screen.  You will **not** be able to create an API access key, and thus you will **not** be able to use the **Marketplace EQP API**.
+1. If you are **not** [eligible](index.md#api-eligibility) you will see the following screen.  You will **not** be able to create an API access key, and thus you will **not** be able to use the **Marketplace EQP API**.
    ![Not Eligible to Use the Marketplace EQP API](../_images/sandbox-not-eligible.png)
 
 1. If you **are** eligible to use the **Marketplace EQP API**, you will see the following screen.

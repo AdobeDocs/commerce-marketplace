@@ -116,7 +116,7 @@ The boundary marker must be part of the request **Content-Type** header and it m
 Content-Type: multipart/form-data; boundary=UNIQUE_BOUNDARY_TOKEN
 ```
 
-For more info on multipart/form-data requests, see the [IETF specification](https://tools.ietf.org/html/rfc2046#section-5.1)
+For more info on multipart/form-data requests, see the [IETF specification](https://datatracker.ietf.org/doc/html/rfc2046#autoid-18)
 
 ```text
 --UNIQUE_BOUNDARY_TOKEN

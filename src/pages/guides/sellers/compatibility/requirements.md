@@ -11,9 +11,9 @@ The Commerce Marketplace requires that all listings adhere to standards of quali
 
 To mitigate this, Adobe has introduced multiple requirements for listings that address three specific issues:
 
--  [**Compatibility with release lines**](../compatibility/releases.md)—To unblock go-to-market for new merchants and upgrades for existing merchants, we need listings to support the latest versions of Adobe Commerce and Magento Open Source, including both latest release lines and latest patch versions.
--  [**Abandonment**](../compatibility/abandoned-extensions.md)—Merchants don't want to see listings that are not regularly updated and maintained.
--  [**Obsoletion (EOL)**](../compatibility/obsolete-extensions.md)—Merchants need to be protected from situations when a significant number of available listings only support EOL versions of Adobe Commerce and Magento Open Source.
+-  [**Compatibility with release lines**](releases.md)—To unblock go-to-market for new merchants and upgrades for existing merchants, we need listings to support the latest versions of Adobe Commerce and Magento Open Source, including both latest release lines and latest patch versions.
+-  [**Abandonment**](abandoned-extensions.md)—Merchants don't want to see listings that are not regularly updated and maintained.
+-  [**Obsoletion (EOL)**](obsolete-extensions.md)—Merchants need to be protected from situations when a significant number of available listings only support EOL versions of Adobe Commerce and Magento Open Source.
 
 The topics in this section describe these requirements in more detail. They're also covered in the Policies section of the Developer Portal (to see Policies, go to Resources in the top menu).
 
@@ -21,17 +21,17 @@ The topics in this section describe these requirements in more detail. They're a
 
 The following resources apply to Marketplace apps:
 
-### Commerce resources:
+### Commerce resources
 
 - [Setting up I/O Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
 - [Configuring Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
 - [Setting up Admin UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 
-### App Builder resources:
+### App Builder resources
 
 - [Setting up API Mesh for Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
-- [Deploying App Builder apps](https://developer.adobe.com/app-builder/docs/guides/deployment/)
-- [CI/CD for App Builder apps](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
+- [Deploying App Builder apps](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/deployment/deployment)
+- [CI/CD for App Builder apps](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/deployment/cicd-for-app-builder-apps)
 - Getting Started with App Builder/Developer Console
-  - [Getting started with App Builder](https://developer.adobe.com/app-builder/docs/getting_started/)
-  - [Understanding Projects and Workspaces](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
+  - [Getting started with App Builder](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app)
+  - [Understanding Projects and Workspaces](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces)

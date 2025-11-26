@@ -11,7 +11,7 @@ An extension is a custom module, language pack, or combination of custom modules
 
 All extensions submitted to Commerce Marketplace are managed from the Extensions page in the Marketplace Developer Portal. It shows the status of each extension and language pack you have submitted, and provides access to the profile and version history of each. You can also use the workspace controls to sort and filter the list.
 
-<TextBlock slots="image, heading, text, links" width="33%" />
+<DiscoverBlock slots="image, heading, text, links" width="33%" />
 
 ![Build your extension](_images/assets/code-development.png)
 
@@ -21,7 +21,7 @@ Provides details on completing code, descriptions, documentation, and preparing 
 
 [Learn more](extension-create.md)
 
-<TextBlock slots="image, heading, text, links" width="33%" />
+<DiscoverBlock slots="image, heading, text, links" width="33%" />
 
 ![Add extension information](_images/assets/new-extension.png)
 
@@ -31,7 +31,7 @@ Provides instructions for creating the initial entry for an extension.
 
 [Learn more](extension-information.md)
 
-<TextBlock slots="image, heading, text, links" width="33%" />
+<DiscoverBlock slots="image, heading, text, links" width="33%" />
 
 ![Slack logo](_images/assets/new-version.png)
 

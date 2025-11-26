@@ -43,7 +43,7 @@ MFTF tests verify the proper functioning of the workflows that the extension int
 
 The Magento test infrastructure executes vendor-supplied MFTF tests in the most recent version of Magento in the 2.4.x release line, as well as the most up-to-date software compatible with that release. The test infrastructure uses the recommended setup for Magento installation with the standard MFTF setup and configuration. You can use the [Magento Cloud Docker](https://github.com/magento/magento-cloud-docker) image to create a similar environment.
 
-See [System Requirements](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html) for more information on supported software.
+See [System Requirements](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements) for more information on supported software.
 
 ## Reading the error report
 

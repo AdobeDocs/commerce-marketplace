@@ -11,7 +11,7 @@ keywords:
 <InlineAlert variant="info" slots="text"/>
 
 The **Marketplace EQP REST API** is completely separate from APIs provided with Magento 2.
-<br/>There is no corresponding GraphQL or SOAP API.
+\<br/\>There is no corresponding GraphQL or SOAP API.
 
 The **Marketplace EQP API** gives you access to your **Marketplace Developer Portal** resources.
 These resources are managed by a set of REST API endpoints.
