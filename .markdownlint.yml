@@ -37,7 +37,6 @@ MD033:
     - Edition
     - SuperHero
     - CodeBlock
-    - TextBlock
 
 # MD034/no-bare-urls - Bare URL used
 MD034: false
