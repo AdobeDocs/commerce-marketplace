@@ -16,7 +16,7 @@ Varnish tests are available for extensions only. Limited automated installation 
 
 ## What testing is for
 
-Commerce is a complex, highly extensible platform. To ensure that third-party apps and extensions are production-ready, the Installation and Varnish tests verify successful installation with the app or extension included, the ability to switch to [production mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html), and that the app or extension does not affect the caching mechanism for the most critical scenarios. The caching check ensures that the storefront provides a high performance customer experience.
+Commerce is a complex, highly extensible platform. To ensure that third-party apps and extensions are production-ready, the Installation and Varnish tests verify successful installation with the app or extension included, the ability to switch to [production mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes), and that the app or extension does not affect the caching mechanism for the most critical scenarios. The caching check ensures that the storefront provides a high performance customer experience.
 
 ## When testing is done
 
@@ -30,10 +30,10 @@ The Installation and Varnish tests complete the following checks:
 
    -  Verify ability to add the extension to the Commerce project with [Composer](https://getcomposer.org) or the ability to add the app with Node.js.
    -  After adding and enabling the app or extension, verify successful Commerce installation.
-   -  Verify that you can [compile code](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/code-compiler.html).
-   -  Verify that you can [deploy static content](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment.html).
-   -  Verify that you can [enable production mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html).
-   -  Check that you can [reindex all data](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html) with the installed extension.
+   -  Verify that you can [compile code](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/code-compiler).
+   -  Verify that you can [deploy static content](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment).
+   -  Verify that you can [enable production mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode).
+   -  Check that you can [reindex all data](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers) with the installed extension.
 
 1. Check availability of critical pages and correct cache processing–This check includes the following steps:
 
@@ -49,7 +49,7 @@ The Installation and Varnish tests always use the latest patch version for the M
 
 ### Additional configuration
 
-The Varnish test requires [Varnish as a caching application](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/configure-varnish-commerce.html). The test checks for the presence of the **X-EQP-Cache** HTTP header set by Varnish and analyzes its value on page loads. To complete this check, the following additional instruction must be added to the **vcl_deliver** function:
+The Varnish test requires [Varnish as a caching application](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/configure-varnish-commerce). The test checks for the presence of the **X-EQP-Cache** HTTP header set by Varnish and analyzes its value on page loads. To complete this check, the following additional instruction must be added to the **vcl_deliver** function:
 
 ```vcl
 sub vcl_deliver {
@@ -62,7 +62,7 @@ sub vcl_deliver {
 }
 ```
 
-The Varnish test also uses the [setup:performance:generate-fixtures command](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/generate-data.html) to install sample products to run the test against:
+The Varnish test also uses the [setup:performance:generate-fixtures command](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/generate-data) to install sample products to run the test against:
 
 ```bash
 magento setup:performance:generate-fixtures ./varnish-config/profile.xml
