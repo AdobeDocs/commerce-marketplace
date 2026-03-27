@@ -11,4 +11,4 @@ At any time before you submit your product for marketing review, you can preview
 
 To preview your marketing information, navigate to the extension status page. Under **Marketing Submission**, click any page and then click **Preview**.
 
-![](_images/marketing-submission-preview.png)
+![Marketing submission preview of a listing on Commerce Marketplace](_images/marketing-submission-preview.png)

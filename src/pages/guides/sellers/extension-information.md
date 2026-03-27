@@ -13,7 +13,7 @@ Unless otherwise indicated, these steps apply to all types of listings (apps, ex
 
 If your organization is not recognized as an Adobe partner, the **Apps** menu displays the following screen.
 
-![](_images/partner-apps.png)
+![Partner apps screen for non-Adobe partner organizations](_images/partner-apps.png)
 
 When your code is complete, the next step is to add an entry for your product to Commerce Marketplace. This creates an entry in the Commerce Marketplace Developer portal, but does not submit the listing.
 
@@ -27,13 +27,13 @@ To add a listing, you need to complete these instructions, then submit the [vers
 
    A page displays any existing listings you have previously added.
 
-   ![](_images/your-extensions.png)
+   ![Your extensions listing page](_images/your-extensions.png)
 
 1. Click **Create New _Listing-type_**, for example, **Create New Extension**.
 
    The displayed chart provides a high-level overview for creating and submitting extensions. The chart is the same for all apps, extensions, and themes. This chart is not displayed for shared packages.
 
-   ![](_images/submit-chart1.png)
+   ![Extension submission workflow diagram](_images/submit-chart1.png)
 
 1. Complete the basic information necessary for creating an entry. We recommend entering all content in English. For additional content details, see detailed field descriptions and [Listing content](content.md).
 

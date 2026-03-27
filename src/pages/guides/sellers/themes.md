@@ -14,7 +14,7 @@ The Themes tab shows the status of each theme you have submitted, and provides a
 
 The process to submit a theme to Commerce Marketplace is basically the same as [submitting an extension](submit-for-review.md). The only difference is that it takes place from the Themes tab.
 
-![](_images/themes.png)
+![Your themes listing page with status columns](_images/themes.png)
 
 | Column                | Description |
 |-----------------------|-------------|

@@ -1304,7 +1304,7 @@ The priority for this submission. Possible values:
 
 ### process_as_patch
 
-A flag to indicate the submission should follow the [expedited process for patch releases.](https://community.magento.com/t5/Magento-DevBlog/New-Expedited-Marketplace-Submission-Path/ba-p/77303). Possible values:
+A flag to indicate the submission should follow the expedited process for patch releases. Possible values:
 
 *  `yes`
 *  `no`

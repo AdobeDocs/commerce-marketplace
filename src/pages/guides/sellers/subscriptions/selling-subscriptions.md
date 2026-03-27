@@ -15,7 +15,7 @@ When submitting a new extension to the marketplace, you must select the pricing 
 
 You can specify an initial price that is different from the remaining, periodic price.
 
-![](../../sellers/_images/subscriptions-pricing-model.png)
+![Subscription pricing model selection and price fields](../../sellers/_images/subscriptions-pricing-model.png)
 
 <InlineAlert variant="info" slots="text"/>
 
@@ -30,13 +30,13 @@ We recommend starting by submitting a new SKU. This allows new sales operations 
 You can then either remove the original extension unconditionally, or mark the new extension as a replacement. This triggers a 180-day grace period for merchants who have purchased the original extension.
 To remove an extension from the Marketplace, use the **Remove from Store** button on your original extension.
 
-![](../../sellers/_images/subscriptions-remove-from-store.png)
+![Remove from Store button on the extension page](../../sellers/_images/subscriptions-remove-from-store.png)
 
 If you decide to use the first option (unconditional removal), your original extension will disappear from the Marketplace and no other action will be taken.
 If you select the second option (replace), you will be able to select a replacement extension from the list of your active SKUs. The 180-day grace period will be applied to the replacement extension for customers who have purchased the original extension.
 
-![](../../sellers/_images/subscriptions-confirm-remove.png)
-![](../../sellers/_images/subscriptions-remove-replace.png)
+![Confirm extension removal dialog](../../sellers/_images/subscriptions-confirm-remove.png)
+![Replacement extension selection list](../../sellers/_images/subscriptions-remove-replace.png)
 
 <InlineAlert variant="warning" slots="text"/>
 

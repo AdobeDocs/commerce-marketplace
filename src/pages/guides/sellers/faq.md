@@ -21,7 +21,7 @@ Get answers to common questions about selling apps and extensions on the Adobe C
 
 1. What do I do with a stuck deployment?
 
-   See [Deployment troubleshooter](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter) in the Adobe Commerce Support Knowledge Base.
+   See [Deployment troubleshooter](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29640) in the Adobe Commerce Support Knowledge Base.
 
 1. Where/how do I get more help if needed?
 
@@ -29,12 +29,12 @@ Get answers to common questions about selling apps and extensions on the Adobe C
 
 1. Where/how do solution partners or tech partners submit a support request?
 
-   - Solution partners can submit a support request through the [Adobe Solution Partner Program](https://solutionpartners.adobe.com/solution-partners/home.html).
+   - Solution partners can submit a support request through the [Adobe Solution Partner Program](https://partners.adobe.com/digitalexperience/).
    - Tech partners can contact [Marketplace Support](mailto:commercemarketplacesupport@adobe.com).
 
 1. How do I change my vendor name?
 
-   After your account is set up with a vendor name, and your apps and extensions have been launched and sold on the Marketplace, the vendor name cannot be changed. For more information on how the vendor name is used, see [profile information](https://developer.adobe.com/commerce/marketplace/guides/sellers/profile-information/#company).
+   After your account is set up with a vendor name, and your apps and extensions have been launched and sold on the Marketplace, the vendor name cannot be changed. For more information on how the vendor name is used, see [profile information](profile-information.md#company).
 
 1. What payment methods does the Marketplace support?
 

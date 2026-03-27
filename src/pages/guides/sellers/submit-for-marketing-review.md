@@ -11,7 +11,7 @@ When you have completed the code, you can submit your app or extension for marke
 
 Your submission is immediately placed in a queue. You will receive confirmation by email, and can track the status of your submission from your Marketplace account.
 
-![](_images/market-content.png)
+![Marketing submission content overview](_images/market-content.png)
 
 During marketing review, your submission is examined to ensure that it meets Marketplace requirements for presentation, content, and branding. Before granting approval, we read, review, and determine the quality of the marketing content for your extension according to our [marketing guidelines](marketing-review-guidelines.md).
 
@@ -37,7 +37,7 @@ Before submitting an item for marketing review, conduct your own internal review
 
     As you complete sections, a checkmark displays tracking progress. If you updated or submitted content for the **Technical Submission**, the list displays checkmarks for that submitted content.
 
-    ![](_images/marketing-submission-list.png)
+    ![Marketing submission checklist with progress checkmarks](_images/marketing-submission-list.png)
 
 1. Complete each section and submit for review when it is complete.
 
@@ -51,19 +51,19 @@ Before submitting an item for marketing review, conduct your own internal review
 
     The **Title** is pulled in from the basic [information](extension-information.md). You can edit this field.
 
-    ![](_images/marketing-description1.png)
+    ![Listing description title field](_images/marketing-description1.png)
 
 1. Enter a **Long Description** about your listing, including features and functionality.
 
     Use formatting buttons and options to highlight information, features, and more. Maximum characters: 25,989
 
-    ![](_images/marketing-description2.png)
+    ![Long description editor with formatting options](_images/marketing-description2.png)
 
 1. For the **Category**, select the **Main Category** for your extension and up to three **Subcategories**.
 
     These settings determine how your product is listed on Marketplace.
 
-    ![](_images/marketing-description3.png)
+    ![Category and subcategory selection fields](_images/marketing-description3.png)
 
 ### Images and videos
 
@@ -73,19 +73,19 @@ You must provide a thumbnail and at least two high-quality images for the image 
 
 1. (Required) For **Icon**, click **Upload Icon** to upload an icon file to assign to your extension.
 
-    ![](_images/marketing-images1.png)
+    ![Icon upload section for the extension](_images/marketing-images1.png)
 
 1. (Required) For **Images**, click **Upload Gallery Image**.
 
    Your listing must have at least two gallery images. For more information about using images, see [Image Tips](image-tips.md).
 
-    ![](_images/marketing-images2.png)
+    ![Gallery image upload section](_images/marketing-images2.png)
 
 1. (Optional) Under **Video Links**, paste the URLs of any YouTube videos to include with your extension.
 
     For more information about using videos, see [Video Tips](video-tips.md).
 
-    ![](_images/marketing-images3.png)
+    ![Video links section for YouTube URLs](_images/marketing-images3.png)
 
 ### Compatibility information
 
@@ -95,7 +95,7 @@ You must provide a thumbnail and at least two high-quality images for the image 
 
 1. For **Browser Selection**, select the checkboxes for browsers compatible with your extension.
 
-    ![](_images/marketing-compatibility.png)
+    ![Browser compatibility selection checkboxes](_images/marketing-compatibility.png)
 
 ### Pricing information
 
@@ -103,11 +103,11 @@ You must provide a thumbnail and at least two high-quality images for the image 
 
 1. For **Adobe Commerce \[Version\] Price**, enter the price for each edition supported in U. S. currency. If the extension will be available for free, leave the default price of zero.
 
-    ![](_images/marketing-pricing1.png)
+    ![Adobe Commerce version pricing fields](_images/marketing-pricing1.png)
 
 1. If you offer installation services, select the **Yes, I want to sell installation...** checkbox and enter an **Installation Price**.
 
-    ![](_images/marketing-submission-pricing.png)
+    ![Installation services pricing option](_images/marketing-submission-pricing.png)
 
 ### Support (optional)
 
@@ -121,7 +121,7 @@ Customers are advised to contact you directly for support using the information 
 
 1. To add an additional tier, click **Add Support Tier**. You can offer up to three pricing tiers for your support services.
 
-    ![](_images/marketing-submission-support.png)
+    ![Support tier pricing configuration](_images/marketing-submission-support.png)
 
 ### Additional details
 
@@ -142,7 +142,7 @@ Customers are advised to contact you directly for support using the information 
     -  Test coverage supported
     -  Responsive design supported
 
-    ![](_images/marketing-submission-additional-details.png)
+    ![Additional details with stability and feature checkboxes](_images/marketing-submission-additional-details.png)
 
 ### Documentation and resources
 
@@ -154,7 +154,7 @@ While you can add documentation PDF files during this review, the content is te
 
 1. If you did not upload documentation during the technical submission process, you can upload it here. Click the relevant button and navigate to the file you want to upload. App and extension submissions require at least one supporting document.
 
-    ![](_images/marketing-submission-documentation.png)
+    ![Documentation and resources upload section](_images/marketing-submission-documentation.png)
 
 ## What happens next?
 

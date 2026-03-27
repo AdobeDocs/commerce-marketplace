@@ -49,7 +49,7 @@ Subscription payments are displayed as individual transactions.
 
 In the Marketplace Developer portal, in the top navigation, go to **Reports** > **Sales**.
 
-![](_images/reports-sales.png)
+![Sales report showing total sales, purchases, installations, and refunds](_images/reports-sales.png)
 
 | Field | Description |
 |--- |--- |

@@ -17,7 +17,7 @@ For existing, approved extensions, follow these instructions to add new versions
 
 1. Click **Submit a New Version**.
 
-    ![](../sellers/_images/submit-new-version.png)
+    ![Submit a new version button on the extension listing](../sellers/_images/submit-new-version.png)
 
 1. For **Marketplace Version Number**, enter a version number for the extension as you want it to appear in the Marketplace listing. For example: 1.0.0
 
@@ -28,7 +28,7 @@ For existing, approved extensions, follow these instructions to add new versions
     -  ***On Approval*** - Immediately publishes when the extensions receives Commerce Marketplace approval.
     -  ***Requested Launch Date*** - Date for launching and publishing the extension to Marketplace. This date is not necessarily the date the product will launch; it is the earliest it can be launched, provided the product passes all reviews.
 
-    ![](../sellers/_images/submit-new-version-detail.png)
+    ![Version details form with compatibility and launch date options](../sellers/_images/submit-new-version-detail.png)
 
 1. Click **Continue**.
 

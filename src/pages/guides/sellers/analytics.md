@@ -13,7 +13,7 @@ You can view data about the performance of your listings in the marketplace.
 
 In the top navigation of the Marketplace Developer portal, go to **Reports** >  **Analytics**.
 
-![](../sellers/_images/reports-analytics.png)
+![Analytics report showing performance data by category and product](../sellers/_images/reports-analytics.png)
 
 ## Traffic overview
 
