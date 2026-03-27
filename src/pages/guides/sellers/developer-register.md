@@ -9,7 +9,7 @@ keywords:
 
 Follow these steps to create a new developer account, or to register as a developer with your existing Adobe Commerce Marketplace account.
 
-![](../sellers/_images/developer-portal.png)
+![Developer Portal navigation overview](../sellers/_images/developer-portal.png)
 
 ## Step 1: Create a developer account
 
@@ -46,7 +46,7 @@ Read the following documents that describe Commerce Marketplace terms of service
 
 If you agree with the terms of use, select the checkbox and click **I Agree**.
 
-![](../sellers/_images/terms-of-service.png)
+![Terms of service agreement checkbox](../sellers/_images/terms-of-service.png)
 
 ## Step 3: Select the type of account
 
@@ -54,4 +54,4 @@ Your Commerce Marketplace developer account can be set up as an individual or co
 
 When prompted, select the type of account you want to create, and click **Choose**. Then, follow the [Profile Information](./profile-information.md) instructions to complete the profile for the account.
 
-![](../sellers/_images/account-type-business.png)
+![Account type selection showing individual and business options](../sellers/_images/account-type-business.png)

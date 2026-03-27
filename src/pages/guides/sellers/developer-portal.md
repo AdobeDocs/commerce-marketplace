@@ -9,7 +9,7 @@ keywords:
 
 From the Developer Portal you can access your product submissions and reports, as well as Marketplace support information and coding guidelines.
 
-![](../sellers/_images/developer-portal.png)
+![Developer Portal navigation overview](../sellers/_images/developer-portal.png)
 
 Once you're logged in, these menus appear at the top of portal front page.
 

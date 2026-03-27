@@ -52,7 +52,7 @@ MFTF returns two types of results, displayed as `MFTF Vendor` within the develop
 -  Simplified results showing the status of each test executed
 -  Allure XML results
 
-See [MFTF Reporting](https://developer.adobe.com/commerce/testing/functional-testing-framework/reporting/) for further information.
+See [MFTF Reporting](https://developer.adobe.com/commerce/testing/functional-testing-framework/reporting) for further information.
 
 To diagnose a test failure, first ascertain if you can replicate the failure on your local environment. If you cannot, this indicates a configuration and/or environmental difference.
 
@@ -68,4 +68,4 @@ The Allure results returned to Marketplace can be downloaded and displayed as an
 -  The MFTF tests will be part of the final package that is made available to your customers. Do not include any sensitive or confidential data in test comments or code
 -  If necessary, include a README, or other instructions, within the `Test` directory, to explain any setup steps or caveats for running your MFTF tests
 -  Ensure that any necessary credentials or user authorization (for example, to communicate via API key to your backend) is explained and supported via credential management in tests
--  Always follow the [MFTF Best Practices](https://developer.adobe.com/commerce/testing/functional-testing-framework/test-writing/best-practices/) and use the [MFTF Tips & Tricks](https://developer.adobe.com/commerce/testing/functional-testing-framework/test-writing/tips-tricks/).
+-  Always follow the [MFTF Best Practices](https://developer.adobe.com/commerce/testing/functional-testing-framework/test-writing/best-practices) and use the [MFTF Tips & Tricks](https://developer.adobe.com/commerce/testing/functional-testing-framework/test-writing/tips-tricks).

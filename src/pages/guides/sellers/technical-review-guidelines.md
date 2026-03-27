@@ -55,7 +55,7 @@ Non-app package submissions must contain a module, theme, language pack, or meta
    -  `magento/magento2-ee-base`
    -  `magento/product-enterprise-edition`
 
-1. The package does not use `*` as a version restriction for Magento packages (packages with `magento` vendor). You must specify version restriction according to the [recommendations](https://developer.adobe.com/commerce/php/development/versioning/dependencies/#determine-module-dependency) in the _Magento PHP Developer Guide_.
+1. The package does not use `*` as a version restriction for Magento packages (packages with `magento` vendor). You must specify version restriction according to the [recommendations](https://developer.adobe.com/commerce/php/development/versioning/dependencies) in the _Magento PHP Developer Guide_.
 
 1. [Require inline aliases](https://getcomposer.org/doc/articles/aliases.md#require-inline-alias) are not used in the `composer.json` file.
 
@@ -69,7 +69,7 @@ Additional requirements for package declarations are applied based on the packag
 _See also:_
 
 -  [PHP Developer Guide](https://developer.adobe.com/commerce/php/development/)
--  [How to Package Magento Extensions](https://developer.adobe.com/commerce/php/development/package/component/)
+-  [How to Package Magento Extensions](https://developer.adobe.com/commerce/php/development/package/component)
 
 ## Extension validation and QA
 
@@ -87,7 +87,7 @@ _See also:_ [Coding Standards](https://developer.adobe.com/commerce/php/coding-s
 
 All code and marketing content that is submitted to Commerce Marketplace is checked for plagiarism to ensure that it has not been copied from existing Marketplace extensions or from the Commerce codebase.
 
-If the extension contains source code from the Open Source Edition, the extension must be licensed under [Open Source License v. 3.0](https://opensource.org/license/osl-3-0-php) and properly credit Adobe, Inc.
+If the extension contains source code from the Open Source Edition, the extension must be licensed under [Open Source License v. 3.0](https://opensource.org/license/osl-3.0) and properly credit Adobe, Inc.
 
 _More details:_ [Copy Paste Detector](copy-paste-detector.md)
 
@@ -136,8 +136,6 @@ Marketplace uses the documentation provided with the extension during manual QA.
 1. Extension documentation must cover all features of the extension.
 
 1. Extension documentation must not direct users to make purchases on sites other than Marketplace.
-
-_See also:_ [Polishing your Marketplace submission: 7 tips from the Marketplace EQP team](https://community.magento.com/t5/Magento-DevBlog/Polishing-your-Marketplace-submission-7-tips-from-the/ba-p/142382)
 
 #### Manual QA checklist
 

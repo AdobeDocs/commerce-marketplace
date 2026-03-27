@@ -41,7 +41,7 @@ Provides instructions for adding new versions for an extension entry.
 
 [Learn more](extension-version.md)
 
-![](_images/your-extensions.png)
+![Your extensions listing page with status columns](_images/your-extensions.png)
 
 | Column                | Description                                                                         |
 |-----------------------|-------------------------------------------------------------------------------------|

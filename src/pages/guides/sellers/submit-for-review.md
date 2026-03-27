@@ -25,4 +25,4 @@ You can submit your product for [marketing review](submit-for-marketing-review.m
 
 You must complete both the technical and marketing review to fully list your product on the Commerce Marketplace. The following diagram details the submission and review process.
 
-![](_images/submit-chart1.png)
+![Extension submission and review workflow diagram](_images/submit-chart1.png)
