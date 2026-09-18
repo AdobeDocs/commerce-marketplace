@@ -24,8 +24,8 @@ keywords:
 -  [Admin Pattern Library](https://developer.adobe.com/commerce/admin-developer/pattern-library/)
 -  [JavaScript Developers](https://developer.adobe.com/commerce/frontend-core/javascript/)
 -  [Magento Web APIs](https://developer.adobe.com/commerce/webapi/get-started/)
--  [REST](https://developer.adobe.com/commerce/webapi/get-started/rest_front/)
--  [SOAP](https://developer.adobe.com/commerce/webapi/get-started/soap-web-api-calls/)
+-  [REST](https://developer.adobe.com/commerce/webapi/rest/)
+-  [SOAP](https://developer.adobe.com/commerce/webapi/get-started/soap-web-api-calls)
 -  [Marketplace EQP API](../eqp/v1/index.md)
 
 ## System
