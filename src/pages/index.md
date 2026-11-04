@@ -73,3 +73,7 @@ Use these self-service resources to request refunds, download order invoices, or
 ## Contributing
 
 We encourage you to participate in our open documentation initiative. If you have suggestions, corrections, additions, or deletions for this documentation, check out the source from [this github repo](https://github.com/AdobeDocs/commerce-marketplace) and submit a pull request. For more information, refer to the [contributing guide](https://github.com/AdobeDocs/commerce-marketplace/blob/main/.github/CONTRIBUTING.md).
+
+## What's new
+
+<Fragment src="/_includes/templated/whats-new.md" />
