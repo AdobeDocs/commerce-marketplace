@@ -1,7 +1,7 @@
 {
-  "total": 68,
+  "total": 69,
   "offset": 0,
-  "limit": 68,
+  "limit": 69,
   "data": [
     {
       "page": "/",
@@ -13,7 +13,14 @@
         "https://avatars.githubusercontent.com/u/11652541?v=4",
         "https://avatars.githubusercontent.com/u/57922?v=4"
       ],
-      "lastUpdated": "11/25/2025"
+      "lastUpdated": "11/4/2026"
+    },
+    {
+      "page": "/_includes/templated/whats-new",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/12731225?v=4"
+      ],
+      "lastUpdated": "11/4/2026"
     },
     {
       "page": "/config",
